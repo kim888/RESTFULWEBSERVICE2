@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<copyright>
+Copyright (c) 2005, 2011 SAP AG.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+
+Contributors:
+       SAP AG - initial API, implementation and documentation
+       mwenz - Update of Eclipse license
+       mwenz - Use central Eclipse license feature
+</copyright>
+ -->
+<feature
+      id="org.eclipse.graphiti.feature"
+      label="%featureName"
+      version="0.15.0.201806050830"
+      provider-name="%providerName"
+      plugin="org.eclipse.graphiti.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+Copyright (c) 2005, 2011 SAP AG.
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.graphiti"
+         download-size="324"
+         install-size="675"
+         version="0.15.0.201806050830"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.graphiti.ui"
+         download-size="690"
+         install-size="1502"
+         version="0.15.0.201806050830"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.graphiti.mm"
+         download-size="220"
+         install-size="550"
+         version="0.15.0.201806050830"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.graphiti.pattern"
+         download-size="70"
+         install-size="153"
+         version="0.15.0.201806050830"
+         unpack="false"/>
+
+</feature>

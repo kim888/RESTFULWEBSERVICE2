@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Brackets
+Type=Application
+Categories=Development
+Exec=eclipse
+Icon=/snap/eclipse/current/icon.xpm
+MimeType=text/html;
+Keywords=Text;Editor;Write;Web;Development;
+StartupWMClass=brackets
+Name[en]=Eclipse

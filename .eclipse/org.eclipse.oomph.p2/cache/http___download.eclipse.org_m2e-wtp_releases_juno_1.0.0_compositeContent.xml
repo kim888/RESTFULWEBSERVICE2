@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository 
+     name='m2e-wtp 1.0.x0 Juno Release repository'    
+     type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' 
+     version='1.0.0'>
+
+  <properties size='1'>
+    <property name='p2.timestamp' value='8'/>
+  </properties>
+
+  <children size='3'>
+    <!-- add new versions here -->
+    <child location='1.0.1.20130911-1545' />
+    <child location='1.0.0.20130613-0136' />
+    <child location='http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/'/>
+  </children>
+</repository>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.xml.search.jetty-feature"
+      label="%featureName"
+      version="1.0.0.201410302229"
+      provider-name="%providerName">      
+
+   <description url="https://github.com/angelozerr/eclipse-wtp-xml-search/wiki/XML-Jetty-Plugins">
+      %description
+   </description>
+
+   <copyright url="https://github.com/angelozerr/eclipse-wtp-xml-search">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.server.jetty.xml.core"
+         download-size="38"
+         install-size="58"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.server.jetty.xml.ui"
+         download-size="19"
+         install-size="28"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,67 @@
+** Message: 10:07:56.743: utils.vala:30: config_path_directory: /home/vmuser/.config/lxsession-default-apps
+** Message: 10:07:56.789: desktop-files-backend.vala:171: test config_path: /home/vmuser/.config/lxsession-default-apps/settings.conf
+** Message: 10:07:56.789: desktop-files-backend.vala:237: Scanning folder: /usr/share/applications
+** Message: 10:07:56.789: desktop-files-backend.vala:287: Start scanning
+
+** Message: 10:07:56.795: desktop-files-backend.vala:265: /usr/share/app-install/desktop doesn't exist. Pass
+** Message: 10:07:56.795: desktop-files-backend.vala:209: Signal finish scanning available with mode: write
+** Message: 10:07:56.823: desktop-files-backend.vala:189: Signal finish scanning installed with mode: write
+** Message: 10:07:56.824: desktop-files-backend.vala:342: Finishing scanning
+
+
+(lxsession-default-apps:2264): Gtk-WARNING **: 10:07:56.856: Attempting to add a widget with type GtkVBox to a container of type LDefaultAppsMainWindows, but the widget is already inside a container of type GtkWindow, the GTK+ FAQ at http://library.gnome.org/devel/gtk-faq/stable/ explains how to reparent a widget.
+** Message: 10:07:56.860: autostart.vala:72: Conf file for autostart: /home/vmuser/.config/lxsession/LXDE/autostart
+** Message: 10:07:56.861: autostart.vala:72: Conf file for autostart: /home/vmuser/.config/lxsession/LXDE/autostart
+** Message: 10:07:56.861: autostart.vala:72: Conf file for autostart: /home/vmuser/.config/lxsession/LXDE/autostart
+** Message: 10:07:56.861: autostart.vala:87: Autostart conf file : /home/vmuser/.config/lxsession/LXDE/autostart
+** Message: 10:07:56.861: autostart.vala:100: Autostart line : @lxpanel --profile LXDE
+** Message: 10:07:56.861: autostart.vala:100: Autostart line : @pcmanfm --desktop --profile LXDE
+** Message: 10:07:56.861: autostart.vala:100: Autostart line : @xscreensaver -no-splash
+
+(lxsession-default-apps:2264): Gtk-WARNING **: 10:07:56.862: Attempting to add a widget with type GtkVBox to a container of type GtkAlignment, but the widget is already inside a container of type GtkAlignment, the GTK+ FAQ at http://library.gnome.org/devel/gtk-faq/stable/ explains how to reparent a widget.
+** Message: 10:07:56.866: combobox.vala:443: Defaut = 
+** Message: 10:07:56.866: combobox.vala:503: Iter == 0
+** Message: 10:07:56.871: combobox.vala:443: Defaut = 
+** Message: 10:07:56.871: combobox.vala:503: Iter == 0
+** Message: 10:07:56.872: combobox.vala:443: Defaut = 
+** Message: 10:07:56.872: combobox.vala:503: Iter == 0
+** Message: 10:07:56.872: combobox.vala:443: Defaut = lxterminal
+** Message: 10:07:56.873: combobox.vala:503: Iter == 2
+** Message: 10:07:56.873: combobox.vala:443: Defaut = 
+** Message: 10:07:56.873: combobox.vala:503: Iter == 0
+** Message: 10:07:56.874: combobox.vala:443: Defaut = 
+** Message: 10:07:56.874: combobox.vala:503: Iter == 0
+** Message: 10:07:56.876: combobox.vala:443: Defaut = 
+** Message: 10:07:56.876: combobox.vala:503: Iter == 0
+** Message: 10:07:56.877: combobox.vala:443: Defaut = 
+** Message: 10:07:56.877: combobox.vala:503: Iter == 0
+** Message: 10:07:56.877: combobox.vala:443: Defaut = 
+** Message: 10:07:56.878: combobox.vala:503: Iter == 0
+** Message: 10:07:56.878: combobox.vala:443: Defaut = 
+** Message: 10:07:56.878: combobox.vala:503: Iter == 0
+** Message: 10:07:56.879: combobox.vala:443: Defaut = 
+** Message: 10:07:56.879: combobox.vala:503: Iter == 0
+** Message: 10:07:56.879: combobox.vala:443: Defaut = 
+** Message: 10:07:56.880: combobox.vala:503: Iter == 0
+** Message: 10:07:56.884: combobox.vala:443: Defaut = 
+** Message: 10:07:56.884: combobox.vala:503: Iter == 0
+** Message: 10:07:56.884: combobox.vala:443: Defaut = 
+** Message: 10:07:56.885: combobox.vala:503: Iter == 0
+** Message: 10:07:56.885: combobox.vala:443: Defaut = 
+** Message: 10:07:56.885: combobox.vala:503: Iter == 0
+** Message: 10:07:56.886: combobox.vala:443: Defaut = 
+** Message: 10:07:56.886: combobox.vala:503: Iter == 0
+** Message: 10:07:56.888: combobox.vala:443: Defaut = 
+** Message: 10:07:56.888: combobox.vala:503: Iter == 0
+** Message: 10:07:56.895: combobox.vala:728: Defaut = no
+** Message: 10:07:56.895: combobox.vala:765: Iter == 0
+** Message: 10:07:56.895: combobox.vala:684:  Return value for no
+** Message: 10:07:56.900: combobox.vala:728: Defaut = 
+** Message: 10:07:56.900: combobox.vala:765: Iter == 0
+
+(lxsession-default-apps:2264): GLib-GObject-WARNING **: 10:07:56.903: invalid (NULL) pointer instance
+
+(lxsession-default-apps:2264): GLib-GObject-CRITICAL **: 10:07:56.903: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+** Message: 10:07:56.905: combobox.vala:728: Defaut = 
+** Message: 10:07:56.906: combobox.vala:728: Defaut = 
+** Message: 10:07:56.906: combobox.vala:765: Iter == 0

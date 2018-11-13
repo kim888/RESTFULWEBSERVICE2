@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.xml.search.struts2-feature"
+      label="%featureName"
+      version="1.0.0.201410302229"
+      provider-name="%providerName">      
+
+   <description url="https://github.com/angelozerr/eclipse-wtp-xml-search/wiki/Struts2-IDE">
+      %description
+   </description>
+
+   <copyright url="https://github.com/angelozerr/eclipse-wtp-xml-search">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.apache.struts2.ide.core"
+         download-size="32"
+         install-size="53"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.struts2.ide.jsp.core"
+         download-size="9"
+         install-size="9"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.struts2.ide.ui"
+         download-size="36"
+         install-size="56"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.struts2.ide.validators.core"
+         download-size="17"
+         install-size="25"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.struts2.ide.validators.ui"
+         download-size="16"
+         install-size="22"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,66 @@
+<!--
+  ~ Copyright 2010-2018 Restlet S.A.S. All rights reserved.
+  ~ Restlet is registered trademark of Restlet S.A.S.
+  -->
+
+<p class="whats-new-intro">February 5, 2018 - Restlet Client 2.14.0</p>
+<h4>Better XML support</h4>
+<div>
+  <p>
+    With this version we are enhancing the support of XPath in Restlet Client.
+  </p>
+  <ul>
+    <li>We are compatible with the XPath specification, including XML attributes (learn more in the <a
+      href="https://restlet.com/documentation/client/user-guide/test/validate-http-responses/xpath" target="_blank">documentation</a>) .
+    </li>
+    <li>XPath can now be leveraged in your expressions</li>
+    <li>The assertions comparators have been improved:</li>
+    <ul>
+      <li>“contains” has been empowered (see below)</li>
+      <li>“length” is now supported for XML bodies</li>
+    </ul>
+  </ul>
+
+  <p>
+    As mentioned in our last communication, in some cases you may see some of your existing assertions fail due to
+    the introduction of new behavior. Here is an example, using the following XML response:
+  </p>
+
+  <pre>
+    &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+    &lt;bookstore&gt;
+      &lt;book category="cooking"&gt;
+        &lt;title lang="it"&gt;Everyday Italian&lt;/title&gt;
+      &lt;/book&gt;
+
+      &lt;book category="children"&gt;
+        &lt;title lang="en"&gt;Harry Potter&lt;/title&gt;
+      &lt;/book&gt;
+
+      &lt;book category="web"&gt;
+        &lt;title lang="en"&gt;XQuery Kick Start&lt;/title&gt;
+      &lt;/book&gt;
+
+      &lt;book category="web"&gt;
+        &lt;title&gt;Learning XML&lt;/title&gt;
+      &lt;/book&gt;
+    &lt;/bookstore&gt;
+  </pre>
+
+  <p>
+    The XPath Expression <code>//title/@lang</code> now evaluates to <code>[lang="it", lang="en", lang="en"]</code>
+    (while it was previously <code>[it, en, en]</code>).
+  </p>
+
+  <p>
+    This implies that assertions using "equals" may be affected but also those using "contains" as it will check the existence of one or more items in a result array and not the presence of a substring in the result casted to a string.
+  </p>
+
+  <p>
+    Please reach out to us for any question you may have.
+  </p>
+
+  <p>
+    And stay tuned for additional XML enhancements in the next version…
+  </p>
+</div>

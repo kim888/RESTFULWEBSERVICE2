@@ -1,0 +1,2357 @@
+1.2
+lxde-applications.menu+hidden
+18
+D/home/vmuser/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/var/lib/menu-xdg/desktop-directories/menu-xdg
+D/home/vmuser/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/var/lib/menu-xdg/applications/menu-xdg
+D/etc/xdg/menus/applications-merged
+D/home/vmuser/.config/menus/applications-merged
+F/home/vmuser/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+F/etc/xdg/menus/debian-menu.menu
+Unity;Unity7;MATE;GNOME-Flashback;ubuntu;
++Applications
+Anwendungen
+Anwendungen
+applications-other
+lxde-menu-applications.directory
+2
+0
++Universal Access
+Barrierefreiheit
+Einstellungen zur Barrierefreiheit
+preferences-desktop-accessibility
+lxde-utility-accessibility.directory
+2
+4
+
++Education
+Bildung
+
+applications-science
+lxde-education.directory
+2
+4
+
++Office
+Büro
+Büroanwendungen
+applications-office
+lxde-office.directory
+2
+0
+-evince.desktop
+Document Viewer
+View multi-page documents
+evince
+
+8
+
+evince %U
+2
+0
+evince
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+pdf,ps,postscript,dvi,xps,djvu,tiff,document,presentation,viewer
+-evince-previewer.desktop
+Print Preview
+Preview before printing
+document-print-preview
+
+8
+
+evince-previewer %U
+6
+0
+evince-previewer
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+
+
++Debian
+Debian
+
+debian-logo
+debian.directory
+2
+0
++Applications
+Anwendungen
+
+debian-applications
+debian-applications.directory
+5
+0
++Network
+Netzwerk
+
+debian-applications-network
+debian-applications-network.directory
+5
+0
++File Transfer
+Dateiübertragung
+
+debian-applications-network-file-transfer
+debian-applications-network-file-transfer.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Network-File-Transfer-deluge_bittorrent_client.desktop
+Deluge BitTorrent Client
+Bittorrent client written in Python/PyGTK
+/usr/share/pixmaps/deluge.xpm
+X-Debian-Applications-Network-File-Transfer-deluge_bittorrent_client.desktop
+12
+
+/usr/bin/deluge
+0
+0
+
+
+X-Debian-Applications-Network-File-Transfer
+
+
++Communication
+Kommunikation
+
+debian-applications-network-communication
+debian-applications-network-communication.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Network-Communication-telnet.desktop
+Telnet
+
+
+X-Debian-Applications-Network-Communication-telnet.desktop
+12
+
+/usr/bin/telnet.netkit
+1
+0
+
+
+X-Debian-Applications-Network-Communication
+
+
+
++Shells
+Shells
+
+debian-applications-shells
+debian-applications-shells.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Shells-bash.desktop
+Bash
+
+
+X-Debian-Applications-Shells-bash.desktop
+12
+
+/bin/bash --login
+1
+0
+
+
+X-Debian-Applications-Shells
+
+-menu-xdg-X-Debian-Applications-Shells-dash.desktop
+Dash
+
+
+X-Debian-Applications-Shells-dash.desktop
+12
+
+/bin/dash -i
+1
+0
+
+
+X-Debian-Applications-Shells
+
+-menu-xdg-X-Debian-Applications-Shells-sh.desktop
+Sh
+
+
+X-Debian-Applications-Shells-sh.desktop
+12
+
+/bin/sh --login
+1
+0
+
+
+X-Debian-Applications-Shells
+
+
++System
+System
+
+debian-applications-system
+debian-applications-system.directory
+5
+0
++Administration
+Administration
+
+debian-applications-system-administration
+debian-applications-system-administration.directory
+5
+0
+-menu-xdg-X-Debian-Applications-System-Administration-about_myself.desktop
+About Myself
+
+/usr/share/pixmaps/user_icon.xpm
+X-Debian-Applications-System-Administration-about_myself.desktop
+12
+
+/usr/bin/userinfo
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-disk_management.desktop
+Disk Management
+
+/usr/share/pixmaps/disks.xpm
+X-Debian-Applications-System-Administration-disk_management.desktop
+12
+
+/usr/bin/usermount
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-editres.desktop
+Editres
+Editres: resource editor for X Toolkit applications
+
+X-Debian-Applications-System-Administration-editres.desktop
+12
+
+editres
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-logout_(obsession).desktop
+Logout (obsession)
+
+
+X-Debian-Applications-System-Administration-logout_(obsession).desktop
+12
+
+/usr/bin/obsession-logout
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-password.desktop
+Password
+
+/usr/share/pixmaps/password.xpm
+X-Debian-Applications-System-Administration-password.desktop
+12
+
+/usr/bin/userpasswd
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-xfontsel.desktop
+Xfontsel
+Xfontsel: font viewer/selector for X
+
+X-Debian-Applications-System-Administration-xfontsel.desktop
+12
+
+xfontsel
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-xkill.desktop
+Xkill
+Xkill: tool to kill X clients by clicking on their windows
+
+X-Debian-Applications-System-Administration-xkill.desktop
+12
+
+xkill
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-xrefresh.desktop
+Xrefresh
+Xrefresh: redraw X screen
+
+X-Debian-Applications-System-Administration-xrefresh.desktop
+12
+
+xrefresh
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+
++Hardware
+Hardware
+
+debian-applications-system-hardware
+debian-applications-system-hardware.directory
+5
+0
+-menu-xdg-X-Debian-Applications-System-Hardware-xvidtune.desktop
+Xvidtune
+Xvidtune: tool for customizing X server modelines
+
+X-Debian-Applications-System-Hardware-xvidtune.desktop
+12
+
+xvidtune
+0
+0
+
+
+X-Debian-Applications-System-Hardware
+
+
++Security
+Sicherheit
+
+debian-applications-system-security
+debian-applications-system-security.directory
+5
+0
+-menu-xdg-X-Debian-Applications-System-Security-light-locker-settings.desktop
+light-locker-settings
+
+
+X-Debian-Applications-System-Security-light-locker-settings.desktop
+12
+
+light-locker-settings
+0
+0
+
+
+X-Debian-Applications-System-Security
+
+
++Monitoring
+Überwachung
+
+debian-applications-system-monitoring
+debian-applications-system-monitoring.directory
+5
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-pstree.desktop
+Pstree
+
+/usr/share/pixmaps/pstree16.xpm
+X-Debian-Applications-System-Monitoring-pstree.desktop
+12
+
+/usr/bin/pstree.x11
+1
+0
+
+
+X-Debian-Applications-System-Monitoring
+
+-menu-xdg-X-Debian-Applications-System-Monitoring-top.desktop
+Top
+
+
+X-Debian-Applications-System-Monitoring-top.desktop
+12
+
+/usr/bin/top
+1
+0
+
+
+X-Debian-Applications-System-Monitoring
+
+-menu-xdg-X-Debian-Applications-System-Monitoring-xev.desktop
+Xev
+Xev: display X events
+
+X-Debian-Applications-System-Monitoring-xev.desktop
+12
+
+x-terminal-emulator -e xev
+0
+0
+
+
+X-Debian-Applications-System-Monitoring
+
+
+
++Text
+Text
+
+debian-applications-text
+debian-applications-text.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Text-clipit.desktop
+ClipIt
+
+
+X-Debian-Applications-Text-clipit.desktop
+12
+
+/usr/bin/clipit
+0
+0
+
+
+X-Debian-Applications-Text
+
+
++Science
+Wissenschaft
+
+debian-applications-science
+debian-applications-science.directory
+5
+0
++Mathematics
+Mathematik
+
+debian-applications-science-mathematics
+debian-applications-science-mathematics.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Science-Mathematics-bc.desktop
+Bc
+
+
+X-Debian-Applications-Science-Mathematics-bc.desktop
+12
+
+/usr/bin/bc
+1
+0
+
+
+X-Debian-Applications-Science-Mathematics
+
+-menu-xdg-X-Debian-Applications-Science-Mathematics-galculator.desktop
+galculator
+
+/usr/share/pixmaps/galculator.xpm
+X-Debian-Applications-Science-Mathematics-galculator.desktop
+12
+
+/usr/bin/galculator
+0
+0
+
+
+X-Debian-Applications-Science-Mathematics
+
+
+
+
++Screen
+Bildschirm
+
+debian-screen
+debian-screen.directory
+5
+0
++Saving
+Schonen
+
+debian-screen-saving
+debian-screen-saving.directory
+5
+0
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(next).desktop
+Activate ScreenSaver (Next)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(next).desktop
+12
+
+/usr/bin/xscreensaver-command -next
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(previous).desktop
+Activate ScreenSaver (Previous)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(previous).desktop
+12
+
+/usr/bin/xscreensaver-command -prev
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(random).desktop
+Activate ScreenSaver (Random)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(random).desktop
+12
+
+/usr/bin/xscreensaver-command -activate
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-demo_screen_hacks.desktop
+Demo Screen Hacks
+
+
+X-Debian-Screen-Saving-demo_screen_hacks.desktop
+12
+
+/usr/bin/xscreensaver-command -demo
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-disable_xscreensaver.desktop
+Disable XScreenSaver
+
+
+X-Debian-Screen-Saving-disable_xscreensaver.desktop
+12
+
+/usr/bin/xscreensaver-command -exit
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-enable_xscreensaver.desktop
+Enable XScreenSaver
+
+
+X-Debian-Screen-Saving-enable_xscreensaver.desktop
+12
+
+/usr/bin/xscreensaver
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-reinitialize_xscreensaver.desktop
+Reinitialize XScreenSaver
+
+
+X-Debian-Screen-Saving-reinitialize_xscreensaver.desktop
+12
+
+/usr/bin/xscreensaver-command -restart
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-screensaver_preferences.desktop
+ScreenSaver Preferences
+
+
+X-Debian-Screen-Saving-screensaver_preferences.desktop
+12
+
+/usr/bin/xscreensaver-command -prefs
+0
+0
+
+
+X-Debian-Screen-Saving
+
+
++Locking
+Sperren
+
+debian-screen-locking
+debian-screen-locking.directory
+5
+0
+-menu-xdg-X-Debian-Screen-Locking-lock_screen_(xscreensaver).desktop
+Lock Screen (XScreenSaver)
+
+
+X-Debian-Screen-Locking-lock_screen_(xscreensaver).desktop
+12
+
+/usr/bin/xscreensaver-command -lock
+0
+0
+
+
+X-Debian-Screen-Locking
+
+
+
++Help
+Hilfe
+
+debian-help
+debian-help.directory
+5
+0
+-menu-xdg-X-Debian-Help-info.desktop
+Info
+GNU Info browser
+
+X-Debian-Help-info.desktop
+12
+
+info
+1
+0
+
+
+X-Debian-Help
+
+
+
++Development
+Entwicklung
+Werkzeuge zur Software-Entwicklung
+applications-development
+lxde-development.directory
+2
+0
+-eclipse.desktop
+Eclipse
+Eclipse Integrated Development Environment
+eclipse
+
+8
+
+eclipse
+0
+0
+
+
+Development;IDE;Java
+
+-python2.7.desktop
+Python (v2.7)
+Python Interpreter (v2.7)
+/usr/share/pixmaps/python2.7.xpm
+
+8
+
+/usr/bin/python2.7
+7
+0
+
+
+Development
+
+-python3.6.desktop
+Python (v3.6)
+Python Interpreter (v3.6)
+/usr/share/pixmaps/python3.6.xpm
+
+8
+
+/usr/bin/python3.6
+7
+0
+
+
+Development
+
+
++Graphics
+Grafik
+Anwendungen zur Grafikbearbeitung
+applications-graphics
+lxde-graphics.directory
+2
+0
+-evince.desktop
+Document Viewer
+View multi-page documents
+evince
+
+8
+
+evince %U
+2
+0
+evince
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+pdf,ps,postscript,dvi,xps,djvu,tiff,document,presentation,viewer
+-evince-previewer.desktop
+Print Preview
+Preview before printing
+document-print-preview
+
+8
+
+evince-previewer %U
+6
+0
+evince-previewer
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+
+
++Internet
+Internet
+Programme, um Internet-Dienste wie E-Mail oder das WWW zu nutzen
+applications-internet
+lxde-network.directory
+2
+0
+-chromium-browser.desktop
+Chromium-Webbrowser
+Internetzugriff
+chromium-browser
+
+8
+Web-Browser
+chromium-browser %U
+2
+0
+
+
+Network;WebBrowser
+
+-deluge.desktop
+Deluge
+Dateien über BitTorrent herunterladen und tauschen
+deluge
+
+8
+BitTorrent-Klient
+deluge-gtk %U
+2
+0
+deluge-gtk
+
+Network;FileTransfer;P2P;GTK
+
+-firefox.desktop
+Firefox Web Browser
+Im Internet surfen
+firefox
+
+8
+Web Browser
+firefox %u
+2
+0
+
+
+GNOME;GTK;Network;WebBrowser
+Internet,WWW,Browser,Web,Explorer,Webseite,Site,surfen,online,browsen
+-lxde-x-www-browser.desktop
+Web Browser
+
+web-browser
+
+8
+X Web Browser
+/usr/bin/x-www-browser %u
+4
+0
+
+
+GTK;WebBrowser;Network
+
+
++Other
+Sonstige
+Anwendungen, die in keine andere Kategorie eingeordnet werden können
+applications-other
+lxde-other.directory
+2
+0
+-lxde-logout.desktop
+Abmelden
+Abmelden, herunterfahren oder neu starten
+gnome-logout
+
+8
+
+lxde-logout
+4
+0
+lxsession-logout
+
+
+
+-gcr-prompter.desktop
+Access Prompt
+Unlock access to passwords and other secrets
+security-medium
+
+8
+
+/usr/lib/gcr/gcr-prompter
+4
+0
+
+
+
+
+-lxde-screenlock.desktop
+Bildschirmsperre
+Den Bildschirm sperren
+system-lock-screen
+
+8
+
+lxlock
+4
+0
+lxlock
+
+
+
+-gnome-disk-image-mounter.desktop
+Disk Image Mounter
+Mount Disk Images
+drive-removable-media
+
+8
+
+gnome-disk-image-mounter %U
+4
+0
+
+
+
+
+-gnome-disk-image-writer.desktop
+Disk Image Writer
+Write Disk Images to Devices
+drive-removable-media
+
+8
+
+gnome-disks --restore-disk-image %U
+4
+0
+
+
+
+
+-gnome-flashback.desktop
+GNOME Flashback
+
+
+
+8
+
+gnome-flashback
+4
+256
+
+
+
+
+-gnome-flashback-init.desktop
+GNOME Flashback-Initialisierung
+
+
+
+8
+
+gnome-flashback --initialize
+4
+256
+
+
+
+
+-nm-applet.desktop
+Network
+Manage your network connections
+nm-device-wireless
+
+8
+
+nm-applet
+4
+-7
+
+
+
+
+-openjdk-11-java.desktop
+OpenJDK Java 11 Runtime
+OpenJDK Java 11 Runtime
+openjdk-11
+
+8
+
+cautious-launcher %f /usr/bin/java -jar
+4
+0
+
+
+
+java,runtime
+-gcr-viewer.desktop
+View file
+
+
+
+8
+
+/usr/bin/gcr-viewer
+4
+0
+
+
+
+
+-geoclue-where-am-i.desktop
+Where am I?
+Find your current location
+mark-location-symbolic
+
+8
+Demo geolocation application
+/usr/lib/geoclue-2.0/demos/where-am-i
+5
+0
+
+
+
+geolocation
+
++Games
+Spiele
+Spiel und Spaß
+applications-games
+lxde-game.directory
+2
+4
+
++System
+Systemwerkzeuge
+Systemkonfiguration und -überwachung
+applications-system
+lxde-system-tools.directory
+2
+0
+-org.gnome.PowerStats.desktop
+Energiestatistiken
+Energiesparfunktionen überwachen
+org.gnome.PowerStats
+
+8
+
+gnome-power-statistics
+2
+34
+
+
+GNOME;GTK;System;Monitor
+Akku,Verbrauch,Ladung
+-htop.desktop
+Htop
+Systemprozesse anzeigen
+htop
+
+8
+Prozessanzeige
+htop
+1
+0
+
+
+ConsoleOnly;System
+system,process,task
+-gkbd-keyboard-display.desktop
+Keyboard Layout
+Preview keyboard layouts
+preferences-desktop-keyboard
+
+8
+
+gkbd-keyboard-display
+6
+2
+
+
+GNOME;GTK;Core;System
+
+-lxterminal.desktop
+LXTerminal
+Befehlszeile verwenden
+lxterminal
+
+8
+Terminal
+lxterminal
+0
+0
+lxterminal
+
+GTK;System;TerminalEmulator
+Konsole,Befehlszeile,Ausführen
+-pcmanfm.desktop
+PCManFM Dateimanager
+Das Dateisystem durchsuchen und Dateien verwalten
+system-file-manager
+
+8
+Dateimanager
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-redhat-usermount.desktop
+Plattenverwaltung
+Dateisysteme ein- und aushängen
+disks
+
+8
+
+usermount
+0
+0
+
+
+X-Red-Hat-Base;System
+
+-unity-control-center.desktop
+System Settings
+
+preferences-system
+
+8
+
+unity-control-center --overview
+2
+64
+
+
+GNOME;GTK;System
+Preferences,Settings
+-lxtask.desktop
+Taskmanager
+Laufende Prozesse verwalten
+utilities-system-monitor
+
+8
+Prozessverwaltung
+lxtask
+2
+0
+
+
+GTK;System;Monitor
+Anwendung,kill,aussetzen,Prozessor,Speicher,Überwachung,Leistung
+-lxde-x-terminal-emulator.desktop
+Terminal emulator
+Terminal Emulator
+terminal
+
+8
+Terminal Emulator
+/usr/bin/x-terminal-emulator
+6
+0
+
+
+System;TerminalEmulator;Utility
+
+
++Multimedia
+Unterhaltungsmedien
+Multimedia-Menü
+applications-multimedia
+lxde-audio-video.directory
+2
+0
+-smplayer_enqueue.desktop
+Im SMPlayer einreihen
+Datei(en) zur SMPlayer Wiedergabeliste hinzufügen
+smplayer
+
+8
+
+smplayer -add-to-playlist %U
+4
+0
+
+
+Qt;KDE;AudioVideo;Player;Video
+
+-lxmusic.desktop
+LXMusic simple music player
+Musikdateien einfach wiedergeben
+lxmusic
+
+8
+Medien-Abspieler
+lxmusic
+2
+0
+
+
+AudioVideo;Audio;Player;GTK
+
+-mpv.desktop
+mpv Media Player
+Filme und Musik abspielen
+mpv
+
+8
+Multimedia player
+mpv --player-operation-mode=pseudo-gui -- %U
+0
+0
+mpv
+
+AudioVideo;Audio;Video;Player;TV
+mpv,media,player,video,audio,tv
+-pavucontrol.desktop
+PulseAudio-Lautstärkeregler
+Lautstärke anpassen
+multimedia-volume-control
+
+8
+Lautstärkeregler
+pavucontrol
+2
+0
+
+
+AudioVideo;Audio;Mixer;GTK
+
+-smplayer.desktop
+SMPlayer
+A great MPlayer front-end
+smplayer
+
+8
+Media Player
+smplayer %U
+0
+0
+
+
+Qt;KDE;AudioVideo;Player;Video
+movie,player,media,kde,qt
+
++Accessories
+Zubehör
+Desktop-Zubehör
+applications-accessories
+lxde-utility.directory
+2
+0
+-activity-log-manager.desktop
+Activity Log Manager
+Configure what gets logged in your Zeitgeist activity log
+activity-log-manager
+
+8
+Activity Log Manager
+activity-log-manager
+0
+-33
+
+
+GNOME;GTK;Utility
+
+-gpicview.desktop
+Bildbetrachter
+Bilder einfach betrachten
+gpicview
+
+8
+Bildbetrachter
+gpicview %f
+2
+0
+
+
+Graphics;Utility;Core;GTK;Viewer;RasterGraphics;2DGraphics;Photography
+graphics,pictures,viever,photography
+-org.gnome.Screenshot.desktop
+Bildschirmfoto
+Bildschirmfotos Ihres Bildschirms oder einzelner Fenster speichern
+applets-screenshooter
+
+8
+
+gnome-screenshot --interactive
+2
+-5
+
+
+GTK;GNOME;Utility;X-GNOME-Utilities
+Schnappschuss,Aufnahme,Druck,Bildschirmfoto
+-bluetooth-sendto.desktop
+Bluetooth-Übertragung
+Dateien über Bluetooth versenden
+bluetooth
+
+8
+
+bluetooth-sendto
+6
+0
+
+
+GTK;GNOME;Utility;FileTools
+
+-byobu.desktop
+Byobu Terminal
+Advanced Command Line and Text Window Manager
+byobu
+
+8
+
+env TERM=xterm-256color byobu
+1
+0
+
+
+GNOME;GTK;Utility
+
+-clipit.desktop
+ClipIt
+Zwischenablage-Verwaltung
+clipit-trayicon
+
+8
+
+clipit
+0
+0
+
+
+GTK;GNOME;Application;Utility
+
+-org.gnome.DiskUtility.desktop
+Disks
+Manage Drives and Media
+gnome-disks
+
+8
+
+gnome-disks
+2
+0
+
+
+GNOME;GTK;Utility;X-GNOME-Utilities;Settings;HardwareSettings
+disk,drive,volume,harddisk,hdd,disc,cdrom,dvd,partition,iso,image,backup,restore,benchmark,raid,luks,encryption,S.M.A.R.T.,smart
+-galculator.desktop
+Galculator
+Taschenrechner zum Durchführen von einfachen und wissenschaftlichen Berechnungen
+galculator
+
+8
+
+galculator
+2
+0
+
+
+Utility
+
+-yelp.desktop
+Help
+Get help with GNOME
+help-browser
+
+8
+
+yelp %u
+2
+34
+
+
+GNOME;GTK;Core;Documentation;Utility
+documentation,information,manual,help
+-leafpad.desktop
+Leafpad
+Einfacher Texteditor
+leafpad
+
+8
+
+leafpad %f
+0
+0
+
+
+GTK;Utility;TextEditor
+text,editor
+-unity-datetime-panel.desktop
+Time & Date
+Change your clock and date settings
+unity-datetime-panel
+
+8
+
+unity-control-center datetime
+2
+64
+unity-control-center
+
+GNOME;GTK;Utility;DesktopSettings;Settings;X-GNOME-SystemSettings;X-Unity-Settings-Panel
+
+-vim.desktop
+Vim
+Textdateien bearbeiten
+gvim
+
+8
+Texteditor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+-xarchiver.desktop
+Xarchiver
+Ein nur auf GTK+ basierender Archivmanager
+xarchiver
+
+8
+Archivmanager
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Compression;Utility
+GTK,Archivierer,Archivierung,Kompression,Komprimierung,Front-End,Frontend,7-zip,7z,7za,7zip,7zr,ar,arj,bunzip2,bz2,bzip2,compress,cpio,deb,epub,gtar,gunzip,gz,gzip,jar,lha,lrz,lrzip,lsar,lz,lz4,lzh,lzip,lzma,lzo,lzop,oxt,rar,rar4,rar5,rpm,tar,unar,unarchiver,unarj,unrar,unzip,xpi,xz,zip,zst,Zstandard,zstd
+-gucharmap.desktop
+Zeichentabelle
+Sonderzeichen in Dokumente einfügen
+accessories-character-map
+
+8
+
+gucharmap
+2
+0
+
+
+GNOME;GTK;Utility
+Schrift,Schriftart,Unicode,Zeichen,Zeichentabelle
+
+-
++DesktopSettings
+Einstellungen
+Persönliche Einstellungen
+preferences-desktop
+lxde-settings.directory
+2
+0
+-gnome-info-overview-panel.desktop
+About
+View information about your system
+help-about
+
+8
+
+gnome-control-center info-overview
+6
+34
+
+
+GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-DetailsSettings
+device,system,information,memory,processor,version,default,application,preferred,cd,dvd,usb,audio,video,disc,removable,media,autorun
+-unity-appearance-panel.desktop
+Appearance
+Change the background and the theme
+preferences-desktop-wallpaper
+
+8
+
+unity-control-center appearance
+2
+64
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Wallpaper,Background,Screen,Desktop,Theme,Appearance,Launcher,Unity,Menus
+-gnome-background-panel.desktop
+Background
+Change your background image to a wallpaper or photo
+preferences-desktop-wallpaper
+
+8
+
+gnome-control-center background
+6
+2
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-PersonalizationSettings
+Wallpaper,Screen,Desktop
+-users.desktop
+Benutzer und Gruppen
+Benutzer und Gruppen hinzufügen oder entfernen
+config-users
+
+8
+
+users-admin
+2
+0
+
+
+GNOME;GTK;System;Settings
+
+-lxrandr.desktop
+Bildschirmeinstellungen
+Die Bildschirmauflösung und externe Monitore konfigurieren
+video-display
+
+8
+
+lxrandr
+0
+-143
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+Bildschirm,Anzeige,TV,erweitern,Projektor,xrandr,Bildwiederholrate,Position,einschalten,ausschalten
+-xscreensaver-properties.desktop
+Bildschirmschoner
+Einstellungen des Bildschirmschoners ändern
+xscreensaver
+
+8
+
+xscreensaver-demo
+0
+0
+
+
+Settings;DesktopSettings;Security;X-XFCE
+
+-gnome-bluetooth-panel.desktop
+Bluetooth
+Turn Bluetooth on and off and connect your devices
+bluetooth
+
+8
+
+gnome-control-center bluetooth
+6
+34
+
+
+GTK;GNOME;Settings;X-GNOME-NetworkSettings;HardwareSettings;X-GNOME-Settings-Panel;X-GNOME-ConnectivitySettings
+share,sharing,bluetooth,obex
+-unity-bluetooth-panel.desktop
+Bluetooth
+Configure Bluetooth settings
+bluetooth
+
+8
+
+unity-control-center bluetooth
+2
+64
+
+
+GTK;GNOME;Settings;X-GNOME-NetworkSettings;HardwareSettings;X-Unity-Settings-Panel
+
+-unity-screen-panel.desktop
+Brightness & Lock
+Screen brightness and lock settings
+system-lock-screen
+
+8
+
+unity-control-center screen
+2
+64
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Brightness,Lock,Dim,Blank,Monitor
+-unity-color-panel.desktop
+Color
+Color management settings
+unity-color-panel
+
+8
+
+unity-control-center color
+2
+64
+
+
+GNOME;GTK;Settings;X-Unity-Settings-Panel;HardwareSettings
+Color,ICC,Profile,Calibrate,Printer,Display
+-gnome-color-panel.desktop
+Color
+Calibrate the color of your devices, such as displays, cameras or printers
+preferences-color
+
+8
+
+gnome-control-center color
+6
+34
+
+
+GNOME;GTK;Settings;X-GNOME-Settings-Panel;HardwareSettings;X-GNOME-DevicesSettings
+Color,ICC,Profile,Calibrate,Printer,Display
+-gnome-datetime-panel.desktop
+Date & Time
+Change the date and time, including time zone
+preferences-system-time
+
+8
+
+gnome-control-center datetime
+6
+2
+
+
+GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-DetailsSettings
+Clock,Timezone,Location
+-time.desktop
+Datum und Uhrzeit
+Systemzeit, Datum und Zeitzone ändern
+time-admin
+
+8
+
+time-admin
+2
+0
+
+
+GNOME;GTK;System;Settings
+
+-gnome-default-apps-panel.desktop
+Default Applications
+Configure Default Applications
+starred
+
+8
+
+gnome-control-center default-apps
+6
+34
+
+
+GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-DetailsSettings
+default,application,preferred,media
+-lxsession-default-apps.desktop
+Default applications for LXSession
+Change the default applications on LXDE
+preferences-desktop
+
+8
+
+lxsession-default-apps
+0
+1
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-pcmanfm-desktop-pref.desktop
+Desktop Einstellungen
+Hintergrundbilder und Verhalten der Desktopverwaltung ändern
+user-desktop
+
+8
+
+pcmanfm --desktop-pref
+2
+-143
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-lxsession-edit.desktop
+Desktop Session Settings
+Automatisch gestartete Anwendungen verwalten
+preferences-desktop
+
+8
+
+lxsession-edit
+0
+1
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-unity-screen-sharing-panel.desktop
+Desktop Sharing
+Choose how other users can remotely view your desktop
+preferences-desktop-remote-desktop
+
+8
+
+unity-control-center screen-sharing
+2
+32
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Screen,Sharing,Remote,Desktop,VNC
+-unity-info-panel.desktop
+Details
+System Information
+applications-system
+
+8
+
+unity-control-center info
+2
+64
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings;X-Unity-Settings-Panel
+device,system,information,memory,processor,version,default,application,preferred,cd,dvd,usb,audio,video,disc,removable,media,autorun
+-unity-display-panel.desktop
+Displays
+Change resolution and position of monitors and projectors
+unity-display-panel
+
+8
+
+unity-control-center display
+2
+64
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Panel,Projector,xrandr,Screen,Resolution,Refresh
+-gnome-display-panel.desktop
+Displays
+Choose how to use connected monitors and projectors
+preferences-desktop-display
+
+8
+
+gnome-control-center display
+6
+34
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-GNOME-DevicesSettings
+Panel,Projector,xrandr,Screen,Resolution,Refresh,Monitor,Night,Light,Blue,redshift,color,sunset,sunrise
+-gnome-ubuntu-panel.desktop
+Dock
+Ubuntu Dock Settings
+preferences-ubuntu-panel
+
+8
+
+gnome-control-center ubuntu
+6
+512
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;X-GNOME-PersonalizationSettings
+Dock,Launcher
+-im-config.desktop
+Eingabemethode
+Set Keyboard Input Method
+input-keyboard
+
+8
+
+im-config
+0
+6
+
+
+Settings
+keyboard,input
+-lxappearance.desktop
+Erscheinungsbild anpassen
+Das Erscheinungsbild Ihrer Arbeitsumgebung und Anwendungen anpassen
+preferences-desktop-theme
+
+8
+Erscheinungsbild anpassen
+lxappearance
+2
+-143
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+Fenster,Einstellungen,Themen,Style,Erscheinung
+-shares.desktop
+Freigegebene Ordner
+Stellen Sie hier ein, welche Ordner für andere Rechner in Ihrem Netzwerk sichtbar sind
+folder-remote
+
+8
+
+shares-admin
+6
+0
+
+
+GNOME;GTK;System;Settings;X-GNOME-NetworkSettings
+
+-ibus-setup.desktop
+IBus Preferences
+Set IBus Preferences
+ibus-setup
+
+8
+
+ibus-setup
+2
+-35
+
+
+Settings
+keyboard,input
+-gnome-keyboard-panel.desktop
+Keyboard
+View and change keyboard shortcuts and set your typing preferences
+input-keyboard
+
+8
+
+gnome-control-center keyboard
+6
+34
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-GNOME-DevicesSettings
+Shortcut,Workspace,Window,Resize,Zoom,Contrast,Input,Source,Lock,Volume
+-unity-keyboard-panel.desktop
+Keyboard
+Change keyboard settings
+input-keyboard
+
+8
+
+unity-control-center keyboard
+2
+64
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Shortcut,Repeat,Blink
+-light-locker-settings.desktop
+Light-Locker-Einstellungen
+Sitzungsperre konfigurieren
+preferences-desktop-screensaver
+
+8
+
+/usr/bin/light-locker-settings
+2
+0
+
+
+XFCE;GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;DesktopSettings;X-XFCE
+Configuration,Screensaver,User
+-gnome-mouse-panel.desktop
+Mouse & Touchpad
+Change your mouse or touchpad sensitivity and select right or left-handed
+input-mouse
+
+8
+
+gnome-control-center mouse
+6
+34
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-GNOME-DevicesSettings
+Trackpad,Pointer,Click,Tap,Double,Button,Trackball,Scroll
+-unity-mouse-panel.desktop
+Mouse & Touchpad
+Set your mouse and touchpad preferences
+input-mouse
+
+8
+
+unity-control-center mouse
+2
+64
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Trackpad,Pointer,Click,Tap,Double,Button,Trackball
+-unity-network-panel.desktop
+Network
+Network settings
+network-workgroup
+
+8
+
+unity-control-center network
+2
+64
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Network,Wireless,IP,LAN,Proxy
+-gnome-network-panel.desktop
+Network
+Control how you connect to the Internet
+network-workgroup
+
+8
+
+gnome-control-center network
+6
+34
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel
+Network,Wireless,Wi-Fi,Wifi,IP,LAN,Proxy,WAN,Broadband,Modem,Bluetooth,vpn,DNS
+-nm-connection-editor.desktop
+Network Connections
+Manage and change your network connection settings
+preferences-system-network
+
+8
+
+nm-connection-editor
+2
+-7
+
+
+GNOME;GTK;Settings;X-GNOME-NetworkSettings
+
+-network.desktop
+Netzwerk
+Netzwerkschnittstellen und -verbindungen konfigurieren
+preferences-system-network
+
+8
+
+network-admin
+2
+0
+
+
+GNOME;GTK;System;Settings;X-GNOME-NetworkSettings
+
+-gnome-notifications-panel.desktop
+Notifications
+Control which notifications are displayed and what they show
+preferences-system-notifications
+
+8
+
+gnome-control-center notifications
+6
+34
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-PersonalizationSettings
+Notifications,Banner,Message,Tray,Popup
+-gnome-online-accounts-panel.desktop
+Online Accounts
+Connect to your online accounts and decide what to use them for
+goa-panel
+
+8
+
+gnome-control-center online-accounts
+6
+34
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-AccountSettings
+Google,Facebook,Twitter,Yahoo,Web,Online,Chat,Calendar,Mail,Contact,ownCloud,Kerberos,IMAP,SMTP,Pocket,ReadItLater
+-unity-online-accounts-panel.desktop
+Online Accounts
+Connect your online accounts
+unity-online-accounts
+
+8
+
+unity-control-center online-accounts
+2
+32
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings;OnlineAccounts
+Google,Facebook,Twitter,Yahoo,Web,Online,Chat,Calendar,Mail,Contact,ownCloud,Kerberos,IMAP,SMTP,Pocket,ReadItLater
+-obconf.desktop
+Openbox Konfiguration Manager
+Konfiguriert den Openbox Window Manager
+obconf
+
+8
+Configuration Manager
+obconf %f
+2
+0
+
+
+Settings;DesktopSettings;GTK
+openbox,settings,configurations,themes
+-openjdk-11-policytool.desktop
+OpenJDK Java 11 Policy Tool
+OpenJDK Java 11 Policy Tool
+openjdk-11
+
+8
+
+/usr/bin/policytool
+0
+0
+
+
+Settings
+java,security,policytool
+-redhat-userpasswd.desktop
+Passwort
+Ihr Anmeldepasswort ändern
+password
+
+8
+
+userpasswd
+0
+0
+
+
+X-Red-Hat-Base;X-GNOME-PersonalSettings;Settings
+
+-unity-power-panel.desktop
+Power
+Power management settings
+unity-power-panel
+
+8
+
+unity-control-center power
+2
+64
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;HardwareSettings
+Power,Sleep,Suspend,Hibernate,Battery
+-gnome-power-panel.desktop
+Power
+View your battery status and change power saving settings
+gnome-power-manager
+
+8
+
+gnome-control-center power
+6
+34
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;HardwareSettings
+Power,Sleep,Suspend,Hibernate,Battery,Brightness,Dim,Blank,Monitor,DPMS,Idle
+-system-config-printer.desktop
+Printers
+Configure printers
+printer
+
+8
+Printers
+system-config-printer
+2
+-7
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;System;Printing
+Printer,Queue,Print,Paper,Ink,Toner
+-gnome-printers-panel.desktop
+Printers
+Add printers, view printer jobs and decide how you want to print
+printer
+
+8
+
+gnome-control-center printers
+6
+34
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-GNOME-DevicesSettings
+Printer,Queue,Print,Paper,Ink,Toner
+-gnome-privacy-panel.desktop
+Privacy
+Protect your personal information and control what others might see
+preferences-system-privacy
+
+8
+
+gnome-control-center privacy
+6
+34
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-AccountSettings
+screen,lock,diagnostics,crash,private,recent,temporary,tmp,index,name,network,identity
+-gnome-region-panel.desktop
+Region & Language
+Select your display language, formats, keyboard layouts and input sources
+preferences-desktop-locale
+
+8
+
+gnome-control-center region
+6
+34
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-PersonalizationSettings
+Language,Layout,Keyboard,Input
+-gnome-removable-media-panel.desktop
+Removable Media
+Configure Removable Media settings
+media-removable
+
+8
+
+gnome-control-center removable-media
+6
+34
+
+
+GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-DevicesSettings
+device,system,default,application,preferred,cd,dvd,usb,audio,video,disc,removable,media,autorun
+-gnome-search-panel.desktop
+Search
+Control which applications show search results in the Activities Overview
+preferences-system-search
+
+8
+
+gnome-control-center search
+6
+34
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-PersonalizationSettings
+Search,Find,Index,Hide,Privacy,Results
+-unity-activity-log-manager-panel.desktop
+Security & Privacy
+Privacy and Activity Manager
+activity-log-manager
+
+8
+
+unity-control-center activity-log-manager
+2
+32
+unity-control-center
+
+GNOME;GTK;System;Archiving;Utility;Settings;X-GNOME-PersonalSettings;X-Unity-Settings-Panel
+privacy,activity,log,zeitgeist,diagnostics,error reports
+-gnome-control-center.desktop
+Settings
+
+gnome-control-center
+
+8
+
+gnome-control-center
+2
+34
+
+
+GNOME;GTK;Settings
+Preferences,Settings
+-lxhotkey-gtk.desktop
+Setup Hot Keys
+View and change Window Manager global shortcuts
+preferences-desktop-keyboard
+
+8
+
+lxhotkey --gui=gtk
+2
+-143
+
+
+DesktopSettings;Settings;Core;GTK
+hotkey,shortcut,system,settings
+-gnome-sharing-panel.desktop
+Sharing
+Control what you want to share with others
+preferences-system-sharing
+
+8
+
+gnome-control-center sharing
+6
+34
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-GNOME-AccountSettings
+share,sharing,ssh,host,name,remote,desktop,media,audio,video,pictures,photos,movies,server,renderer
+-unity-sound-panel.desktop
+Sound
+Change sound volume and sound events
+unity-sound-panel
+
+8
+
+unity-control-center sound
+2
+64
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Card,Microphone,Volume,Fade,Balance,Bluetooth,Headset
+-gnome-sound-panel.desktop
+Sound
+Change sound levels, inputs, outputs, and alert sounds
+multimedia-volume-control
+
+8
+
+gnome-control-center sound
+6
+34
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel
+Card,Microphone,Volume,Fade,Balance,Bluetooth,Headset,Audio
+-gnome-language-selector.desktop
+Sprachen
+Mutter- und Mehrsprachenunterstützung einrichten
+preferences-desktop-locale
+
+8
+
+/usr/bin/gnome-language-selector
+0
+-5
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Language,Input method,Region,Format
+-gnome-session-properties.desktop
+Startup Applications
+Choose what applications to start when you log in
+session-properties
+
+8
+
+gnome-session-properties
+2
+34
+
+
+GTK;GNOME;Settings;X-GNOME-PersonalSettings
+
+-lxinput.desktop
+Tastatur und Maus
+Maus, Tastatur und andere Eingabegeräte konfigurieren
+input-keyboard
+
+8
+
+lxinput
+2
+-143
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-unity-region-panel.desktop
+Text Entry
+Change your keyboard or input method settings
+preferences-desktop-keyboard-shortcuts
+
+8
+
+unity-control-center region
+2
+64
+
+
+GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Language,Layout,Keyboard,Input Method,Text Entry
+-gnome-thunderbolt-panel.desktop
+Thunderbolt
+Manage Thunderbolt devices
+thunderbolt
+
+8
+
+gnome-control-center thunderbolt
+6
+34
+
+
+GNOME;GTK;Settings;X-GNOME-Settings-Panel;HardwareSettings;X-GNOME-DevicesSettings
+Thunderbolt
+-redhat-userinfo.desktop
+Über mich
+Persönliche Informationen ändern
+user_icon
+
+8
+
+userinfo
+0
+0
+
+
+Settings;X-GNOME-PersonalSettings
+
+-gnome-universal-access-panel.desktop
+Universal Access
+Make it easier to see, hear, type, point and click
+preferences-desktop-accessibility
+
+8
+
+gnome-control-center universal-access
+6
+34
+
+
+GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-PersonalizationSettings
+Keyboard,Mouse,a11y,Accessibility,Contrast,Zoom,Screen,Reader,text,font,size,AccessX,Sticky,Keys,Slow,Bounce,Mouse,Double,click,Delay,Assist,Repeat,Blink
+-unity-universal-access-panel.desktop
+Universal Access
+Universal Access Preferences
+preferences-desktop-accessibility
+
+8
+
+unity-control-center universal-access
+2
+64
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings;X-Unity-Settings-Panel
+Keyboard,Mouse,a11y,Accessibility,Contrast,Zoom,Screen Reader,text,font,size,AccessX,Sticky Keys,Slow Keys,Bounce Keys,Mouse Keys
+-unity-user-accounts-panel.desktop
+User Accounts
+Add or remove users
+system-users
+
+8
+
+unity-control-center user-accounts
+2
+64
+
+
+System;Settings;X-Unity-Settings-Panel;X-GNOME-SystemSettings
+Login,Name,Fingerprint,Avatar,Logo,Face,Password
+-gnome-user-accounts-panel.desktop
+Users
+Add or remove users and change your password
+system-users
+
+8
+
+gnome-control-center user-accounts
+6
+34
+
+
+System;Settings;X-GNOME-Settings-Panel;X-GNOME-DetailsSettings
+Login,Name,Fingerprint,Avatar,Logo,Face,Password
+-unity-wacom-panel.desktop
+Wacom Tablet
+Set button mappings and adjust stylus sensitivity for graphics tablets
+input-tablet
+
+8
+
+unity-control-center wacom
+2
+64
+
+
+GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel
+Tablet,Wacom,Stylus,Eraser,Mouse
+-gnome-wacom-panel.desktop
+Wacom Tablet
+Set button mappings and adjust stylus sensitivity for graphics tablets
+input-tablet
+
+8
+
+gnome-control-center wacom
+6
+34
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-GNOME-DevicesSettings
+Tablet,Wacom,Stylus,Eraser,Mouse
+-gnome-wifi-panel.desktop
+Wi-Fi
+Control how you connect to Wi-Fi networks
+network-wireless
+
+8
+
+gnome-control-center wifi
+6
+34
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-GNOME-ConnectivitySettings
+Network,Wireless,Wi-Fi,Wifi,IP,LAN,Broadband,DNS
+
+

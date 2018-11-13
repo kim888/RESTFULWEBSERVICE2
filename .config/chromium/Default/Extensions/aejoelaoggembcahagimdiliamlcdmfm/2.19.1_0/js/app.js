@@ -1,0 +1,11 @@
+import 'babel-polyfill';
+import './app/namespace';
+import './app/r-popover';
+import './app/r-tooltip';
+import './app/insitu';
+import './app/import';
+import './app/cookie';
+import './app/github_oauth';
+import './app/mixpanel';
+import './app/authentication';
+import './app/utils';

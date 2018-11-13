@@ -1,0 +1,37 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/vmuser/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=de_DE.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/LXDE.mandatory.path
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/vmuser
+dbus-update-activation-environment: setting USER=vmuser
+dbus-update-activation-environment: setting DESKTOP_SESSION=LXDE
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/LXDE.default.path
+dbus-update-activation-environment: setting PWD=/home/vmuser
+dbus-update-activation-environment: setting HOME=/home/vmuser
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/LXDE:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=LXDE
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en
+dbus-update-activation-environment: setting GDMSESSION=LXDE
+dbus-update-activation-environment: setting LOGNAME=vmuser
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/vmuser/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-LXDE:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+** Message: 09:47:36.516: main.vala:102: Session is LXDE
+** Message: 09:47:36.516: main.vala:103: DE is LXDE
+** Message: 09:47:36.627: main.vala:134: log directory: /home/vmuser/.cache/lxsession/LXDE
+** Message: 09:47:36.627: main.vala:135: log path: /home/vmuser/.cache/lxsession/LXDE/run.log

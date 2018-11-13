@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/shared/webtools/projects/patches-R3.1.2-P/workdir/P-3.1.2-20100413200422/repository/wtp-patches312-tests - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1271189918019'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='8'>
+    <unit id='org.eclipse.wtp.releng.tests' version='1.1.0.v201001271208' singleton='false'>
+      <update id='org.eclipse.wtp.releng.tests' range='[0.0.0,1.1.0.v201001271208)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.Bundle-Name.0' value='WTP Releng Tests'/>
+        <property name='df_LT.Bundle-Vendor.0' value='Eclipse.org'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name.0'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor.0'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests' version='1.1.0.v201001271208'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.wtp.releng.tests' version='1.1.0.v201001271208'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.junit' range='3.8.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wtp.releng.versionchecker' range='0.0.0' optional='true'/>
+        <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0' optional='true'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.wtp.releng.tests' version='1.1.0.v201001271208'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-Name: %Bundle-Name.0&#xA;Eclipse-LazyStart: true&#xA;Bundle-Localization: plugin&#xA;Bundle-Version: 1.1.0.v201001271208&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.5&#xA;Bundle-SymbolicName: org.eclipse.wtp.releng.tests&#xA;Require-Bundle: org.eclipse.core.runtime,org.junit;bundle-version=3.8.0,org.eclipse.wtp.releng.versionchecker; resolution:=optional,org.eclipse.swt; resolution:=optional&#xA;Bundle-Vendor: %Bundle-Vendor.0&#xA;Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-ActivationPolicy: lazy
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.wtp.patch.tests.assembly.feature.feature.group' version='3.1.2.v201004132000-7706773Dt5076656BD98BD6' singleton='false'>
+      <update id='org.eclipse.wtp.patch.tests.assembly.feature.feature.group' range='[0.0.0,3.1.2.v201004132000-7706773Dt5076656BD98BD6)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Patches 2010 04 13'/>
+        <property name='org.eclipse.equinox.p2.description' value='Patches to be applied for Galileo SR2 level of WTP unit test features.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse Web Tools Platform'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.patch.tests.assembly.feature.feature.group' version='3.1.2.v201004132000-7706773Dt5076656BD98BD6'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.web_tests.feature.patch.feature.group' range='[3.1.2.v201003171400-20Bi7w312115242715,3.1.2.v201003171400-20Bi7w312115242715]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests.feature.patch.feature.group' range='[3.0.5.v200906012115-20-7w312112382319,3.0.5.v200906012115-20-7w312112382319]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipse.jst.web_tests.feature.patch.feature.jar' version='3.1.2.v201003171400-20Bi7w312115242715'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Patch feature for tests'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse Web Tools Platform'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.web_tests.feature.patch.feature.jar' version='3.1.2.v201003171400-20Bi7w312115242715'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.jst.web_tests.feature.patch' version='3.1.2.v201003171400-20Bi7w312115242715'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jst.web_tests.feature.patch' version='3.1.2.v201003171400-20Bi7w312115242715'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.jst.j2ee.tests' version='1.1.302.v201004131604'>
+      <update id='org.eclipse.jst.j2ee.tests' range='[0.0.0,1.1.302.v201004131604)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='J2EE Tests Plug-in'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='30'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.j2ee.tests' version='1.1.302.v201004131604'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.jst.j2ee.tests' version='1.1.302.v201004131604'/>
+        <provided namespace='java.package' name='org.eclipse.jst.common.annotations.tests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.bindingshelper.tests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.classpath.tests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.classpath.tests.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.defect.tests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.dependency.tests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.dependency.tests.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.flexible.project.apitests.artifactedit' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.flexible.project.fvtests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.flexible.project.tests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.project.facet.tests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.tests.bvt' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.j2ee.tests.modulecore' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.jst.jee.model.tests' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.headless.tests.savestrategy' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.appclient.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.ear.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.ejb.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.ejb.verifiers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.j2ee.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.j2ee.verifiers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.jca.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.jca.verifiers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.plugin' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.web.container' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.web.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wtp.j2ee.headless.tests.web.verifiers' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='34'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.commands' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.common.frameworks' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.emfworkbench.integration' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.frameworks' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.j2ee.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.j2ee.web' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.junit' range='[3.8.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.j2ee' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.modulecore' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.j2ee.ejb' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.j2ee.jca' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.tests' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.j2ee.core.tests' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.server.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore.xmi' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.emf' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.j2ee.webservice' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jem.util' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.launching' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.web' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.project.facet.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.server.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.common.annotations.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.validation' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.jee' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.jee.ejb' range='1.0.100'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='3.4.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filebuffers' range='3.3.100'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jst.jee.web' range='1.0.100'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.jst.j2ee.tests' version='1.1.302.v201004131604'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-Localization: plugin&#xA;Bundle-ClassPath: j2ee-tests.jar&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.5&#xA;Export-Package: org.eclipse.jst.common.annotations.tests,org.eclipse.jst.j2ee.bindingshelper.tests,org.eclipse.jst.j2ee.classpath.tests,org.eclipse.jst.j2ee.classpath.tests.util,org.eclipse.jst.j2ee.defect.tests,org.eclipse.jst.j2ee.dependency.tests,org.eclipse.jst.j2ee.dependency.tests.util,org.eclipse.jst.j2ee.flexible.project.apitests.artifactedit,org.eclipse.jst.j2ee.flexible.project.fvtests,org.eclipse.jst.j2ee.flexible.project.tests,org.eclipse.jst.j2ee.project.facet.tests,org.eclipse.jst.j2ee.tests.bvt,org.eclipse.jst.j2ee.tests.modulecore,org.eclipse.jst.jee.model.tests,org.eclipse.wtp.headless.tests.savestrategy,org.eclipse.wtp.j2ee.headless.tests.appclient.operations,org.eclipse.wtp.j2ee.headless.tests.ear.operations,org.eclipse.wtp.j2ee.headless.tests.ejb.operations,org.eclipse.wtp.j2ee.headless.tests.ejb.verifiers,org.eclipse.wtp.j2ee.headless.tests.j2ee.operations,org.eclipse.wtp.j2ee.headless.tests.j2ee.verifiers,org.eclipse.wtp.j2ee.headless.tests.jca.operations,org.eclipse.wtp.j2ee.headless.tests.jca.verifiers,org.eclipse.wtp.j2ee.headless.tests.plugin,org.eclipse.wtp.j2ee.headless.tests.web.container,org.eclipse.wtp.j2ee.headless.tests.web.operations,org.eclipse.wtp.j2ee.headless.tests.web.verifiers&#xA;Eclipse-LazyStart: true&#xA;Bundle-Activator: org.eclipse.wtp.j2ee.headless.tests.plugin.HeadlessTestsPlugin&#xA;Bundle-SymbolicName: org.eclipse.jst.j2ee.tests; singleton:=true&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Name: J2EE Tests Plug-in&#xA;Bundle-Version: 1.1.302.v201004131604&#xA;Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,org.eclipse.core.commands,org.eclipse.jst.common.frameworks,org.eclipse.wst.common.emfworkbench.integration,org.eclipse.wst.common.frameworks,org.eclipse.jst.j2ee.core,org.eclipse.jst.j2ee.web,org.junit;bundle-version=&quot;[3.8.0,4.0.0)&quot;,org.eclipse.emf.common,org.eclipse.emf.ecore,org.eclipse.jst.j2ee,org.eclipse.wst.common.modulecore,org.eclipse.jst.j2ee.ejb,org.eclipse.jst.j2ee.jca,org.eclipse.wst.common.tests,org.eclipse.jst.j2ee.core.tests,org.eclipse.wst.server.core,org.eclipse.emf.ecore.xmi,org.eclipse.wst.common.emf,org.eclipse.jst.j2ee.webservice,org.eclipse.jem.util,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse.wst.web,org.eclipse.wst.common.project.facet.core,org.eclipse.jst.server.core,org.eclipse.jst.common.annotations.core,org.eclipse.wst.validation,org.eclipse.jst.jee,org.eclipse.jst.jee.ejb;bundle-version=&quot;1.0.100&quot;,org.eclipse.jface.text;bundle-version=&quot;3.4.0&quot;,org.eclipse.core.filebuffers;bundle-version=&quot;3.3.100&quot;,org.eclipse.jst.jee.web;bundle-version=&quot;1.0.100&quot;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.wtp.releng.tests.feature.patch.feature.jar' version='3.0.5.v200906012115-20-7w312112382319'>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='Patch Feature for releng tests'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests.feature.patch.feature.jar' version='3.0.5.v200906012115-20-7w312112382319'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.wtp.releng.tests.feature.patch' version='3.0.5.v200906012115-20-7w312112382319'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wtp.releng.tests.feature.patch' version='3.0.5.v200906012115-20-7w312112382319'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='Galileo SR2 Patches Tests' version='1.0.0.613cLTCwT8s73533A5973331GG3E'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Patches for tests'/>
+        <property name='org.eclipse.equinox.p2.description' value='Patches applicable to Galileo SR2 version of WTP unit test features.'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='Galileo SR2 Patches Tests' version='1.0.0.613cLTCwT8s73533A5973331GG3E'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.patch.tests.assembly.feature.feature.group' range='[3.1.2.v201004132000-7706773Dt5076656BD98BD6,3.1.2.v201004132000-7706773Dt5076656BD98BD6]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipse.jst.web_tests.feature.patch.feature.group' version='3.1.2.v201003171400-20Bi7w312115242715' singleton='false'>
+      <patchScope>
+        <scope>
+          <requires size='1'>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.web_tests.feature.feature.group' range='[3.1.1.v200908121609-794FZ-EVVFIwFhRtLnWW,3.1.1.v200908121609-794FZ-EVVFIwFhRtLnWW]'/>
+          </requires>
+        </scope>
+      </patchScope>
+      <changes>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.j2ee.tests' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.j2ee.tests' range='[1.1.302.v201004131604,1.1.302.v201004131604]'/>
+          </to>
+        </change>
+      </changes>
+      <lifeCycle>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.web_tests.feature.feature.group' range='[3.1.1.v200908121609-794FZ-EVVFIwFhRtLnWW,3.1.1.v200908121609-794FZ-EVVFIwFhRtLnWW]' multiple='true' greedy='false'/>
+      </lifeCycle>
+      <update id='org.eclipse.jst.web_tests.feature.patch.feature.group' range='[0.0.0,3.1.2.v201003171400-20Bi7w312115242715)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.type.patch' value='true'/>
+        <property name='org.eclipse.equinox.p2.name' value='Patch feature for tests'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse Web Tools Platform'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.web_tests.feature.patch.feature.group' version='3.1.2.v201003171400-20Bi7w312115242715'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.web_tests.feature.patch.feature.jar' range='[3.1.2.v201003171400-20Bi7w312115242715,3.1.2.v201003171400-20Bi7w312115242715]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipse.wtp.releng.tests.feature.patch.feature.group' version='3.0.5.v200906012115-20-7w312112382319' singleton='false'>
+      <patchScope>
+        <scope>
+          <requires size='1'>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests.feature.feature.group' range='[1.0.1.v200809081610-7F7V4E7QYGHNHDOwKyZR,1.0.1.v200809081610-7F7V4E7QYGHNHDOwKyZR]'/>
+          </requires>
+        </scope>
+      </patchScope>
+      <changes>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests' range='[1.1.0.v201001271208,1.1.0.v201001271208]'/>
+          </to>
+        </change>
+      </changes>
+      <lifeCycle>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests.feature.feature.group' range='[1.0.1.v200809081610-7F7V4E7QYGHNHDOwKyZR,1.0.1.v200809081610-7F7V4E7QYGHNHDOwKyZR]' multiple='true' greedy='false'/>
+      </lifeCycle>
+      <update id='org.eclipse.wtp.releng.tests.feature.patch.feature.group' range='[0.0.0,3.0.5.v200906012115-20-7w312112382319)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.type.patch' value='true'/>
+        <property name='org.eclipse.equinox.p2.name' value='Patch Feature for releng tests'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests.feature.patch.feature.group' version='3.0.5.v200906012115-20-7w312112382319'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wtp.releng.tests.feature.patch.feature.jar' range='[3.0.5.v200906012115-20-7w312112382319,3.0.5.v200906012115-20-7w312112382319]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+  </units>
+</repository>

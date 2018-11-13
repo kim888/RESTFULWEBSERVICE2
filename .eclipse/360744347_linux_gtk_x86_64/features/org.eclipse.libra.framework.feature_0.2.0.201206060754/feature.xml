@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.libra.framework.feature"
+      label="%featureName"
+      version="0.2.0.201206060754"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.libra.framework.editor.feature"
+         version="0.2.0.201206060754"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.core"
+         download-size="58"
+         install-size="115"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.equinox"
+         download-size="27"
+         install-size="56"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.equinox.ui"
+         download-size="21"
+         install-size="33"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.felix"
+         download-size="23"
+         install-size="51"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.felix.ui"
+         download-size="16"
+         install-size="22"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.jonas"
+         download-size="115"
+         install-size="147"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.jonas.ui"
+         download-size="16"
+         install-size="21"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.knopflerfish"
+         download-size="24"
+         install-size="48"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.knopflerfish.ui"
+         download-size="16"
+         install-size="21"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.framework.ui"
+         download-size="100"
+         install-size="191"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+</feature>

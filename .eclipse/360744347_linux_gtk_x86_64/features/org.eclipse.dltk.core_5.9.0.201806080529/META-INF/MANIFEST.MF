@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Built-By: genie.dltk
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_162
+
+Name: epl-2.0.html
+SHA-256-Digest: koxKavfpz4JYnlYPmP+7at5zhbWf7Iy07zamu5HPcBg=
+
+Name: feature.xml
+SHA-256-Digest: exv8XvWe6EeOFqLd25+06JwkrcGA1YuTQ4fClrjGIBc=
+
+Name: eclipse_update_120.jpg
+SHA-256-Digest: FAcZHH5NmCjIaBJgABBc1DvPQxRvfHUuFrwxg5VdYkc=
+
+Name: feature.properties
+SHA-256-Digest: 2zlQJ3xEYnh+tJ0qwWg2dhZbX8tmTroINy3Qr/ROLc4=
+
+Name: license.html
+SHA-256-Digest: Dv5NbrV590iFepPFp4HDAA9w8zkHSynRW5FCE+FLHVM=
+

@@ -1,0 +1,2416 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@6.4.1
+3 info using node@v8.10.0
+4 verbose npm-session 19963a150810d71d
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall swagger-editor@2.10.4
+7 info lifecycle swagger-editor@2.10.4~preinstall: swagger-editor@2.10.4
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 19ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 8ms
+16 silly install loadAllDepsIntoIdealTree
+17 http fetch GET 200 https://registry.npmjs.org/angular 42ms (from cache)
+18 http fetch GET 200 https://registry.npmjs.org/angular-cookies 40ms (from cache)
+19 http fetch GET 200 https://registry.npmjs.org/angular-json-schema-form 39ms (from cache)
+20 http fetch GET 200 https://registry.npmjs.org/angular-marked 40ms (from cache)
+21 http fetch GET 200 https://registry.npmjs.org/angular-mocks 39ms (from cache)
+22 http fetch GET 200 https://registry.npmjs.org/angular-sanitize 40ms (from cache)
+23 http fetch GET 200 https://registry.npmjs.org/angular-ui-ace 39ms (from cache)
+24 http fetch GET 200 https://registry.npmjs.org/angular-ui-bootstrap 40ms (from cache)
+25 http fetch GET 200 https://registry.npmjs.org/angular-ui-layout 39ms (from cache)
+26 http fetch GET 200 https://registry.npmjs.org/angular-ui-router 45ms (from cache)
+27 silly pacote range manifest for angular@^1.5.7 fetched in 63ms
+28 silly pacote range manifest for angular-cookies@^1.5.7 fetched in 53ms
+29 silly pacote range manifest for angular-json-schema-form@^0.1.4 fetched in 57ms
+30 silly pacote range manifest for angular-marked@^1.2.1 fetched in 58ms
+31 silly pacote range manifest for angular-mocks@^1.5.7 fetched in 81ms
+32 silly pacote range manifest for angular-ui-ace@^0.2.3 fetched in 81ms
+33 silly pacote range manifest for angular-ui-bootstrap@^1.2.5 fetched in 82ms
+34 silly pacote range manifest for angular-ui-layout@^1.4.2 fetched in 82ms
+35 silly pacote range manifest for angular-sanitize@^1.5.7 fetched in 83ms
+36 silly pacote range manifest for angular-ui-router@^0.3.1 fetched in 84ms
+37 warn deprecated angular-ui-router@0.3.2: This npm package 'angular-ui-router' has been renamed to '@uirouter/angularjs'. Please update your package.json. See https://ui-router.github.io/blog/uirouter-scoped-packages/
+38 http fetch GET 200 https://registry.npmjs.org/bootstrap 25ms (from cache)
+39 http fetch GET 200 https://registry.npmjs.org/brace 25ms (from cache)
+40 http fetch GET 200 https://registry.npmjs.org/chai 26ms (from cache)
+41 http fetch GET 200 https://registry.npmjs.org/css-loader 25ms (from cache)
+42 http fetch GET 200 https://registry.npmjs.org/es6-promise 25ms (from cache)
+43 http fetch GET 200 https://registry.npmjs.org/es6-shim 26ms (from cache)
+44 http fetch GET 200 https://registry.npmjs.org/eslint 29ms (from cache)
+45 http fetch GET 200 https://registry.npmjs.org/eslint-config-google 39ms (from cache)
+46 http fetch GET 200 https://registry.npmjs.org/eslint-friendly-formatter 41ms (from cache)
+47 http fetch GET 200 https://registry.npmjs.org/eslint-loader 40ms (from cache)
+48 silly pacote range manifest for bootstrap@^3.3.6 fetched in 52ms
+49 silly pacote range manifest for brace@^0.8.0 fetched in 51ms
+50 silly pacote range manifest for chai@^3.5.0 fetched in 52ms
+51 silly pacote range manifest for css-loader@^0.23.1 fetched in 51ms
+52 silly pacote range manifest for es6-promise@^3.1.2 fetched in 52ms
+53 silly pacote range manifest for es6-shim@^0.35.0 fetched in 53ms
+54 silly pacote range manifest for eslint@^2.13.1 fetched in 53ms
+55 silly pacote range manifest for eslint-config-google@^0.6.0 fetched in 61ms
+56 silly pacote range manifest for eslint-friendly-formatter@^2.0.3 fetched in 63ms
+57 silly pacote range manifest for eslint-loader@^1.3.0 fetched in 61ms
+58 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-chai-expect 38ms (from cache)
+59 http fetch GET 200 https://registry.npmjs.org/extract-text-webpack-plugin 37ms (from cache)
+60 http fetch GET 200 https://registry.npmjs.org/file-loader 38ms (from cache)
+61 http fetch GET 200 https://registry.npmjs.org/font-awesome 38ms (from cache)
+62 http fetch GET 200 https://registry.npmjs.org/font-awesome-webpack 38ms (from cache)
+63 http fetch GET 200 https://registry.npmjs.org/html-loader 37ms (from cache)
+64 http fetch GET 200 https://registry.npmjs.org/http-server 37ms (from cache)
+65 http fetch GET 200 https://registry.npmjs.org/jasmine-core 31ms (from cache)
+66 http fetch GET 200 https://registry.npmjs.org/jquery 31ms (from cache)
+67 http fetch GET 200 https://registry.npmjs.org/js-yaml 32ms (from cache)
+68 silly pacote range manifest for eslint-plugin-chai-expect@^1.1.1 fetched in 53ms
+69 silly pacote range manifest for extract-text-webpack-plugin@^1.0.1 fetched in 52ms
+70 silly pacote range manifest for file-loader@^0.9.0 fetched in 52ms
+71 silly pacote range manifest for font-awesome@^4.6.1 fetched in 52ms
+72 silly pacote version manifest for font-awesome-webpack@0.0.4 fetched in 51ms
+73 silly pacote range manifest for html-loader@^0.4.3 fetched in 50ms
+74 silly pacote range manifest for http-server@^0.9.0 fetched in 53ms
+75 silly pacote range manifest for jasmine-core@^2.4.1 fetched in 45ms
+76 silly pacote range manifest for jquery@^3.0.0 fetched in 46ms
+77 silly pacote range manifest for js-yaml@^3.5.5 fetched in 46ms
+78 http fetch GET 200 https://registry.npmjs.org/json-editor 23ms (from cache)
+79 http fetch GET 200 https://registry.npmjs.org/json-formatter-js 23ms (from cache)
+80 http fetch GET 200 https://registry.npmjs.org/json-loader 21ms (from cache)
+81 http fetch GET 200 https://registry.npmjs.org/json-schema-view-js 22ms (from cache)
+82 http fetch GET 200 https://registry.npmjs.org/jsonformatter 21ms (from cache)
+83 http fetch GET 200 https://registry.npmjs.org/jsonlint 20ms (from cache)
+84 http fetch GET 200 https://registry.npmjs.org/karma 20ms (from cache)
+85 http fetch GET 200 https://registry.npmjs.org/karma-chai-plugins 26ms (from cache)
+86 http fetch GET 200 https://registry.npmjs.org/karma-chrome-launcher 26ms (from cache)
+87 http fetch GET 200 https://registry.npmjs.org/karma-firefox-launcher 26ms (from cache)
+88 silly pacote range manifest for json-editor@^0.7.26 fetched in 40ms
+89 silly pacote range manifest for json-formatter-js@^1.0.0 fetched in 41ms
+90 silly pacote range manifest for json-loader@^0.5.4 fetched in 39ms
+91 silly pacote range manifest for json-schema-view-js@^0.4.1 fetched in 40ms
+92 silly pacote range manifest for jsonformatter@^0.6.0 fetched in 39ms
+93 silly pacote range manifest for jsonlint@^1.6.2 fetched in 38ms
+94 silly pacote range manifest for karma@^1.1.0 fetched in 43ms
+95 silly pacote range manifest for karma-chai-plugins@^0.7.0 fetched in 43ms
+96 silly pacote range manifest for karma-chrome-launcher@^1.0.1 fetched in 47ms
+97 silly pacote range manifest for karma-firefox-launcher@^1.0.0 fetched in 47ms
+98 http fetch GET 200 https://registry.npmjs.org/karma-jasmine 30ms (from cache)
+99 http fetch GET 200 https://registry.npmjs.org/karma-mocha 29ms (from cache)
+100 http fetch GET 200 https://registry.npmjs.org/karma-mocha-reporter 30ms (from cache)
+101 http fetch GET 200 https://registry.npmjs.org/karma-ng-html2js-preprocessor 30ms (from cache)
+102 http fetch GET 200 https://registry.npmjs.org/karma-ng-scenario 30ms (from cache)
+103 http fetch GET 200 https://registry.npmjs.org/karma-sourcemap-loader 30ms (from cache)
+104 http fetch GET 200 https://registry.npmjs.org/karma-webpack 24ms (from cache)
+105 http fetch GET 200 https://registry.npmjs.org/less 21ms (from cache)
+106 http fetch GET 200 https://registry.npmjs.org/less-loader 21ms (from cache)
+107 http fetch GET 200 https://registry.npmjs.org/lodash 22ms (from cache)
+108 silly pacote range manifest for karma-jasmine@^1.0.2 fetched in 44ms
+109 silly pacote range manifest for karma-mocha@^1.1.1 fetched in 44ms
+110 silly pacote range manifest for karma-mocha-reporter@^2.0.4 fetched in 45ms
+111 silly pacote range manifest for karma-ng-html2js-preprocessor@^1.0.0 fetched in 47ms
+112 silly pacote range manifest for karma-ng-scenario@^1.0.0 fetched in 50ms
+113 silly pacote range manifest for karma-sourcemap-loader@^0.3.7 fetched in 50ms
+114 silly pacote range manifest for karma-webpack@^1.7.0 fetched in 46ms
+115 silly pacote range manifest for less@^2.6.1 fetched in 44ms
+116 silly pacote range manifest for less-loader@^2.2.2 fetched in 43ms
+117 silly pacote range manifest for lodash@^4.6.1 fetched in 43ms
+118 http fetch GET 200 https://registry.npmjs.org/minimist 25ms (from cache)
+119 http fetch GET 200 https://registry.npmjs.org/mocha 25ms (from cache)
+120 http fetch GET 200 https://registry.npmjs.org/mversion 27ms (from cache)
+121 http fetch GET 200 https://registry.npmjs.org/ng-annotate-webpack-plugin 27ms (from cache)
+122 http fetch GET 200 https://registry.npmjs.org/ng-file-upload 28ms (from cache)
+123 http fetch GET 200 https://registry.npmjs.org/ngstorage 30ms (from cache)
+124 http fetch GET 200 https://registry.npmjs.org/open 28ms (from cache)
+125 http fetch GET 200 https://registry.npmjs.org/open-sans-fontface 26ms (from cache)
+126 http fetch GET 200 https://registry.npmjs.org/protractor 24ms (from cache)
+127 http fetch GET 200 https://registry.npmjs.org/sinon 27ms (from cache)
+128 silly pacote range manifest for minimist@^1.2.0 fetched in 45ms
+129 silly pacote range manifest for mocha@^2.4.5 fetched in 45ms
+130 silly pacote range manifest for mversion@^1.10.1 fetched in 45ms
+131 silly pacote range manifest for ng-annotate-webpack-plugin@^0.1.3 fetched in 45ms
+132 silly pacote range manifest for ng-file-upload@^12.0.4 fetched in 47ms
+133 silly pacote range manifest for ngstorage@^0.3.10 fetched in 47ms
+134 silly pacote version manifest for open@0.0.5 fetched in 45ms
+135 silly pacote range manifest for open-sans-fontface@^1.4.0 fetched in 44ms
+136 silly pacote range manifest for protractor@^3.2.1 fetched in 42ms
+137 silly pacote range manifest for sinon@^1.17.3 fetched in 43ms
+138 http fetch GET 200 https://registry.npmjs.org/sinon-chai 26ms (from cache)
+139 http fetch GET 200 https://registry.npmjs.org/spark-md5 27ms (from cache)
+140 http fetch GET 200 https://registry.npmjs.org/style-loader 26ms (from cache)
+141 http fetch GET 200 https://registry.npmjs.org/svg-inline-loader 25ms (from cache)
+142 http fetch GET 200 https://registry.npmjs.org/sway 27ms (from cache)
+143 http fetch GET 200 https://registry.npmjs.org/url-loader 28ms (from cache)
+144 http fetch GET 200 https://registry.npmjs.org/webpack 36ms (from cache)
+145 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 45ms (from cache)
+146 http fetch GET 200 https://registry.npmjs.org/worker-loader 56ms (from cache)
+147 http fetch GET 200 https://registry.npmjs.org/yaml-js 54ms (from cache)
+148 silly pacote range manifest for sinon-chai@^2.8.0 fetched in 67ms
+149 silly pacote range manifest for spark-md5@^2.0.2 fetched in 68ms
+150 silly pacote range manifest for style-loader@^0.13.0 fetched in 67ms
+151 silly pacote range manifest for svg-inline-loader@^0.6.0 fetched in 66ms
+152 silly pacote range manifest for sway@^1.0.0 fetched in 66ms
+153 silly pacote range manifest for url-loader@^0.5.7 fetched in 67ms
+154 silly pacote range manifest for webpack@^1.12.14 fetched in 71ms
+155 silly pacote range manifest for webpack-dev-server@^1.14.1 fetched in 71ms
+156 silly pacote range manifest for worker-loader@^0.7.0 fetched in 76ms
+157 silly pacote range manifest for yaml-js@^0.1.3 fetched in 75ms
+158 silly pacote range manifest for angular@^1.0.8 fetched in 19ms
+159 http fetch GET 200 https://registry.npmjs.org/marked 40ms (from cache)
+160 http fetch GET 200 https://registry.npmjs.org/w3c-blob 39ms (from cache)
+161 http fetch GET 200 https://registry.npmjs.org/assertion-error 38ms (from cache)
+162 http fetch GET 200 https://registry.npmjs.org/deep-eql 39ms (from cache)
+163 http fetch GET 200 https://registry.npmjs.org/type-detect 38ms (from cache)
+164 http fetch GET 200 https://registry.npmjs.org/css-selector-tokenizer 35ms (from cache)
+165 http fetch GET 200 https://registry.npmjs.org/cssnano 33ms (from cache)
+166 http fetch GET 200 https://registry.npmjs.org/loader-utils 32ms (from cache)
+167 http fetch GET 200 https://registry.npmjs.org/object-assign 29ms (from cache)
+168 http fetch GET 200 https://registry.npmjs.org/lodash.camelcase 29ms (from cache)
+169 silly pacote range manifest for marked@^0.3.3 fetched in 51ms
+170 silly pacote version manifest for w3c-blob@0.0.1 fetched in 51ms
+171 silly pacote range manifest for assertion-error@^1.0.1 fetched in 51ms
+172 silly pacote range manifest for deep-eql@^0.1.3 fetched in 51ms
+173 silly pacote range manifest for type-detect@^1.0.0 fetched in 51ms
+174 silly pacote range manifest for css-selector-tokenizer@^0.5.1 fetched in 48ms
+175 silly pacote range manifest for cssnano@>=2.6.1 <4 fetched in 49ms
+176 silly pacote range manifest for loader-utils@~0.2.2 fetched in 53ms
+177 silly pacote range manifest for object-assign@^4.0.1 fetched in 50ms
+178 silly pacote range manifest for lodash.camelcase@^3.0.1 fetched in 50ms
+179 http fetch GET 200 https://registry.npmjs.org/postcss 31ms (from cache)
+180 http fetch GET 200 https://registry.npmjs.org/postcss-modules-extract-imports 34ms (from cache)
+181 http fetch GET 200 https://registry.npmjs.org/postcss-modules-local-by-default 33ms (from cache)
+182 http fetch GET 200 https://registry.npmjs.org/postcss-modules-scope 33ms (from cache)
+183 http fetch GET 200 https://registry.npmjs.org/postcss-modules-values 33ms (from cache)
+184 http fetch GET 200 https://registry.npmjs.org/source-list-map 28ms (from cache)
+185 http fetch GET 200 https://registry.npmjs.org/chalk 27ms (from cache)
+186 http fetch GET 200 https://registry.npmjs.org/concat-stream 25ms (from cache)
+187 http fetch GET 200 https://registry.npmjs.org/debug 24ms (from cache)
+188 http fetch GET 200 https://registry.npmjs.org/doctrine 25ms (from cache)
+189 silly pacote range manifest for postcss@^5.0.6 fetched in 44ms
+190 silly pacote range manifest for postcss-modules-extract-imports@^1.0.0 fetched in 44ms
+191 silly pacote range manifest for postcss-modules-local-by-default@^1.0.1 fetched in 43ms
+192 silly pacote range manifest for postcss-modules-scope@^1.0.0 fetched in 46ms
+193 silly pacote range manifest for postcss-modules-values@^1.1.0 fetched in 45ms
+194 silly pacote range manifest for source-list-map@^0.1.4 fetched in 41ms
+195 silly pacote range manifest for chalk@^1.1.3 fetched in 40ms
+196 silly pacote range manifest for concat-stream@^1.4.6 fetched in 37ms
+197 silly pacote range manifest for debug@^2.1.1 fetched in 38ms
+198 silly pacote range manifest for doctrine@^1.2.2 fetched in 38ms
+199 http fetch GET 200 https://registry.npmjs.org/es6-map 25ms (from cache)
+200 http fetch GET 200 https://registry.npmjs.org/escope 24ms (from cache)
+201 http fetch GET 200 https://registry.npmjs.org/espree 24ms (from cache)
+202 http fetch GET 200 https://registry.npmjs.org/estraverse 24ms (from cache)
+203 http fetch GET 200 https://registry.npmjs.org/esutils 24ms (from cache)
+204 http fetch GET 200 https://registry.npmjs.org/file-entry-cache 23ms (from cache)
+205 http fetch GET 200 https://registry.npmjs.org/glob 24ms (from cache)
+206 http fetch GET 200 https://registry.npmjs.org/globals 23ms (from cache)
+207 http fetch GET 200 https://registry.npmjs.org/ignore 22ms (from cache)
+208 http fetch GET 200 https://registry.npmjs.org/imurmurhash 22ms (from cache)
+209 silly pacote range manifest for es6-map@^0.1.3 fetched in 34ms
+210 silly pacote range manifest for escope@^3.6.0 fetched in 33ms
+211 silly pacote range manifest for espree@^3.1.6 fetched in 34ms
+212 silly pacote range manifest for estraverse@^4.2.0 fetched in 36ms
+213 silly pacote range manifest for esutils@^2.0.2 fetched in 37ms
+214 silly pacote range manifest for file-entry-cache@^1.1.1 fetched in 37ms
+215 silly pacote range manifest for glob@^7.0.3 fetched in 37ms
+216 silly pacote range manifest for globals@^9.2.0 fetched in 39ms
+217 silly pacote range manifest for ignore@^3.1.2 fetched in 38ms
+218 silly pacote range manifest for imurmurhash@^0.1.4 fetched in 37ms
+219 silly pacote range manifest for js-yaml@^3.5.1 fetched in 10ms
+220 silly pacote range manifest for lodash@^4.0.0 fetched in 7ms
+221 http fetch GET 200 https://registry.npmjs.org/inquirer 20ms (from cache)
+222 http fetch GET 200 https://registry.npmjs.org/is-my-json-valid 20ms (from cache)
+223 http fetch GET 200 https://registry.npmjs.org/is-resolvable 20ms (from cache)
+224 http fetch GET 200 https://registry.npmjs.org/json-stable-stringify 22ms (from cache)
+225 http fetch GET 200 https://registry.npmjs.org/levn 23ms (from cache)
+226 http fetch GET 200 https://registry.npmjs.org/mkdirp 22ms (from cache)
+227 http fetch GET 200 https://registry.npmjs.org/optionator 23ms (from cache)
+228 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 22ms (from cache)
+229 silly pacote range manifest for inquirer@^0.12.0 fetched in 35ms
+230 silly pacote range manifest for is-my-json-valid@^2.10.0 fetched in 34ms
+231 silly pacote range manifest for is-resolvable@^1.0.0 fetched in 34ms
+232 http fetch GET 200 https://registry.npmjs.org/path-is-inside 26ms (from cache)
+233 silly pacote range manifest for json-stable-stringify@^1.0.0 fetched in 35ms
+234 http fetch GET 200 https://registry.npmjs.org/pluralize 26ms (from cache)
+235 silly pacote range manifest for levn@^0.3.0 fetched in 35ms
+236 silly pacote range manifest for mkdirp@^0.5.0 fetched in 35ms
+237 silly pacote range manifest for optionator@^0.8.1 fetched in 35ms
+238 silly pacote range manifest for path-is-absolute@^1.0.0 fetched in 35ms
+239 silly pacote range manifest for path-is-inside@^1.0.1 fetched in 39ms
+240 silly pacote range manifest for pluralize@^1.2.1 fetched in 40ms
+241 http fetch GET 200 https://registry.npmjs.org/progress 24ms (from cache)
+242 http fetch GET 200 https://registry.npmjs.org/require-uncached 24ms (from cache)
+243 http fetch GET 200 https://registry.npmjs.org/shelljs 23ms (from cache)
+244 silly pacote range manifest for chalk@^1.0.0 fetched in 8ms
+245 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 23ms (from cache)
+246 http fetch GET 200 https://registry.npmjs.org/table 23ms (from cache)
+247 http fetch GET 200 https://registry.npmjs.org/text-table 22ms (from cache)
+248 http fetch GET 200 https://registry.npmjs.org/user-home 21ms (from cache)
+249 http fetch GET 200 https://registry.npmjs.org/eslint-config-xo 21ms (from cache)
+250 silly pacote range manifest for progress@^1.1.8 fetched in 32ms
+251 silly pacote range manifest for require-uncached@^1.0.2 fetched in 32ms
+252 silly pacote range manifest for shelljs@^0.6.0 fetched in 39ms
+253 http fetch GET 200 https://registry.npmjs.org/text-table 15ms (from cache)
+254 silly pacote range manifest for strip-json-comments@~1.0.1 fetched in 37ms
+255 http fetch GET 200 https://registry.npmjs.org/extend 22ms (from cache)
+256 silly pacote range manifest for table@^3.7.8 fetched in 37ms
+257 silly pacote range manifest for text-table@~0.2.0 fetched in 37ms
+258 silly pacote range manifest for user-home@^2.0.0 fetched in 35ms
+259 silly pacote range manifest for eslint-config-xo@^0.13.0 fetched in 34ms
+260 silly pacote range manifest for loader-utils@^1.0.2 fetched in 8ms
+261 silly pacote range manifest for text-table@^0.2.0 fetched in 23ms
+262 silly pacote range manifest for extend@^3.0.0 fetched in 31ms
+263 silly pacote range manifest for loader-utils@^0.2.3 fetched in 7ms
+264 silly pacote range manifest for loader-utils@~0.2.5 fetched in 7ms
+265 silly pacote range manifest for css-loader@~0.17.0 fetched in 7ms
+266 http fetch GET 200 https://registry.npmjs.org/loader-fs-cache 19ms (from cache)
+267 http fetch GET 200 https://registry.npmjs.org/object-hash 17ms (from cache)
+268 silly pacote range manifest for less-loader@~2.2.0 fetched in 8ms
+269 http fetch GET 200 https://registry.npmjs.org/rimraf 17ms (from cache)
+270 silly pacote range manifest for style-loader@~0.12.3 fetched in 7ms
+271 http fetch GET 200 https://registry.npmjs.org/async 17ms (from cache)
+272 http fetch GET 200 https://registry.npmjs.org/webpack-sources 24ms (from cache)
+273 silly pacote range manifest for loader-fs-cache@^1.0.0 fetched in 33ms
+274 silly pacote range manifest for object-hash@^1.1.4 fetched in 33ms
+275 silly pacote range manifest for object-assign@^4.1.0 fetched in 16ms
+276 silly pacote range manifest for rimraf@^2.6.1 fetched in 33ms
+277 http fetch GET 200 https://registry.npmjs.org/es6-templates 22ms (from cache)
+278 http fetch GET 200 https://registry.npmjs.org/fastparse 23ms (from cache)
+279 http fetch GET 200 https://registry.npmjs.org/html-minifier 22ms (from cache)
+280 silly pacote range manifest for async@^1.5.0 fetched in 34ms
+281 silly pacote range manifest for webpack-sources@^0.1.0 fetched in 33ms
+282 http fetch GET 200 https://registry.npmjs.org/colors 24ms (from cache)
+283 silly pacote range manifest for es6-templates@^0.2.2 fetched in 32ms
+284 silly pacote range manifest for fastparse@^1.1.1 fetched in 32ms
+285 silly pacote range manifest for html-minifier@^3.0.1 fetched in 32ms
+286 http fetch GET 200 https://registry.npmjs.org/corser 19ms (from cache)
+287 http fetch GET 200 https://registry.npmjs.org/ecstatic 19ms (from cache)
+288 http fetch GET 200 https://registry.npmjs.org/http-proxy 20ms (from cache)
+289 http fetch GET 200 https://registry.npmjs.org/opener 21ms (from cache)
+290 silly pacote version manifest for colors@1.0.3 fetched in 36ms
+291 http fetch GET 200 https://registry.npmjs.org/optimist 25ms (from cache)
+292 http fetch GET 200 https://registry.npmjs.org/portfinder 25ms (from cache)
+293 silly pacote range manifest for corser@~2.0.0 fetched in 34ms
+294 silly pacote range manifest for ecstatic@^1.4.0 fetched in 34ms
+295 silly pacote range manifest for http-proxy@^1.8.1 fetched in 34ms
+296 silly pacote range manifest for opener@~1.4.0 fetched in 36ms
+297 http fetch GET 200 https://registry.npmjs.org/union 26ms (from cache)
+298 http fetch GET 200 https://registry.npmjs.org/argparse 26ms (from cache)
+299 http fetch GET 200 https://registry.npmjs.org/esprima 26ms (from cache)
+300 silly pacote range manifest for optimist@0.6.x fetched in 35ms
+301 silly pacote range manifest for portfinder@0.4.x fetched in 37ms
+302 http fetch GET 200 https://registry.npmjs.org/nomnom 23ms (from cache)
+303 silly pacote range manifest for union@~0.4.3 fetched in 38ms
+304 silly pacote range manifest for argparse@^1.0.7 fetched in 38ms
+305 silly pacote range manifest for esprima@^4.0.0 fetched in 40ms
+306 silly pacote range manifest for colors@^1.1.0 fetched in 9ms
+307 http fetch GET 200 https://registry.npmjs.org/JSV 62ms (from cache)
+308 http fetch GET 200 https://registry.npmjs.org/bluebird 63ms (from cache)
+309 http fetch GET 200 https://registry.npmjs.org/body-parser 65ms (from cache)
+310 http fetch GET 200 https://registry.npmjs.org/chokidar 65ms (from cache)
+311 silly pacote range manifest for nomnom@^1.5.x fetched in 81ms
+312 warn deprecated nomnom@1.8.1: Package no longer supported. Contact support@npmjs.com for more info.
+313 http fetch GET 200 https://registry.npmjs.org/combine-lists 65ms (from cache)
+314 silly pacote range manifest for JSV@^4.0.x fetched in 83ms
+315 silly pacote range manifest for bluebird@^3.3.0 fetched in 81ms
+316 silly pacote range manifest for body-parser@^1.16.1 fetched in 83ms
+317 silly pacote range manifest for chokidar@^1.4.1 fetched in 86ms
+318 http fetch GET 200 https://registry.npmjs.org/connect 37ms (from cache)
+319 http fetch GET 200 https://registry.npmjs.org/di 37ms (from cache)
+320 http fetch GET 200 https://registry.npmjs.org/core-js 39ms (from cache)
+321 http fetch GET 200 https://registry.npmjs.org/dom-serialize 39ms (from cache)
+322 silly pacote range manifest for combine-lists@^1.0.0 fetched in 86ms
+323 silly pacote range manifest for glob@^7.1.1 fetched in 21ms
+324 silly pacote range manifest for http-proxy@^1.13.0 fetched in 21ms
+325 http fetch GET 200 https://registry.npmjs.org/expand-braces 37ms (from cache)
+326 silly pacote range manifest for connect@^3.6.0 fetched in 52ms
+327 silly pacote range manifest for di@^0.0.1 fetched in 51ms
+328 silly pacote range manifest for core-js@^2.2.0 fetched in 52ms
+329 silly pacote range manifest for dom-serialize@^2.2.0 fetched in 51ms
+330 silly pacote range manifest for lodash@^3.8.0 fetched in 9ms
+331 http fetch GET 200 https://registry.npmjs.org/graceful-fs 34ms (from cache)
+332 http fetch GET 200 https://registry.npmjs.org/isbinaryfile 28ms (from cache)
+333 silly pacote range manifest for expand-braces@^0.1.1 fetched in 48ms
+334 silly pacote range manifest for optimist@^0.6.1 fetched in 11ms
+335 silly pacote range manifest for rimraf@^2.6.0 fetched in 9ms
+336 http fetch GET 200 https://registry.npmjs.org/log4js 22ms (from cache)
+337 silly pacote range manifest for graceful-fs@^4.1.2 fetched in 45ms
+338 http fetch GET 200 https://registry.npmjs.org/mime 22ms (from cache)
+339 silly pacote range manifest for isbinaryfile@^3.0.0 fetched in 41ms
+340 http fetch GET 200 https://registry.npmjs.org/minimatch 22ms (from cache)
+341 http fetch GET 200 https://registry.npmjs.org/qjobs 22ms (from cache)
+342 http fetch GET 200 https://registry.npmjs.org/range-parser 22ms (from cache)
+343 silly pacote range manifest for log4js@^0.6.31 fetched in 31ms
+344 silly pacote range manifest for mime@^1.3.4 fetched in 32ms
+345 http fetch GET 200 https://registry.npmjs.org/safe-buffer 19ms (from cache)
+346 silly pacote range manifest for minimatch@^3.0.2 fetched in 30ms
+347 silly pacote range manifest for qjobs@^1.1.4 fetched in 31ms
+348 http fetch GET 200 https://registry.npmjs.org/socket.io 18ms (from cache)
+349 http fetch GET 200 https://registry.npmjs.org/source-map 19ms (from cache)
+350 silly pacote range manifest for range-parser@^1.2.0 fetched in 34ms
+351 silly pacote range manifest for chai@^3.4.1 fetched in 10ms
+352 http fetch GET 200 https://registry.npmjs.org/tmp 21ms (from cache)
+353 silly pacote range manifest for safe-buffer@^5.0.1 fetched in 31ms
+354 http fetch GET 200 https://registry.npmjs.org/useragent 20ms (from cache)
+355 silly pacote version manifest for socket.io@1.7.3 fetched in 30ms
+356 silly pacote range manifest for source-map@^0.5.3 fetched in 30ms
+357 silly pacote range manifest for sinon@^1.17.2 fetched in 8ms
+358 silly pacote version manifest for tmp@0.0.31 fetched in 31ms
+359 http fetch GET 200 https://registry.npmjs.org/chai-as-promised 19ms (from cache)
+360 http fetch GET 200 https://registry.npmjs.org/chai-dom 20ms (from cache)
+361 http fetch GET 200 https://registry.npmjs.org/chai-jquery 19ms (from cache)
+362 silly pacote range manifest for useragent@^2.1.12 fetched in 30ms
+363 http fetch GET 200 https://registry.npmjs.org/chai-things 19ms (from cache)
+364 silly pacote version manifest for minimist@1.2.0 fetched in 8ms
+365 silly pacote range manifest for chalk@^2.1.0 fetched in 10ms
+366 silly pacote range manifest for chai-as-promised@^5.1.0 fetched in 29ms
+367 http fetch GET 200 https://registry.npmjs.org/fs-access 19ms (from cache)
+368 silly pacote range manifest for chai-dom@^1.2.2 fetched in 30ms
+369 silly pacote range manifest for chai-jquery@^2.0.0 fetched in 28ms
+370 silly pacote range manifest for chai-things@^0.2.0 fetched in 27ms
+371 silly pacote range manifest for async@~0.9.0 fetched in 8ms
+372 http fetch GET 200 https://registry.npmjs.org/which 18ms (from cache)
+373 silly pacote range manifest for loader-utils@^0.2.5 fetched in 9ms
+374 http fetch GET 200 https://registry.npmjs.org/log-symbols 18ms (from cache)
+375 silly pacote range manifest for fs-access@^1.0.0 fetched in 26ms
+376 silly pacote range manifest for source-map@^0.1.41 fetched in 8ms
+377 http fetch GET 200 https://registry.npmjs.org/strip-ansi 17ms (from cache)
+378 silly pacote range manifest for which@^1.2.1 fetched in 26ms
+379 silly pacote range manifest for mime@^1.2.11 fetched in 10ms
+380 silly pacote range manifest for log-symbols@^2.1.0 fetched in 28ms
+381 http fetch GET 200 https://registry.npmjs.org/webpack-dev-middleware 16ms (from cache)
+382 http fetch GET 200 https://registry.npmjs.org/errno 16ms (from cache)
+383 silly pacote range manifest for strip-ansi@^4.0.0 fetched in 32ms
+384 http fetch GET 200 https://registry.npmjs.org/image-size 23ms (from cache)
+385 silly pacote version manifest for debug@2.2.0 fetched in 15ms
+386 http fetch GET 200 https://registry.npmjs.org/promise 24ms (from cache)
+387 http fetch GET 200 https://registry.npmjs.org/request 22ms (from cache)
+388 silly pacote range manifest for webpack-dev-middleware@^1.0.11 fetched in 31ms
+389 silly pacote range manifest for errno@^0.1.1 fetched in 33ms
+390 http fetch GET 200 https://registry.npmjs.org/commander 25ms (from cache)
+391 silly pacote range manifest for image-size@~0.5.0 fetched in 32ms
+392 silly pacote version manifest for glob@3.2.11 fetched in 11ms
+393 http fetch GET 200 https://registry.npmjs.org/diff 25ms (from cache)
+394 silly pacote range manifest for promise@^7.1.1 fetched in 35ms
+395 silly pacote version manifest for request@2.81.0 fetched in 35ms
+396 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 25ms (from cache)
+397 silly pacote version manifest for commander@2.3.0 fetched in 34ms
+398 silly pacote version manifest for mkdirp@0.5.1 fetched in 12ms
+399 http fetch GET 200 https://registry.npmjs.org/growl 22ms (from cache)
+400 silly pacote version manifest for diff@1.4.0 fetched in 37ms
+401 silly pacote range manifest for chalk@^2.4.1 fetched in 11ms
+402 http fetch GET 200 https://registry.npmjs.org/jade 21ms (from cache)
+403 silly pacote version manifest for escape-string-regexp@1.0.2 fetched in 38ms
+404 http fetch GET 200 https://registry.npmjs.org/supports-color 26ms (from cache)
+405 silly pacote range manifest for minimatch@^3.0.3 fetched in 14ms
+406 http fetch GET 200 https://registry.npmjs.org/to-iso-string 28ms (from cache)
+407 silly pacote version manifest for growl@1.9.2 fetched in 39ms
+408 silly pacote version manifest for jade@0.26.3 fetched in 36ms
+409 warn deprecated jade@0.26.3: Jade has been renamed to pug, please install the latest version of pug instead of jade
+410 http fetch GET 200 https://registry.npmjs.org/cli-usage 28ms (from cache)
+411 http fetch GET 200 https://registry.npmjs.org/contra 27ms (from cache)
+412 silly pacote version manifest for supports-color@1.2.0 fetched in 38ms
+413 silly pacote version manifest for to-iso-string@0.0.2 fetched in 38ms
+414 warn deprecated to-iso-string@0.0.2: to-iso-string has been deprecated, use @segment/to-iso-string instead.
+415 http fetch GET 200 https://registry.npmjs.org/rc 28ms (from cache)
+416 http fetch GET 200 https://registry.npmjs.org/semver 27ms (from cache)
+417 http fetch GET 200 https://registry.npmjs.org/through2 24ms (from cache)
+418 silly pacote range manifest for cli-usage@^0.1.2 fetched in 38ms
+419 silly pacote range manifest for contra@^1.6.8 fetched in 36ms
+420 http fetch GET 200 https://registry.npmjs.org/update-notifier 26ms (from cache)
+421 http fetch GET 200 https://registry.npmjs.org/vinyl-fs 28ms (from cache)
+422 silly pacote range manifest for rc@^1.1.6 fetched in 45ms
+423 silly pacote range manifest for semver@^5.3.0 fetched in 45ms
+424 http fetch GET 200 https://registry.npmjs.org/ng-annotate 30ms (from cache)
+425 silly pacote range manifest for through2@^2.0.3 fetched in 44ms
+426 silly pacote range manifest for glob@~6.0 fetched in 18ms
+427 http fetch GET 200 https://registry.npmjs.org/webpack-core 29ms (from cache)
+428 silly pacote range manifest for update-notifier@^2.5.0 fetched in 38ms
+429 http fetch GET 200 https://registry.npmjs.org/adm-zip 35ms (from cache)
+430 silly pacote range manifest for vinyl-fs@^3.0.3 fetched in 46ms
+431 silly pacote range manifest for optimist@~0.6.0 fetched in 20ms
+432 silly pacote range manifest for ng-annotate@^1.0.1 fetched in 49ms
+433 silly pacote range manifest for request@~2.67.0 fetched in 18ms
+434 http fetch GET 200 https://registry.npmjs.org/jasmine 42ms (from cache)
+435 silly pacote range manifest for webpack-core@^0.6.5 fetched in 52ms
+436 silly pacote version manifest for adm-zip@0.4.7 fetched in 51ms
+437 http fetch GET 200 https://registry.npmjs.org/jasminewd2 35ms (from cache)
+438 http fetch GET 200 https://registry.npmjs.org/q 32ms (from cache)
+439 silly pacote version manifest for jasmine@2.4.1 fetched in 52ms
+440 http fetch GET 200 https://registry.npmjs.org/saucelabs 35ms (from cache)
+441 http fetch GET 200 https://registry.npmjs.org/selenium-webdriver 27ms (from cache)
+442 http fetch GET 200 https://registry.npmjs.org/source-map-support 25ms (from cache)
+443 silly pacote version manifest for jasminewd2@0.0.9 fetched in 47ms
+444 http fetch GET 200 https://registry.npmjs.org/util 23ms (from cache)
+445 http fetch GET 200 https://registry.npmjs.org/formatio 24ms (from cache)
+446 silly pacote version manifest for q@1.4.1 fetched in 44ms
+447 silly pacote range manifest for loader-utils@^0.2.11 fetched in 9ms
+448 silly pacote range manifest for saucelabs@~1.0.1 fetched in 42ms
+449 http fetch GET 200 https://registry.npmjs.org/lolex 25ms (from cache)
+450 silly pacote version manifest for selenium-webdriver@2.52.0 fetched in 44ms
+451 http fetch GET 200 https://registry.npmjs.org/samsam 29ms (from cache)
+452 silly pacote range manifest for source-map-support@~0.4.0 fetched in 43ms
+453 silly pacote range manifest for util@>=0.10.3 <1 fetched in 40ms
+454 silly pacote version manifest for formatio@1.1.1 fetched in 42ms
+455 warn deprecated formatio@1.1.1: This package is unmaintained. Use @sinonjs/formatio instead
+456 silly pacote range manifest for debug@^2.2.0 fetched in 19ms
+457 silly pacote range manifest for js-yaml@^3.5.2 fetched in 18ms
+458 silly pacote version manifest for lolex@1.3.2 fetched in 40ms
+459 silly pacote version manifest for samsam@1.1.2 fetched in 39ms
+460 http fetch GET 200 https://registry.npmjs.org/simple-html-tokenizer 27ms (from cache)
+461 silly pacote range manifest for lodash@^4.2.0 fetched in 8ms
+462 http fetch GET 200 https://registry.npmjs.org/js-base64 27ms (from cache)
+463 http fetch GET 200 https://registry.npmjs.org/json-refs 18ms (from cache)
+464 http fetch GET 200 https://registry.npmjs.org/json-schema-faker 19ms (from cache)
+465 silly pacote range manifest for simple-html-tokenizer@^0.1.1 fetched in 42ms
+466 silly pacote range manifest for mime@1.3.x fetched in 14ms
+467 http fetch GET 200 https://registry.npmjs.org/native-promise-only 25ms (from cache)
+468 http fetch GET 200 https://registry.npmjs.org/swagger-methods 23ms (from cache)
+469 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 24ms (from cache)
+470 silly pacote range manifest for js-base64@^2.1.9 fetched in 43ms
+471 http fetch GET 200 https://registry.npmjs.org/swagger-schema-official 24ms (from cache)
+472 silly pacote range manifest for json-refs@^2.1.5 fetched in 33ms
+473 silly pacote range manifest for json-schema-faker@^0.2.8 fetched in 33ms
+474 silly pacote range manifest for async@^1.3.0 fetched in 7ms
+475 http fetch GET 200 https://registry.npmjs.org/z-schema 26ms (from cache)
+476 silly pacote range manifest for native-promise-only@^0.8.1 fetched in 36ms
+477 silly pacote range manifest for swagger-methods@^1.0.0 fetched in 34ms
+478 silly pacote range manifest for path-to-regexp@^1.2.1 fetched in 35ms
+479 silly pacote version manifest for swagger-schema-official@2.0.0-bab6bed fetched in 35ms
+480 silly pacote range manifest for z-schema@^3.16.1 fetched in 35ms
+481 http fetch GET 200 https://registry.npmjs.org/acorn 21ms (from cache)
+482 silly pacote range manifest for mkdirp@~0.5.0 fetched in 11ms
+483 silly pacote range manifest for supports-color@^3.1.0 fetched in 12ms
+484 http fetch GET 200 https://registry.npmjs.org/clone 24ms (from cache)
+485 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve 24ms (from cache)
+486 http fetch GET 200 https://registry.npmjs.org/interpret 22ms (from cache)
+487 silly pacote range manifest for acorn@^3.0.0 fetched in 33ms
+488 http fetch GET 200 https://registry.npmjs.org/memory-fs 22ms (from cache)
+489 http fetch GET 200 https://registry.npmjs.org/node-libs-browser 21ms (from cache)
+490 silly pacote range manifest for clone@^1.0.2 fetched in 32ms
+491 silly pacote range manifest for webpack-core@~0.6.9 fetched in 7ms
+492 http fetch GET 200 https://registry.npmjs.org/tapable 21ms (from cache)
+493 silly pacote range manifest for enhanced-resolve@~0.9.0 fetched in 33ms
+494 http fetch GET 200 https://registry.npmjs.org/uglify-js 21ms (from cache)
+495 silly pacote range manifest for interpret@^0.6.4 fetched in 32ms
+496 silly pacote range manifest for memory-fs@~0.3.0 fetched in 32ms
+497 http fetch GET 200 https://registry.npmjs.org/watchpack 20ms (from cache)
+498 silly pacote range manifest for node-libs-browser@^0.7.0 fetched in 34ms
+499 silly pacote range manifest for tapable@~0.1.8 fetched in 32ms
+500 silly pacote range manifest for optimist@~0.6.1 fetched in 14ms
+501 silly pacote range manifest for uglify-js@~2.7.3 fetched in 35ms
+502 http fetch GET 200 https://registry.npmjs.org/compression 25ms (from cache)
+503 silly pacote range manifest for watchpack@^0.2.1 fetched in 34ms
+504 http fetch GET 200 https://registry.npmjs.org/connect-history-api-fallback 25ms (from cache)
+505 http fetch GET 200 https://registry.npmjs.org/express 26ms (from cache)
+506 silly pacote range manifest for strip-ansi@^3.0.0 fetched in 15ms
+507 silly pacote range manifest for supports-color@^3.1.1 fetched in 14ms
+508 http fetch GET 200 https://registry.npmjs.org/serve-index 27ms (from cache)
+509 http fetch GET 200 https://registry.npmjs.org/sockjs 27ms (from cache)
+510 silly pacote range manifest for compression@^1.5.2 fetched in 37ms
+511 silly pacote range manifest for webpack-dev-middleware@^1.10.2 fetched in 14ms
+512 silly pacote range manifest for connect-history-api-fallback@^1.3.0 fetched in 39ms
+513 silly pacote range manifest for express@^4.13.3 fetched in 40ms
+514 http fetch GET 200 https://registry.npmjs.org/sockjs-client 27ms (from cache)
+515 http fetch GET 200 https://registry.npmjs.org/stream-cache 27ms (from cache)
+516 silly pacote range manifest for loader-utils@0.2.x fetched in 9ms
+517 silly pacote range manifest for sockjs@^0.3.15 fetched in 44ms
+518 silly pacote range manifest for serve-index@^1.7.2 fetched in 46ms
+519 silly pacote version manifest for type-detect@0.1.1 fetched in 18ms
+520 silly pacote range manifest for sockjs-client@^1.0.3 fetched in 46ms
+521 silly pacote range manifest for stream-cache@~0.0.1 fetched in 44ms
+522 http fetch GET 200 https://registry.npmjs.org/http-proxy-middleware 30ms (from cache)
+523 silly pacote range manifest for postcss@^5.0.14 fetched in 9ms
+524 http fetch GET 200 https://registry.npmjs.org/cssesc 29ms (from cache)
+525 http fetch GET 200 https://registry.npmjs.org/autoprefixer 28ms (from cache)
+526 http fetch GET 200 https://registry.npmjs.org/decamelize 30ms (from cache)
+527 http fetch GET 200 https://registry.npmjs.org/defined 25ms (from cache)
+528 silly pacote range manifest for http-proxy-middleware@~0.17.1 fetched in 41ms
+529 http fetch GET 200 https://registry.npmjs.org/has 23ms (from cache)
+530 http fetch GET 200 https://registry.npmjs.org/postcss-calc 22ms (from cache)
+531 silly pacote range manifest for cssesc@^0.1.0 fetched in 41ms
+532 silly pacote range manifest for autoprefixer@^6.3.1 fetched in 41ms
+533 http fetch GET 200 https://registry.npmjs.org/postcss-convert-values 19ms (from cache)
+534 http fetch GET 200 https://registry.npmjs.org/postcss-colormin 21ms (from cache)
+535 silly pacote range manifest for decamelize@^1.1.2 fetched in 39ms
+536 silly pacote range manifest for defined@^1.0.0 fetched in 34ms
+537 http fetch GET 200 https://registry.npmjs.org/postcss-discard-comments 23ms (from cache)
+538 silly pacote range manifest for has@^1.0.1 fetched in 34ms
+539 silly pacote range manifest for postcss-calc@^5.2.0 fetched in 33ms
+540 silly pacote range manifest for postcss-colormin@^2.1.8 fetched in 32ms
+541 silly pacote range manifest for postcss-convert-values@^2.3.4 fetched in 31ms
+542 http fetch GET 200 https://registry.npmjs.org/postcss-discard-duplicates 22ms (from cache)
+543 silly pacote range manifest for postcss-discard-comments@^2.0.4 fetched in 34ms
+544 http fetch GET 200 https://registry.npmjs.org/postcss-discard-empty 22ms (from cache)
+545 http fetch GET 200 https://registry.npmjs.org/postcss-discard-unused 20ms (from cache)
+546 http fetch GET 200 https://registry.npmjs.org/postcss-filter-plugins 21ms (from cache)
+547 http fetch GET 200 https://registry.npmjs.org/postcss-discard-overridden 22ms (from cache)
+548 silly pacote range manifest for postcss-discard-duplicates@^2.0.1 fetched in 31ms
+549 http fetch GET 200 https://registry.npmjs.org/postcss-merge-idents 19ms (from cache)
+550 http fetch GET 200 https://registry.npmjs.org/postcss-merge-longhand 20ms (from cache)
+551 silly pacote range manifest for postcss-discard-empty@^2.0.1 fetched in 32ms
+552 http fetch GET 200 https://registry.npmjs.org/postcss-merge-rules 21ms (from cache)
+553 http fetch GET 200 https://registry.npmjs.org/postcss-minify-font-values 22ms (from cache)
+554 silly pacote range manifest for postcss-discard-unused@^2.2.1 fetched in 32ms
+555 silly pacote range manifest for postcss-filter-plugins@^2.0.0 fetched in 33ms
+556 silly pacote range manifest for postcss-discard-overridden@^0.1.1 fetched in 37ms
+557 http fetch GET 200 https://registry.npmjs.org/postcss-minify-gradients 22ms (from cache)
+558 silly pacote range manifest for postcss-merge-idents@^2.1.5 fetched in 32ms
+559 silly pacote range manifest for postcss-merge-longhand@^2.0.1 fetched in 33ms
+560 silly pacote range manifest for postcss-merge-rules@^2.0.3 fetched in 32ms
+561 silly pacote range manifest for postcss-minify-font-values@^1.0.2 fetched in 32ms
+562 http fetch GET 200 https://registry.npmjs.org/postcss-minify-params 24ms (from cache)
+563 silly pacote range manifest for postcss-minify-gradients@^1.0.1 fetched in 33ms
+564 http fetch GET 200 https://registry.npmjs.org/postcss-minify-selectors 22ms (from cache)
+565 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-charset 20ms (from cache)
+566 http fetch GET 200 https://registry.npmjs.org/postcss-normalize-url 20ms (from cache)
+567 http fetch GET 200 https://registry.npmjs.org/postcss-ordered-values 19ms (from cache)
+568 silly pacote range manifest for postcss-minify-params@^1.0.4 fetched in 34ms
+569 http fetch GET 200 https://registry.npmjs.org/postcss-reduce-initial 19ms (from cache)
+570 http fetch GET 200 https://registry.npmjs.org/postcss-reduce-idents 20ms (from cache)
+571 silly pacote range manifest for postcss-minify-selectors@^2.0.4 fetched in 30ms
+572 http fetch GET 200 https://registry.npmjs.org/postcss-reduce-transforms 18ms (from cache)
+573 http fetch GET 200 https://registry.npmjs.org/postcss-svgo 19ms (from cache)
+574 silly pacote range manifest for postcss-normalize-charset@^1.1.0 fetched in 28ms
+575 silly pacote range manifest for postcss-normalize-url@^3.0.7 fetched in 27ms
+576 silly pacote range manifest for postcss-ordered-values@^2.1.0 fetched in 28ms
+577 http fetch GET 200 https://registry.npmjs.org/postcss-unique-selectors 16ms (from cache)
+578 silly pacote range manifest for postcss-reduce-initial@^1.0.0 fetched in 27ms
+579 silly pacote range manifest for postcss-reduce-idents@^2.2.2 fetched in 28ms
+580 silly pacote range manifest for postcss-reduce-transforms@^1.0.3 fetched in 29ms
+581 silly pacote range manifest for postcss-svgo@^2.1.1 fetched in 30ms
+582 http fetch GET 200 https://registry.npmjs.org/postcss-value-parser 23ms (from cache)
+583 silly pacote range manifest for postcss-unique-selectors@^2.0.2 fetched in 31ms
+584 silly pacote range manifest for source-map@^0.5.6 fetched in 12ms
+585 http fetch GET 200 https://registry.npmjs.org/postcss-zindex 23ms (from cache)
+586 silly pacote range manifest for supports-color@^3.2.3 fetched in 10ms
+587 silly pacote range manifest for postcss@^6.0.1 fetched in 10ms
+588 http fetch GET 200 https://registry.npmjs.org/big.js 24ms (from cache)
+589 http fetch GET 200 https://registry.npmjs.org/emojis-list 23ms (from cache)
+590 http fetch GET 200 https://registry.npmjs.org/json5 28ms (from cache)
+591 silly pacote range manifest for postcss-value-parser@^3.2.3 fetched in 37ms
+592 silly pacote range manifest for css-selector-tokenizer@^0.7.0 fetched in 13ms
+593 http fetch GET 200 https://registry.npmjs.org/lodash._createcompounder 28ms (from cache)
+594 silly pacote range manifest for postcss-zindex@^2.0.1 fetched in 37ms
+595 silly pacote range manifest for escape-string-regexp@^1.0.2 fetched in 13ms
+596 silly pacote range manifest for emojis-list@^2.0.0 fetched in 38ms
+597 silly pacote range manifest for big.js@^3.1.3 fetched in 38ms
+598 silly pacote range manifest for json5@^0.5.0 fetched in 37ms
+599 silly pacote range manifest for supports-color@^2.0.0 fetched in 7ms
+600 silly pacote range manifest for lodash._createcompounder@^3.0.0 fetched in 37ms
+601 http fetch GET 200 https://registry.npmjs.org/ansi-styles 24ms (from cache)
+602 http fetch GET 200 https://registry.npmjs.org/icss-replace-symbols 25ms (from cache)
+603 http fetch GET 200 https://registry.npmjs.org/has-ansi 19ms (from cache)
+604 http fetch GET 200 https://registry.npmjs.org/buffer-from 18ms (from cache)
+605 silly pacote range manifest for ansi-styles@^2.2.1 fetched in 32ms
+606 silly pacote range manifest for icss-replace-symbols@^1.1.0 fetched in 32ms
+607 http fetch GET 200 https://registry.npmjs.org/inherits 20ms (from cache)
+608 http fetch GET 200 https://registry.npmjs.org/readable-stream 19ms (from cache)
+609 http fetch GET 200 https://registry.npmjs.org/typedarray 19ms (from cache)
+610 http fetch GET 200 https://registry.npmjs.org/ms 19ms (from cache)
+611 http fetch GET 200 https://registry.npmjs.org/isarray 18ms (from cache)
+612 silly pacote range manifest for has-ansi@^2.0.0 fetched in 28ms
+613 http fetch GET 200 https://registry.npmjs.org/d 17ms (from cache)
+614 silly pacote range manifest for buffer-from@^1.0.0 fetched in 26ms
+615 silly pacote range manifest for inherits@^2.0.3 fetched in 29ms
+616 silly pacote range manifest for readable-stream@^2.2.2 fetched in 27ms
+617 silly pacote range manifest for typedarray@^0.0.6 fetched in 28ms
+618 silly pacote version manifest for ms@2.0.0 fetched in 28ms
+619 silly pacote range manifest for isarray@^1.0.0 fetched in 29ms
+620 silly pacote range manifest for d@1 fetched in 26ms
+621 http fetch GET 200 https://registry.npmjs.org/es5-ext 18ms (from cache)
+622 http fetch GET 200 https://registry.npmjs.org/es6-iterator 19ms (from cache)
+623 silly pacote range manifest for estraverse@^4.1.1 fetched in 10ms
+624 http fetch GET 200 https://registry.npmjs.org/es6-set 19ms (from cache)
+625 silly pacote range manifest for acorn@^5.5.0 fetched in 10ms
+626 http fetch GET 200 https://registry.npmjs.org/es6-symbol 20ms (from cache)
+627 silly pacote range manifest for es5-ext@~0.10.14 fetched in 27ms
+628 silly pacote range manifest for es6-iterator@~2.0.1 fetched in 27ms
+629 http fetch GET 200 https://registry.npmjs.org/event-emitter 19ms (from cache)
+630 http fetch GET 200 https://registry.npmjs.org/es6-weak-map 20ms (from cache)
+631 http fetch GET 200 https://registry.npmjs.org/esrecurse 18ms (from cache)
+632 silly pacote range manifest for es6-set@~0.1.5 fetched in 27ms
+633 http fetch GET 200 https://registry.npmjs.org/acorn-jsx 18ms (from cache)
+634 silly pacote range manifest for es6-symbol@~3.1.1 fetched in 28ms
+635 silly pacote range manifest for inherits@2 fetched in 7ms
+636 silly pacote range manifest for event-emitter@~0.3.5 fetched in 27ms
+637 silly pacote range manifest for es6-weak-map@^2.0.1 fetched in 27ms
+638 silly pacote range manifest for esrecurse@^4.1.0 fetched in 28ms
+639 http fetch GET 200 https://registry.npmjs.org/flat-cache 17ms (from cache)
+640 silly pacote range manifest for minimatch@^3.0.4 fetched in 8ms
+641 http fetch GET 200 https://registry.npmjs.org/fs.realpath 17ms (from cache)
+642 silly pacote range manifest for acorn-jsx@^3.0.0 fetched in 29ms
+643 http fetch GET 200 https://registry.npmjs.org/inflight 18ms (from cache)
+644 silly pacote range manifest for flat-cache@^1.2.1 fetched in 24ms
+645 silly pacote range manifest for fs.realpath@^1.0.0 fetched in 25ms
+646 http fetch GET 200 https://registry.npmjs.org/once 15ms (from cache)
+647 http fetch GET 200 https://registry.npmjs.org/ansi-escapes 15ms (from cache)
+648 silly pacote range manifest for lodash@^4.3.0 fetched in 7ms
+649 silly pacote range manifest for inflight@^1.0.4 fetched in 25ms
+650 http fetch GET 200 https://registry.npmjs.org/ansi-regex 15ms (from cache)
+651 http fetch GET 200 https://registry.npmjs.org/cli-cursor 15ms (from cache)
+652 http fetch GET 200 https://registry.npmjs.org/cli-width 15ms (from cache)
+653 http fetch GET 200 https://registry.npmjs.org/figures 16ms (from cache)
+654 silly pacote range manifest for once@^1.3.0 fetched in 24ms
+655 silly pacote range manifest for ansi-escapes@^1.1.0 fetched in 26ms
+656 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 26ms
+657 silly pacote range manifest for cli-cursor@^1.0.1 fetched in 26ms
+658 silly pacote range manifest for cli-width@^2.0.0 fetched in 24ms
+659 silly pacote range manifest for figures@^1.3.5 fetched in 24ms
+660 http fetch GET 200 https://registry.npmjs.org/readline2 19ms (from cache)
+661 http fetch GET 200 https://registry.npmjs.org/run-async 18ms (from cache)
+662 http fetch GET 200 https://registry.npmjs.org/rx-lite 17ms (from cache)
+663 http fetch GET 200 https://registry.npmjs.org/string-width 18ms (from cache)
+664 silly pacote range manifest for readline2@^1.0.1 fetched in 41ms
+665 http fetch GET 200 https://registry.npmjs.org/through 31ms (from cache)
+666 http fetch GET 200 https://registry.npmjs.org/generate-function 30ms (from cache)
+667 silly pacote range manifest for run-async@^0.1.0 fetched in 42ms
+668 silly pacote range manifest for rx-lite@^3.1.2 fetched in 41ms
+669 http fetch GET 200 https://registry.npmjs.org/generate-object-property 31ms (from cache)
+670 silly pacote range manifest for string-width@^1.0.1 fetched in 41ms
+671 http fetch GET 200 https://registry.npmjs.org/is-my-ip-valid 30ms (from cache)
+672 http fetch GET 200 https://registry.npmjs.org/jsonpointer 29ms (from cache)
+673 http fetch GET 200 https://registry.npmjs.org/xtend 30ms (from cache)
+674 silly pacote range manifest for through@^2.3.6 fetched in 37ms
+675 silly pacote range manifest for generate-function@^2.0.0 fetched in 36ms
+676 silly pacote range manifest for generate-object-property@^1.1.0 fetched in 37ms
+677 silly pacote version manifest for minimist@0.0.8 fetched in 5ms
+678 silly pacote range manifest for is-my-ip-valid@^1.0.0 fetched in 37ms
+679 silly pacote range manifest for jsonpointer@^4.0.0 fetched in 36ms
+680 silly pacote range manifest for xtend@^4.0.0 fetched in 37ms
+681 http fetch GET 200 https://registry.npmjs.org/jsonify 14ms (from cache)
+682 http fetch GET 200 https://registry.npmjs.org/prelude-ls 14ms (from cache)
+683 silly pacote range manifest for levn@~0.3.0 fetched in 7ms
+684 http fetch GET 200 https://registry.npmjs.org/type-check 16ms (from cache)
+685 silly pacote range manifest for jsonify@~0.0.0 fetched in 23ms
+686 http fetch GET 200 https://registry.npmjs.org/deep-is 16ms (from cache)
+687 http fetch GET 200 https://registry.npmjs.org/wordwrap 16ms (from cache)
+688 silly pacote range manifest for prelude-ls@~1.1.2 fetched in 22ms
+689 http fetch GET 200 https://registry.npmjs.org/fast-levenshtein 20ms (from cache)
+690 silly pacote range manifest for type-check@~0.3.2 fetched in 28ms
+691 http fetch GET 200 https://registry.npmjs.org/caller-path 20ms (from cache)
+692 http fetch GET 200 https://registry.npmjs.org/resolve-from 20ms (from cache)
+693 http fetch GET 200 https://registry.npmjs.org/ajv 20ms (from cache)
+694 silly pacote range manifest for chalk@^1.1.1 fetched in 14ms
+695 silly pacote range manifest for deep-is@~0.1.3 fetched in 32ms
+696 silly pacote range manifest for wordwrap@~1.0.0 fetched in 32ms
+697 silly pacote range manifest for fast-levenshtein@~2.0.4 fetched in 32ms
+698 http fetch GET 200 https://registry.npmjs.org/ajv-keywords 24ms (from cache)
+699 silly pacote range manifest for string-width@^2.0.0 fetched in 13ms
+700 silly pacote range manifest for caller-path@^0.1.0 fetched in 33ms
+701 silly pacote range manifest for resolve-from@^1.0.0 fetched in 33ms
+702 silly pacote range manifest for ajv@^4.7.0 fetched in 32ms
+703 silly pacote range manifest for cssnano@^2.6.1 fetched in 16ms
+704 silly pacote range manifest for postcss@^4.1.11 fetched in 18ms
+705 http fetch GET 200 https://registry.npmjs.org/slice-ansi 35ms (from cache)
+706 silly pacote range manifest for ajv-keywords@^1.0.0 fetched in 42ms
+707 silly pacote version manifest for postcss-modules-extract-imports@0.0.5 fetched in 18ms
+708 silly pacote version manifest for postcss-modules-local-by-default@0.0.12 fetched in 17ms
+709 silly pacote version manifest for postcss-modules-scope@0.0.8 fetched in 16ms
+710 silly pacote range manifest for loader-utils@^0.2.7 fetched in 11ms
+711 http fetch GET 200 https://registry.npmjs.org/os-homedir 28ms (from cache)
+712 silly pacote range manifest for glob@^7.0.5 fetched in 11ms
+713 silly pacote version manifest for slice-ansi@0.0.4 fetched in 44ms
+714 silly pacote range manifest for source-map@~0.5.3 fetched in 8ms
+715 silly pacote range manifest for source-list-map@~0.1.7 fetched in 8ms
+716 silly pacote range manifest for through@~2.3.6 fetched in 7ms
+717 http fetch GET 200 https://registry.npmjs.org/find-cache-dir 22ms (from cache)
+718 silly pacote range manifest for os-homedir@^1.0.0 fetched in 36ms
+719 silly pacote range manifest for commander@2.17.x fetched in 8ms
+720 http fetch GET 200 https://registry.npmjs.org/recast 17ms (from cache)
+721 silly pacote range manifest for uglify-js@3.4.x fetched in 8ms
+722 http fetch GET 200 https://registry.npmjs.org/camel-case 18ms (from cache)
+723 http fetch GET 200 https://registry.npmjs.org/clean-css 17ms (from cache)
+724 silly pacote range manifest for find-cache-dir@^0.1.1 fetched in 32ms
+725 silly pacote range manifest for minimist@^1.1.0 fetched in 10ms
+726 http fetch GET 200 https://registry.npmjs.org/he 17ms (from cache)
+727 http fetch GET 200 https://registry.npmjs.org/param-case 17ms (from cache)
+728 http fetch GET 200 https://registry.npmjs.org/relateurl 17ms (from cache)
+729 silly pacote range manifest for recast@~0.11.12 fetched in 27ms
+730 silly pacote range manifest for camel-case@3.0.x fetched in 26ms
+731 silly pacote range manifest for clean-css@4.2.x fetched in 25ms
+732 http fetch GET 200 https://registry.npmjs.org/he 18ms (from cache)
+733 silly pacote range manifest for he@1.1.x fetched in 26ms
+734 silly pacote range manifest for param-case@2.1.x fetched in 27ms
+735 silly pacote range manifest for relateurl@0.2.x fetched in 27ms
+736 http fetch GET 200 https://registry.npmjs.org/url-join 18ms (from cache)
+737 silly pacote range manifest for wordwrap@~0.0.2 fetched in 8ms
+738 silly pacote range manifest for minimist@~0.0.1 fetched in 8ms
+739 http fetch GET 200 https://registry.npmjs.org/eventemitter3 16ms (from cache)
+740 silly pacote range manifest for he@^0.5.0 fetched in 26ms
+741 http fetch GET 200 https://registry.npmjs.org/requires-port 16ms (from cache)
+742 silly pacote version manifest for async@0.9.0 fetched in 6ms
+743 silly pacote range manifest for mkdirp@0.5.x fetched in 6ms
+744 http fetch GET 200 https://registry.npmjs.org/follow-redirects 17ms (from cache)
+745 silly pacote range manifest for url-join@^1.0.0 fetched in 25ms
+746 silly pacote range manifest for eventemitter3@^3.0.0 fetched in 24ms
+747 silly pacote range manifest for chalk@~0.4.0 fetched in 8ms
+748 silly pacote range manifest for requires-port@^1.0.0 fetched in 24ms
+749 http fetch GET 200 https://registry.npmjs.org/qs 16ms (from cache)
+750 silly pacote range manifest for follow-redirects@^1.0.0 fetched in 26ms
+751 silly pacote version manifest for debug@2.6.9 fetched in 7ms
+752 http fetch GET 200 https://registry.npmjs.org/sprintf-js 16ms (from cache)
+753 http fetch GET 200 https://registry.npmjs.org/underscore 16ms (from cache)
+754 http fetch GET 200 https://registry.npmjs.org/bytes 19ms (from cache)
+755 http fetch GET 200 https://registry.npmjs.org/content-type 18ms (from cache)
+756 silly pacote range manifest for qs@~2.3.3 fetched in 26ms
+757 silly pacote version manifest for qs@6.5.2 fetched in 8ms
+758 silly pacote range manifest for sprintf-js@~1.0.2 fetched in 26ms
+759 silly pacote range manifest for underscore@~1.6.0 fetched in 27ms
+760 http fetch GET 200 https://registry.npmjs.org/depd 19ms (from cache)
+761 http fetch GET 200 https://registry.npmjs.org/http-errors 20ms (from cache)
+762 http fetch GET 200 https://registry.npmjs.org/iconv-lite 19ms (from cache)
+763 silly pacote version manifest for bytes@3.0.0 fetched in 28ms
+764 silly pacote range manifest for content-type@~1.0.4 fetched in 27ms
+765 http fetch GET 200 https://registry.npmjs.org/on-finished 18ms (from cache)
+766 silly pacote range manifest for depd@~1.1.2 fetched in 26ms
+767 silly pacote range manifest for http-errors@~1.6.3 fetched in 26ms
+768 silly pacote version manifest for iconv-lite@0.4.23 fetched in 26ms
+769 silly pacote range manifest for inherits@^2.0.1 fetched in 6ms
+770 http fetch GET 200 https://registry.npmjs.org/raw-body 14ms (from cache)
+771 http fetch GET 200 https://registry.npmjs.org/type-is 14ms (from cache)
+772 silly pacote range manifest for on-finished@~2.3.0 fetched in 25ms
+773 http fetch GET 200 https://registry.npmjs.org/anymatch 14ms (from cache)
+774 http fetch GET 200 https://registry.npmjs.org/async-each 13ms (from cache)
+775 http fetch GET 200 https://registry.npmjs.org/glob-parent 19ms (from cache)
+776 silly pacote version manifest for raw-body@2.3.3 fetched in 27ms
+777 silly pacote range manifest for type-is@~1.6.16 fetched in 27ms
+778 silly pacote range manifest for lodash@^4.5.0 fetched in 12ms
+779 silly pacote range manifest for anymatch@^1.3.0 fetched in 28ms
+780 silly pacote range manifest for async-each@^1.0.0 fetched in 27ms
+781 http fetch GET 200 https://registry.npmjs.org/is-binary-path 19ms (from cache)
+782 http fetch GET 200 https://registry.npmjs.org/is-glob 20ms (from cache)
+783 http fetch GET 200 https://registry.npmjs.org/readdirp 20ms (from cache)
+784 http fetch GET 200 https://registry.npmjs.org/fsevents 21ms (from cache)
+785 silly pacote range manifest for glob-parent@^2.0.0 fetched in 28ms
+786 silly pacote range manifest for is-binary-path@^1.0.0 fetched in 27ms
+787 silly pacote range manifest for is-glob@^2.0.0 fetched in 27ms
+788 silly pacote range manifest for readdirp@^2.0.0 fetched in 29ms
+789 silly pacote range manifest for fsevents@^1.0.0 fetched in 30ms
+790 http fetch GET 200 https://registry.npmjs.org/finalhandler 16ms (from cache)
+791 http fetch GET 200 https://registry.npmjs.org/parseurl 17ms (from cache)
+792 http fetch GET 200 https://registry.npmjs.org/utils-merge 17ms (from cache)
+793 http fetch GET 200 https://registry.npmjs.org/custom-event 15ms (from cache)
+794 http fetch GET 200 https://registry.npmjs.org/ent 17ms (from cache)
+795 silly pacote version manifest for finalhandler@1.1.0 fetched in 24ms
+796 http fetch GET 200 https://registry.npmjs.org/void-elements 17ms (from cache)
+797 silly pacote range manifest for parseurl@~1.3.2 fetched in 27ms
+798 silly pacote version manifest for utils-merge@1.0.1 fetched in 26ms
+799 silly pacote range manifest for custom-event@~1.0.0 fetched in 24ms
+800 http fetch GET 200 https://registry.npmjs.org/array-slice 18ms (from cache)
+801 http fetch GET 200 https://registry.npmjs.org/array-unique 17ms (from cache)
+802 silly pacote range manifest for ent@~2.2.0 fetched in 27ms
+803 http fetch GET 200 https://registry.npmjs.org/braces 18ms (from cache)
+804 http fetch GET 200 https://registry.npmjs.org/buffer-alloc 16ms (from cache)
+805 silly pacote range manifest for void-elements@^2.0.0 fetched in 24ms
+806 silly pacote range manifest for readable-stream@~1.0.2 fetched in 8ms
+807 silly pacote range manifest for semver@~4.3.3 fetched in 6ms
+808 silly pacote version manifest for debug@2.3.3 fetched in 7ms
+809 silly pacote range manifest for array-slice@^0.2.3 fetched in 25ms
+810 silly pacote range manifest for array-unique@^0.2.1 fetched in 25ms
+811 silly pacote range manifest for braces@^0.1.2 fetched in 26ms
+812 silly pacote range manifest for buffer-alloc@^1.2.0 fetched in 25ms
+813 silly pacote version manifest for object-assign@4.1.0 fetched in 8ms
+814 http fetch GET 200 https://registry.npmjs.org/brace-expansion 15ms (from cache)
+815 http fetch GET 200 https://registry.npmjs.org/engine.io 17ms (from cache)
+816 http fetch GET 200 https://registry.npmjs.org/has-binary 17ms (from cache)
+817 silly pacote range manifest for tmp@0.0.x fetched in 9ms
+818 http fetch GET 200 https://registry.npmjs.org/socket.io-adapter 17ms (from cache)
+819 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 23ms
+820 silly pacote range manifest for ansi-styles@^3.2.1 fetched in 7ms
+821 http fetch GET 200 https://registry.npmjs.org/socket.io-parser 20ms (from cache)
+822 http fetch GET 200 https://registry.npmjs.org/socket.io-client 20ms (from cache)
+823 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 21ms (from cache)
+824 silly pacote version manifest for engine.io@1.8.3 fetched in 30ms
+825 http fetch GET 200 https://registry.npmjs.org/lru-cache 21ms (from cache)
+826 silly pacote version manifest for has-binary@0.1.7 fetched in 30ms
+827 silly pacote version manifest for socket.io-adapter@0.5.0 fetched in 29ms
+828 silly pacote range manifest for escape-string-regexp@^1.0.5 fetched in 11ms
+829 silly pacote range manifest for supports-color@^5.3.0 fetched in 13ms
+830 silly pacote version manifest for socket.io-parser@2.3.1 fetched in 30ms
+831 silly pacote version manifest for socket.io-client@1.7.3 fetched in 31ms
+832 silly pacote range manifest for os-tmpdir@~1.0.1 fetched in 31ms
+833 silly pacote range manifest for lru-cache@4.1.x fetched in 31ms
+834 silly pacote range manifest for chalk@^2.0.1 fetched in 7ms
+835 silly pacote range manifest for ansi-regex@^3.0.0 fetched in 9ms
+836 http fetch GET 200 https://registry.npmjs.org/null-check 23ms (from cache)
+837 silly pacote version manifest for ms@0.7.1 fetched in 10ms
+838 silly pacote range manifest for memory-fs@~0.4.1 fetched in 11ms
+839 silly pacote range manifest for mime@^1.5.0 fetched in 10ms
+840 silly pacote range manifest for range-parser@^1.0.3 fetched in 9ms
+841 http fetch GET 200 https://registry.npmjs.org/amdefine 19ms (from cache)
+842 http fetch GET 200 https://registry.npmjs.org/isexe 17ms (from cache)
+843 silly pacote range manifest for null-check@^1.0.0 fetched in 30ms
+844 silly pacote range manifest for minimatch@0.3 fetched in 6ms
+845 warn deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+846 silly pacote range manifest for amdefine@>=0.0.4 fetched in 28ms
+847 http fetch GET 200 https://registry.npmjs.org/prr 18ms (from cache)
+848 http fetch GET 200 https://registry.npmjs.org/time-stamp 18ms (from cache)
+849 silly pacote range manifest for isexe@^2.0.0 fetched in 28ms
+850 silly pacote range manifest for extend@~3.0.0 fetched in 6ms
+851 http fetch GET 200 https://registry.npmjs.org/asap 24ms (from cache)
+852 http fetch GET 200 https://registry.npmjs.org/aws-sign2 23ms (from cache)
+853 http fetch GET 200 https://registry.npmjs.org/aws4 22ms (from cache)
+854 http fetch GET 200 https://registry.npmjs.org/caseless 22ms (from cache)
+855 silly pacote range manifest for prr@~1.0.1 fetched in 31ms
+856 silly pacote range manifest for time-stamp@^2.0.0 fetched in 33ms
+857 http fetch GET 200 https://registry.npmjs.org/combined-stream 22ms (from cache)
+858 silly pacote range manifest for asap@~2.0.3 fetched in 32ms
+859 silly pacote range manifest for aws-sign2@~0.6.0 fetched in 32ms
+860 silly pacote range manifest for aws4@^1.2.1 fetched in 32ms
+861 silly pacote range manifest for caseless@~0.12.0 fetched in 32ms
+862 http fetch GET 200 https://registry.npmjs.org/forever-agent 20ms (from cache)
+863 http fetch GET 200 https://registry.npmjs.org/form-data 19ms (from cache)
+864 http fetch GET 200 https://registry.npmjs.org/har-validator 25ms (from cache)
+865 silly pacote range manifest for combined-stream@~1.0.5 fetched in 37ms
+866 http fetch GET 200 https://registry.npmjs.org/http-signature 21ms (from cache)
+867 http fetch GET 200 https://registry.npmjs.org/hawk 28ms (from cache)
+868 silly pacote range manifest for forever-agent@~0.6.1 fetched in 40ms
+869 silly pacote range manifest for form-data@~2.1.1 fetched in 39ms
+870 silly pacote range manifest for har-validator@~4.2.1 fetched in 41ms
+871 http fetch GET 200 https://registry.npmjs.org/is-typedarray 28ms (from cache)
+872 http fetch GET 200 https://registry.npmjs.org/isstream 28ms (from cache)
+873 http fetch GET 200 https://registry.npmjs.org/json-stringify-safe 28ms (from cache)
+874 http fetch GET 200 https://registry.npmjs.org/mime-types 28ms (from cache)
+875 silly pacote range manifest for http-signature@~1.1.0 fetched in 37ms
+876 silly pacote range manifest for hawk@~3.1.3 fetched in 38ms
+877 silly pacote range manifest for qs@~6.4.0 fetched in 9ms
+878 silly pacote range manifest for is-typedarray@~1.0.0 fetched in 41ms
+879 http fetch GET 200 https://registry.npmjs.org/oauth-sign 28ms (from cache)
+880 silly pacote range manifest for isstream@~0.1.2 fetched in 43ms
+881 silly pacote range manifest for json-stringify-safe@~5.0.1 fetched in 41ms
+882 silly pacote range manifest for mime-types@~2.1.7 fetched in 42ms
+883 http fetch GET 200 https://registry.npmjs.org/performance-now 21ms (from cache)
+884 http fetch GET 200 https://registry.npmjs.org/stringstream 20ms (from cache)
+885 silly pacote version manifest for commander@0.6.1 fetched in 8ms
+886 silly pacote range manifest for oauth-sign@~0.8.1 fetched in 36ms
+887 silly pacote version manifest for mkdirp@0.3.0 fetched in 6ms
+888 silly pacote range manifest for marked@^0.5.0 fetched in 6ms
+889 http fetch GET 200 https://registry.npmjs.org/tough-cookie 19ms (from cache)
+890 http fetch GET 200 https://registry.npmjs.org/tunnel-agent 19ms (from cache)
+891 silly pacote range manifest for performance-now@^0.2.0 fetched in 28ms
+892 http fetch GET 200 https://registry.npmjs.org/uuid 19ms (from cache)
+893 silly pacote range manifest for stringstream@~0.0.4 fetched in 27ms
+894 http fetch GET 200 https://registry.npmjs.org/marked-terminal 14ms (from cache)
+895 silly pacote range manifest for tough-cookie@~2.3.0 fetched in 26ms
+896 silly pacote range manifest for tunnel-agent@^0.6.0 fetched in 26ms
+897 silly pacote range manifest for strip-json-comments@~2.0.1 fetched in 6ms
+898 silly pacote range manifest for uuid@^3.0.0 fetched in 27ms
+899 silly pacote range manifest for readable-stream@^2.1.5 fetched in 8ms
+900 http fetch GET 200 https://registry.npmjs.org/atoa 16ms (from cache)
+901 http fetch GET 200 https://registry.npmjs.org/ticky 15ms (from cache)
+902 http fetch GET 200 https://registry.npmjs.org/deep-extend 14ms (from cache)
+903 http fetch GET 200 https://registry.npmjs.org/ini 15ms (from cache)
+904 silly pacote range manifest for marked-terminal@^3.0.0 fetched in 22ms
+905 silly pacote range manifest for xtend@~4.0.1 fetched in 7ms
+906 silly pacote range manifest for minimatch@2 || 3 fetched in 7ms
+907 silly pacote version manifest for atoa@1.0.0 fetched in 23ms
+908 silly pacote version manifest for ticky@1.0.1 fetched in 23ms
+909 silly pacote range manifest for deep-extend@^0.6.0 fetched in 23ms
+910 silly pacote range manifest for ini@~1.3.0 fetched in 23ms
+911 http fetch GET 200 https://registry.npmjs.org/boxen 16ms (from cache)
+912 http fetch GET 200 https://registry.npmjs.org/configstore 14ms (from cache)
+913 http fetch GET 200 https://registry.npmjs.org/import-lazy 14ms (from cache)
+914 http fetch GET 200 https://registry.npmjs.org/is-ci 13ms (from cache)
+915 http fetch GET 200 https://registry.npmjs.org/is-installed-globally 13ms (from cache)
+916 http fetch GET 200 https://registry.npmjs.org/is-npm 12ms (from cache)
+917 silly pacote range manifest for boxen@^1.2.1 fetched in 25ms
+918 silly pacote range manifest for configstore@^3.0.0 fetched in 25ms
+919 silly pacote range manifest for import-lazy@^2.1.0 fetched in 25ms
+920 http fetch GET 200 https://registry.npmjs.org/latest-version 18ms (from cache)
+921 http fetch GET 200 https://registry.npmjs.org/semver-diff 18ms (from cache)
+922 http fetch GET 200 https://registry.npmjs.org/xdg-basedir 18ms (from cache)
+923 http fetch GET 200 https://registry.npmjs.org/fs-mkdirp-stream 18ms (from cache)
+924 silly pacote range manifest for is-ci@^1.0.10 fetched in 24ms
+925 silly pacote range manifest for is-installed-globally@^0.1.0 fetched in 24ms
+926 silly pacote range manifest for is-npm@^1.0.0 fetched in 24ms
+927 silly pacote range manifest for graceful-fs@^4.0.0 fetched in 7ms
+928 silly pacote range manifest for latest-version@^3.0.0 fetched in 31ms
+929 silly pacote range manifest for semver-diff@^2.0.0 fetched in 31ms
+930 silly pacote range manifest for xdg-basedir@^3.0.0 fetched in 31ms
+931 silly pacote range manifest for fs-mkdirp-stream@^1.0.0 fetched in 32ms
+932 http fetch GET 200 https://registry.npmjs.org/glob-stream 23ms (from cache)
+933 http fetch GET 200 https://registry.npmjs.org/is-valid-glob 21ms (from cache)
+934 silly pacote range manifest for readable-stream@^2.3.3 fetched in 9ms
+935 http fetch GET 200 https://registry.npmjs.org/lazystream 21ms (from cache)
+936 http fetch GET 200 https://registry.npmjs.org/lead 20ms (from cache)
+937 http fetch GET 200 https://registry.npmjs.org/object.assign 20ms (from cache)
+938 silly pacote range manifest for glob-stream@^6.1.0 fetched in 30ms
+939 silly pacote range manifest for is-valid-glob@^1.0.0 fetched in 27ms
+940 http fetch GET 200 https://registry.npmjs.org/pumpify 16ms (from cache)
+941 silly pacote range manifest for through2@^2.0.0 fetched in 7ms
+942 http fetch GET 200 https://registry.npmjs.org/remove-bom-buffer 15ms (from cache)
+943 http fetch GET 200 https://registry.npmjs.org/remove-bom-stream 15ms (from cache)
+944 silly pacote range manifest for lazystream@^1.0.0 fetched in 28ms
+945 silly pacote range manifest for lead@^1.0.0 fetched in 28ms
+946 silly pacote range manifest for object.assign@^4.0.4 fetched in 28ms
+947 http fetch GET 200 https://registry.npmjs.org/resolve-options 16ms (from cache)
+948 silly pacote range manifest for pumpify@^1.3.5 fetched in 24ms
+949 silly pacote range manifest for remove-bom-buffer@^3.0.0 fetched in 26ms
+950 silly pacote range manifest for remove-bom-stream@^1.2.0 fetched in 26ms
+951 silly pacote range manifest for acorn@~2.6.4 fetched in 10ms
+952 silly pacote range manifest for resolve-options@^1.1.0 fetched in 27ms
+953 http fetch GET 200 https://registry.npmjs.org/to-through 19ms (from cache)
+954 http fetch GET 200 https://registry.npmjs.org/value-or-function 18ms (from cache)
+955 http fetch GET 200 https://registry.npmjs.org/vinyl 19ms (from cache)
+956 http fetch GET 200 https://registry.npmjs.org/vinyl-sourcemap 19ms (from cache)
+957 http fetch GET 200 https://registry.npmjs.org/alter 20ms (from cache)
+958 silly pacote range manifest for to-through@^2.0.0 fetched in 26ms
+959 silly pacote range manifest for value-or-function@^3.0.0 fetched in 26ms
+960 http fetch GET 200 https://registry.npmjs.org/convert-source-map 15ms (from cache)
+961 silly pacote range manifest for vinyl@^2.0.0 fetched in 25ms
+962 http fetch GET 200 https://registry.npmjs.org/ordered-ast-traverse 24ms (from cache)
+963 http fetch GET 200 https://registry.npmjs.org/simple-fmt 23ms (from cache)
+964 http fetch GET 200 https://registry.npmjs.org/simple-is 22ms (from cache)
+965 silly pacote range manifest for vinyl-sourcemap@^1.1.0 fetched in 35ms
+966 silly pacote range manifest for alter@~0.2.0 fetched in 35ms
+967 http fetch GET 200 https://registry.npmjs.org/stable 25ms (from cache)
+968 silly pacote range manifest for convert-source-map@~1.1.2 fetched in 32ms
+969 silly pacote range manifest for ordered-ast-traverse@~1.1.1 fetched in 32ms
+970 silly pacote range manifest for simple-fmt@~0.1.0 fetched in 31ms
+971 silly pacote range manifest for simple-is@~0.2.0 fetched in 31ms
+972 silly pacote range manifest for caseless@~0.11.0 fetched in 9ms
+973 silly pacote range manifest for stable@~0.1.5 fetched in 33ms
+974 http fetch GET 200 https://registry.npmjs.org/stringmap 25ms (from cache)
+975 http fetch GET 200 https://registry.npmjs.org/stringset 25ms (from cache)
+976 silly pacote range manifest for form-data@~1.0.0-rc3 fetched in 7ms
+977 http fetch GET 200 https://registry.npmjs.org/tryor 22ms (from cache)
+978 silly pacote range manifest for qs@~5.2.0 fetched in 5ms
+979 silly pacote range manifest for tunnel-agent@~0.4.1 fetched in 8ms
+980 http fetch GET 200 https://registry.npmjs.org/bl 17ms (from cache)
+981 silly pacote range manifest for tough-cookie@~2.2.0 fetched in 8ms
+982 warn deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+983 silly pacote range manifest for stringmap@~0.2.2 fetched in 33ms
+984 silly pacote range manifest for stringset@~0.2.1 fetched in 34ms
+985 silly pacote range manifest for oauth-sign@~0.8.0 fetched in 9ms
+986 silly pacote range manifest for tryor@~0.1.2 fetched in 36ms
+987 silly pacote range manifest for hawk@~3.1.0 fetched in 15ms
+988 silly pacote range manifest for har-validator@~2.0.2 fetched in 14ms
+989 silly pacote range manifest for source-map@~0.4.1 fetched in 15ms
+990 http fetch GET 200 https://registry.npmjs.org/node-uuid 25ms (from cache)
+991 silly pacote range manifest for bl@~1.0.0 fetched in 33ms
+992 silly pacote range manifest for glob@^3.2.11 fetched in 14ms
+993 silly pacote range manifest for jasmine-core@~2.4.0 fetched in 15ms
+994 silly pacote version manifest for adm-zip@0.4.4 fetched in 7ms
+995 silly pacote range manifest for rimraf@^2.2.8 fetched in 7ms
+996 silly pacote version manifest for tmp@0.0.24 fetched in 8ms
+997 silly pacote range manifest for node-uuid@~1.4.7 fetched in 32ms
+998 warn deprecated node-uuid@1.4.8: Use uuid module instead
+999 http fetch GET 200 https://registry.npmjs.org/exit 21ms (from cache)
+1000 silly pacote version manifest for inherits@2.0.3 fetched in 6ms
+1001 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 22ms (from cache)
+1002 silly pacote range manifest for samsam@~1.1 fetched in 6ms
+1003 silly pacote range manifest for commander@^2.9.0 fetched in 6ms
+1004 silly pacote range manifest for js-yaml@^3.8.3 fetched in 7ms
+1005 http fetch GET 200 https://registry.npmjs.org/ws 18ms (from cache)
+1006 silly pacote range manifest for exit@^0.1.2 fetched in 35ms
+1007 http fetch GET 200 https://registry.npmjs.org/xml2js 26ms (from cache)
+1008 silly pacote range manifest for https-proxy-agent@^1.0.0 fetched in 42ms
+1009 http fetch GET 200 https://registry.npmjs.org/graphlib 28ms (from cache)
+1010 http fetch GET 200 https://registry.npmjs.org/path-loader 26ms (from cache)
+1011 silly pacote range manifest for ws@^1.0.1 fetched in 35ms
+1012 http fetch GET 200 https://registry.npmjs.org/slash 27ms (from cache)
+1013 silly pacote version manifest for xml2js@0.4.4 fetched in 35ms
+1014 http fetch GET 200 https://registry.npmjs.org/uri-js 26ms (from cache)
+1015 http fetch GET 200 https://registry.npmjs.org/faker 26ms (from cache)
+1016 http fetch GET 200 https://registry.npmjs.org/chance 26ms (from cache)
+1017 silly pacote range manifest for graphlib@^2.1.1 fetched in 36ms
+1018 silly pacote range manifest for path-loader@^1.0.2 fetched in 35ms
+1019 silly pacote version manifest for isarray@0.0.1 fetched in 7ms
+1020 http fetch GET 200 https://registry.npmjs.org/deref 17ms (from cache)
+1021 silly pacote range manifest for slash@^1.0.0 fetched in 35ms
+1022 silly pacote range manifest for core-js@^2.5.7 fetched in 7ms
+1023 silly pacote range manifest for uri-js@^3.0.2 fetched in 33ms
+1024 silly pacote range manifest for faker@~3.1.0 fetched in 34ms
+1025 silly pacote range manifest for chance@~1.0.1 fetched in 33ms
+1026 http fetch GET 200 https://registry.npmjs.org/randexp 16ms (from cache)
+1027 silly pacote range manifest for deref@~0.6.3 fetched in 26ms
+1028 silly pacote range manifest for commander@^2.7.1 fetched in 7ms
+1029 silly pacote range manifest for tapable@^0.1.8 fetched in 8ms
+1030 silly pacote range manifest for memory-fs@^0.2.0 fetched in 8ms
+1031 silly pacote range manifest for errno@^0.1.3 fetched in 8ms
+1032 silly pacote range manifest for randexp@~0.4.2 fetched in 25ms
+1033 http fetch GET 200 https://registry.npmjs.org/lodash.get 17ms (from cache)
+1034 http fetch GET 200 https://registry.npmjs.org/lodash.isequal 16ms (from cache)
+1035 http fetch GET 200 https://registry.npmjs.org/validator 17ms (from cache)
+1036 silly pacote range manifest for readable-stream@^2.0.1 fetched in 9ms
+1037 http fetch GET 200 https://registry.npmjs.org/has-flag 20ms (from cache)
+1038 silly pacote range manifest for lodash.get@^4.0.0 fetched in 27ms
+1039 silly pacote range manifest for lodash.isequal@^4.0.0 fetched in 27ms
+1040 silly pacote range manifest for validator@^10.0.0 fetched in 26ms
+1041 http fetch GET 200 https://registry.npmjs.org/assert 18ms (from cache)
+1042 silly pacote range manifest for has-flag@^1.0.0 fetched in 26ms
+1043 http fetch GET 200 https://registry.npmjs.org/browserify-zlib 17ms (from cache)
+1044 http fetch GET 200 https://registry.npmjs.org/buffer 17ms (from cache)
+1045 http fetch GET 200 https://registry.npmjs.org/console-browserify 17ms (from cache)
+1046 http fetch GET 200 https://registry.npmjs.org/constants-browserify 17ms (from cache)
+1047 http fetch GET 200 https://registry.npmjs.org/crypto-browserify 16ms (from cache)
+1048 silly pacote range manifest for assert@^1.1.1 fetched in 26ms
+1049 silly pacote range manifest for browserify-zlib@^0.1.4 fetched in 25ms
+1050 silly pacote range manifest for buffer@^4.9.0 fetched in 26ms
+1051 silly pacote range manifest for console-browserify@^1.1.0 fetched in 26ms
+1052 silly pacote range manifest for constants-browserify@^1.0.0 fetched in 26ms
+1053 http fetch GET 200 https://registry.npmjs.org/domain-browser 17ms (from cache)
+1054 http fetch GET 200 https://registry.npmjs.org/events 15ms (from cache)
+1055 http fetch GET 200 https://registry.npmjs.org/https-browserify 16ms (from cache)
+1056 silly pacote version manifest for crypto-browserify@3.3.0 fetched in 24ms
+1057 http fetch GET 200 https://registry.npmjs.org/os-browserify 16ms (from cache)
+1058 silly pacote range manifest for readable-stream@^2.0.5 fetched in 10ms
+1059 silly pacote range manifest for domain-browser@^1.1.1 fetched in 28ms
+1060 silly pacote range manifest for events@^1.0.0 fetched in 28ms
+1061 silly pacote version manifest for https-browserify@0.0.1 fetched in 27ms
+1062 http fetch GET 200 https://registry.npmjs.org/path-browserify 18ms (from cache)
+1063 silly pacote range manifest for os-browserify@^0.2.0 fetched in 26ms
+1064 http fetch GET 200 https://registry.npmjs.org/process 17ms (from cache)
+1065 http fetch GET 200 https://registry.npmjs.org/punycode 17ms (from cache)
+1066 http fetch GET 200 https://registry.npmjs.org/querystring-es3 17ms (from cache)
+1067 http fetch GET 200 https://registry.npmjs.org/stream-browserify 16ms (from cache)
+1068 silly pacote version manifest for path-browserify@0.0.0 fetched in 24ms
+1069 silly pacote range manifest for process@^0.11.0 fetched in 23ms
+1070 silly pacote range manifest for punycode@^1.2.4 fetched in 23ms
+1071 silly pacote range manifest for querystring-es3@^0.2.0 fetched in 23ms
+1072 http fetch GET 200 https://registry.npmjs.org/stream-http 13ms (from cache)
+1073 http fetch GET 200 https://registry.npmjs.org/string_decoder 13ms (from cache)
+1074 http fetch GET 200 https://registry.npmjs.org/timers-browserify 12ms (from cache)
+1075 http fetch GET 200 https://registry.npmjs.org/tty-browserify 13ms (from cache)
+1076 silly pacote range manifest for stream-browserify@^2.0.1 fetched in 23ms
+1077 silly pacote range manifest for util@^0.10.3 fetched in 6ms
+1078 http fetch GET 200 https://registry.npmjs.org/url 13ms (from cache)
+1079 silly pacote range manifest for async@~0.2.6 fetched in 6ms
+1080 silly pacote range manifest for source-map@~0.5.1 fetched in 5ms
+1081 silly pacote range manifest for stream-http@^2.3.1 fetched in 19ms
+1082 silly pacote range manifest for string_decoder@^0.10.25 fetched in 19ms
+1083 silly pacote range manifest for timers-browserify@^2.0.2 fetched in 19ms
+1084 silly pacote version manifest for tty-browserify@0.0.0 fetched in 20ms
+1085 silly pacote range manifest for url@^0.11.0 fetched in 19ms
+1086 silly pacote range manifest for async@^0.9.0 fetched in 6ms
+1087 silly pacote range manifest for chokidar@^1.0.0 fetched in 6ms
+1088 http fetch GET 200 https://registry.npmjs.org/vm-browserify 15ms (from cache)
+1089 silly pacote version manifest for safe-buffer@5.1.2 fetched in 6ms
+1090 http fetch GET 200 https://registry.npmjs.org/uglify-to-browserify 13ms (from cache)
+1091 http fetch GET 200 https://registry.npmjs.org/yargs 14ms (from cache)
+1092 silly pacote version manifest for body-parser@1.18.2 fetched in 7ms
+1093 silly pacote version manifest for vm-browserify@0.0.4 fetched in 25ms
+1094 http fetch GET 200 https://registry.npmjs.org/accepts 17ms (from cache)
+1095 http fetch GET 200 https://registry.npmjs.org/compressible 16ms (from cache)
+1096 http fetch GET 200 https://registry.npmjs.org/on-headers 18ms (from cache)
+1097 silly pacote range manifest for uglify-to-browserify@~1.0.0 fetched in 24ms
+1098 silly pacote range manifest for yargs@~3.10.0 fetched in 25ms
+1099 http fetch GET 200 https://registry.npmjs.org/vary 19ms (from cache)
+1100 http fetch GET 200 https://registry.npmjs.org/array-flatten 18ms (from cache)
+1101 silly pacote range manifest for accepts@~1.3.5 fetched in 25ms
+1102 silly pacote range manifest for compressible@~2.0.14 fetched in 26ms
+1103 http fetch GET 200 https://registry.npmjs.org/content-disposition 19ms (from cache)
+1104 silly pacote range manifest for on-headers@~1.0.1 fetched in 26ms
+1105 http fetch GET 200 https://registry.npmjs.org/cookie 17ms (from cache)
+1106 silly pacote range manifest for vary@~1.1.2 fetched in 26ms
+1107 silly pacote version manifest for array-flatten@1.1.1 fetched in 25ms
+1108 http fetch GET 200 https://registry.npmjs.org/cookie-signature 16ms (from cache)
+1109 silly pacote version manifest for finalhandler@1.1.1 fetched in 7ms
+1110 silly pacote version manifest for content-disposition@0.5.2 fetched in 28ms
+1111 http fetch GET 200 https://registry.npmjs.org/encodeurl 16ms (from cache)
+1112 http fetch GET 200 https://registry.npmjs.org/escape-html 15ms (from cache)
+1113 silly pacote version manifest for cookie@0.3.1 fetched in 24ms
+1114 silly pacote version manifest for cookie-signature@1.0.6 fetched in 23ms
+1115 http fetch GET 200 https://registry.npmjs.org/etag 15ms (from cache)
+1116 silly pacote version manifest for path-to-regexp@0.1.7 fetched in 5ms
+1117 http fetch GET 200 https://registry.npmjs.org/fresh 13ms (from cache)
+1118 silly pacote range manifest for encodeurl@~1.0.2 fetched in 21ms
+1119 silly pacote range manifest for escape-html@~1.0.3 fetched in 20ms
+1120 silly pacote version manifest for qs@6.5.1 fetched in 5ms
+1121 http fetch GET 200 https://registry.npmjs.org/merge-descriptors 13ms (from cache)
+1122 http fetch GET 200 https://registry.npmjs.org/methods 14ms (from cache)
+1123 silly pacote range manifest for range-parser@~1.2.0 fetched in 5ms
+1124 silly pacote range manifest for etag@~1.8.1 fetched in 23ms
+1125 silly pacote version manifest for safe-buffer@5.1.1 fetched in 7ms
+1126 http fetch GET 200 https://registry.npmjs.org/proxy-addr 13ms (from cache)
+1127 silly pacote version manifest for fresh@0.5.2 fetched in 21ms
+1128 silly pacote version manifest for merge-descriptors@1.0.1 fetched in 21ms
+1129 silly pacote range manifest for methods@~1.1.2 fetched in 22ms
+1130 silly pacote range manifest for uuid@^3.0.1 fetched in 5ms
+1131 silly pacote range manifest for proxy-addr@~2.0.3 fetched in 20ms
+1132 silly pacote range manifest for accepts@~1.3.4 fetched in 5ms
+1133 http fetch GET 200 https://registry.npmjs.org/send 15ms (from cache)
+1134 http fetch GET 200 https://registry.npmjs.org/serve-static 16ms (from cache)
+1135 http fetch GET 200 https://registry.npmjs.org/setprototypeof 16ms (from cache)
+1136 silly pacote range manifest for http-errors@~1.6.2 fetched in 7ms
+1137 http fetch GET 200 https://registry.npmjs.org/statuses 16ms (from cache)
+1138 silly pacote range manifest for mime-types@~2.1.17 fetched in 7ms
+1139 http fetch GET 200 https://registry.npmjs.org/faye-websocket 15ms (from cache)
+1140 silly pacote range manifest for debug@^4.0.1 fetched in 8ms
+1141 silly pacote version manifest for send@0.16.2 fetched in 25ms
+1142 silly pacote version manifest for serve-static@1.13.2 fetched in 25ms
+1143 silly pacote version manifest for setprototypeof@1.1.0 fetched in 24ms
+1144 http fetch GET 200 https://registry.npmjs.org/batch 19ms (from cache)
+1145 silly pacote range manifest for statuses@~1.4.0 fetched in 27ms
+1146 http fetch GET 200 https://registry.npmjs.org/faye-websocket 13ms (from cache)
+1147 silly pacote range manifest for faye-websocket@^0.10.0 fetched in 27ms
+1148 http fetch GET 200 https://registry.npmjs.org/eventsource 20ms (from cache)
+1149 silly pacote range manifest for http-proxy@^1.16.2 fetched in 9ms
+1150 silly pacote range manifest for is-glob@^3.1.0 fetched in 9ms
+1151 silly pacote range manifest for lodash@^4.17.2 fetched in 9ms
+1152 silly pacote version manifest for batch@0.6.1 fetched in 28ms
+1153 http fetch GET 200 https://registry.npmjs.org/json3 19ms (from cache)
+1154 silly pacote range manifest for faye-websocket@~0.11.1 fetched in 22ms
+1155 http fetch GET 200 https://registry.npmjs.org/url-parse 24ms (from cache)
+1156 silly pacote range manifest for eventsource@^1.0.7 fetched in 34ms
+1157 silly pacote range manifest for postcss@^5.2.16 fetched in 13ms
+1158 http fetch GET 200 https://registry.npmjs.org/micromatch 21ms (from cache)
+1159 silly pacote range manifest for json3@^3.3.2 fetched in 33ms
+1160 http fetch GET 200 https://registry.npmjs.org/browserslist 23ms (from cache)
+1161 silly pacote range manifest for url-parse@^1.4.3 fetched in 36ms
+1162 http fetch GET 200 https://registry.npmjs.org/caniuse-db 24ms (from cache)
+1163 http fetch GET 200 https://registry.npmjs.org/normalize-range 26ms (from cache)
+1164 http fetch GET 200 https://registry.npmjs.org/num2fraction 27ms (from cache)
+1165 silly pacote range manifest for micromatch@^2.3.11 fetched in 36ms
+1166 silly pacote range manifest for postcss@^5.0.2 fetched in 14ms
+1167 http fetch GET 200 https://registry.npmjs.org/function-bind 31ms (from cache)
+1168 silly pacote range manifest for browserslist@^1.7.6 fetched in 40ms
+1169 warn deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+1170 http fetch GET 200 https://registry.npmjs.org/postcss-message-helpers 26ms (from cache)
+1171 silly pacote range manifest for caniuse-db@^1.0.30000634 fetched in 39ms
+1172 silly pacote range manifest for normalize-range@^0.1.2 fetched in 41ms
+1173 silly pacote range manifest for num2fraction@^1.2.2 fetched in 41ms
+1174 http fetch GET 200 https://registry.npmjs.org/reduce-css-calc 28ms (from cache)
+1175 silly pacote range manifest for postcss@^5.0.13 fetched in 12ms
+1176 silly pacote range manifest for postcss@^5.0.11 fetched in 11ms
+1177 silly pacote range manifest for function-bind@^1.1.1 fetched in 43ms
+1178 silly pacote range manifest for postcss-message-helpers@^2.0.0 fetched in 34ms
+1179 silly pacote range manifest for postcss-value-parser@^3.1.2 fetched in 8ms
+1180 silly pacote range manifest for postcss@^5.0.4 fetched in 9ms
+1181 http fetch GET 200 https://registry.npmjs.org/colormin 22ms (from cache)
+1182 silly pacote range manifest for postcss@^5.0.16 fetched in 7ms
+1183 silly pacote range manifest for reduce-css-calc@^1.2.6 fetched in 37ms
+1184 silly pacote range manifest for postcss@^5.0.10 fetched in 8ms
+1185 silly pacote range manifest for postcss-value-parser@^3.1.1 fetched in 8ms
+1186 silly pacote range manifest for browserslist@^1.5.2 fetched in 11ms
+1187 silly pacote range manifest for colormin@^1.0.5 fetched in 34ms
+1188 silly pacote range manifest for postcss-value-parser@^3.0.2 fetched in 12ms
+1189 http fetch GET 200 https://registry.npmjs.org/uniqs 21ms (from cache)
+1190 silly pacote range manifest for postcss@^5.0.12 fetched in 11ms
+1191 silly pacote range manifest for postcss-value-parser@^3.3.0 fetched in 10ms
+1192 http fetch GET 200 https://registry.npmjs.org/caniuse-api 20ms (from cache)
+1193 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser 19ms (from cache)
+1194 http fetch GET 200 https://registry.npmjs.org/vendors 21ms (from cache)
+1195 silly pacote range manifest for uniqs@^2.0.0 fetched in 30ms
+1196 silly pacote range manifest for postcss@^5.0.5 fetched in 8ms
+1197 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser 12ms (from cache)
+1198 http fetch GET 200 https://registry.npmjs.org/alphanum-sort 21ms (from cache)
+1199 silly pacote range manifest for caniuse-api@^1.5.2 fetched in 30ms
+1200 silly pacote range manifest for postcss-selector-parser@^2.2.2 fetched in 29ms
+1201 http fetch GET 200 https://registry.npmjs.org/alphanum-sort 19ms (from cache)
+1202 silly pacote range manifest for vendors@^1.0.0 fetched in 30ms
+1203 silly pacote range manifest for postcss-value-parser@^3.0.1 fetched in 8ms
+1204 silly pacote range manifest for postcss@^5.0.8 fetched in 7ms
+1205 http fetch GET 200 https://registry.npmjs.org/is-absolute-url 17ms (from cache)
+1206 http fetch GET 200 https://registry.npmjs.org/normalize-url 16ms (from cache)
+1207 silly pacote range manifest for postcss-selector-parser@^2.0.0 fetched in 20ms
+1208 silly pacote range manifest for alphanum-sort@^1.0.1 fetched in 28ms
+1209 silly pacote range manifest for alphanum-sort@^1.0.2 fetched in 25ms
+1210 silly pacote range manifest for source-map@^0.6.1 fetched in 7ms
+1211 silly pacote range manifest for supports-color@^5.4.0 fetched in 6ms
+1212 silly pacote range manifest for is-absolute-url@^2.0.0 fetched in 24ms
+1213 silly pacote range manifest for normalize-url@^1.4.0 fetched in 24ms
+1214 http fetch GET 200 https://registry.npmjs.org/is-svg 13ms (from cache)
+1215 http fetch GET 200 https://registry.npmjs.org/svgo 13ms (from cache)
+1216 silly pacote range manifest for inherits@~2.0.3 fetched in 11ms
+1217 silly pacote range manifest for isarray@~1.0.0 fetched in 12ms
+1218 silly pacote range manifest for safe-buffer@~5.1.1 fetched in 12ms
+1219 http fetch GET 200 https://registry.npmjs.org/regexpu-core 19ms (from cache)
+1220 silly pacote range manifest for is-svg@^2.0.0 fetched in 27ms
+1221 silly pacote range manifest for svgo@^0.7.0 fetched in 27ms
+1222 http fetch GET 200 https://registry.npmjs.org/lodash.deburr 19ms (from cache)
+1223 http fetch GET 200 https://registry.npmjs.org/lodash.words 19ms (from cache)
+1224 http fetch GET 200 https://registry.npmjs.org/core-util-is 19ms (from cache)
+1225 silly pacote range manifest for string_decoder@~1.1.1 fetched in 7ms
+1226 silly pacote range manifest for es5-ext@^0.10.9 fetched in 8ms
+1227 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 21ms (from cache)
+1228 silly pacote range manifest for regexpu-core@^1.0.0 fetched in 28ms
+1229 silly pacote range manifest for es6-iterator@~2.0.3 fetched in 12ms
+1230 silly pacote range manifest for lodash.deburr@^3.0.0 fetched in 30ms
+1231 silly pacote range manifest for lodash.words@^3.0.0 fetched in 30ms
+1232 silly pacote range manifest for core-util-is@~1.0.0 fetched in 30ms
+1233 silly pacote range manifest for es5-ext@^0.10.35 fetched in 13ms
+1234 http fetch GET 200 https://registry.npmjs.org/util-deprecate 21ms (from cache)
+1235 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 32ms
+1236 silly pacote range manifest for es6-symbol@^3.1.1 fetched in 12ms
+1237 silly pacote version manifest for es6-symbol@3.1.1 fetched in 12ms
+1238 silly pacote range manifest for es5-ext@^0.10.14 fetched in 7ms
+1239 silly pacote range manifest for es6-iterator@^2.0.1 fetched in 6ms
+1240 silly pacote range manifest for estraverse@^4.1.0 fetched in 8ms
+1241 silly pacote range manifest for acorn@^3.0.4 fetched in 9ms
+1242 http fetch GET 200 https://registry.npmjs.org/next-tick 23ms (from cache)
+1243 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 30ms
+1244 silly pacote range manifest for next-tick@1 fetched in 28ms
+1245 http fetch GET 200 https://registry.npmjs.org/circular-json 15ms (from cache)
+1246 http fetch GET 200 https://registry.npmjs.org/del 14ms (from cache)
+1247 http fetch GET 200 https://registry.npmjs.org/write 15ms (from cache)
+1248 http fetch GET 200 https://registry.npmjs.org/wrappy 15ms (from cache)
+1249 http fetch GET 200 https://registry.npmjs.org/restore-cursor 11ms (from cache)
+1250 http fetch GET 200 https://registry.npmjs.org/code-point-at 12ms (from cache)
+1251 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 11ms (from cache)
+1252 http fetch GET 200 https://registry.npmjs.org/mute-stream 11ms (from cache)
+1253 silly pacote range manifest for circular-json@^0.3.1 fetched in 21ms
+1254 http fetch GET 200 https://registry.npmjs.org/is-property 12ms (from cache)
+1255 silly pacote range manifest for del@^2.0.2 fetched in 21ms
+1256 silly pacote range manifest for write@^0.2.1 fetched in 21ms
+1257 silly pacote range manifest for wrappy@1 fetched in 21ms
+1258 silly pacote range manifest for restore-cursor@^1.0.1 fetched in 18ms
+1259 silly pacote range manifest for code-point-at@^1.0.0 fetched in 20ms
+1260 silly pacote range manifest for is-fullwidth-code-point@^1.0.0 fetched in 19ms
+1261 silly pacote version manifest for mute-stream@0.0.5 fetched in 19ms
+1262 http fetch GET 200 https://registry.npmjs.org/is-property 15ms (from cache)
+1263 silly pacote range manifest for is-fullwidth-code-point@^2.0.0 fetched in 8ms
+1264 silly pacote range manifest for is-property@^1.0.2 fetched in 21ms
+1265 silly pacote range manifest for json-stable-stringify@^1.0.1 fetched in 8ms
+1266 silly pacote range manifest for decamelize@^1.0.0 fetched in 5ms
+1267 silly pacote range manifest for is-property@^1.0.0 fetched in 21ms
+1268 silly pacote range manifest for minimist@^1.1.3 fetched in 7ms
+1269 http fetch GET 200 https://registry.npmjs.org/callsites 16ms (from cache)
+1270 http fetch GET 200 https://registry.npmjs.org/co 15ms (from cache)
+1271 silly pacote range manifest for postcss@^4.1.16 fetched in 7ms
+1272 silly pacote range manifest for postcss-calc@^4.1.0 fetched in 10ms
+1273 http fetch GET 200 https://registry.npmjs.org/autoprefixer-core 17ms (from cache)
+1274 http fetch GET 200 https://registry.npmjs.org/balanced-match 17ms (from cache)
+1275 http fetch GET 200 https://registry.npmjs.org/css-list 16ms (from cache)
+1276 silly pacote range manifest for postcss-colormin@^1.2.5 fetched in 10ms
+1277 http fetch GET 200 https://registry.npmjs.org/indexes-of 18ms (from cache)
+1278 silly pacote range manifest for callsites@^0.2.0 fetched in 29ms
+1279 silly pacote range manifest for co@^4.6.0 fetched in 28ms
+1280 silly pacote range manifest for postcss-convert-values@^1.2.4 fetched in 12ms
+1281 silly pacote range manifest for postcss-discard-comments@^1.2.1 fetched in 12ms
+1282 silly pacote range manifest for autoprefixer-core@^5.2.1 fetched in 27ms
+1283 silly pacote range manifest for balanced-match@^0.2.0 fetched in 28ms
+1284 silly pacote range manifest for css-list@^0.1.2 fetched in 27ms
+1285 warn deprecated css-list@0.1.3: Deprecated.
+1286 silly pacote range manifest for postcss-discard-duplicates@^1.1.5 fetched in 14ms
+1287 silly pacote range manifest for indexes-of@^1.0.1 fetched in 29ms
+1288 silly pacote range manifest for postcss-discard-empty@^1.1.2 fetched in 12ms
+1289 silly pacote range manifest for postcss-discard-unused@^1.0.3 fetched in 8ms
+1290 silly pacote range manifest for postcss-filter-plugins@^1.0.0 fetched in 8ms
+1291 silly pacote range manifest for postcss-merge-idents@^1.0.1 fetched in 8ms
+1292 silly pacote range manifest for postcss-merge-longhand@^1.0.1 fetched in 7ms
+1293 silly pacote range manifest for postcss-merge-rules@^1.3.5 fetched in 8ms
+1294 silly pacote range manifest for postcss-minify-selectors@^1.5.0 fetched in 8ms
+1295 silly pacote range manifest for postcss-normalize-url@^2.1.1 fetched in 7ms
+1296 silly pacote range manifest for postcss-ordered-values@^1.0.1 fetched in 9ms
+1297 silly pacote range manifest for postcss-reduce-idents@^1.0.2 fetched in 8ms
+1298 silly pacote range manifest for postcss-unique-selectors@^1.0.0 fetched in 9ms
+1299 http fetch GET 200 https://registry.npmjs.org/postcss-font-family 19ms (from cache)
+1300 silly pacote range manifest for postcss-zindex@^1.1.3 fetched in 12ms
+1301 http fetch GET 200 https://registry.npmjs.org/postcss-minify-font-weight 21ms (from cache)
+1302 silly pacote range manifest for es6-promise@~2.3.0 fetched in 18ms
+1303 silly pacote range manifest for source-map@~0.4.2 fetched in 22ms
+1304 http fetch GET 200 https://registry.npmjs.org/postcss-single-charset 29ms (from cache)
+1305 silly pacote range manifest for postcss-font-family@^1.2.1 fetched in 38ms
+1306 silly pacote range manifest for js-base64@~2.1.8 fetched in 19ms
+1307 silly pacote range manifest for postcss@^4.1.5 fetched in 19ms
+1308 silly pacote range manifest for css-selector-tokenizer@^0.5.0 fetched in 21ms
+1309 http fetch GET 200 https://registry.npmjs.org/read-file-stdin 34ms (from cache)
+1310 silly pacote range manifest for postcss-minify-font-weight@^1.0.1 fetched in 43ms
+1311 http fetch GET 200 https://registry.npmjs.org/write-file-stdout 34ms (from cache)
+1312 silly pacote range manifest for commander@~2.17.1 fetched in 15ms
+1313 silly pacote range manifest for postcss-single-charset@^0.3.0 fetched in 41ms
+1314 silly pacote range manifest for source-map@~0.6.1 fetched in 12ms
+1315 silly pacote range manifest for mkdirp@^0.5.1 fetched in 7ms
+1316 silly pacote range manifest for read-file-stdin@^0.2.0 fetched in 42ms
+1317 silly pacote range manifest for esprima@~3.1.0 fetched in 9ms
+1318 silly pacote version manifest for write-file-stdout@0.0.2 fetched in 44ms
+1319 silly pacote range manifest for source-map@~0.5.0 fetched in 13ms
+1320 http fetch GET 200 https://registry.npmjs.org/commondir 23ms (from cache)
+1321 http fetch GET 200 https://registry.npmjs.org/pkg-dir 23ms (from cache)
+1322 http fetch GET 200 https://registry.npmjs.org/ast-types 21ms (from cache)
+1323 silly pacote range manifest for source-map@~0.6.0 fetched in 13ms
+1324 silly pacote range manifest for ansi-styles@~1.0.0 fetched in 9ms
+1325 http fetch GET 200 https://registry.npmjs.org/private 23ms (from cache)
+1326 http fetch GET 200 https://registry.npmjs.org/no-case 21ms (from cache)
+1327 http fetch GET 200 https://registry.npmjs.org/upper-case 20ms (from cache)
+1328 silly pacote range manifest for commondir@^1.0.1 fetched in 29ms
+1329 silly pacote range manifest for strip-ansi@~0.1.0 fetched in 8ms
+1330 silly pacote range manifest for pkg-dir@^1.0.0 fetched in 30ms
+1331 silly pacote version manifest for ast-types@0.9.6 fetched in 28ms
+1332 silly pacote version manifest for debug@=3.1.0 fetched in 6ms
+1333 http fetch GET 200 https://registry.npmjs.org/has-color 16ms (from cache)
+1334 silly pacote range manifest for statuses@>= 1.4.0 < 2 fetched in 6ms
+1335 silly pacote range manifest for private@~0.1.5 fetched in 29ms
+1336 silly pacote range manifest for no-case@^2.2.0 fetched in 32ms
+1337 silly pacote range manifest for upper-case@^1.1.1 fetched in 96ms
+1338 silly pacote version manifest for http-errors@1.6.3 fetched in 75ms
+1339 silly pacote range manifest for has-color@~0.1.0 fetched in 94ms
+1340 silly pacote range manifest for mime-types@~2.1.18 fetched in 15ms
+1341 silly pacote range manifest for micromatch@^2.1.5 fetched in 16ms
+1342 http fetch GET 200 https://registry.npmjs.org/safer-buffer 91ms (from cache)
+1343 http fetch GET 200 https://registry.npmjs.org/ee-first 91ms (from cache)
+1344 http fetch GET 200 https://registry.npmjs.org/unpipe 92ms (from cache)
+1345 http fetch GET 200 https://registry.npmjs.org/media-typer 91ms (from cache)
+1346 silly pacote range manifest for graceful-fs@^4.1.11 fetched in 12ms
+1347 silly pacote range manifest for micromatch@^3.1.10 fetched in 14ms
+1348 silly pacote range manifest for readable-stream@^2.0.2 fetched in 11ms
+1349 http fetch GET 200 https://registry.npmjs.org/normalize-path 34ms (from cache)
+1350 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3 fetched in 102ms
+1351 http fetch GET 200 https://registry.npmjs.org/binary-extensions 25ms (from cache)
+1352 silly pacote version manifest for ee-first@1.1.1 fetched in 102ms
+1353 http fetch GET 200 https://registry.npmjs.org/is-extglob 25ms (from cache)
+1354 silly pacote version manifest for unpipe@1.0.0 fetched in 102ms
+1355 silly pacote version manifest for media-typer@0.3.0 fetched in 102ms
+1356 silly pacote range manifest for encodeurl@~1.0.1 fetched in 7ms
+1357 silly pacote range manifest for normalize-path@^2.0.0 fetched in 41ms
+1358 silly pacote range manifest for binary-extensions@^1.0.0 fetched in 31ms
+1359 silly pacote range manifest for statuses@~1.3.1 fetched in 8ms
+1360 silly pacote range manifest for unpipe@~1.0.0 fetched in 6ms
+1361 silly pacote range manifest for is-extglob@^1.0.0 fetched in 32ms
+1362 silly pacote range manifest for string_decoder@~0.10.x fetched in 6ms
+1363 silly pacote range manifest for inherits@~2.0.1 fetched in 8ms
+1364 http fetch GET 200 https://registry.npmjs.org/nan 15ms (from cache)
+1365 http fetch GET 200 https://registry.npmjs.org/node-pre-gyp 16ms (from cache)
+1366 silly pacote version manifest for ms@0.7.2 fetched in 10ms
+1367 silly pacote range manifest for os-tmpdir@~1.0.2 fetched in 10ms
+1368 silly pacote range manifest for balanced-match@^1.0.0 fetched in 11ms
+1369 silly pacote range manifest for nan@^2.9.2 fetched in 25ms
+1370 silly pacote range manifest for node-pre-gyp@^0.10.0 fetched in 27ms
+1371 silly pacote version manifest for accepts@1.3.3 fetched in 11ms
+1372 http fetch GET 200 https://registry.npmjs.org/expand-range 21ms (from cache)
+1373 http fetch GET 200 https://registry.npmjs.org/buffer-alloc-unsafe 21ms (from cache)
+1374 http fetch GET 200 https://registry.npmjs.org/buffer-fill 22ms (from cache)
+1375 http fetch GET 200 https://registry.npmjs.org/concat-map 21ms (from cache)
+1376 silly pacote version manifest for ws@1.1.2 fetched in 10ms
+1377 http fetch GET 200 https://registry.npmjs.org/color-convert 20ms (from cache)
+1378 silly pacote range manifest for has-flag@^3.0.0 fetched in 15ms
+1379 silly pacote range manifest for expand-range@^0.1.0 fetched in 32ms
+1380 silly pacote range manifest for buffer-alloc-unsafe@^1.1.0 fetched in 33ms
+1381 silly pacote version manifest for json3@3.3.2 fetched in 14ms
+1382 silly pacote range manifest for buffer-fill@^1.0.0 fetched in 34ms
+1383 http fetch GET 200 https://registry.npmjs.org/base64id 24ms (from cache)
+1384 silly pacote version manifest for concat-map@0.0.1 fetched in 34ms
+1385 http fetch GET 200 https://registry.npmjs.org/engine.io-parser 22ms (from cache)
+1386 silly pacote range manifest for color-convert@^1.9.0 fetched in 31ms
+1387 silly pacote version manifest for base64id@1.0.0 fetched in 31ms
+1388 silly pacote version manifest for engine.io-parser@1.3.2 fetched in 30ms
+1389 http fetch GET 200 https://registry.npmjs.org/component-emitter 17ms (from cache)
+1390 http fetch GET 200 https://registry.npmjs.org/backo2 15ms (from cache)
+1391 http fetch GET 200 https://registry.npmjs.org/component-bind 15ms (from cache)
+1392 http fetch GET 200 https://registry.npmjs.org/component-emitter 14ms (from cache)
+1393 http fetch GET 200 https://registry.npmjs.org/engine.io-client 14ms (from cache)
+1394 http fetch GET 200 https://registry.npmjs.org/indexof 15ms (from cache)
+1395 http fetch GET 200 https://registry.npmjs.org/object-component 14ms (from cache)
+1396 http fetch GET 200 https://registry.npmjs.org/parseuri 14ms (from cache)
+1397 silly pacote version manifest for component-emitter@1.1.2 fetched in 23ms
+1398 silly pacote version manifest for backo2@1.0.2 fetched in 21ms
+1399 silly pacote version manifest for component-bind@1.0.0 fetched in 21ms
+1400 silly pacote version manifest for component-emitter@1.2.1 fetched in 20ms
+1401 silly pacote version manifest for engine.io-client@1.8.3 fetched in 21ms
+1402 http fetch GET 200 https://registry.npmjs.org/to-array 13ms (from cache)
+1403 silly pacote version manifest for indexof@0.0.1 fetched in 21ms
+1404 http fetch GET 200 https://registry.npmjs.org/pseudomap 13ms (from cache)
+1405 silly pacote version manifest for object-component@0.0.3 fetched in 20ms
+1406 silly pacote version manifest for parseuri@0.0.5 fetched in 20ms
+1407 silly pacote range manifest for lru-cache@2 fetched in 7ms
+1408 silly pacote version manifest for to-array@0.1.4 fetched in 20ms
+1409 silly pacote range manifest for combined-stream@^1.0.5 fetched in 8ms
+1410 silly pacote range manifest for pseudomap@^1.0.2 fetched in 21ms
+1411 silly pacote range manifest for mime-types@^2.1.12 fetched in 7ms
+1412 silly pacote range manifest for ajv@^4.9.1 fetched in 7ms
+1413 http fetch GET 200 https://registry.npmjs.org/yallist 14ms (from cache)
+1414 http fetch GET 200 https://registry.npmjs.org/sigmund 13ms (from cache)
+1415 http fetch GET 200 https://registry.npmjs.org/delayed-stream 14ms (from cache)
+1416 http fetch GET 200 https://registry.npmjs.org/asynckit 14ms (from cache)
+1417 silly pacote range manifest for yallist@^2.1.2 fetched in 22ms
+1418 http fetch GET 200 https://registry.npmjs.org/har-schema 14ms (from cache)
+1419 silly pacote range manifest for sigmund@~1.0.0 fetched in 21ms
+1420 silly pacote range manifest for delayed-stream@~1.0.0 fetched in 21ms
+1421 silly pacote range manifest for asynckit@^0.4.0 fetched in 22ms
+1422 http fetch GET 200 https://registry.npmjs.org/assert-plus 13ms (from cache)
+1423 http fetch GET 200 https://registry.npmjs.org/jsprim 14ms (from cache)
+1424 http fetch GET 200 https://registry.npmjs.org/sshpk 13ms (from cache)
+1425 http fetch GET 200 https://registry.npmjs.org/hoek 13ms (from cache)
+1426 http fetch GET 200 https://registry.npmjs.org/boom 14ms (from cache)
+1427 silly pacote range manifest for har-schema@^1.0.5 fetched in 22ms
+1428 silly pacote range manifest for punycode@^1.4.1 fetched in 7ms
+1429 silly pacote range manifest for assert-plus@^0.2.0 fetched in 21ms
+1430 silly pacote range manifest for jsprim@^1.2.2 fetched in 22ms
+1431 silly pacote range manifest for sshpk@^1.7.0 fetched in 22ms
+1432 silly pacote range manifest for hoek@2.x.x fetched in 22ms
+1433 warn deprecated hoek@2.16.3: The major version is no longer supported. Please update to 4.x or newer
+1434 silly pacote range manifest for boom@2.x.x fetched in 26ms
+1435 http fetch GET 200 https://registry.npmjs.org/cryptiles 21ms (from cache)
+1436 http fetch GET 200 https://registry.npmjs.org/sntp 23ms (from cache)
+1437 http fetch GET 200 https://registry.npmjs.org/mime-db 23ms (from cache)
+1438 silly pacote range manifest for cryptiles@2.x.x fetched in 30ms
+1439 http fetch GET 200 https://registry.npmjs.org/cardinal 22ms (from cache)
+1440 silly pacote range manifest for sntp@1.x.x fetched in 29ms
+1441 silly pacote range manifest for mime-db@~1.36.0 fetched in 29ms
+1442 http fetch GET 200 https://registry.npmjs.org/cli-table 22ms (from cache)
+1443 http fetch GET 200 https://registry.npmjs.org/lodash.assign 22ms (from cache)
+1444 http fetch GET 200 https://registry.npmjs.org/node-emoji 21ms (from cache)
+1445 http fetch GET 200 https://registry.npmjs.org/ansi-align 16ms (from cache)
+1446 http fetch GET 200 https://registry.npmjs.org/camelcase 16ms (from cache)
+1447 http fetch GET 200 https://registry.npmjs.org/cli-boxes 16ms (from cache)
+1448 silly pacote range manifest for cardinal@^2.1.1 fetched in 29ms
+1449 silly pacote range manifest for cli-table@^0.3.1 fetched in 29ms
+1450 silly pacote range manifest for lodash.assign@^4.2.0 fetched in 29ms
+1451 silly pacote range manifest for node-emoji@^1.4.1 fetched in 28ms
+1452 silly pacote range manifest for ansi-align@^2.0.0 fetched in 24ms
+1453 silly pacote range manifest for camelcase@^4.0.0 fetched in 24ms
+1454 silly pacote range manifest for cli-boxes@^1.0.0 fetched in 23ms
+1455 http fetch GET 200 https://registry.npmjs.org/term-size 14ms (from cache)
+1456 http fetch GET 200 https://registry.npmjs.org/widest-line 14ms (from cache)
+1457 http fetch GET 200 https://registry.npmjs.org/dot-prop 14ms (from cache)
+1458 silly pacote range manifest for term-size@^1.2.0 fetched in 22ms
+1459 http fetch GET 200 https://registry.npmjs.org/make-dir 15ms (from cache)
+1460 silly pacote range manifest for widest-line@^2.0.0 fetched in 21ms
+1461 silly pacote range manifest for dot-prop@^4.1.0 fetched in 22ms
+1462 http fetch GET 200 https://registry.npmjs.org/unique-string 14ms (from cache)
+1463 http fetch GET 200 https://registry.npmjs.org/write-file-atomic 14ms (from cache)
+1464 http fetch GET 200 https://registry.npmjs.org/ci-info 14ms (from cache)
+1465 http fetch GET 200 https://registry.npmjs.org/global-dirs 14ms (from cache)
+1466 http fetch GET 200 https://registry.npmjs.org/is-path-inside 13ms (from cache)
+1467 http fetch GET 200 https://registry.npmjs.org/package-json 13ms (from cache)
+1468 silly pacote range manifest for semver@^5.0.3 fetched in 5ms
+1469 silly pacote range manifest for make-dir@^1.0.0 fetched in 21ms
+1470 silly pacote range manifest for glob-parent@^3.1.0 fetched in 6ms
+1471 silly pacote range manifest for unique-string@^1.0.0 fetched in 22ms
+1472 silly pacote range manifest for write-file-atomic@^2.0.0 fetched in 21ms
+1473 silly pacote range manifest for ci-info@^1.5.0 fetched in 22ms
+1474 silly pacote range manifest for global-dirs@^0.1.0 fetched in 22ms
+1475 silly pacote range manifest for is-path-inside@^1.0.0 fetched in 21ms
+1476 silly pacote range manifest for package-json@^4.0.0 fetched in 22ms
+1477 http fetch GET 200 https://registry.npmjs.org/is-negated-glob 15ms (from cache)
+1478 http fetch GET 200 https://registry.npmjs.org/ordered-read-streams 16ms (from cache)
+1479 http fetch GET 200 https://registry.npmjs.org/remove-trailing-separator 16ms (from cache)
+1480 http fetch GET 200 https://registry.npmjs.org/to-absolute-glob 15ms (from cache)
+1481 silly pacote range manifest for is-negated-glob@^1.0.0 fetched in 22ms
+1482 http fetch GET 200 https://registry.npmjs.org/unique-stream 14ms (from cache)
+1483 http fetch GET 200 https://registry.npmjs.org/flush-write-stream 14ms (from cache)
+1484 http fetch GET 200 https://registry.npmjs.org/define-properties 13ms (from cache)
+1485 http fetch GET 200 https://registry.npmjs.org/has-symbols 12ms (from cache)
+1486 http fetch GET 200 https://registry.npmjs.org/object-keys 13ms (from cache)
+1487 http fetch GET 200 https://registry.npmjs.org/duplexify 12ms (from cache)
+1488 silly pacote range manifest for ordered-read-streams@^1.0.0 fetched in 20ms
+1489 silly pacote range manifest for remove-trailing-separator@^1.0.1 fetched in 21ms
+1490 silly pacote range manifest for to-absolute-glob@^2.0.0 fetched in 20ms
+1491 silly pacote range manifest for unique-stream@^2.0.2 fetched in 20ms
+1492 silly pacote range manifest for flush-write-stream@^1.0.2 fetched in 20ms
+1493 silly pacote range manifest for define-properties@^1.1.2 fetched in 19ms
+1494 silly pacote range manifest for has-symbols@^1.0.0 fetched in 19ms
+1495 silly pacote range manifest for object-keys@^1.0.11 fetched in 20ms
+1496 silly pacote range manifest for duplexify@^3.6.0 fetched in 19ms
+1497 silly pacote range manifest for safe-buffer@^5.1.0 fetched in 7ms
+1498 http fetch GET 200 https://registry.npmjs.org/pump 13ms (from cache)
+1499 silly pacote range manifest for clone@^2.1.1 fetched in 7ms
+1500 http fetch GET 200 https://registry.npmjs.org/is-buffer 15ms (from cache)
+1501 silly pacote range manifest for convert-source-map@^1.5.0 fetched in 6ms
+1502 http fetch GET 200 https://registry.npmjs.org/is-utf8 15ms (from cache)
+1503 silly pacote range manifest for pump@^2.0.0 fetched in 21ms
+1504 silly pacote range manifest for graceful-fs@^4.1.6 fetched in 6ms
+1505 http fetch GET 200 https://registry.npmjs.org/clone-buffer 14ms (from cache)
+1506 http fetch GET 200 https://registry.npmjs.org/clone-stats 13ms (from cache)
+1507 http fetch GET 200 https://registry.npmjs.org/cloneable-readable 13ms (from cache)
+1508 http fetch GET 200 https://registry.npmjs.org/replace-ext 12ms (from cache)
+1509 http fetch GET 200 https://registry.npmjs.org/append-buffer 13ms (from cache)
+1510 silly pacote range manifest for is-buffer@^1.1.5 fetched in 20ms
+1511 silly pacote range manifest for normalize-path@^2.1.1 fetched in 4ms
+1512 silly pacote range manifest for is-utf8@^0.2.1 fetched in 21ms
+1513 silly pacote range manifest for stable@~0.1.3 fetched in 4ms
+1514 silly pacote range manifest for clone-buffer@^1.0.0 fetched in 24ms
+1515 silly pacote range manifest for clone-stats@^1.0.0 fetched in 23ms
+1516 silly pacote range manifest for cloneable-readable@^1.0.0 fetched in 24ms
+1517 silly pacote range manifest for replace-ext@^1.0.0 fetched in 23ms
+1518 silly pacote range manifest for append-buffer@^1.0.2 fetched in 23ms
+1519 silly pacote range manifest for async@^2.0.1 fetched in 10ms
+1520 silly pacote range manifest for mime-types@^2.1.11 fetched in 12ms
+1521 silly pacote range manifest for is-my-json-valid@^2.12.4 fetched in 12ms
+1522 http fetch GET 200 https://registry.npmjs.org/now-and-later 19ms (from cache)
+1523 silly pacote range manifest for readable-stream@~2.0.5 fetched in 8ms
+1524 silly pacote range manifest for debug@2 fetched in 7ms
+1525 silly pacote range manifest for extend@3 fetched in 7ms
+1526 http fetch GET 200 https://registry.npmjs.org/ordered-esprima-props 20ms (from cache)
+1527 silly pacote range manifest for now-and-later@^2.0.0 fetched in 26ms
+1528 http fetch GET 200 https://registry.npmjs.org/pinkie-promise 15ms (from cache)
+1529 silly pacote range manifest for lodash@^4.11.1 fetched in 5ms
+1530 http fetch GET 200 https://registry.npmjs.org/agent-base 15ms (from cache)
+1531 http fetch GET 200 https://registry.npmjs.org/options 15ms (from cache)
+1532 silly pacote range manifest for ordered-esprima-props@~1.1.0 fetched in 26ms
+1533 http fetch GET 200 https://registry.npmjs.org/ultron 14ms (from cache)
+1534 http fetch GET 200 https://registry.npmjs.org/sax 13ms (from cache)
+1535 silly pacote range manifest for punycode@^2.1.0 fetched in 6ms
+1536 http fetch GET 200 https://registry.npmjs.org/xmlbuilder 13ms (from cache)
+1537 silly pacote range manifest for pinkie-promise@^2.0.0 fetched in 22ms
+1538 silly pacote range manifest for deep-extend@^0.4.0 fetched in 10ms
+1539 http fetch GET 200 https://registry.npmjs.org/superagent 17ms (from cache)
+1540 silly pacote range manifest for agent-base@2 fetched in 28ms
+1541 silly pacote range manifest for options@>=0.0.5 fetched in 27ms
+1542 silly pacote range manifest for ultron@1.0.x fetched in 33ms
+1543 silly pacote range manifest for sax@0.6.x fetched in 33ms
+1544 silly pacote range manifest for xmlbuilder@>=1.0.0 fetched in 33ms
+1545 silly pacote version manifest for util@0.10.3 fetched in 16ms
+1546 silly pacote range manifest for superagent@^3.8.3 fetched in 32ms
+1547 http fetch GET 200 https://registry.npmjs.org/drange 28ms (from cache)
+1548 http fetch GET 200 https://registry.npmjs.org/ret 29ms (from cache)
+1549 http fetch GET 200 https://registry.npmjs.org/pako 24ms (from cache)
+1550 http fetch GET 200 https://registry.npmjs.org/base64-js 22ms (from cache)
+1551 http fetch GET 200 https://registry.npmjs.org/ieee754 21ms (from cache)
+1552 silly pacote range manifest for drange@^1.0.0 fetched in 34ms
+1553 http fetch GET 200 https://registry.npmjs.org/date-now 15ms (from cache)
+1554 http fetch GET 200 https://registry.npmjs.org/pbkdf2-compat 14ms (from cache)
+1555 silly pacote range manifest for ret@^0.2.0 fetched in 35ms
+1556 http fetch GET 200 https://registry.npmjs.org/ripemd160 14ms (from cache)
+1557 silly pacote range manifest for pako@~0.2.0 fetched in 30ms
+1558 http fetch GET 200 https://registry.npmjs.org/sha.js 14ms (from cache)
+1559 http fetch GET 200 https://registry.npmjs.org/browserify-aes 15ms (from cache)
+1560 silly pacote range manifest for base64-js@^1.0.2 fetched in 29ms
+1561 silly pacote range manifest for ieee754@^1.1.4 fetched in 29ms
+1562 silly pacote range manifest for date-now@^0.1.4 fetched in 23ms
+1563 silly pacote version manifest for pbkdf2-compat@2.0.1 fetched in 23ms
+1564 silly pacote range manifest for readable-stream@^2.3.6 fetched in 8ms
+1565 silly pacote version manifest for ripemd160@0.2.0 fetched in 24ms
+1566 silly pacote version manifest for sha.js@2.2.6 fetched in 24ms
+1567 silly pacote version manifest for browserify-aes@0.4.0 fetched in 24ms
+1568 silly pacote version manifest for punycode@1.3.2 fetched in 7ms
+1569 http fetch GET 200 https://registry.npmjs.org/builtin-status-codes 15ms (from cache)
+1570 silly pacote range manifest for depd@~1.1.1 fetched in 9ms
+1571 silly pacote version manifest for iconv-lite@0.4.19 fetched in 8ms
+1572 silly pacote version manifest for raw-body@2.3.2 fetched in 9ms
+1573 http fetch GET 200 https://registry.npmjs.org/to-arraybuffer 19ms (from cache)
+1574 silly pacote range manifest for type-is@~1.6.15 fetched in 8ms
+1575 silly pacote range manifest for camelcase@^1.0.2 fetched in 9ms
+1576 http fetch GET 200 https://registry.npmjs.org/setimmediate 17ms (from cache)
+1577 silly pacote range manifest for builtin-status-codes@^3.0.0 fetched in 25ms
+1578 http fetch GET 200 https://registry.npmjs.org/querystring 17ms (from cache)
+1579 silly pacote range manifest for mime-db@>= 1.36.0 < 2 fetched in 7ms
+1580 silly pacote range manifest for to-arraybuffer@^1.0.0 fetched in 26ms
+1581 http fetch GET 200 https://registry.npmjs.org/cliui 16ms (from cache)
+1582 silly pacote range manifest for setimmediate@^1.0.4 fetched in 24ms
+1583 silly pacote range manifest for ms@^2.1.1 fetched in 6ms
+1584 http fetch GET 200 https://registry.npmjs.org/window-size 14ms (from cache)
+1585 http fetch GET 200 https://registry.npmjs.org/negotiator 13ms (from cache)
+1586 silly pacote version manifest for querystring@0.2.0 fetched in 23ms
+1587 silly pacote version manifest for mime@1.4.1 fetched in 6ms
+1588 http fetch GET 200 https://registry.npmjs.org/forwarded 13ms (from cache)
+1589 http fetch GET 200 https://registry.npmjs.org/ipaddr.js 12ms (from cache)
+1590 silly pacote range manifest for cliui@^2.1.0 fetched in 23ms
+1591 silly pacote range manifest for is-extglob@^2.1.0 fetched in 5ms
+1592 silly pacote version manifest for window-size@0.1.0 fetched in 20ms
+1593 silly pacote version manifest for negotiator@0.6.1 fetched in 19ms
+1594 http fetch GET 200 https://registry.npmjs.org/destroy 13ms (from cache)
+1595 silly pacote range manifest for forwarded@~0.1.2 fetched in 19ms
+1596 silly pacote version manifest for ipaddr.js@1.8.0 fetched in 19ms
+1597 silly pacote range manifest for braces@^1.8.2 fetched in 5ms
+1598 http fetch GET 200 https://registry.npmjs.org/websocket-driver 13ms (from cache)
+1599 http fetch GET 200 https://registry.npmjs.org/original 13ms (from cache)
+1600 silly pacote range manifest for destroy@~1.0.4 fetched in 20ms
+1601 http fetch GET 200 https://registry.npmjs.org/querystringify 13ms (from cache)
+1602 silly pacote range manifest for is-glob@^2.0.1 fetched in 5ms
+1603 http fetch GET 200 https://registry.npmjs.org/arr-diff 13ms (from cache)
+1604 silly pacote range manifest for websocket-driver@>=0.5.1 fetched in 19ms
+1605 http fetch GET 200 https://registry.npmjs.org/expand-brackets 12ms (from cache)
+1606 http fetch GET 200 https://registry.npmjs.org/extglob 13ms (from cache)
+1607 silly pacote range manifest for original@^1.0.0 fetched in 19ms
+1608 silly pacote range manifest for normalize-path@^2.0.1 fetched in 7ms
+1609 silly pacote range manifest for querystringify@^2.0.0 fetched in 22ms
+1610 http fetch GET 200 https://registry.npmjs.org/filename-regex 16ms (from cache)
+1611 http fetch GET 200 https://registry.npmjs.org/kind-of 15ms (from cache)
+1612 silly pacote range manifest for arr-diff@^2.0.0 fetched in 22ms
+1613 silly pacote range manifest for expand-brackets@^0.1.4 fetched in 21ms
+1614 silly pacote range manifest for extglob@^0.3.1 fetched in 22ms
+1615 silly pacote range manifest for caniuse-db@^1.0.30000639 fetched in 9ms
+1616 http fetch GET 200 https://registry.npmjs.org/object.omit 22ms (from cache)
+1617 silly pacote range manifest for filename-regex@^2.0.0 fetched in 29ms
+1618 silly pacote range manifest for kind-of@^3.0.2 fetched in 28ms
+1619 silly pacote range manifest for balanced-match@^0.4.2 fetched in 12ms
+1620 http fetch GET 200 https://registry.npmjs.org/parse-glob 25ms (from cache)
+1621 http fetch GET 200 https://registry.npmjs.org/regex-cache 26ms (from cache)
+1622 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium 23ms (from cache)
+1623 silly pacote range manifest for object.omit@^2.0.0 fetched in 33ms
+1624 silly pacote range manifest for browserslist@^1.3.6 fetched in 10ms
+1625 silly pacote range manifest for caniuse-db@^1.0.30000529 fetched in 10ms
+1626 silly pacote range manifest for parse-glob@^3.0.4 fetched in 36ms
+1627 http fetch GET 200 https://registry.npmjs.org/math-expression-evaluator 28ms (from cache)
+1628 http fetch GET 200 https://registry.npmjs.org/reduce-function-call 28ms (from cache)
+1629 silly pacote range manifest for regex-cache@^0.4.2 fetched in 37ms
+1630 http fetch GET 200 https://registry.npmjs.org/color 22ms (from cache)
+1631 silly pacote range manifest for electron-to-chromium@^1.2.7 fetched in 35ms
+1632 http fetch GET 200 https://registry.npmjs.org/css-color-names 22ms (from cache)
+1633 silly pacote range manifest for math-expression-evaluator@^1.2.14 fetched in 39ms
+1634 silly pacote range manifest for reduce-function-call@^1.0.1 fetched in 40ms
+1635 silly pacote range manifest for color@^0.11.0 fetched in 34ms
+1636 http fetch GET 200 https://registry.npmjs.org/lodash.memoize 22ms (from cache)
+1637 http fetch GET 200 https://registry.npmjs.org/lodash.uniq 21ms (from cache)
+1638 http fetch GET 200 https://registry.npmjs.org/flatten 21ms (from cache)
+1639 silly pacote version manifest for css-color-names@0.0.4 fetched in 36ms
+1640 http fetch GET 200 https://registry.npmjs.org/uniq 20ms (from cache)
+1641 http fetch GET 200 https://registry.npmjs.org/prepend-http 22ms (from cache)
+1642 http fetch GET 200 https://registry.npmjs.org/query-string 19ms (from cache)
+1643 silly pacote range manifest for lodash.memoize@^4.1.2 fetched in 30ms
+1644 silly pacote range manifest for lodash.uniq@^4.5.0 fetched in 30ms
+1645 silly pacote range manifest for flatten@^1.0.2 fetched in 30ms
+1646 silly pacote range manifest for sax@~1.2.1 fetched in 10ms
+1647 silly pacote range manifest for uniq@^1.0.1 fetched in 28ms
+1648 http fetch GET 200 https://registry.npmjs.org/sort-keys 16ms (from cache)
+1649 http fetch GET 200 https://registry.npmjs.org/html-comment-regex 17ms (from cache)
+1650 silly pacote range manifest for prepend-http@^1.0.0 fetched in 29ms
+1651 silly pacote range manifest for query-string@^4.1.0 fetched in 28ms
+1652 silly pacote range manifest for js-yaml@~3.7.0 fetched in 7ms
+1653 silly pacote range manifest for colors@~1.1.2 fetched in 7ms
+1654 silly pacote range manifest for mkdirp@~0.5.1 fetched in 7ms
+1655 http fetch GET 200 https://registry.npmjs.org/coa 15ms (from cache)
+1656 silly pacote range manifest for sort-keys@^1.0.0 fetched in 24ms
+1657 silly pacote range manifest for html-comment-regex@^1.1.0 fetched in 24ms
+1658 silly pacote range manifest for safe-buffer@~5.1.0 fetched in 8ms
+1659 http fetch GET 200 https://registry.npmjs.org/whet.extend 15ms (from cache)
+1660 http fetch GET 200 https://registry.npmjs.org/csso 15ms (from cache)
+1661 silly pacote range manifest for coa@~1.0.1 fetched in 23ms
+1662 http fetch GET 200 https://registry.npmjs.org/regenerate 13ms (from cache)
+1663 http fetch GET 200 https://registry.npmjs.org/regjsgen 13ms (from cache)
+1664 http fetch GET 200 https://registry.npmjs.org/regjsparser 13ms (from cache)
+1665 silly pacote range manifest for whet.extend@~0.9.9 fetched in 23ms
+1666 http fetch GET 200 https://registry.npmjs.org/lodash._root 13ms (from cache)
+1667 silly pacote range manifest for csso@~2.3.1 fetched in 22ms
+1668 http fetch GET 200 https://registry.npmjs.org/globby 13ms (from cache)
+1669 silly pacote range manifest for regenerate@^1.2.1 fetched in 19ms
+1670 silly pacote range manifest for regjsgen@^0.2.0 fetched in 20ms
+1671 silly pacote range manifest for regjsparser@^0.1.4 fetched in 21ms
+1672 http fetch GET 200 https://registry.npmjs.org/is-path-cwd 14ms (from cache)
+1673 silly pacote range manifest for lodash._root@^3.0.0 fetched in 21ms
+1674 http fetch GET 200 https://registry.npmjs.org/is-path-in-cwd 14ms (from cache)
+1675 silly pacote range manifest for globby@^5.0.0 fetched in 22ms
+1676 silly pacote range manifest for reduce-css-calc@^1.2.0 fetched in 8ms
+1677 silly pacote range manifest for is-path-cwd@^1.0.0 fetched in 22ms
+1678 silly pacote range manifest for color@^0.10.1 fetched in 7ms
+1679 silly pacote range manifest for colormin@^1.0.3 fetched in 9ms
+1680 http fetch GET 200 https://registry.npmjs.org/pify 16ms (from cache)
+1681 silly pacote range manifest for is-path-in-cwd@^1.0.0 fetched in 25ms
+1682 http fetch GET 200 https://registry.npmjs.org/exit-hook 19ms (from cache)
+1683 http fetch GET 200 https://registry.npmjs.org/onetime 17ms (from cache)
+1684 http fetch GET 200 https://registry.npmjs.org/number-is-nan 17ms (from cache)
+1685 silly pacote range manifest for postcss-value-parser@^1.1.0 fetched in 10ms
+1686 silly pacote range manifest for browserslist@~0.4.0 fetched in 8ms
+1687 warn deprecated browserslist@0.4.0: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+1688 silly pacote range manifest for num2fraction@^1.1.0 fetched in 10ms
+1689 silly pacote range manifest for pify@^2.0.0 fetched in 25ms
+1690 silly pacote range manifest for caniuse-db@^1.0.30000214 fetched in 10ms
+1691 silly pacote range manifest for postcss@~4.1.12 fetched in 10ms
+1692 silly pacote range manifest for exit-hook@^1.0.0 fetched in 30ms
+1693 silly pacote range manifest for onetime@^1.0.0 fetched in 28ms
+1694 silly pacote range manifest for postcss@^4.1.13 fetched in 10ms
+1695 silly pacote range manifest for number-is-nan@^1.0.0 fetched in 28ms
+1696 silly pacote version manifest for flatten@0.0.1 fetched in 11ms
+1697 http fetch GET 200 https://registry.npmjs.org/node-balanced 22ms (from cache)
+1698 silly pacote range manifest for postcss@^4.1.9 fetched in 10ms
+1699 silly pacote range manifest for css-list@^0.1.0 fetched in 11ms
+1700 silly pacote range manifest for normalize-url@^1.3.0 fetched in 8ms
+1701 silly pacote range manifest for postcss-selector-parser@^1.1.2 fetched in 9ms
+1702 silly pacote range manifest for postcss-value-parser@^1.4.2 fetched in 9ms
+1703 silly pacote range manifest for postcss@^4.1.2 fetched in 9ms
+1704 silly pacote version manifest for node-balanced@0.0.14 fetched in 31ms
+1705 silly pacote range manifest for postcss@^4.1.10 fetched in 9ms
+1706 silly pacote range manifest for object-assign@^3.0.0 fetched in 10ms
+1707 http fetch GET 200 https://registry.npmjs.org/uniqid 21ms (from cache)
+1708 http fetch GET 200 https://registry.npmjs.org/javascript-natural-sort 20ms (from cache)
+1709 silly pacote range manifest for postcss@^4.1.0 fetched in 9ms
+1710 http fetch GET 200 https://registry.npmjs.org/normalize-selector 20ms (from cache)
+1711 silly pacote range manifest for arr-diff@^4.0.0 fetched in 12ms
+1712 silly pacote range manifest for uniqid@^1.0.0 fetched in 33ms
+1713 silly pacote range manifest for array-unique@^0.3.2 fetched in 11ms
+1714 silly pacote range manifest for javascript-natural-sort@^0.7.1 fetched in 29ms
+1715 http fetch GET 200 https://registry.npmjs.org/fs-extra 19ms (from cache)
+1716 silly pacote range manifest for normalize-selector@^0.2.0 fetched in 29ms
+1717 silly pacote range manifest for braces@^2.3.1 fetched in 8ms
+1718 http fetch GET 200 https://registry.npmjs.org/gather-stream 20ms (from cache)
+1719 http fetch GET 200 https://registry.npmjs.org/find-up 19ms (from cache)
+1720 http fetch GET 200 https://registry.npmjs.org/lower-case 19ms (from cache)
+1721 silly pacote range manifest for extglob@^2.0.4 fetched in 6ms
+1722 silly pacote range manifest for fs-extra@^0.14.0 fetched in 27ms
+1723 silly pacote range manifest for kind-of@^6.0.2 fetched in 6ms
+1724 silly pacote range manifest for gather-stream@^1.0.0 fetched in 27ms
+1725 silly pacote range manifest for find-up@^1.0.0 fetched in 26ms
+1726 http fetch GET 200 https://registry.npmjs.org/define-property 14ms (from cache)
+1727 silly pacote range manifest for lower-case@^1.1.1 fetched in 27ms
+1728 http fetch GET 200 https://registry.npmjs.org/extend-shallow 14ms (from cache)
+1729 http fetch GET 200 https://registry.npmjs.org/fragment-cache 14ms (from cache)
+1730 http fetch GET 200 https://registry.npmjs.org/nanomatch 18ms (from cache)
+1731 silly pacote range manifest for define-property@^2.0.2 fetched in 25ms
+1732 http fetch GET 200 https://registry.npmjs.org/object.pick 19ms (from cache)
+1733 silly pacote range manifest for extend-shallow@^3.0.2 fetched in 25ms
+1734 silly pacote range manifest for fragment-cache@^0.2.1 fetched in 25ms
+1735 http fetch GET 200 https://registry.npmjs.org/regex-not 18ms (from cache)
+1736 http fetch GET 200 https://registry.npmjs.org/snapdragon 17ms (from cache)
+1737 silly pacote range manifest for nanomatch@^1.2.9 fetched in 26ms
+1738 http fetch GET 200 https://registry.npmjs.org/to-regex 18ms (from cache)
+1739 http fetch GET 200 https://registry.npmjs.org/detect-libc 18ms (from cache)
+1740 http fetch GET 200 https://registry.npmjs.org/needle 20ms (from cache)
+1741 silly pacote range manifest for object.pick@^1.3.0 fetched in 28ms
+1742 silly pacote range manifest for regex-not@^1.0.0 fetched in 27ms
+1743 silly pacote range manifest for snapdragon@^0.8.1 fetched in 27ms
+1744 silly pacote range manifest for to-regex@^3.0.2 fetched in 28ms
+1745 silly pacote range manifest for detect-libc@^1.0.2 fetched in 29ms
+1746 silly pacote range manifest for rc@^1.2.7 fetched in 10ms
+1747 http fetch GET 200 https://registry.npmjs.org/nopt 19ms (from cache)
+1748 silly pacote range manifest for needle@^2.2.1 fetched in 31ms
+1749 http fetch GET 200 https://registry.npmjs.org/npm-packlist 19ms (from cache)
+1750 http fetch GET 200 https://registry.npmjs.org/npmlog 19ms (from cache)
+1751 silly pacote range manifest for mime-types@~2.1.11 fetched in 11ms
+1752 silly pacote range manifest for nopt@^4.0.1 fetched in 27ms
+1753 silly pacote range manifest for npm-packlist@^1.1.6 fetched in 27ms
+1754 http fetch GET 200 https://registry.npmjs.org/tar 17ms (from cache)
+1755 silly pacote range manifest for npmlog@^4.0.2 fetched in 27ms
+1756 http fetch GET 200 https://registry.npmjs.org/is-number 16ms (from cache)
+1757 http fetch GET 200 https://registry.npmjs.org/repeat-string 15ms (from cache)
+1758 http fetch GET 200 https://registry.npmjs.org/color-name 14ms (from cache)
+1759 http fetch GET 200 https://registry.npmjs.org/after 15ms (from cache)
+1760 http fetch GET 200 https://registry.npmjs.org/arraybuffer.slice 15ms (from cache)
+1761 silly pacote range manifest for tar@^4 fetched in 26ms
+1762 http fetch GET 200 https://registry.npmjs.org/base64-arraybuffer 15ms (from cache)
+1763 silly pacote range manifest for is-number@^0.1.1 fetched in 23ms
+1764 silly pacote range manifest for repeat-string@^0.2.2 fetched in 23ms
+1765 silly pacote version manifest for color-name@1.1.3 fetched in 23ms
+1766 silly pacote version manifest for after@0.8.2 fetched in 23ms
+1767 http fetch GET 200 https://registry.npmjs.org/blob 15ms (from cache)
+1768 silly pacote version manifest for arraybuffer.slice@0.0.6 fetched in 21ms
+1769 http fetch GET 200 https://registry.npmjs.org/wtf-8 14ms (from cache)
+1770 http fetch GET 200 https://registry.npmjs.org/component-inherit 13ms (from cache)
+1771 silly pacote version manifest for base64-arraybuffer@0.1.5 fetched in 21ms
+1772 silly pacote version manifest for blob@0.0.4 fetched in 20ms
+1773 http fetch GET 200 https://registry.npmjs.org/has-cors 13ms (from cache)
+1774 silly pacote version manifest for wtf-8@1.0.0 fetched in 23ms
+1775 silly pacote version manifest for component-inherit@0.0.3 fetched in 22ms
+1776 silly pacote version manifest for assert-plus@1.0.0 fetched in 9ms
+1777 http fetch GET 200 https://registry.npmjs.org/parsejson 15ms (from cache)
+1778 http fetch GET 200 https://registry.npmjs.org/parseqs 14ms (from cache)
+1779 http fetch GET 200 https://registry.npmjs.org/xmlhttprequest-ssl 15ms (from cache)
+1780 http fetch GET 200 https://registry.npmjs.org/yeast 15ms (from cache)
+1781 http fetch GET 200 https://registry.npmjs.org/better-assert 15ms (from cache)
+1782 silly pacote version manifest for has-cors@1.1.0 fetched in 21ms
+1783 silly pacote version manifest for parsejson@0.0.3 fetched in 21ms
+1784 silly pacote version manifest for parseqs@0.0.5 fetched in 20ms
+1785 silly pacote version manifest for xmlhttprequest-ssl@1.5.3 fetched in 22ms
+1786 http fetch GET 200 https://registry.npmjs.org/extsprintf 15ms (from cache)
+1787 silly pacote version manifest for yeast@0.1.2 fetched in 22ms
+1788 silly pacote range manifest for better-assert@~1.0.0 fetched in 21ms
+1789 silly pacote range manifest for assert-plus@^1.0.0 fetched in 7ms
+1790 http fetch GET 200 https://registry.npmjs.org/json-schema 14ms (from cache)
+1791 http fetch GET 200 https://registry.npmjs.org/verror 15ms (from cache)
+1792 http fetch GET 200 https://registry.npmjs.org/asn1 15ms (from cache)
+1793 silly pacote version manifest for extsprintf@1.3.0 fetched in 23ms
+1794 silly pacote range manifest for safer-buffer@^2.0.2 fetched in 6ms
+1795 silly pacote version manifest for json-schema@0.2.3 fetched in 20ms
+1796 http fetch GET 200 https://registry.npmjs.org/dashdash 12ms (from cache)
+1797 http fetch GET 200 https://registry.npmjs.org/getpass 12ms (from cache)
+1798 silly pacote version manifest for verror@1.10.0 fetched in 21ms
+1799 silly pacote range manifest for asn1@~0.2.3 fetched in 22ms
+1800 http fetch GET 200 https://registry.npmjs.org/jsbn 12ms (from cache)
+1801 http fetch GET 200 https://registry.npmjs.org/tweetnacl 13ms (from cache)
+1802 http fetch GET 200 https://registry.npmjs.org/ecc-jsbn 12ms (from cache)
+1803 silly pacote range manifest for dashdash@^1.12.0 fetched in 19ms
+1804 silly pacote range manifest for getpass@^0.1.1 fetched in 19ms
+1805 http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf 13ms (from cache)
+1806 http fetch GET 200 https://registry.npmjs.org/ansicolors 12ms (from cache)
+1807 silly pacote range manifest for jsbn@~0.1.0 fetched in 20ms
+1808 silly pacote range manifest for tweetnacl@~0.14.0 fetched in 20ms
+1809 silly pacote range manifest for ecc-jsbn@~0.1.1 fetched in 19ms
+1810 silly pacote range manifest for string-width@^2.1.1 fetched in 8ms
+1811 http fetch GET 200 https://registry.npmjs.org/redeyed 15ms (from cache)
+1812 http fetch GET 200 https://registry.npmjs.org/lodash.toarray 15ms (from cache)
+1813 http fetch GET 200 https://registry.npmjs.org/execa 14ms (from cache)
+1814 silly pacote range manifest for bcrypt-pbkdf@^1.0.0 fetched in 21ms
+1815 silly pacote range manifest for ansicolors@~0.3.2 fetched in 21ms
+1816 silly pacote range manifest for pify@^3.0.0 fetched in 7ms
+1817 silly pacote range manifest for redeyed@~2.1.0 fetched in 22ms
+1818 http fetch GET 200 https://registry.npmjs.org/is-obj 15ms (from cache)
+1819 silly pacote range manifest for lodash.toarray@^4.4.0 fetched in 23ms
+1820 silly pacote range manifest for execa@^0.7.0 fetched in 23ms
+1821 silly pacote range manifest for ini@^1.3.4 fetched in 7ms
+1822 http fetch GET 200 https://registry.npmjs.org/path-dirname 16ms (from cache)
+1823 http fetch GET 200 https://registry.npmjs.org/crypto-random-string 15ms (from cache)
+1824 http fetch GET 200 https://registry.npmjs.org/signal-exit 16ms (from cache)
+1825 silly pacote range manifest for is-obj@^1.0.0 fetched in 24ms
+1826 silly pacote range manifest for semver@^5.1.0 fetched in 7ms
+1827 http fetch GET 200 https://registry.npmjs.org/got 15ms (from cache)
+1828 silly pacote range manifest for path-dirname@^1.0.0 fetched in 28ms
+1829 http fetch GET 200 https://registry.npmjs.org/registry-auth-token 21ms (from cache)
+1830 silly pacote range manifest for crypto-random-string@^1.0.0 fetched in 30ms
+1831 http fetch GET 200 https://registry.npmjs.org/registry-url 21ms (from cache)
+1832 silly pacote range manifest for signal-exit@^3.0.2 fetched in 29ms
+1833 silly pacote range manifest for readable-stream@^2.0.4 fetched in 13ms
+1834 http fetch GET 200 https://registry.npmjs.org/is-absolute 19ms (from cache)
+1835 http fetch GET 200 https://registry.npmjs.org/through2-filter 19ms (from cache)
+1836 silly pacote range manifest for got@^6.7.1 fetched in 27ms
+1837 silly pacote range manifest for object-keys@^1.0.12 fetched in 11ms
+1838 silly pacote range manifest for registry-auth-token@^3.0.1 fetched in 28ms
+1839 silly pacote range manifest for registry-url@^3.0.3 fetched in 28ms
+1840 silly pacote range manifest for readable-stream@^2.0.0 fetched in 8ms
+1841 silly pacote range manifest for is-absolute@^1.0.0 fetched in 28ms
+1842 silly pacote range manifest for through2-filter@^2.0.0 fetched in 27ms
+1843 silly pacote range manifest for once@^1.3.1 fetched in 7ms
+1844 silly pacote range manifest for process-nextick-args@^2.0.0 fetched in 8ms
+1845 silly pacote range manifest for readable-stream@^2.3.5 fetched in 10ms
+1846 http fetch GET 200 https://registry.npmjs.org/end-of-stream 17ms (from cache)
+1847 silly pacote range manifest for lodash@^4.17.10 fetched in 8ms
+1848 http fetch GET 200 https://registry.npmjs.org/stream-shift 16ms (from cache)
+1849 silly pacote range manifest for process-nextick-args@~1.0.6 fetched in 7ms
+1850 silly pacote range manifest for once@^1.3.2 fetched in 7ms
+1851 silly pacote range manifest for semver@~5.0.1 fetched in 7ms
+1852 http fetch GET 200 https://registry.npmjs.org/end-of-stream 19ms (from cache)
+1853 silly pacote range manifest for end-of-stream@^1.0.0 fetched in 23ms
+1854 silly pacote version manifest for inherits@2.0.1 fetched in 7ms
+1855 http fetch GET 200 https://registry.npmjs.org/buffer-equal 16ms (from cache)
+1856 silly pacote range manifest for component-emitter@^1.2.0 fetched in 7ms
+1857 silly pacote range manifest for stream-shift@^1.0.0 fetched in 24ms
+1858 silly pacote range manifest for debug@^3.1.0 fetched in 7ms
+1859 http fetch GET 200 https://registry.npmjs.org/pinkie 16ms (from cache)
+1860 silly pacote range manifest for form-data@^2.3.1 fetched in 8ms
+1861 silly pacote range manifest for end-of-stream@^1.1.0 fetched in 27ms
+1862 silly pacote range manifest for buffer-equal@^1.0.0 fetched in 23ms
+1863 silly pacote range manifest for methods@^1.1.1 fetched in 7ms
+1864 silly pacote range manifest for mime@^1.4.1 fetched in 6ms
+1865 silly pacote range manifest for qs@^6.5.1 fetched in 7ms
+1866 http fetch GET 200 https://registry.npmjs.org/cookiejar 14ms (from cache)
+1867 silly pacote range manifest for pinkie@^2.0.0 fetched in 22ms
+1868 silly pacote version manifest for http-errors@1.6.2 fetched in 7ms
+1869 http fetch GET 200 https://registry.npmjs.org/formidable 14ms (from cache)
+1870 silly pacote version manifest for wordwrap@0.0.2 fetched in 5ms
+1871 silly pacote range manifest for expand-range@^1.8.1 fetched in 6ms
+1872 silly pacote range manifest for cookiejar@^2.1.0 fetched in 22ms
+1873 http fetch GET 200 https://registry.npmjs.org/center-align 14ms (from cache)
+1874 silly pacote range manifest for formidable@^1.2.0 fetched in 21ms
+1875 http fetch GET 200 https://registry.npmjs.org/right-align 15ms (from cache)
+1876 http fetch GET 200 https://registry.npmjs.org/preserve 15ms (from cache)
+1877 http fetch GET 200 https://registry.npmjs.org/repeat-element 14ms (from cache)
+1878 http fetch GET 200 https://registry.npmjs.org/http-parser-js 14ms (from cache)
+1879 http fetch GET 200 https://registry.npmjs.org/websocket-extensions 15ms (from cache)
+1880 silly pacote range manifest for center-align@^0.1.1 fetched in 22ms
+1881 http fetch GET 200 https://registry.npmjs.org/arr-flatten 13ms (from cache)
+1882 silly pacote range manifest for right-align@^0.1.1 fetched in 22ms
+1883 http fetch GET 200 https://registry.npmjs.org/is-posix-bracket 14ms (from cache)
+1884 silly pacote range manifest for preserve@^0.2.0 fetched in 21ms
+1885 silly pacote range manifest for repeat-element@^1.1.2 fetched in 20ms
+1886 silly pacote range manifest for http-parser-js@>=0.4.0 fetched in 23ms
+1887 http fetch GET 200 https://registry.npmjs.org/for-own 16ms (from cache)
+1888 silly pacote range manifest for websocket-extensions@>=0.1.1 fetched in 24ms
+1889 http fetch GET 200 https://registry.npmjs.org/is-extendable 15ms (from cache)
+1890 silly pacote range manifest for arr-flatten@^1.0.1 fetched in 24ms
+1891 silly pacote range manifest for is-posix-bracket@^0.1.0 fetched in 27ms
+1892 silly pacote range manifest for color-convert@^1.3.0 fetched in 12ms
+1893 silly pacote range manifest for for-own@^0.1.4 fetched in 29ms
+1894 silly pacote range manifest for is-extendable@^0.1.1 fetched in 27ms
+1895 http fetch GET 200 https://registry.npmjs.org/glob-base 23ms (from cache)
+1896 silly pacote range manifest for esprima@^2.6.0 fetched in 9ms
+1897 http fetch GET 200 https://registry.npmjs.org/is-dotfile 23ms (from cache)
+1898 http fetch GET 200 https://registry.npmjs.org/is-equal-shallow 24ms (from cache)
+1899 silly pacote range manifest for q@^1.1.2 fetched in 8ms
+1900 http fetch GET 200 https://registry.npmjs.org/color-string 21ms (from cache)
+1901 http fetch GET 200 https://registry.npmjs.org/strict-uri-encode 21ms (from cache)
+1902 silly pacote range manifest for glob-base@^0.3.0 fetched in 30ms
+1903 silly pacote range manifest for is-dotfile@^1.0.0 fetched in 30ms
+1904 http fetch GET 200 https://registry.npmjs.org/is-plain-obj 16ms (from cache)
+1905 silly pacote range manifest for is-equal-shallow@^0.1.3 fetched in 31ms
+1906 silly pacote range manifest for color-string@^0.3.0 fetched in 28ms
+1907 http fetch GET 200 https://registry.npmjs.org/clap 14ms (from cache)
+1908 http fetch GET 200 https://registry.npmjs.org/jsesc 14ms (from cache)
+1909 silly pacote range manifest for strict-uri-encode@^1.0.0 fetched in 27ms
+1910 silly pacote range manifest for color-convert@^0.5.3 fetched in 7ms
+1911 http fetch GET 200 https://registry.npmjs.org/array-union 15ms (from cache)
+1912 silly pacote range manifest for is-plain-obj@^1.0.0 fetched in 24ms
+1913 silly pacote range manifest for caniuse-db@^1.0.30000153 fetched in 8ms
+1914 silly pacote range manifest for arr-flatten@^1.1.0 fetched in 7ms
+1915 http fetch GET 200 https://registry.npmjs.org/arrify 14ms (from cache)
+1916 silly pacote range manifest for clap@^1.0.9 fetched in 20ms
+1917 silly pacote range manifest for jsesc@~0.5.0 fetched in 20ms
+1918 silly pacote range manifest for extend-shallow@^2.0.1 fetched in 7ms
+1919 silly pacote range manifest for array-union@^1.0.1 fetched in 22ms
+1920 silly pacote range manifest for arrify@^1.0.0 fetched in 20ms
+1921 silly pacote range manifest for to-regex@^3.0.1 fetched in 6ms
+1922 silly pacote range manifest for define-property@^1.0.0 fetched in 6ms
+1923 silly pacote range manifest for expand-brackets@^2.1.4 fetched in 7ms
+1924 http fetch GET 200 https://registry.npmjs.org/fill-range 14ms (from cache)
+1925 http fetch GET 200 https://registry.npmjs.org/isobject 14ms (from cache)
+1926 http fetch GET 200 https://registry.npmjs.org/snapdragon-node 14ms (from cache)
+1927 http fetch GET 200 https://registry.npmjs.org/split-string 14ms (from cache)
+1928 silly pacote range manifest for fill-range@^4.0.0 fetched in 20ms
+1929 silly pacote range manifest for is-extendable@^1.0.1 fetched in 8ms
+1930 http fetch GET 200 https://registry.npmjs.org/ncp 15ms (from cache)
+1931 silly pacote range manifest for isobject@^3.0.1 fetched in 26ms
+1932 silly pacote range manifest for snapdragon-node@^2.0.1 fetched in 26ms
+1933 http fetch GET 200 https://registry.npmjs.org/jsonfile 19ms (from cache)
+1934 silly pacote range manifest for split-string@^3.0.2 fetched in 26ms
+1935 http fetch GET 200 https://registry.npmjs.org/path-exists 19ms (from cache)
+1936 http fetch GET 200 https://registry.npmjs.org/is-descriptor 20ms (from cache)
+1937 http fetch GET 200 https://registry.npmjs.org/assign-symbols 19ms (from cache)
+1938 silly pacote range manifest for ncp@^1.0.1 fetched in 27ms
+1939 silly pacote range manifest for jsonfile@^2.0.0 fetched in 26ms
+1940 silly pacote range manifest for define-property@^0.2.5 fetched in 5ms
+1941 silly pacote range manifest for path-exists@^2.0.0 fetched in 26ms
+1942 silly pacote range manifest for is-descriptor@^1.0.2 fetched in 26ms
+1943 silly pacote range manifest for assign-symbols@^1.0.0 fetched in 25ms
+1944 http fetch GET 200 https://registry.npmjs.org/map-cache 18ms (from cache)
+1945 http fetch GET 200 https://registry.npmjs.org/is-windows 14ms (from cache)
+1946 http fetch GET 200 https://registry.npmjs.org/safe-regex 14ms (from cache)
+1947 silly pacote range manifest for regex-not@^1.0.2 fetched in 6ms
+1948 http fetch GET 200 https://registry.npmjs.org/base 14ms (from cache)
+1949 silly pacote range manifest for debug@^2.1.2 fetched in 6ms
+1950 silly pacote range manifest for iconv-lite@^0.4.4 fetched in 6ms
+1951 silly pacote range manifest for sax@^1.2.4 fetched in 6ms
+1952 silly pacote range manifest for map-cache@^0.2.2 fetched in 26ms
+1953 http fetch GET 200 https://registry.npmjs.org/source-map-resolve 14ms (from cache)
+1954 silly pacote range manifest for is-windows@^1.0.2 fetched in 20ms
+1955 silly pacote range manifest for safe-regex@^1.1.0 fetched in 20ms
+1956 http fetch GET 200 https://registry.npmjs.org/use 14ms (from cache)
+1957 silly pacote range manifest for base@^0.11.1 fetched in 21ms
+1958 silly pacote range manifest for source-map-resolve@^0.5.0 fetched in 21ms
+1959 http fetch GET 200 https://registry.npmjs.org/abbrev 15ms (from cache)
+1960 silly pacote range manifest for use@^3.1.0 fetched in 23ms
+1961 http fetch GET 200 https://registry.npmjs.org/osenv 14ms (from cache)
+1962 http fetch GET 200 https://registry.npmjs.org/ignore-walk 14ms (from cache)
+1963 http fetch GET 200 https://registry.npmjs.org/npm-bundled 14ms (from cache)
+1964 http fetch GET 200 https://registry.npmjs.org/are-we-there-yet 15ms (from cache)
+1965 http fetch GET 200 https://registry.npmjs.org/console-control-strings 14ms (from cache)
+1966 http fetch GET 200 https://registry.npmjs.org/gauge 14ms (from cache)
+1967 silly pacote range manifest for abbrev@1 fetched in 21ms
+1968 http fetch GET 200 https://registry.npmjs.org/set-blocking 13ms (from cache)
+1969 silly pacote range manifest for osenv@^0.1.4 fetched in 19ms
+1970 silly pacote range manifest for ignore-walk@^3.0.1 fetched in 20ms
+1971 silly pacote range manifest for npm-bundled@^1.0.1 fetched in 19ms
+1972 silly pacote range manifest for are-we-there-yet@~1.1.2 fetched in 24ms
+1973 http fetch GET 200 https://registry.npmjs.org/chownr 16ms (from cache)
+1974 silly pacote range manifest for console-control-strings@~1.1.0 fetched in 23ms
+1975 silly pacote range manifest for gauge@~2.7.3 fetched in 24ms
+1976 http fetch GET 200 https://registry.npmjs.org/fs-minipass 16ms (from cache)
+1977 silly pacote range manifest for set-blocking@~2.0.0 fetched in 23ms
+1978 silly pacote range manifest for safe-buffer@^5.1.2 fetched in 9ms
+1979 silly pacote range manifest for yallist@^3.0.2 fetched in 9ms
+1980 silly pacote range manifest for chownr@^1.0.1 fetched in 24ms
+1981 silly pacote version manifest for core-util-is@1.0.2 fetched in 6ms
+1982 silly pacote range manifest for extsprintf@^1.2.0 fetched in 6ms
+1983 http fetch GET 200 https://registry.npmjs.org/minipass 16ms (from cache)
+1984 silly pacote range manifest for fs-minipass@^1.2.5 fetched in 22ms
+1985 silly pacote range manifest for safer-buffer@~2.1.0 fetched in 5ms
+1986 silly pacote range manifest for safer-buffer@^2.1.0 fetched in 5ms
+1987 silly pacote range manifest for tweetnacl@^0.14.3 fetched in 6ms
+1988 http fetch GET 200 https://registry.npmjs.org/minizlib 17ms (from cache)
+1989 http fetch GET 200 https://registry.npmjs.org/callsite 13ms (from cache)
+1990 silly pacote range manifest for esprima@~4.0.0 fetched in 5ms
+1991 silly pacote range manifest for minipass@^2.3.3 fetched in 23ms
+1992 silly pacote range manifest for signal-exit@^3.0.0 fetched in 4ms
+1993 silly pacote range manifest for minizlib@^1.1.0 fetched in 24ms
+1994 silly pacote version manifest for callsite@1.0.0 fetched in 20ms
+1995 http fetch GET 200 https://registry.npmjs.org/cross-spawn 12ms (from cache)
+1996 http fetch GET 200 https://registry.npmjs.org/get-stream 13ms (from cache)
+1997 http fetch GET 200 https://registry.npmjs.org/is-stream 13ms (from cache)
+1998 http fetch GET 200 https://registry.npmjs.org/npm-run-path 13ms (from cache)
+1999 http fetch GET 200 https://registry.npmjs.org/p-finally 13ms (from cache)
+2000 http fetch GET 200 https://registry.npmjs.org/strip-eof 13ms (from cache)
+2001 silly pacote range manifest for cross-spawn@^5.0.1 fetched in 18ms
+2002 silly pacote range manifest for get-stream@^3.0.0 fetched in 18ms
+2003 http fetch GET 200 https://registry.npmjs.org/create-error-class 13ms (from cache)
+2004 http fetch GET 200 https://registry.npmjs.org/duplexer3 12ms (from cache)
+2005 silly pacote range manifest for is-stream@^1.1.0 fetched in 18ms
+2006 silly pacote range manifest for npm-run-path@^2.0.0 fetched in 19ms
+2007 silly pacote range manifest for p-finally@^1.0.0 fetched in 19ms
+2008 http fetch GET 200 https://registry.npmjs.org/is-redirect 12ms (from cache)
+2009 http fetch GET 200 https://registry.npmjs.org/is-retry-allowed 11ms (from cache)
+2010 silly pacote range manifest for strip-eof@^1.0.0 fetched in 19ms
+2011 silly pacote range manifest for is-stream@^1.0.0 fetched in 5ms
+2012 silly pacote range manifest for create-error-class@^3.0.0 fetched in 19ms
+2013 silly pacote range manifest for duplexer3@^0.1.4 fetched in 18ms
+2014 silly pacote range manifest for is-redirect@^1.0.0 fetched in 17ms
+2015 silly pacote range manifest for is-retry-allowed@^1.0.0 fetched in 17ms
+2016 silly pacote range manifest for rc@^1.0.1 fetched in 5ms
+2017 http fetch GET 200 https://registry.npmjs.org/lowercase-keys 12ms (from cache)
+2018 silly pacote range manifest for is-windows@^1.0.1 fetched in 5ms
+2019 silly pacote range manifest for through2@~2.0.0 fetched in 6ms
+2020 http fetch GET 200 https://registry.npmjs.org/timed-out 12ms (from cache)
+2021 http fetch GET 200 https://registry.npmjs.org/unzip-response 11ms (from cache)
+2022 http fetch GET 200 https://registry.npmjs.org/url-parse-lax 11ms (from cache)
+2023 silly pacote range manifest for xtend@~4.0.0 fetched in 5ms
+2024 silly pacote range manifest for once@^1.4.0 fetched in 5ms
+2025 silly pacote version manifest for combined-stream@1.0.6 fetched in 5ms
+2026 http fetch GET 200 https://registry.npmjs.org/is-relative 11ms (from cache)
+2027 silly pacote range manifest for lowercase-keys@^1.0.0 fetched in 17ms
+2028 silly pacote version manifest for depd@1.1.1 fetched in 4ms
+2029 silly pacote version manifest for setprototypeof@1.0.3 fetched in 5ms
+2030 silly pacote range manifest for timed-out@^4.0.0 fetched in 17ms
+2031 silly pacote range manifest for unzip-response@^2.0.1 fetched in 17ms
+2032 silly pacote range manifest for url-parse-lax@^1.0.0 fetched in 16ms
+2033 silly pacote range manifest for statuses@>= 1.3.1 < 2 fetched in 4ms
+2034 silly pacote range manifest for fill-range@^2.1.0 fetched in 6ms
+2035 silly pacote range manifest for is-relative@^1.0.0 fetched in 19ms
+2036 silly pacote range manifest for color-name@^1.0.0 fetched in 7ms
+2037 silly pacote range manifest for is-extendable@^0.1.0 fetched in 7ms
+2038 silly pacote range manifest for is-descriptor@^1.0.0 fetched in 7ms
+2039 http fetch GET 200 https://registry.npmjs.org/align-text 14ms (from cache)
+2040 silly pacote range manifest for debug@^2.3.3 fetched in 6ms
+2041 http fetch GET 200 https://registry.npmjs.org/lazy-cache 14ms (from cache)
+2042 http fetch GET 200 https://registry.npmjs.org/align-text 13ms (from cache)
+2043 http fetch GET 200 https://registry.npmjs.org/for-in 14ms (from cache)
+2044 silly pacote range manifest for is-number@^3.0.0 fetched in 4ms
+2045 http fetch GET 200 https://registry.npmjs.org/is-primitive 17ms (from cache)
+2046 http fetch GET 200 https://registry.npmjs.org/array-uniq 16ms (from cache)
+2047 silly pacote range manifest for repeat-string@^1.6.1 fetched in 9ms
+2048 silly pacote range manifest for align-text@^0.1.3 fetched in 24ms
+2049 silly pacote range manifest for lazy-cache@^1.0.3 fetched in 25ms
+2050 silly pacote range manifest for for-in@^1.0.1 fetched in 25ms
+2051 silly pacote range manifest for align-text@^0.1.1 fetched in 26ms
+2052 http fetch GET 200 https://registry.npmjs.org/posix-character-classes 18ms (from cache)
+2053 silly pacote range manifest for array-uniq@^1.0.1 fetched in 24ms
+2054 silly pacote range manifest for is-primitive@^2.0.0 fetched in 26ms
+2055 silly pacote range manifest for isobject@^3.0.0 fetched in 7ms
+2056 http fetch GET 200 https://registry.npmjs.org/to-regex-range 18ms (from cache)
+2057 silly pacote range manifest for extend-shallow@^3.0.0 fetched in 6ms
+2058 silly pacote range manifest for is-descriptor@^0.1.0 fetched in 7ms
+2059 http fetch GET 200 https://registry.npmjs.org/is-plain-object 19ms (from cache)
+2060 silly pacote range manifest for posix-character-classes@^0.1.0 fetched in 25ms
+2061 silly pacote range manifest for ret@~0.1.10 fetched in 6ms
+2062 http fetch GET 200 https://registry.npmjs.org/snapdragon-util 15ms (from cache)
+2063 silly pacote range manifest for to-regex-range@^2.1.0 fetched in 26ms
+2064 http fetch GET 200 https://registry.npmjs.org/is-accessor-descriptor 13ms (from cache)
+2065 silly pacote range manifest for component-emitter@^1.2.1 fetched in 6ms
+2066 silly pacote range manifest for is-plain-object@^2.0.4 fetched in 26ms
+2067 http fetch GET 200 https://registry.npmjs.org/is-data-descriptor 15ms (from cache)
+2068 http fetch GET 200 https://registry.npmjs.org/cache-base 14ms (from cache)
+2069 silly pacote range manifest for snapdragon-util@^3.0.1 fetched in 23ms
+2070 http fetch GET 200 https://registry.npmjs.org/class-utils 15ms (from cache)
+2071 silly pacote range manifest for is-accessor-descriptor@^1.0.0 fetched in 22ms
+2072 http fetch GET 200 https://registry.npmjs.org/mixin-deep 15ms (from cache)
+2073 silly pacote range manifest for is-data-descriptor@^1.0.0 fetched in 22ms
+2074 silly pacote range manifest for cache-base@^1.0.1 fetched in 21ms
+2075 http fetch GET 200 https://registry.npmjs.org/pascalcase 15ms (from cache)
+2076 http fetch GET 200 https://registry.npmjs.org/atob 18ms (from cache)
+2077 silly pacote range manifest for class-utils@^0.3.5 fetched in 25ms
+2078 http fetch GET 200 https://registry.npmjs.org/resolve-url 17ms (from cache)
+2079 http fetch GET 200 https://registry.npmjs.org/decode-uri-component 17ms (from cache)
+2080 silly pacote range manifest for mixin-deep@^1.2.0 fetched in 23ms
+2081 silly pacote range manifest for os-tmpdir@^1.0.0 fetched in 9ms
+2082 silly pacote range manifest for pascalcase@^0.1.1 fetched in 27ms
+2083 http fetch GET 200 https://registry.npmjs.org/source-map-url 22ms (from cache)
+2084 silly pacote range manifest for atob@^2.1.1 fetched in 30ms
+2085 http fetch GET 200 https://registry.npmjs.org/urix 21ms (from cache)
+2086 silly pacote range manifest for resolve-url@^0.2.1 fetched in 29ms
+2087 silly pacote range manifest for decode-uri-component@^0.2.0 fetched in 29ms
+2088 silly pacote range manifest for readable-stream@^2.0.6 fetched in 12ms
+2089 silly pacote range manifest for console-control-strings@^1.0.0 fetched in 12ms
+2090 http fetch GET 200 https://registry.npmjs.org/delegates 22ms (from cache)
+2091 silly pacote range manifest for source-map-url@^0.4.0 fetched in 30ms
+2092 silly pacote range manifest for strip-ansi@^3.0.1 fetched in 7ms
+2093 silly pacote range manifest for minipass@^2.2.1 fetched in 6ms
+2094 silly pacote range manifest for urix@^0.1.0 fetched in 30ms
+2095 silly pacote range manifest for yallist@^3.0.0 fetched in 9ms
+2096 http fetch GET 200 https://registry.npmjs.org/aproba 21ms (from cache)
+2097 silly pacote range manifest for delegates@^1.0.0 fetched in 30ms
+2098 silly pacote range manifest for lru-cache@^4.0.1 fetched in 7ms
+2099 http fetch GET 200 https://registry.npmjs.org/has-unicode 15ms (from cache)
+2100 silly pacote range manifest for which@^1.2.9 fetched in 6ms
+2101 http fetch GET 200 https://registry.npmjs.org/wide-align 15ms (from cache)
+2102 silly pacote range manifest for aproba@^1.0.3 fetched in 27ms
+2103 silly pacote range manifest for prepend-http@^1.0.1 fetched in 6ms
+2104 silly pacote range manifest for is-number@^2.1.0 fetched in 6ms
+2105 silly pacote range manifest for isobject@^2.0.0 fetched in 6ms
+2106 silly pacote range manifest for has-unicode@^2.0.0 fetched in 22ms
+2107 http fetch GET 200 https://registry.npmjs.org/shebang-command 13ms (from cache)
+2108 http fetch GET 200 https://registry.npmjs.org/path-key 13ms (from cache)
+2109 http fetch GET 200 https://registry.npmjs.org/capture-stack-trace 13ms (from cache)
+2110 silly pacote range manifest for repeat-string@^1.5.2 fetched in 4ms
+2111 silly pacote range manifest for wide-align@^1.1.0 fetched in 21ms
+2112 silly pacote range manifest for is-accessor-descriptor@^0.1.6 fetched in 4ms
+2113 silly pacote range manifest for is-data-descriptor@^0.1.4 fetched in 6ms
+2114 silly pacote range manifest for shebang-command@^1.2.0 fetched in 20ms
+2115 http fetch GET 200 https://registry.npmjs.org/randomatic 13ms (from cache)
+2116 silly pacote range manifest for path-key@^2.0.0 fetched in 20ms
+2117 silly pacote range manifest for capture-stack-trace@^1.0.0 fetched in 19ms
+2118 silly pacote range manifest for kind-of@^5.0.0 fetched in 5ms
+2119 silly pacote range manifest for kind-of@^3.2.0 fetched in 6ms
+2120 silly pacote range manifest for kind-of@^6.0.0 fetched in 6ms
+2121 http fetch GET 200 https://registry.npmjs.org/is-unc-path 13ms (from cache)
+2122 http fetch GET 200 https://registry.npmjs.org/longest 13ms (from cache)
+2123 silly pacote range manifest for randomatic@^3.0.0 fetched in 22ms
+2124 silly pacote range manifest for is-unc-path@^1.0.0 fetched in 21ms
+2125 silly pacote range manifest for longest@^1.0.1 fetched in 23ms
+2126 http fetch GET 200 https://registry.npmjs.org/collection-visit 15ms (from cache)
+2127 http fetch GET 200 https://registry.npmjs.org/get-value 15ms (from cache)
+2128 http fetch GET 200 https://registry.npmjs.org/has-value 15ms (from cache)
+2129 http fetch GET 200 https://registry.npmjs.org/set-value 15ms (from cache)
+2130 http fetch GET 200 https://registry.npmjs.org/to-object-path 15ms (from cache)
+2131 http fetch GET 200 https://registry.npmjs.org/union-value 15ms (from cache)
+2132 http fetch GET 200 https://registry.npmjs.org/unset-value 14ms (from cache)
+2133 silly pacote range manifest for for-in@^1.0.2 fetched in 7ms
+2134 silly pacote range manifest for collection-visit@^1.0.0 fetched in 22ms
+2135 http fetch GET 200 https://registry.npmjs.org/arr-union 13ms (from cache)
+2136 silly pacote range manifest for get-value@^2.0.6 fetched in 21ms
+2137 silly pacote range manifest for has-value@^1.0.0 fetched in 20ms
+2138 silly pacote range manifest for set-value@^2.0.0 fetched in 21ms
+2139 silly pacote range manifest for to-object-path@^0.3.0 fetched in 21ms
+2140 silly pacote range manifest for unset-value@^1.0.0 fetched in 21ms
+2141 silly pacote range manifest for union-value@^1.0.0 fetched in 21ms
+2142 http fetch GET 200 https://registry.npmjs.org/static-extend 15ms (from cache)
+2143 silly pacote version manifest for isarray@1.0.0 fetched in 8ms
+2144 silly pacote range manifest for string-width@^1.0.2 || 2 fetched in 8ms
+2145 silly pacote range manifest for arr-union@^3.1.0 fetched in 21ms
+2146 silly pacote range manifest for is-number@^4.0.0 fetched in 6ms
+2147 silly pacote range manifest for static-extend@^0.1.1 fetched in 23ms
+2148 silly pacote range manifest for is-plain-object@^2.0.3 fetched in 8ms
+2149 silly pacote range manifest for split-string@^3.0.1 fetched in 6ms
+2150 silly pacote range manifest for has-value@^0.3.1 fetched in 6ms
+2151 http fetch GET 200 https://registry.npmjs.org/shebang-regex 14ms (from cache)
+2152 http fetch GET 200 https://registry.npmjs.org/unc-path-regex 13ms (from cache)
+2153 http fetch GET 200 https://registry.npmjs.org/math-random 14ms (from cache)
+2154 http fetch GET 200 https://registry.npmjs.org/map-visit 14ms (from cache)
+2155 http fetch GET 200 https://registry.npmjs.org/object-visit 14ms (from cache)
+2156 silly pacote range manifest for set-value@^0.4.3 fetched in 5ms
+2157 http fetch GET 200 https://registry.npmjs.org/has-values 14ms (from cache)
+2158 silly pacote range manifest for get-value@^2.0.3 fetched in 10ms
+2159 silly pacote range manifest for shebang-regex@^1.0.0 fetched in 25ms
+2160 silly pacote range manifest for unc-path-regex@^0.1.2 fetched in 24ms
+2161 silly pacote range manifest for math-random@^1.0.1 fetched in 25ms
+2162 silly pacote range manifest for map-visit@^1.0.0 fetched in 24ms
+2163 silly pacote range manifest for object-visit@^1.0.0 fetched in 24ms
+2164 silly pacote range manifest for is-plain-object@^2.0.1 fetched in 10ms
+2165 http fetch GET 200 https://registry.npmjs.org/has-values 12ms (from cache)
+2166 silly pacote range manifest for has-values@^1.0.0 fetched in 23ms
+2167 http fetch GET 200 https://registry.npmjs.org/object-copy 15ms (from cache)
+2168 silly pacote range manifest for has-values@^0.1.4 fetched in 14ms
+2169 silly pacote range manifest for kind-of@^4.0.0 fetched in 1ms
+2170 silly pacote range manifest for object-copy@^0.1.0 fetched in 16ms
+2171 silly pacote range manifest for kind-of@^3.0.3 fetched in 2ms
+2172 http fetch GET 200 https://registry.npmjs.org/copy-descriptor 3ms (from cache)
+2173 silly pacote range manifest for copy-descriptor@^0.1.0 fetched in 4ms
+2174 silly pacote range manifest for angular-cookies@^1.5.7 fetched in 6ms
+2175 silly resolveWithNewModule angular-cookies@1.7.4 checking installable status
+2176 silly pacote range manifest for angular@^1.5.7 fetched in 9ms
+2177 silly resolveWithNewModule angular@1.7.4 checking installable status
+2178 silly pacote range manifest for angular-json-schema-form@^0.1.4 fetched in 10ms
+2179 silly resolveWithNewModule angular-json-schema-form@0.1.4 checking installable status
+2180 silly pacote range manifest for angular-marked@^1.2.1 fetched in 11ms
+2181 silly resolveWithNewModule angular-marked@1.2.2 checking installable status
+2182 silly pacote range manifest for angular-mocks@^1.5.7 fetched in 11ms
+2183 silly resolveWithNewModule angular-mocks@1.7.4 checking installable status
+2184 silly pacote range manifest for angular-sanitize@^1.5.7 fetched in 11ms
+2185 silly resolveWithNewModule angular-sanitize@1.7.4 checking installable status
+2186 silly pacote range manifest for angular-ui-ace@^0.2.3 fetched in 12ms
+2187 silly resolveWithNewModule angular-ui-ace@0.2.3 checking installable status
+2188 silly pacote range manifest for angular-ui-bootstrap@^1.2.5 fetched in 13ms
+2189 silly resolveWithNewModule angular-ui-bootstrap@1.3.3 checking installable status
+2190 silly pacote range manifest for angular-ui-layout@^1.4.2 fetched in 16ms
+2191 silly resolveWithNewModule angular-ui-layout@1.4.3 checking installable status
+2192 silly pacote range manifest for angular-ui-router@^0.3.1 fetched in 17ms
+2193 silly resolveWithNewModule angular-ui-router@0.3.2 checking installable status
+2194 silly pacote range manifest for brace@^0.8.0 fetched in 6ms
+2195 silly resolveWithNewModule brace@0.8.0 checking installable status
+2196 silly pacote range manifest for bootstrap@^3.3.6 fetched in 7ms
+2197 silly resolveWithNewModule bootstrap@3.3.7 checking installable status
+2198 silly pacote range manifest for chai@^3.5.0 fetched in 8ms
+2199 silly resolveWithNewModule chai@3.5.0 checking installable status
+2200 silly pacote range manifest for css-loader@^0.23.1 fetched in 8ms
+2201 silly resolveWithNewModule css-loader@0.23.1 checking installable status
+2202 silly pacote range manifest for es6-promise@^3.1.2 fetched in 9ms
+2203 silly resolveWithNewModule es6-promise@3.3.1 checking installable status
+2204 silly pacote range manifest for es6-shim@^0.35.0 fetched in 10ms
+2205 silly resolveWithNewModule es6-shim@0.35.3 checking installable status
+2206 silly pacote range manifest for eslint@^2.13.1 fetched in 11ms
+2207 silly resolveWithNewModule eslint@2.13.1 checking installable status
+2208 silly pacote range manifest for eslint-config-google@^0.6.0 fetched in 14ms
+2209 silly resolveWithNewModule eslint-config-google@0.6.0 checking installable status
+2210 silly pacote range manifest for eslint-friendly-formatter@^2.0.3 fetched in 10ms
+2211 silly resolveWithNewModule eslint-friendly-formatter@2.0.7 checking installable status
+2212 silly pacote range manifest for eslint-loader@^1.3.0 fetched in 10ms
+2213 silly resolveWithNewModule eslint-loader@1.9.0 checking installable status
+2214 silly pacote range manifest for extract-text-webpack-plugin@^1.0.1 fetched in 7ms
+2215 silly resolveWithNewModule extract-text-webpack-plugin@1.0.1 checking installable status
+2216 silly pacote range manifest for file-loader@^0.9.0 fetched in 7ms
+2217 silly resolveWithNewModule file-loader@0.9.0 checking installable status
+2218 silly pacote range manifest for font-awesome@^4.6.1 fetched in 7ms
+2219 silly resolveWithNewModule font-awesome@4.7.0 checking installable status
+2220 silly pacote range manifest for eslint-plugin-chai-expect@^1.1.1 fetched in 9ms
+2221 silly resolveWithNewModule eslint-plugin-chai-expect@1.1.1 checking installable status
+2222 silly pacote version manifest for font-awesome-webpack@0.0.4 fetched in 9ms
+2223 silly resolveWithNewModule font-awesome-webpack@0.0.4 checking installable status
+2224 silly pacote range manifest for html-loader@^0.4.3 fetched in 11ms
+2225 silly resolveWithNewModule html-loader@0.4.5 checking installable status
+2226 silly pacote range manifest for http-server@^0.9.0 fetched in 12ms
+2227 silly resolveWithNewModule http-server@0.9.0 checking installable status
+2228 silly pacote range manifest for jasmine-core@^2.4.1 fetched in 11ms
+2229 silly resolveWithNewModule jasmine-core@2.99.1 checking installable status
+2230 silly pacote range manifest for jquery@^3.0.0 fetched in 12ms
+2231 silly resolveWithNewModule jquery@3.3.1 checking installable status
+2232 silly pacote range manifest for js-yaml@^3.5.5 fetched in 13ms
+2233 silly resolveWithNewModule js-yaml@3.12.0 checking installable status
+2234 silly pacote range manifest for json-editor@^0.7.26 fetched in 6ms
+2235 silly resolveWithNewModule json-editor@0.7.28 checking installable status
+2236 silly pacote range manifest for json-loader@^0.5.4 fetched in 7ms
+2237 silly resolveWithNewModule json-loader@0.5.7 checking installable status
+2238 silly pacote range manifest for json-formatter-js@^1.0.0 fetched in 8ms
+2239 silly resolveWithNewModule json-formatter-js@1.3.0 checking installable status
+2240 silly pacote range manifest for json-schema-view-js@^0.4.1 fetched in 9ms
+2241 silly resolveWithNewModule json-schema-view-js@0.4.1 checking installable status
+2242 silly pacote range manifest for jsonformatter@^0.6.0 fetched in 9ms
+2243 silly resolveWithNewModule jsonformatter@0.6.0 checking installable status
+2244 silly pacote range manifest for karma@^1.1.0 fetched in 10ms
+2245 silly resolveWithNewModule karma@1.7.1 checking installable status
+2246 silly pacote range manifest for jsonlint@^1.6.2 fetched in 11ms
+2247 silly resolveWithNewModule jsonlint@1.6.3 checking installable status
+2248 silly pacote range manifest for karma-chai-plugins@^0.7.0 fetched in 9ms
+2249 silly resolveWithNewModule karma-chai-plugins@0.7.0 checking installable status
+2250 silly pacote range manifest for karma-chrome-launcher@^1.0.1 fetched in 9ms
+2251 silly resolveWithNewModule karma-chrome-launcher@1.0.1 checking installable status
+2252 silly pacote range manifest for karma-firefox-launcher@^1.0.0 fetched in 12ms
+2253 silly resolveWithNewModule karma-firefox-launcher@1.1.0 checking installable status
+2254 silly pacote range manifest for karma-jasmine@^1.0.2 fetched in 7ms
+2255 silly resolveWithNewModule karma-jasmine@1.1.2 checking installable status
+2256 silly pacote range manifest for karma-mocha@^1.1.1 fetched in 12ms
+2257 silly resolveWithNewModule karma-mocha@1.3.0 checking installable status
+2258 silly pacote range manifest for karma-mocha-reporter@^2.0.4 fetched in 13ms
+2259 silly resolveWithNewModule karma-mocha-reporter@2.2.5 checking installable status
+2260 silly pacote range manifest for karma-ng-html2js-preprocessor@^1.0.0 fetched in 14ms
+2261 silly resolveWithNewModule karma-ng-html2js-preprocessor@1.0.0 checking installable status
+2262 silly pacote range manifest for karma-ng-scenario@^1.0.0 fetched in 15ms
+2263 silly resolveWithNewModule karma-ng-scenario@1.0.0 checking installable status
+2264 silly pacote range manifest for karma-sourcemap-loader@^0.3.7 fetched in 16ms
+2265 silly resolveWithNewModule karma-sourcemap-loader@0.3.7 checking installable status
+2266 silly pacote range manifest for karma-webpack@^1.7.0 fetched in 17ms
+2267 silly resolveWithNewModule karma-webpack@1.8.1 checking installable status
+2268 silly pacote range manifest for less@^2.6.1 fetched in 16ms
+2269 silly resolveWithNewModule less@2.7.3 checking installable status
+2270 silly pacote range manifest for less-loader@^2.2.2 fetched in 17ms
+2271 silly resolveWithNewModule less-loader@2.2.3 checking installable status
+2272 silly pacote range manifest for lodash@^4.6.1 fetched in 17ms
+2273 silly resolveWithNewModule lodash@4.17.11 checking installable status
+2274 silly pacote range manifest for minimist@^1.2.0 fetched in 8ms
+2275 silly resolveWithNewModule minimist@1.2.0 checking installable status
+2276 silly pacote range manifest for mocha@^2.4.5 fetched in 9ms
+2277 silly resolveWithNewModule mocha@2.5.3 checking installable status
+2278 silly pacote range manifest for ng-annotate-webpack-plugin@^0.1.3 fetched in 10ms
+2279 silly resolveWithNewModule ng-annotate-webpack-plugin@0.1.3 checking installable status
+2280 silly pacote range manifest for ng-file-upload@^12.0.4 fetched in 10ms
+2281 silly resolveWithNewModule ng-file-upload@12.2.13 checking installable status
+2282 silly pacote range manifest for mversion@^1.10.1 fetched in 11ms
+2283 silly resolveWithNewModule mversion@1.12.0 checking installable status
+2284 silly pacote range manifest for ngstorage@^0.3.10 fetched in 12ms
+2285 silly resolveWithNewModule ngstorage@0.3.11 checking installable status
+2286 silly pacote version manifest for open@0.0.5 fetched in 33ms
+2287 silly resolveWithNewModule open@0.0.5 checking installable status
+2288 silly pacote range manifest for open-sans-fontface@^1.4.0 fetched in 30ms
+2289 silly resolveWithNewModule open-sans-fontface@1.4.0 checking installable status
+2290 silly pacote range manifest for protractor@^3.2.1 fetched in 31ms
+2291 silly resolveWithNewModule protractor@3.3.0 checking installable status
+2292 silly pacote range manifest for sinon@^1.17.3 fetched in 37ms
+2293 silly resolveWithNewModule sinon@1.17.7 checking installable status
+2294 silly pacote range manifest for sinon-chai@^2.8.0 fetched in 33ms
+2295 silly resolveWithNewModule sinon-chai@2.14.0 checking installable status
+2296 silly pacote range manifest for style-loader@^0.13.0 fetched in 28ms
+2297 silly resolveWithNewModule style-loader@0.13.2 checking installable status
+2298 silly pacote range manifest for spark-md5@^2.0.2 fetched in 29ms
+2299 silly resolveWithNewModule spark-md5@2.0.2 checking installable status
+2300 silly pacote range manifest for svg-inline-loader@^0.6.0 fetched in 29ms
+2301 silly resolveWithNewModule svg-inline-loader@0.6.1 checking installable status
+2302 silly pacote range manifest for sway@^1.0.0 fetched in 30ms
+2303 silly resolveWithNewModule sway@1.0.0 checking installable status
+2304 silly pacote range manifest for url-loader@^0.5.7 fetched in 13ms
+2305 silly resolveWithNewModule url-loader@0.5.9 checking installable status
+2306 silly pacote range manifest for webpack@^1.12.14 fetched in 14ms
+2307 silly resolveWithNewModule webpack@1.15.0 checking installable status
+2308 silly pacote range manifest for webpack-dev-server@^1.14.1 fetched in 15ms
+2309 silly resolveWithNewModule webpack-dev-server@1.16.5 checking installable status
+2310 silly pacote range manifest for worker-loader@^0.7.0 fetched in 8ms
+2311 silly resolveWithNewModule worker-loader@0.7.1 checking installable status
+2312 silly pacote range manifest for yaml-js@^0.1.3 fetched in 3ms
+2313 silly resolveWithNewModule yaml-js@0.1.5 checking installable status
+2314 silly fetchPackageMetaData error for source-code-pro@git+https://github.com/adobe-fonts/source-code-pro.git#release Command failed: /usr/bin/git clone --depth=1 -q -b release https://github.com/adobe-fonts/source-code-pro.git /home/vmuser/.npm/_cacache/tmp/git-clone-562af03a
+2314 silly fetchPackageMetaData /home/vmuser/.npm/_cacache/tmp/git-clone-562af03a/.git: Permission denied
+2315 timing stage:rollbackFailedOptional Completed in 1ms
+2316 timing stage:runTopLevelLifecycles Completed in 5265ms
+2317 silly saveTree swagger-editor@2.10.4
+2317 silly saveTree ├── angular-cookies@1.7.4
+2317 silly saveTree ├── angular-json-schema-form@0.1.4
+2317 silly saveTree ├── angular-marked@1.2.2
+2317 silly saveTree ├── angular-mocks@1.7.4
+2317 silly saveTree ├── angular-sanitize@1.7.4
+2317 silly saveTree ├── angular-ui-ace@0.2.3
+2317 silly saveTree ├── angular-ui-bootstrap@1.3.3
+2317 silly saveTree ├── angular-ui-layout@1.4.3
+2317 silly saveTree ├─┬ angular-ui-router@0.3.2
+2317 silly saveTree │ └── angular@1.7.4
+2317 silly saveTree ├── angular@1.7.4
+2317 silly saveTree ├── bootstrap@3.3.7
+2317 silly saveTree ├── brace@0.8.0
+2317 silly saveTree ├── chai@3.5.0
+2317 silly saveTree ├── css-loader@0.23.1
+2317 silly saveTree ├── es6-promise@3.3.1
+2317 silly saveTree ├── es6-shim@0.35.3
+2317 silly saveTree ├── eslint-config-google@0.6.0
+2317 silly saveTree ├─┬ eslint-friendly-formatter@2.0.7
+2317 silly saveTree │ └── minimist@1.2.0
+2317 silly saveTree ├── eslint-loader@1.9.0
+2317 silly saveTree ├── eslint-plugin-chai-expect@1.1.1
+2317 silly saveTree ├─┬ eslint@2.13.1
+2317 silly saveTree │ ├── js-yaml@3.12.0
+2317 silly saveTree │ └── lodash@4.17.11
+2317 silly saveTree ├── extract-text-webpack-plugin@1.0.1
+2317 silly saveTree ├── file-loader@0.9.0
+2317 silly saveTree ├─┬ font-awesome-webpack@0.0.4
+2317 silly saveTree │ └── less-loader@2.2.3
+2317 silly saveTree ├── font-awesome@4.7.0
+2317 silly saveTree ├── html-loader@0.4.5
+2317 silly saveTree ├── http-server@0.9.0
+2317 silly saveTree ├── jasmine-core@2.99.1
+2317 silly saveTree ├── jquery@3.3.1
+2317 silly saveTree ├── js-yaml@3.12.0
+2317 silly saveTree ├── json-editor@0.7.28
+2317 silly saveTree ├── json-formatter-js@1.3.0
+2317 silly saveTree ├── json-loader@0.5.7
+2317 silly saveTree ├── json-schema-view-js@0.4.1
+2317 silly saveTree ├── jsonformatter@0.6.0
+2317 silly saveTree ├── jsonlint@1.6.3
+2317 silly saveTree ├─┬ karma-chai-plugins@0.7.0
+2317 silly saveTree │ ├── sinon-chai@2.14.0
+2317 silly saveTree │ └── sinon@1.17.7
+2317 silly saveTree ├── karma-chrome-launcher@1.0.1
+2317 silly saveTree ├── karma-firefox-launcher@1.1.0
+2317 silly saveTree ├── karma-jasmine@1.1.2
+2317 silly saveTree ├── karma-mocha-reporter@2.2.5
+2317 silly saveTree ├── karma-mocha@1.3.0
+2317 silly saveTree ├── karma-ng-html2js-preprocessor@1.0.0
+2317 silly saveTree ├── karma-ng-scenario@1.0.0
+2317 silly saveTree ├── karma-sourcemap-loader@0.3.7
+2317 silly saveTree ├── karma-webpack@1.8.1
+2317 silly saveTree ├── karma@1.7.1
+2317 silly saveTree ├── less-loader@2.2.3
+2317 silly saveTree ├── less@2.7.3
+2317 silly saveTree ├── lodash@4.17.11
+2317 silly saveTree ├── minimist@1.2.0
+2317 silly saveTree ├── mocha@2.5.3
+2317 silly saveTree ├── mversion@1.12.0
+2317 silly saveTree ├── ng-annotate-webpack-plugin@0.1.3
+2317 silly saveTree ├── ng-file-upload@12.2.13
+2317 silly saveTree ├── ngstorage@0.3.11
+2317 silly saveTree ├── open-sans-fontface@1.4.0
+2317 silly saveTree ├── open@0.0.5
+2317 silly saveTree ├── protractor@3.3.0
+2317 silly saveTree ├── sinon-chai@2.14.0
+2317 silly saveTree ├── sinon@1.17.7
+2317 silly saveTree ├── spark-md5@2.0.2
+2317 silly saveTree ├── style-loader@0.13.2
+2317 silly saveTree ├── svg-inline-loader@0.6.1
+2317 silly saveTree ├── sway@1.0.0
+2317 silly saveTree ├── url-loader@0.5.9
+2317 silly saveTree ├── webpack-dev-server@1.16.5
+2317 silly saveTree ├── webpack@1.15.0
+2317 silly saveTree ├── worker-loader@0.7.1
+2317 silly saveTree └── yaml-js@0.1.5
+2318 verbose stack Error: Command failed: /usr/bin/git clone --depth=1 -q -b release https://github.com/adobe-fonts/source-code-pro.git /home/vmuser/.npm/_cacache/tmp/git-clone-562af03a
+2318 verbose stack /home/vmuser/.npm/_cacache/tmp/git-clone-562af03a/.git: Permission denied
+2318 verbose stack
+2318 verbose stack     at ChildProcess.exithandler (child_process.js:275:12)
+2318 verbose stack     at emitTwo (events.js:126:13)
+2318 verbose stack     at ChildProcess.emit (events.js:214:7)
+2318 verbose stack     at maybeClose (internal/child_process.js:925:16)
+2318 verbose stack     at Socket.stream.socket.on (internal/child_process.js:346:11)
+2318 verbose stack     at emitOne (events.js:116:13)
+2318 verbose stack     at Socket.emit (events.js:211:7)
+2318 verbose stack     at Pipe._handle.close [as _onclose] (net.js:567:12)
+2319 verbose cwd /home/vmuser/swagger-editor
+2320 verbose Linux 4.15.0-34-generic
+2321 verbose argv "/usr/bin/node" "/usr/local/bin/npm" "install"
+2322 verbose node v8.10.0
+2323 verbose npm  v6.4.1
+2324 error code 1
+2325 error Command failed: /usr/bin/git clone --depth=1 -q -b release https://github.com/adobe-fonts/source-code-pro.git /home/vmuser/.npm/_cacache/tmp/git-clone-562af03a
+2325 error /home/vmuser/.npm/_cacache/tmp/git-clone-562af03a/.git: Permission denied
+2326 verbose exit [ 1, true ]

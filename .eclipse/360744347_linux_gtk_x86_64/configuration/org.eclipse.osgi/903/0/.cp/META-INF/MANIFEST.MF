@@ -1,0 +1,2154 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.php.help;singleton:=true
+Bundle-Name: PDT Help Plug-in
+Bundle-Version: 6.0.0.201806122250
+Built-By: genie.pdt
+Require-Bundle: org.eclipse.ui,org.eclipse.help
+Bundle-ManifestVersion: 2
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/pdt/or
+ g.eclipse.pdt.git;path="plugins/org.eclipse.php.help";commitId=e1fe1e
+ 1450ae4d9f51bbb04552510ddc56e09956
+Bundle-Vendor: Eclipse PDT
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_162
+
+Name: html/getting_started/basic_tutorial/images/php_code.png
+SHA-256-Digest: V5OwfbVSAJzEvQ9rbVLBMSbuMQ0FV1Hl9iVs9nz9yxM=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/outline_view_php_html.png
+SHA-256-Digest: Ik3NxLf95dgbMvWMkj8T/uQGtTJl3FUyRLLnXRZ9pZU=
+
+Name: html/concepts/images/path_mapping_dialog_pdt.png
+SHA-256-Digest: QThg/Cu6ELfWtuD5hOEu0a1irzyP9QuAZrnyHNgyggA=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ mages/menu_icon_functions_view.png
+SHA-256-Digest: G5f27KOolpTd4Ce7d2/JVI6+fdIHKqBVBk8sMk7IFEg=
+
+Name: html/reference/preferences/editor/images/editor.png
+SHA-256-Digest: DrYW5u0TxZV6uEgAAUOPX0cNAss6qCWi3DVON+8n6/A=
+
+Name: html/reference/menus/file/export.html
+SHA-256-Digest: jtWM0kIm+3iU/SRPUxCOFB/Cr3UdhQIQFWV7sqzGTHI=
+
+Name: html/reference/menus/run.html
+SHA-256-Digest: LwfG8SQim6568QsR//aVSD/6Jewi0MIvWL9FM2rUgVA=
+
+Name: html/reference/images/file_error.png
+SHA-256-Digest: rStGdUZ2cHvTAXM/ypx58Yudiir9V4q8sKQdo+gpdeQ=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ mages/collapse_all_icon.png
+SHA-256-Digest: z5N1A+CBC6xwUpHtxQhVhpqN0wIb5nqclGvWYq8Ccgw=
+
+Name: html/getting_started/index.html
+SHA-256-Digest: vfJFm26D/T/1arMYdrwz7tV9vFqJ7diVNiZ48tKfJFU=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/php_debug_perspective.png
+SHA-256-Digest: gFyIRLki1ahNEUjxrXo59qDcnLUyTLHdIfDrgwKvMmE=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/php_explorer_arrows.png
+SHA-256-Digest: ntkXwb+2Ll2/V9QjkeVx9BLH390rbIL367Eb/hQhK5M=
+
+Name: html/reference/keymap.html
+SHA-256-Digest: xjKvcF5jX1O4S8ctyY0WGrNioUaygD2zdN9XbfNzS1o=
+
+Name: html/images/search_results_view.gif
+SHA-256-Digest: q1b3QkqiGyXo0p3aX3adsGSUeNcxNtWpDmeyX57pH30=
+
+Name: html/tasks/debugging/troubleshooting_remote_debugging/index.html
+SHA-256-Digest: xXfeGtlEVc7OcLC+MOZl8V9EHBBRFk0Ux4xtDmrmqJM=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/variables_view_menu.png
+SHA-256-Digest: rwlwY3+iFFbCQkz3lyQskv6a902AYhKPOEU0yFWJ98s=
+
+Name: html/reference/preferences/images/php_servers_added_pdt.png
+SHA-256-Digest: PeH3PlJ5TJrEZRYl11J2k1yBdCbIdjdQRcVT+V32SbM=
+
+Name: html/reference/preferences/validation/index.html
+SHA-256-Digest: /kKMNLav4gs0hpU5BppVKIaRVQ8UfSrdkj9QYDvp5Jc=
+
+Name: html/reference/preferences/code_refactor.html
+SHA-256-Digest: vpDWaPirpy5g+TiOzgd8p7qlvmPMCR+OuEKMFmhMAaI=
+
+Name: html/concepts/images/multi_line_comment.png
+SHA-256-Digest: 2CJLzV4hDTL0mxNvpOGK3Cvm2Uun7E9PLV6NBRmvPM0=
+
+Name: html/concepts/include_paths.html
+SHA-256-Digest: e1DKZkPJTeKRiqxP+7w2vc/sHCwrbOXcbxfCihuF/rg=
+
+Name: html/reference/menus/source.html
+SHA-256-Digest: nY3M/gdOzPOH281ehJYPVHVcTj+GbSvrmfvRNBPHBck=
+
+Name: html/video_tutorials.html
+SHA-256-Digest: mt+OisCsp6Dr8sPHUiws4Vj3ewc3eNvfs+0Ayoc0jI0=
+
+Name: html/tasks/images/template_example.png
+SHA-256-Digest: k6StyblG1mb4Dn3cLvWW4dhKvHc4rP8d2CsHCROig6k=
+
+Name: html/tasks/images/quick_type_hierarchy.png
+SHA-256-Digest: 2ZT4D8Fyg9kb7qXIwEv5aVzRd1Ric8DZ2jU5JO0ozb8=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/debug_output_view.png
+SHA-256-Digest: jVxRy0tuBaerehZtga8Fh4+y1MGIShynMMQb6bfMbd8=
+
+Name: html/tasks/php_libraries_preferences/images/php_libraries_pdt.pn
+ g
+SHA-256-Digest: bDV51K2Cl/BDYWF3Hf/40BrPEqAr4RULUxgHCVBy0b0=
+
+Name: html/reference/php_project_properties/php_build_path_properties.
+ html
+SHA-256-Digest: izWRThz0Mg6oHXbV3DXdUNPjrcGjnLmmybmBH/E6yuE=
+
+Name: html/tasks/php_libraries_preferences/editing_php_library_compone
+ nts_or_folders.html
+SHA-256-Digest: 7YO0kE5d9A7PuX4dhAo15UEh/F0VPhnZuKQJcW4L6v0=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/php_explorer_up.png
+SHA-256-Digest: U3tJ6IJB+ywyCHmZaK1JBGOcOPtforln5YF7k00GLvk=
+
+Name: html/reference/menus/project.html
+SHA-256-Digest: ybY8+rZe4yZWoTe9prxBGOwusTL+1O7u4NoSCUsuVEE=
+
+Name: html/concepts/commenting_code/phpdoc_comments.html
+SHA-256-Digest: mLHqBPf0WlKI5Ke4BZwTybf/P/3Qlr6/EGVJOflPJ+I=
+
+Name: html/css/main.css
+SHA-256-Digest: yN7be2CYfjkB4XQkmJHPlGaPgwjaeWhzF9VlBN8c3vY=
+
+Name: intro/css/whatsnew.css
+SHA-256-Digest: +Y3ussb0YntlTS18NLMJb1N02p1i5bUogzLWBp1CNDI=
+
+Name: html/getting_started/basic_tutorial/images/resume_icon.png
+SHA-256-Digest: aQHn7fV8OBQtMJihfvgmx0p9lx/7A3kY496I/kC4aso=
+
+Name: html/reference/preferences/php.html
+SHA-256-Digest: D8LLgC1biJTsArvGc7KihHkQnjliFh8nLMb4SeuzslY=
+
+Name: html/concepts/images/code_assist_function_parameter.png
+SHA-256-Digest: 5Sst/R3KwB9TbIuOoWhdEMpAZ2HSLQD85nwsaNmGz1k=
+
+Name: html/tasks/images/type_hierarchy_wizard.png
+SHA-256-Digest: ChTpzRWlrfk8qOMlETz4vYdssxk6vzQ/d9/9NLoJbyA=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/php_explorer_pdt_menu_show.png
+SHA-256-Digest: q/o7YkWMarCxWLbT/z54hMzSTuXv1QLPABsAB1522uI=
+
+Name: intro/tutorialsExtensionContent.xml
+SHA-256-Digest: FviJmHP4ziHtuyk2ZK3cW2CVX1tCPYrLadYFhE1bkTM=
+
+Name: html/concepts/images/internal_functions.png
+SHA-256-Digest: BWwiUPWJXqQESZeAYtKyETRLEkpIhl+4yM0tLKN5T2c=
+
+Name: html/reference/images/toolbar_external_tools.png
+SHA-256-Digest: z1Vn8M4ljy4nATNFDTMRJnbgk95guRaSTusQGjIQNy4=
+
+Name: html/images/export_phpdoc_wiz.gif
+SHA-256-Digest: cmPlVbCUcAHXw8RCRPoo2S6panm9Axt1aFKNcjUXODM=
+
+Name: html/reference/preferences/code_style_preferences/code_templates
+ _preferences.html
+SHA-256-Digest: APf/uyTohhcZESMM3cxmwtzjuqKRkqxVJMh9r2u1ois=
+
+Name: html/reference/php_project_properties/validation_properties/task
+ _tags_properties.html
+SHA-256-Digest: zphdQhRvldM3nzoQPPjRNBOOhy03WtHkXczw1JdOe+k=
+
+Name: html/tasks/running_files_and_applications/running_php_scripts_re
+ motely.html
+SHA-256-Digest: ZUn7i4FFaXFcvmih0unSafUGTO1OWy6wPnay/QBKwV4=
+
+Name: html/reference/menus/file/index.html
+SHA-256-Digest: MZKVm74Z5Zy8C4FutXjZIUHUsUAfOB5J65rcIFmHu0U=
+
+Name: html/reference/images/template_icon.png
+SHA-256-Digest: ikCuR0dXAUpWn52NetxKhUwqwuaWp9nCyb4fm42Ht7U=
+
+Name: html/concepts/images/hover_function.png
+SHA-256-Digest: 6iz+3nJbBuWsLqINFp5XiKPKX68huaxVPNbp/XGXtgI=
+
+Name: html/tasks/using_javascript/images/menu_icon.png
+SHA-256-Digest: u/zptmtib3z41QvEJ/oSqLyggFUp7vDwFiRryOQVI4E=
+
+Name: html/tasks/file_creation/images/save_icon.png
+SHA-256-Digest: +eiQyEza2m1Xnzm4YY+ELZuIO4byPEo7VvkrJMWoGUc=
+
+Name: html/tasks/debugging/images/use_step_filters_icon.png
+SHA-256-Digest: /qgiZHt1sCSHXWw4Gn5oq/YWQ3incXKYPbJHhgaWRWA=
+
+Name: html/getting_started/basic_tutorial/index.html
+SHA-256-Digest: ZzxeR3l3a1O+lLocFhDnjEF037KvTBQVFF7Nhfs1+FY=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view_button3.png
+SHA-256-Digest: xfFWBgfw6azjL5HnOFANCVZtZkTNtq4tRrZdCsqTkAA=
+
+Name: html/tasks/images/toolbar_open_element.png
+SHA-256-Digest: bs/nqmv8jeDhy3UcNEh6gS1tZYa62CLk0zJdyxLgZTs=
+
+Name: pom.xml
+SHA-256-Digest: 5HJOeAbJB9wj3HndxHZ73HDvBkOl5mK481U/QBX/gQM=
+
+Name: html/tasks/debugging/images/step_over_icon.png
+SHA-256-Digest: S4HBWfb1xjNaWUORAIWroyeptKAsjgSCtJEN09+LVys=
+
+Name: intro/css/tutorials.css
+SHA-256-Digest: thbcrhpP+IbFmLh+EIFzX548Ct59gyv50NXy5tsqT+A=
+
+Name: html/concepts/images/templated_content_assist.png
+SHA-256-Digest: 3j1g8S6RajcT050EvFcATJAGILjMHC8a0jUghn/UHRs=
+
+Name: html/tasks/images/php_search_screen_pdt.png
+SHA-256-Digest: JOJHhbA9F68W3gmpvjErbYKICknBiywM1DtEJsRyCxA=
+
+Name: html/concepts/images/hover_support.png
+SHA-256-Digest: c4WUKjPNgjmiGq6NdC9hE6HVLSCAobQMmulfLhlOcH0=
+
+Name: html/tasks/profiling/index.html
+SHA-256-Digest: lfjUMBSaLagvNBNvA/m0cWKdi6/1IuGiqCTx3b8iokI=
+
+Name: html/tasks/php_libraries_preferences/index.html
+SHA-256-Digest: vpJf+DCsW2OI8duMYGRlfaBVv4/x1FrUYM+BcnYkUj4=
+
+Name: html/tasks/debugging/using_the_inspect_action.html
+SHA-256-Digest: Lmf/2hHjYNXa3M6IiJYmtL1yzLDMuj1B/TIKmC7mRE8=
+
+Name: html/reference/images/save_icon.png
+SHA-256-Digest: +eiQyEza2m1Xnzm4YY+ELZuIO4byPEo7VvkrJMWoGUc=
+
+Name: html/tasks/using_code_assist.html
+SHA-256-Digest: UHLyEjpQuOQaheUUjLnLxw6bKDuxuapGVeH8/xBSVxs=
+
+Name: html/tasks/drag_and_drop.html
+SHA-256-Digest: TeSDfsiwR7uYUSuaNyWhXBqy3JfsMRpNuzBL+03c42k=
+
+Name: html/concepts/images/template_icon.png
+SHA-256-Digest: ikCuR0dXAUpWn52NetxKhUwqwuaWp9nCyb4fm42Ht7U=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/collapse_all_icon.png
+SHA-256-Digest: z5N1A+CBC6xwUpHtxQhVhpqN0wIb5nqclGvWYq8Ccgw=
+
+Name: html/concepts/images/code_assist_triangle.png
+SHA-256-Digest: 8ZwAguW5p3iuu4/SFHc+3sANsriCq2nbAIk1goRXIqw=
+
+Name: intro/images/php.png
+SHA-256-Digest: eobwIbh1sr/NSw4ruRZ3t9D29q3rJenmUG8474P8ukw=
+
+Name: html/tasks/debugging/images/step_into_icon.png
+SHA-256-Digest: 9DHopFfvC2ab46SnXePyZpGUW3N4qHVePDInJOV8DMA=
+
+Name: html/reference/php_project_properties/images/properties_resource
+ .png
+SHA-256-Digest: lv9lGeL9P9Nhyq4H64EQxz76OD9YsQtzrBf0rwpHW2c=
+
+Name: META-INF/maven/org.eclipse.php/org.eclipse.php.help/pom.xml
+SHA-256-Digest: 5HJOeAbJB9wj3HndxHZ73HDvBkOl5mK481U/QBX/gQM=
+
+Name: html/tasks/images/drag_drop.png
+SHA-256-Digest: /ysC/Fojp0A9eBuzo0jeRkbKWYeTUKAm2p1SGPn1Qes=
+
+Name: html/reference/images/toolbar_new.png
+SHA-256-Digest: MSZm0587jwZ6blLMjHMXlTpu7jf3l0IgG5RTbp80kMo=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_statistics_view_expand_collapse.png
+SHA-256-Digest: xht772UFkH5jchU6s0m17uwm4diG5wvGe21oFUb7sVM=
+
+Name: html/reference/preferences/validation/task_tags.html
+SHA-256-Digest: VP9+b5gTc+aBuZSswBXafFCF8cQ4bRzF3yL8UNbhvBI=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/execution_statistics_view.html
+SHA-256-Digest: 775+UkmKqWoRJrKeHukk30zNvPmsm0FUswArurUe1iw=
+
+Name: html/tasks/php_libraries_preferences/removing_a_php_library_or_l
+ ibrary_folder.html
+SHA-256-Digest: qHEx14G6FpPU2uSbtet5NpAhyQ2ydOFG+xBleFJ7sSs=
+
+Name: html/reference/images/class_default_obj.gif
+SHA-256-Digest: 0QWC6K9M7VPV/sHnZDSmyImNOPo03N9g6QWnACgLbxs=
+
+Name: html/tasks/using_mark_occurrences.html
+SHA-256-Digest: jDxsJneBwA+Xvm8qPdrJubLmO6puJSqqt3YZl6DcM3o=
+
+Name: html/tasks/how_to_comment_and_uncomment_php_code.html
+SHA-256-Digest: 3SlX7WfnPtWBEiVIIq72BJBl7qFMTgovDFpm6fifEDw=
+
+Name: html/tasks/using_javascript/images/javascript_content_assist_pre
+ ferences.png
+SHA-256-Digest: TZipkQF2i5TUQMRJMcyChh6aWr16pVVu8hO/E78g1pk=
+
+Name: html/reference/preferences/profile/images/profile_preference_pag
+ e.png
+SHA-256-Digest: R/nYEPQsfk27gE9CT6shTFjuOPoKYcKrdtAGyWmvpYA=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ type_hierarchy_view.html
+SHA-256-Digest: Z84AdVp5eyX7fMSdYUITO939kMUiZUhLJAnLH78a7H4=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ php_outline_view.html
+SHA-256-Digest: VrEFYghC+U8Gttyk+Jo+w2jegl/q7xtKkcBE0v1ECW4=
+
+Name: html/getting_started/basic_tutorial/images/debug_webpage_ouput.p
+ ng
+SHA-256-Digest: R0Htp8R7u6dNUo9qzA+lbdbHpcUMCgI50eFMcnimQxE=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/code_coverage_summary_view.png
+SHA-256-Digest: xjhRv9+I7FOhDgcL5Pd8fAjJnsmLTx22OInL3D8ghi8=
+
+Name: html/tasks/creating_php_working_sets.html
+SHA-256-Digest: pvMt8/245AdapMuxtDhrov9gPzcNV+3gYAqBouuu7To=
+
+Name: html/tasks/using_refactoring/images/refactor_rename_element_dial
+ og.png
+SHA-256-Digest: tNeqDBGnv8dj7rCxWYNvwN4J7nC/eL+TvySv96A7GWY=
+
+Name: html/concepts/images/task_tag.png
+SHA-256-Digest: VVMiO5eXmLsQI3Nl+/GA9SH/ZWLSFd12gxey6R5Ltgc=
+
+Name: html/tasks/using_javascript/images/javascript_code.png
+SHA-256-Digest: fw2dTnD/ZqxziU3Sy736ykNLd7KS3lndCVpapvJBH8M=
+
+Name: html/reference/preferences/debug/images/debug_preferences.png
+SHA-256-Digest: 3TwzIIsQ5zHLyPcg5pC0U2BFJjWIGbrsNpSxXDaLOZ4=
+
+Name: html/reference/php_project_properties/php_interpreter_properties
+ .html
+SHA-256-Digest: SlYX0/ADqmPPK0xecZ+DrpPhTNFt6Vub74LkXgMKElg=
+
+Name: html/concepts/images/methods.png
+SHA-256-Digest: 2NSL3n94wDa4obftXDtSxtB2XoemltaAbELGOdJBXoU=
+
+Name: html/concepts/commenting_code/index.html
+SHA-256-Digest: Tx7p9UZxpJK26FvCq8765yCwaJtJaow0/FzerGBYmHo=
+
+Name: html/tasks/debugging/setting_breakpoints.html
+SHA-256-Digest: rJvYBsPS8bEwWq3uhXmnov+nGGjtYqVaAdHXRupVNAA=
+
+Name: html/reference/images/toolbar_debug.png
+SHA-256-Digest: 57J7V8zVLNwZBDJdntKrCxVOHr17a8s6ffnbm7+4ftM=
+
+Name: html/tasks/using_javascript/images/javascript_source.png
+SHA-256-Digest: VcnlQImtTHP6tZTR1iNOmBfVbI10I9HhpvfzuCSTJyQ=
+
+Name: index/_1_Lucene50_0.pos
+SHA-256-Digest: gj4peqY5EuOCWiWbhOUJ9gK6lI700RwbhN0RcZNMepI=
+
+Name: html/tasks/using_refactoring/images/scroll_arrows.png
+SHA-256-Digest: PPgGn4CjJ15+j/p9XzfkOK+vibEYPph2w3TJdW+4B9Q=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_flow_view_expand_collapse.png
+SHA-256-Digest: xht772UFkH5jchU6s0m17uwm4diG5wvGe21oFUb7sVM=
+
+Name: html/concepts/images/select_working_set_pdt.png
+SHA-256-Digest: ZhCacMSJeRWihu5JWgrahkcCbeS/rHysBg9cQczLZCU=
+
+Name: html/tasks/using_javascript/images/javascript_source_excluded.pn
+ g
+SHA-256-Digest: InTwFtVT9bUMyQLcFCqxXL8A1GK0I1Y9n11SKddRJfU=
+
+Name: html/reference/preferences/php_executables/php-execution-environ
+ ment.html
+SHA-256-Digest: uOtIbyPGjXyhzn0sbp0aLIX5MW/sKG9IvhA437K01s4=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ mages/phpmanual_integration.png
+SHA-256-Digest: M0slQ+x6RkNgEKOk+n8VU7uUYr1yfRPRR92mFEsNS+Y=
+
+Name: html/reference/index.html
+SHA-256-Digest: DZDJP3lQFxokOz5GknGLz2pUEVeOzS0EXdyWiCMQvJs=
+
+Name: html/concepts/images/normal.png
+SHA-256-Digest: 2NSL3n94wDa4obftXDtSxtB2XoemltaAbELGOdJBXoU=
+
+Name: html/tasks/using_refactoring/images/refactor_move_preview.png
+SHA-256-Digest: XdkCRTkd05jWKMfSKRorSLrQig+fkTB0rVXnTdK6xiA=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view2.png
+SHA-256-Digest: MhJT1r3oSfp9nFEcofiZTZEe9T+/EZu3Z1pyMHKt1nE=
+
+Name: html/reference/preferences/editor/save_actions.html
+SHA-256-Digest: R5k7yg4KOrYEbwYfwC9hgtcWQ0rZPUynUU/ISdMHt+E=
+
+Name: html/reference/preferences/path_variables.html
+SHA-256-Digest: Nm25bqisoT4BufIQeyU/HJNvUA1Y+NrtctjBSWCWU18=
+
+Name: html/tasks/using_javascript/images/javascript_mark_occurences_pr
+ eferences.png
+SHA-256-Digest: etMcfOfSgGuJ2KX+Sm1vI+9YdMRNmxaRKI9FY1I7rPM=
+
+Name: html/reference/preferences/editor/hovers.html
+SHA-256-Digest: q0KavAYIj4ULh68eKcjFInnNkWyiXQKX/s4NSWBEBos=
+
+Name: html/concepts/images/functions.png
+SHA-256-Digest: JAzy8KSk53aicbRu8+Ur0GOXuy5Vg5A6/QPftyg6jaA=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view_button2.png
+SHA-256-Digest: Rf/xW73uh9NkLUJvCiReMkgK5ocjeBIRj0nsdYcfbQY=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/profiling_monitor_view_sort.png
+SHA-256-Digest: +rweyIuDL1Wuy8eXNBHAM9CkOVr6/sFPL5eo16E3a0w=
+
+Name: intro/css/tutorials.properties
+SHA-256-Digest: gcUVMrRQVnoDv+woA1qLvuiEmD/ZPqTPpIoQ1LDo4PU=
+
+Name: html/tasks/using_javascript/images/javascript_class.png
+SHA-256-Digest: oaDcymz5v7cmx0LXXoX65DM20IuuqgRevVsn2zznIEk=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/browser_output_view.png
+SHA-256-Digest: 5WhWDJ/89lpDNTZQH5evbDJYMNhbvDMuBkGCJGKKk5k=
+
+Name: html/getting_started/basic_tutorial/resources/debugger_code_.htm
+SHA-256-Digest: XWf7gxZUe0XLluEApGiXZskKUHkKSIwtSBUeBusoxQQ=
+
+Name: html/reference/php_project_properties/images/refactoring_history
+ _properties.png
+SHA-256-Digest: 9Fe1yonU9ywQIahafn6aez52LYYLHsVpfGDUln4CnFo=
+
+Name: html/concepts/images/exception_breakpoint.png
+SHA-256-Digest: MZnR6hw2C9AgLtf34nYIpwvot9OWB6JAHBz5PtTVrm8=
+
+Name: html/tasks/debugging/troubleshooting_remote_debugging/images/pat
+ h_mapping_dialog_pdt.png
+SHA-256-Digest: gS2gjtK6rsuXC3jFO4XZC5gK1I9KwJOztyngLFiA45s=
+
+Name: html/reference/preferences/code_style_preferences/images/formatt
+ er_preferences_pdt_profile.png
+SHA-256-Digest: IOiM9uzVYosAT3754BI2o24BSopykZLZYO3fba1OY4U=
+
+Name: html/tasks/using_javascript/enabling_javascript_support_in_php_p
+ rojects.html
+SHA-256-Digest: Hl3NPb4I23JVk8P6piJUKqaWfGrVrY81dCUn7SnlFdM=
+
+Name: html/images/newphpprj_wiz.gif
+SHA-256-Digest: 7OvaHx/GgyrpP03qacuu72EiLNs5GR5AzZVQDlNcrHo=
+
+Name: html/tasks/profiling/images/profile_web_configuration_1.png
+SHA-256-Digest: DVYaBwC1azMpmPdNP+bwj/hNkutkFDfIzS8fOuHt4k8=
+
+Name: html/concepts/images/phpdoc.png
+SHA-256-Digest: MX5grgIgRvu5oIg6RHBrf23BRm0RkCl6d12t3hdktEE=
+
+Name: html/tasks/commenting_php_docblocks.html
+SHA-256-Digest: btH2iuNo7bmlgzC3PZHj08KQp0S90wHqRK8pG02U2Hs=
+
+Name: html/tasks/images/type_hierarchy_view.png
+SHA-256-Digest: b+R5bGRZppnOw7JgTE0SebmISyubOLrBgXLUFvV8LQ0=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/variables_view_show_type_names.png
+SHA-256-Digest: RHMZmRb6vquTYMCp0wXMROivkFO25UiriaqiROVRxgA=
+
+Name: html/reference/preferences/images/php_servers_new_pdt.png
+SHA-256-Digest: Jv8ceIClzkZTQtJBlMR4N0HUw0ecZDTBigkpmt4ppn0=
+
+Name: html/tasks/using_javascript/setting_the_javascript_build_path.ht
+ ml
+SHA-256-Digest: G4tNVc33ISFZzECyB92hVzwbmxgLQUNkMAlLsdrt27g=
+
+Name: html/tasks/profiling/profiling_with_browser_toolbars.html
+SHA-256-Digest: efvK/TI6t3CJz0IzhPHDvyVzH28ZqM0s3TezaQVJ0sw=
+
+Name: html/concepts/real_time_error_detection.html
+SHA-256-Digest: iPlKOKgXWXIwbo3mkpic71aA+ItIqpNw0alzDdh4wb0=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ breakpoints_view.html
+SHA-256-Digest: uHFuj5og56NRDavBDR0bxCtYL1z0twNPzYpJEHQV9ow=
+
+Name: html/reference/images/phpinterfacedata.gif
+SHA-256-Digest: oWx5c1opXVVsPMjovA0BGHkvvdwgKCXFJcSvUnxFP2E=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/variables_icon.png
+SHA-256-Digest: 3F2iyLkGVT81PIHthf0p/yJq5iZ0NRjw0//m7xso1xM=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_statistics_view_group_file.png
+SHA-256-Digest: qx8rR9suK4UYkua/MqTo1CykSa0sT4v2DPNzh3YHk7M=
+
+Name: html/getting_started/basic_tutorial/images/step_into_icon.png
+SHA-256-Digest: 9DHopFfvC2ab46SnXePyZpGUW3N4qHVePDInJOV8DMA=
+
+Name: html/tasks/profiling/images/profile_with_zray.png
+SHA-256-Digest: /W09t/702GTOS0yw48nA790msZS4CcYFxaMLWQD0Izw=
+
+Name: html/reference/preferences/editor/folding.html
+SHA-256-Digest: w4Cf6nYuWrJzOU6sWJtkFCzP7Kfq3YTF5UeNol2tJLE=
+
+Name: html/reference/images/phpfunctiondata_pro.gif
+SHA-256-Digest: HuKCrofG5/ALTFCsDuCY5QMW1haktF+58Bi0XZkYz/U=
+
+Name: html/getting_started/basic_tutorial/images/variables_icon.png
+SHA-256-Digest: 3F2iyLkGVT81PIHthf0p/yJq5iZ0NRjw0//m7xso1xM=
+
+Name: html/getting_started/basic_tutorial/working_with_code_assist.htm
+ l
+SHA-256-Digest: k8+g0fkZcDyEOzPRLbo7+yODWt0B06wFamS7EToykI0=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/watch_expression_view.png
+SHA-256-Digest: SYTY5iIlnHcvs+/av2ztYk79mFjDCnlR+tTTVjo4rvE=
+
+Name: html/reference/images/static_co.gif
+SHA-256-Digest: 3KxWcutYukfxf0ZHnVZWYUqZ8xjsJexMmdQZym8OVq8=
+
+Name: html/concepts/php_working_sets.html
+SHA-256-Digest: SAIYDYslmcaw6FWs3+wDcqmcg0tJtO2PN4ACY/ia2QA=
+
+Name: html/reference/menus/images/closed_project_icon.png
+SHA-256-Digest: ojV4tDKdp7F0IZTKhdKkXBpHVLxkfGbcI3trWaxjSug=
+
+Name: html/tasks/running_files_and_applications/images/run_phpscript_r
+ emote_configuration_pdt.png
+SHA-256-Digest: NQXw1zKNVlLsvsb3xc1p//FxjrhbUTMDM3PZxw/PlZY=
+
+Name: html/reference/preferences/images/phpmanual_preferences_pdt.png
+SHA-256-Digest: 9IdVK1FQ/U85p5jyfBS6/ZkS8YVo6xohPTjXH9nn1nQ=
+
+Name: html/tasks/debugging/troubleshooting_remote_debugging/images/pat
+ h_mapping_edit_pdt.png
+SHA-256-Digest: Eblzw9zkzuv6suLZaL3Olo9nFXg0I9l3tGvADh4FSho=
+
+Name: html/concepts/images/package_icon.png
+SHA-256-Digest: Ic3J+y6vh4Q+6fdtemBKVnUTNjVZLtR2nlHLxes6OIg=
+
+Name: html/reference/menus/images/command_link.png
+SHA-256-Digest: NIDsCMjTpLETbGcs02IMInD7l03p0PlZNoZSoT6KRiY=
+
+Name: html/reference/images/phpfunctiondata_pri.gif
+SHA-256-Digest: feUYJcxWqyjVacRZcUpHDk17LAgzLqL4dgoybpuBc+U=
+
+Name: html/getting_started/basic_tutorial/images/debug_view.png
+SHA-256-Digest: iS3NLO78OiI5HnDbVgcQ68qCABzxxd0dQrHKJVi8HtA=
+
+Name: html/concepts/running.html
+SHA-256-Digest: jLf/TWDS4G3SdrxMlDbnXGm02BBthJqlBuZAe2t6Y4o=
+
+Name: html/tasks/file_creation/index.html
+SHA-256-Digest: Bnd0NDH6bZvGShgw950OkZlSZhd+NBvZlUkb340FJm8=
+
+Name: html/reference/preferences/editor/images/hover_preferences_pdt.p
+ ng
+SHA-256-Digest: dpNT9maeFQrcAr/rj44qaJFkdzR5UPd5UBYX9RaqQNU=
+
+Name: html/tasks/using_refactoring/images/extract_variable_preview.png
+SHA-256-Digest: ZBUaAsqCEF74tcpGvTeRV2a1xkA2eOkoxruSH+BKCBA=
+
+Name: intro/images/php-hover.png
+SHA-256-Digest: n3lqHhNL/FM+l1lzi2MR5dH8/IoMjsWbO8BIN5PpUoA=
+
+Name: html/concepts/phar_integration.html
+SHA-256-Digest: V9PpgaNZMl2cDofuZJWT3T/qBGsJsz+ZGrYHJr7aqrc=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/classes_icon.png
+SHA-256-Digest: YmmY/eNj8Fh3w37loU7MgO1k2efoennW5YSUlcMeFCU=
+
+Name: html/tasks/using_refactoring/moving_files.html
+SHA-256-Digest: iWVY+Z8KvFEQO8gq8iul+7z495TgLdH++DUEes75yCw=
+
+Name: html/tasks/running_files_and_applications/images/run_icon.png
+SHA-256-Digest: 4tQFrkSPy6HNBvhBNeU41Jb+yizI7eaWATMZlOwf9jg=
+
+Name: html/reference/menus/index.html
+SHA-256-Digest: B+wYUOuctZ55cv+ZXN2NoRP9oZJrnWy2QpEYx8LU2Oo=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/resume_icon.png
+SHA-256-Digest: aQHn7fV8OBQtMJihfvgmx0p9lx/7A3kY496I/kC4aso=
+
+Name: html/tasks/debugging/images/debug_configuration_webpage_debugger
+ .png
+SHA-256-Digest: fiMtcOaeqizx2gza63BOu8JeFNOUyQOZuTZE6i1RlqE=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/link_with_editor_icon.png
+SHA-256-Digest: bTHhzOu/mzwOeQehRLleUa7GMBMr3OZq5ZKlbFWC/VU=
+
+Name: html/concepts/images/static_methods.png
+SHA-256-Digest: JAzy8KSk53aicbRu8+Ur0GOXuy5Vg5A6/QPftyg6jaA=
+
+Name: html/concepts/build_paths.html
+SHA-256-Digest: 1RVs32QZN7MDJV0TjLT84XYdotHhac9BF0Vu0l3neLg=
+
+Name: html/tasks/using_javascript/images/javascript_includepath_lib1.p
+ ng
+SHA-256-Digest: JymorIq/LrIXeHysHw4/Y5WsQlQz4LnmJUfkB9SBTlI=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_statistics_view_group_class.png
+SHA-256-Digest: RO8LV9mdr6h1lONDRAW+Yr0mNdCkzi4FhP5vz4NzW9U=
+
+Name: html/reference/preferences/editor/index.html
+SHA-256-Digest: xuDOZqoZsBWWM5BfhVdYUAjPwz1J2W9a5cc4QcOPbCs=
+
+Name: index/write.lock
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: html/tasks/profiling/images/profile_cli_configuration_1.png
+SHA-256-Digest: KOkQM0tXsZ6Cfi4houpMuv1mYzKgXf1brz+ad7SiQeM=
+
+Name: html/tasks/debugging/troubleshooting_remote_debugging/adding_a_s
+ erver_path_map.html
+SHA-256-Digest: gh2WRpjCI8NJWjjmnEh5MgcpL+BHd728JWcLRwQbioo=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/remove_terminated_launches_icon.png
+SHA-256-Digest: uUeTf5Sik17lafqifssVUHdZDjarW85H6/zJQdoekwk=
+
+Name: html/tasks/running_files_and_applications/running_php_web_pages.
+ html
+SHA-256-Digest: WcI4MmrntBSTMfl959Ekde/B6WTEFYHKm5XDFtZa0W0=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ debug_view.html
+SHA-256-Digest: 7c4AlDX5RX9ouZqhNY6MY7fk4vKmDcSEsEaD7gWFVng=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ browser_output_view.html
+SHA-256-Digest: b3WbcBwMIb9+Zhc/djNFUvEBk2kFHFD6ShQ4O/B2qoA=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/link_with_editor_icon.png
+SHA-256-Digest: bTHhzOu/mzwOeQehRLleUa7GMBMr3OZq5ZKlbFWC/VU=
+
+Name: html/reference/preferences/php_executables/images/php_executable
+ s_added.png
+SHA-256-Digest: 4x+dEWVg9N1ZyEBexczdYC5+9y0sZEaj9fedYdb0Vj4=
+
+Name: html/reference/preferences/editor/images/template_icon.png
+SHA-256-Digest: ikCuR0dXAUpWn52NetxKhUwqwuaWp9nCyb4fm42Ht7U=
+
+Name: html/reference/images/folder_opened.gif
+SHA-256-Digest: phwmP9Kj4LT5tb6YkqoJkkpkrL+GdNuq15tGLWAFf0k=
+
+Name: html/tasks/images/menu_icon.png
+SHA-256-Digest: u/zptmtib3z41QvEJ/oSqLyggFUp7vDwFiRryOQVI4E=
+
+Name: html/reference/preferences/debug/index.html
+SHA-256-Digest: eTx11kUE+/29vfoGIRzENcHYvlxu84rUQHAKRyQP2u4=
+
+Name: html/tasks/images/txt_file_icon.png
+SHA-256-Digest: 0Vvj23D37vIlYk/Cq3LcC1QiLdJHUJISUvUtJj8FB3A=
+
+Name: html/reference/images/toolbar_backforward_edit.png
+SHA-256-Digest: KZU5Nlwo+zGyUvWbAazF1Hx9oN0ECVy8iooH0lvXH2Y=
+
+Name: html/concepts/images/classes.png
+SHA-256-Digest: ip8wxv2yh5x5x8PShmgVomDL76Gb2gnalUYqwRxmdLE=
+
+Name: html/tasks/using_refactoring/images/refactor_move_dialog.png
+SHA-256-Digest: vwfVgNoteXRqvwS1PSvEh5fd+V6NTwzSbetKxVjHsd4=
+
+Name: toc.xml
+SHA-256-Digest: 4R4LVYkhMsx/0W1aZ5KvUFvw+NFWKhhaVqhebE/UxYc=
+
+Name: html/reference/preferences/images/new_project_layout_preferences
+ .png
+SHA-256-Digest: sYcrp+kKAMFDBcIDayGZbJdLS+2juOauZua5ehgw5rY=
+
+Name: html/reference/images/show_key_assist_table.png
+SHA-256-Digest: tjI5M/RPjZHjGyE+g02JlqnoWoVC3o7hC+ELKfYuNn8=
+
+Name: html/reference/preferences/editor/templates.html
+SHA-256-Digest: MIORb/UWKIyz26lW7fQUYWyBXJOySuDHs/dmJlgzyFA=
+
+Name: html/reference/images/toolbar_run.png
+SHA-256-Digest: L7B1ciLZLDDbARRBpuAEs9FdteNSNfAcxAYTn/SUI5U=
+
+Name: html/tasks/images/open_php_element_dialog_pdt.png
+SHA-256-Digest: 1f+N2KXBm7G9EorY4IS8ZmfVUzFm97m5kRiaA6cCl1E=
+
+Name: html/reference/preferences/editor/images/syntax_coloring_pdt.png
+SHA-256-Digest: fvYGH2CDIctx33BYfb0o1rd+xaDneTTbjCb4wxgfDOk=
+
+Name: html/reference/images/toolbar_print.png
+SHA-256-Digest: R0gMyIrH9UXov1bpdr6uk5GlDCJULe0MzvroNch5S1M=
+
+Name: html/getting_started/basic_tutorial/images/constants_icon.png
+SHA-256-Digest: a9DhJEIZB8zZ+Z2Bcgw4Ffws6vdB3WyfrbjQXXeJIaY=
+
+Name: html/concepts/images/magic_members_example.png
+SHA-256-Digest: Xs2jD1v6/yhK9PUg645icG28EsHz3f/XVF7nrsKVa5M=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/menu_icon.png
+SHA-256-Digest: u/zptmtib3z41QvEJ/oSqLyggFUp7vDwFiRryOQVI4E=
+
+Name: html/images/e_synch_toc_nav.gif
+SHA-256-Digest: SFCXouFWOQCvHhDqZi6IGFcHVGjqa8w8EEB/5NGY0sM=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_statistics_view_filters.png
+SHA-256-Digest: Eo7Kcgr0+3tXw7cORSeZOWthlpqHyg+TYO2drdrqSrw=
+
+Name: html/getting_started/basic_tutorial/images/debug_tutorial_editor
+ .png
+SHA-256-Digest: IwoNyIiqjkzY/fK8/RpMbpEAWfWOTEq5jgTgaM1ZVGs=
+
+Name: html/reference/preferences/php_executables/index.html
+SHA-256-Digest: MgoUWD8NOpWfU//5PzcXqxQtCckNvmoGuOvS96vacTo=
+
+Name: html/tasks/images/build_path_new_source_folder.png
+SHA-256-Digest: eybkSSSlKZgFyPoCX1Q8L0lQVYGIz2HDyKize8g822g=
+
+Name: html/tasks/profiling/exporting_html_report.html
+SHA-256-Digest: HYiGbTe/UyqRFnWEfWtosPNJRZRSlu1b/qf6G/SwTVg=
+
+Name: html/reference/preferences/debug/launching.html
+SHA-256-Digest: n4+S3gmnFaNhvfJsskjW0AN/ake39jA+VSIxx/m1eyo=
+
+Name: html/concepts/profiling_concept.html
+SHA-256-Digest: bYTU1vTiTwMTmhXasqEr8N91NLTUn2J51PjihpnTojE=
+
+Name: html/reference/php_perspective_main_toolbar.html
+SHA-256-Digest: PS0DwEOsBYeS51ZDBivcOhOmllX02Qf644qXu9L4h+I=
+
+Name: html/getting_started/basic_tutorial/creating_and_uploading_a_pro
+ ject.html
+SHA-256-Digest: WVShsmLeG0QGEJhDeM6573+5FkifPlw4eg7/FXzduaw=
+
+Name: html/concepts/images/conditional_breakpoint.png
+SHA-256-Digest: ibmlNGWYOCXA7fE+qIrmd+qYBhrDT9KlCq8fheAVXuA=
+
+Name: html/tasks/images/smart_goto.png
+SHA-256-Digest: j271h0S2P+fpk653vuh+C9/d36mkO+zZlzSLXwJZlU4=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/collapse_all_icon.png
+SHA-256-Digest: z5N1A+CBC6xwUpHtxQhVhpqN0wIb5nqclGvWYq8Ccgw=
+
+Name: html/tasks/php_libraries_preferences/importing_php_user_librarie
+ s.html
+SHA-256-Digest: IZkUYzljhvMWvdUF1SK726wqD3SKJOcuN62SXVfALLI=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view_button5.png
+SHA-256-Digest: M9DzjJsf7QogZkQzHiiGbXlr/5HLIWThUMBnm9SSpn4=
+
+Name: html/reference/images/final_co.gif
+SHA-256-Digest: hPpH+eAFpTdGMVvLEXEM/4mWtFlparRK/vEc/GvYeOE=
+
+Name: html/tasks/profiling/images/profile_with_zend_debugger_toolbar.p
+ ng
+SHA-256-Digest: kDZHE1aO59taxr+RFQnJOCXvQZ2/2Nt8BWKsbZDIajI=
+
+Name: html/tasks/images/select_working_set_pdt.png
+SHA-256-Digest: ZhCacMSJeRWihu5JWgrahkcCbeS/rHysBg9cQczLZCU=
+
+Name: html/reference/php_project_properties/validation_properties/inde
+ x.html
+SHA-256-Digest: y7LZyJID6dg13LNQABtoepRUVTK4qoiiFLwP3jVU8yk=
+
+Name: html/tasks/file_creation/creating_a_new_php_file_outside_of_a_pr
+ oject.html
+SHA-256-Digest: LWDL2dSpGWZMZXFTohgDpgfi18iVgKmNCOEAABbYZlY=
+
+Name: html/concepts/code_folding.html
+SHA-256-Digest: kDjkdXFXZvVF1dR3SQgIVHTJzJlAIq8VBITW+KMPHUU=
+
+Name: html/concepts/images/txt_file_icon.png
+SHA-256-Digest: 0Vvj23D37vIlYk/Cq3LcC1QiLdJHUJISUvUtJj8FB3A=
+
+Name: html/reference/preferences/new_project_layout_preferences.html
+SHA-256-Digest: 6NreotwbDyFoITXC5RDEi1JTiQ7CU7UpREUFX2nIXRU=
+
+Name: html/reference/php_project_properties/resource_properties.html
+SHA-256-Digest: BBYjhCpEOm6v6eYOEMkGNpI/PCwUPbXzvNp0XZwP0uA=
+
+Name: index/_1_Lucene50_0.tim
+SHA-256-Digest: lwpmKbQEV6kQgy7bQOt9T9r9Cj0iNOcatGbXhlutvHY=
+
+Name: html/concepts/commenting_code/bookmarks.html
+SHA-256-Digest: CwDafQ51jjG0uNuskkAJxv+S6Q/P7RwhDlJrf+q/WkI=
+
+Name: index/_1_Lucene50_0.tip
+SHA-256-Digest: 1swxccpO+4Lqqa1W4cR7Kz+Oc/FZxM07rYuZsUYxPb8=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/expressions_view_menu.png
+SHA-256-Digest: ovQrGpNuPOFWU6lpP+qhxSJOJ9v67SR020X74CbUIZw=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_statistics_view_percentages.png
+SHA-256-Digest: I4XZPMCaUFrF2ED1VLM1lxFgBLZcBayI/UIkYQnUkW4=
+
+Name: html/reference/images/file_problem.png
+SHA-256-Digest: AmxbOiyrorCAvtHn6kIs5XuNO+T0D8IyBFzqLZHdT+Q=
+
+Name: html/tasks/using_refactoring/renaming_elements.html
+SHA-256-Digest: /qQY9nJhfrO9nu37pzMlM6/pYgVIQw8VM/DBVLvDQxU=
+
+Name: index/indexed_dependencies
+SHA-256-Digest: LOJi4PKDf3gjEJrQvY3j1WYpw46G6AfKdGoEQY4ZuZU=
+
+Name: html/tasks/images/path_mapping_edit_pdt.png
+SHA-256-Digest: Eblzw9zkzuv6suLZaL3Olo9nFXg0I9l3tGvADh4FSho=
+
+Name: html/reference/preferences/images/php_servers_new_debug_pdt.png
+SHA-256-Digest: qmXRTwujPF4rYG8mL+HgxsIXhrmxgmAdP6Tk9AfVROI=
+
+Name: intro/css/whatsnew.properties
+SHA-256-Digest: /DcgwuP9pqXhxfRGWsF6d8ousjLVzL+3G9Wqe6k5wnI=
+
+Name: html/tasks/images/code_folding_indicator.png
+SHA-256-Digest: 49fiF53Uv6SnVkumZOO2/Qa9yaSQy71wT7PtoqBq7Qc=
+
+Name: html/reference/images/toolbar_annotation.png
+SHA-256-Digest: wccyiz29Q2yUqIrdVCywpqlLXbqUIgCe0KLA9p5d6vg=
+
+Name: html/concepts/images/string.png
+SHA-256-Digest: cODhBa+g+jtguVIHclzPof/eZNb8gM3JMEQEraFpB1A=
+
+Name: html/reference/php_project_properties/php_task_tags_properties.h
+ tml
+SHA-256-Digest: KDY7+S4V3g+FmIsBSgsQz1W/lULgrudiXaJe00YEXes=
+
+Name: html/reference/images/constant_co.gif
+SHA-256-Digest: xbRFZlCCxCUgln9kltUxjuVlCcgWvmxeh/FdbNWg2UM=
+
+Name: html/concepts/images/interfaces_icon.png
+SHA-256-Digest: NOPYk5kt1fRYrBcY9kJXWSsripYUzbd5PDwVWR9z1wY=
+
+Name: html/concepts/images/new_php_project_pdt.png
+SHA-256-Digest: sDSucaJqX7dsON+6GSihM1WNHQiZUbhevax4/RVeRlM=
+
+Name: html/tasks/using_javascript/images/javascript_mark_occurences_ex
+ amples.png
+SHA-256-Digest: oRSoI8x3CsTeo9rvNLK1VQ1A4n9RSl72KnZAHwFclLg=
+
+Name: html/tasks/debugging/troubleshooting_remote_debugging/resources/
+ dummy.php
+SHA-256-Digest: vrd/MffO414cMiIhPY3jRfrBufeshjFUzkaJU4dP3YU=
+
+Name: html/tasks/debugging/images/breakpoint_properties_select.png
+SHA-256-Digest: 5jIkKnjUCeljq/HI823Iuq3ls4KnZs+YlfJV8k26DI4=
+
+Name: html/images/framework_project_wiz.gif
+SHA-256-Digest: 9V0H0F6ybJemLrqetrzTub8UwPdAOws5VL6U96U6KdM=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/code_coverage_view.html
+SHA-256-Digest: 8vn8tjDvr8K7qG73Yk7TvJI6p9QiMlP119Iyb+9yjXo=
+
+Name: html/reference/preferences/editor/typing.html
+SHA-256-Digest: OCsuXHTOo/LHWTOvu0/nkAKhweSN9x2bvpJk021yLNE=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/profiler_information_view.html
+SHA-256-Digest: QpVrU2pXkA6yfj8effOZ5QQEX7B4WLam1rCaP1kr1no=
+
+Name: index/_1_Lucene50_0.doc
+SHA-256-Digest: 24j79sYiNGcrh4d4R65vn2c82AIxSqhJO3aIz6A8dos=
+
+Name: html/tasks/debugging/locally_debugging_a_php_script.html
+SHA-256-Digest: Qw0PVFkqBRnoGM5OeXnXuf5m4b9+vEc2CgwC0dC56q8=
+
+Name: html/reference/preferences/images/pathvariables_preferences_pdt.
+ png
+SHA-256-Digest: MgmPd1OiV67JThbUiG4OCa+zHjR12uz24VrVuzcibsM=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/breakpoints_view_menu.png
+SHA-256-Digest: 4Yx4H7sa9yqVaInkx4bAHIHRnOg889WOW4OdCdUITic=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/php_profile_perspective.png
+SHA-256-Digest: ntiDtESIIV9MiRuNrEKEK+dHqiUZWT/cGi2WKnjRS4E=
+
+Name: html/tasks/using_smart_goto_source.html
+SHA-256-Digest: Z97YasYyJB9D7GhHMLMpoQ84i8oWIgeNelw2+fxrWpU=
+
+Name: index/_1.fdx
+SHA-256-Digest: 5UyLnAo8RjzQLVFSqKtHatAoLRLYngwqo68difErISQ=
+
+Name: html/tasks/images/code_folding_hover.png
+SHA-256-Digest: TxoXPnCkTjTNZ10IOd4nRe/Dd+oiXQcUJGv5DhnW3A0=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/php_perspective_pdt.png
+SHA-256-Digest: 7F89kfH0UjJFg7Cz+l2xYPu/XzZvCr5Ao9Rzrbb9O4Y=
+
+Name: html/getting_started/basic_tutorial/images/code_assist_circle.pn
+ g
+SHA-256-Digest: SGMPincp3jCAnJrsq9BsKQefH4+jgu48zmfKuyDhVzA=
+
+Name: html/tasks/using_the_php_html_wysywig_editor.html
+SHA-256-Digest: i6fhIQDWHNCttpFHaFMac+9zmPMtd5UFcc9qFhnPLOA=
+
+Name: html/tasks/debugging/troubleshooting_remote_debugging/ensuring_t
+ he_placement_of_dummy_php.html
+SHA-256-Digest: /0peQX4FeaglRU5fhHqlzRzm219Q8l1yfhHQrNi13gM=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/show_groups_icon.png
+SHA-256-Digest: x/yR1VfsJQ/PgV35JwCvb8uWtFd2K9n0/NLtcIdWycw=
+
+Name: html/tasks/images/folding_nested_functions.png
+SHA-256-Digest: HDfRbtbhK3U2RlyvxUPsBqGwyLFyAPD1fOQCN9czU3A=
+
+Name: html/tasks/images/svn_repository_icon.png
+SHA-256-Digest: Bn6q9VKYuXTnKMjo0PUJoNS8yUrkVN4u73YqUedEKbs=
+
+Name: html/getting_started/basic_tutorial/images/save_icon.png
+SHA-256-Digest: +eiQyEza2m1Xnzm4YY+ELZuIO4byPEo7VvkrJMWoGUc=
+
+Name: html/tasks/using_refactoring/images/scroll_differences_arrows.pn
+ g
+SHA-256-Digest: rn2aN3muUY/e9OAUEqPs0ugS1dIhcwnMXvfXoPmpeko=
+
+Name: html/tasks/images/build_path_properties.png
+SHA-256-Digest: R97eQDHLp2yhKZDcPFWJBMsE/TL4ImZh16B9gqJEDCQ=
+
+Name: html/reference/preferences/images/php.png
+SHA-256-Digest: jhHWjnjwsr3EQ+twZ1+AidRlP23KNmHy9KVlvvXhmqo=
+
+Name: index/_1.fdt
+SHA-256-Digest: zhIlbgFZYYptIIF2AVk3G6/vmV6G5469RVUvVLPKJi0=
+
+Name: html/reference/menus/edit.html
+SHA-256-Digest: lQpUYLFsUXlNEIyAXbF/UoYj3tzm5ZaNtqttqYCIIA8=
+
+Name: html/concepts/override_indicators.html
+SHA-256-Digest: efCiz2+6yg2+chw0Ovu3BlNis8j6pIPQwZ00kx/6gNA=
+
+Name: html/tasks/creating_php_projects.html
+SHA-256-Digest: vxzW3JIoV8v27wczoY6X8N8O5dOql2kNVsW4BxWLA7k=
+
+Name: html/concepts/images/override_indicator_tooltip.png
+SHA-256-Digest: 5AVAplx+sx1q1oyPy2o1QGiWP0jiKF1o5dW2wUn+ekc=
+
+Name: html/reference/preferences/php_executables/images/php_executable
+ _add_debug_pdt.png
+SHA-256-Digest: HkBkskFRqOqZtvGn9LHxPuArtpC2YoWZWKYt9/0ousM=
+
+Name: META-INF/maven/org.eclipse.php/org.eclipse.php.help/pom.properti
+ es
+SHA-256-Digest: LSMh4e6k4GM3WdMB4XcQCdXaSYqcbhUOxMcZvM525/k=
+
+Name: html/reference/preferences/editor/images/template_new_pdt.png
+SHA-256-Digest: 6aeJpqYNGMOD0gGcF6CzXfT0mk7jjPgTBRaEUgwr3CA=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/use_statement_icon.png
+SHA-256-Digest: MNdolatFllAxDuoK3HEe0aLYgzMvtceD3RJfVMMfF1U=
+
+Name: html/tasks/debugging/images/conditional_breakpoint_properties1.p
+ ng
+SHA-256-Digest: mP8TXWk901xLoFqtDVikE1rdpA4rIXcKiElhqtCwRIw=
+
+Name: index/_1.nvd
+SHA-256-Digest: XcmWGmcM+/u8LMDLmdThYMyPwg2ymGFzSnPZm4yOS/w=
+
+Name: html/tasks/profiling/images/profile_cli_configuration_2.png
+SHA-256-Digest: nyom3Md6WWp8VUPzIdx0dSE/0sAcSSiNOKS5ap3Mk4g=
+
+Name: html/tasks/index.html
+SHA-256-Digest: AumOUW/6VFxeDvZZv3nM3w/XNUFwlk39rXg9d4wSTyo=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/breakpoints_view_remove.png
+SHA-256-Digest: xlZr+J/y7jAgNE8eZGVfB8ANIKW13zRiuV/gqHHazCw=
+
+Name: html/tasks/adding_elements_to_a_project_s_include_path.html
+SHA-256-Digest: c37ucJAZ/sJCX9h4OjLctzin2+fYHQvnlX7xtkKSXAo=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ expressions_view.html
+SHA-256-Digest: IjwXlnk83t1ogZ48hi2SSEAJOLq4fhFAMkgUgD994Xk=
+
+Name: html/tasks/images/path_mapping_dialog_pdt.png
+SHA-256-Digest: gS2gjtK6rsuXC3jFO4XZC5gK1I9KwJOztyngLFiA45s=
+
+Name: html/concepts/images/path_mapping_options_pdt.png
+SHA-256-Digest: xmjfv6rVVfrqw03XRYWPiSnFe3N5ProtWfWxCUs9PdM=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/step_over_icon.png
+SHA-256-Digest: S4HBWfb1xjNaWUORAIWroyeptKAsjgSCtJEN09+LVys=
+
+Name: html/reference/preferences/editor/mark_occurences.html
+SHA-256-Digest: wi3fXLEQVWuIwaT9RkAsYcNVu0k1BqMLC/JuAQRUFrA=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/step_into_icon.png
+SHA-256-Digest: 9DHopFfvC2ab46SnXePyZpGUW3N4qHVePDInJOV8DMA=
+
+Name: html/getting_started/quick_start.html
+SHA-256-Digest: gD1msl7B43SiJH8jbSXDCelgT6S5zjZvmFBehvy8/X0=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/breakpoints_view_remove_all.png
+SHA-256-Digest: f0MTsG1GxNyjgR4DWaOCWdj8TgJweKhMwpRYW3/mHbc=
+
+Name: html/concepts/images/variables_icon.png
+SHA-256-Digest: 3F2iyLkGVT81PIHthf0p/yJq5iZ0NRjw0//m7xso1xM=
+
+Name: html/getting_started/basic_tutorial/images/code_assist_example.p
+ ng
+SHA-256-Digest: hBzn832t1kngZoZj2labOHnUgI9dZOOvYiotDrNt1Hk=
+
+Name: html/tasks/using_code_folding.html
+SHA-256-Digest: 7n57xPQGIDc0HrIv2b2Gccx2hfymxvI+6mQL/4tLrko=
+
+Name: index/_1.nvm
+SHA-256-Digest: l13KUnDb4/HPAH4HEHeA+jY9OfRqsE34LUap0DMS590=
+
+Name: html/concepts/images/code_assist_circle.png
+SHA-256-Digest: SGMPincp3jCAnJrsq9BsKQefH4+jgu48zmfKuyDhVzA=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view_button4.png
+SHA-256-Digest: 4Gk/XFioytz0yGrIeyJB3OK3y8NcN3S/LGc5rPgIvDI=
+
+Name: html/reference/php_project_properties/index.html
+SHA-256-Digest: roujOqBIgKYJA7mSQcJBPxJPY0WGcX+Z4NaymiwzJSs=
+
+Name: html/reference/images/toolbar_search.png
+SHA-256-Digest: FxdV/hAZLAMrrBiy/Kx0n4lE6kzIpT/2gWtnofSFy84=
+
+Name: html/concepts/images/static_fields.png
+SHA-256-Digest: cODhBa+g+jtguVIHclzPof/eZNb8gM3JMEQEraFpB1A=
+
+Name: html/tasks/profiling/profiling_php_web_page.html
+SHA-256-Digest: Ny4WL8uBIiLJPTE3K8gEdi73PO3le3rgnv2HSCxmr04=
+
+Name: html/reference/menus/window.html
+SHA-256-Digest: wa3Ww2YqeWhvO2dvt3wrPBTOGwpOqTHpp9GBcNjXZwc=
+
+Name: html/concepts/images/mark_occurrences.png
+SHA-256-Digest: idJkAWtB2xJDBxybsXXmQkhvlHhfOMgMvKm0S8H2IzA=
+
+Name: maintoc.xml
+SHA-256-Digest: OSOCvilT8xnDatzZXqlLq1t8SvepJTk6p/paHkaDGks=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/interfaces_icon.png
+SHA-256-Digest: NOPYk5kt1fRYrBcY9kJXWSsripYUzbd5PDwVWR9z1wY=
+
+Name: html/images/php2wsdl_wiz.gif
+SHA-256-Digest: KUs+KIRgUiU13ErVY9fmROaYaQ7H/rIuZfp2IcQaXNM=
+
+Name: html/reference/php_icons.html
+SHA-256-Digest: eaCX6o/yH3dzGzL2YRgfe5mXbxe86e4IMyxqZdQmZWE=
+
+Name: html/concepts/images/deprecated_members.png
+SHA-256-Digest: JAzy8KSk53aicbRu8+Ur0GOXuy5Vg5A6/QPftyg6jaA=
+
+Name: html/reference/php_project_properties/php_include_path_propertie
+ s.html
+SHA-256-Digest: vUHbWS5yvWQjFnMNdOCSiGa/tDR0NGeqjmrSmDimQBw=
+
+Name: html/tasks/debugging/images/conditional_breakpoint.png
+SHA-256-Digest: ibmlNGWYOCXA7fE+qIrmd+qYBhrDT9KlCq8fheAVXuA=
+
+Name: html/tasks/using_javascript/images/javascript_global_supertype.p
+ ng
+SHA-256-Digest: S1sjMHSzTyi18aLeVtQurkOUS/Wr/Q/x3kSmjJ7f9JM=
+
+Name: html/reference/preferences/code_style_preferences/index.html
+SHA-256-Digest: YDtCwA8SJTeoeNlvAoQlxqIiwtpYeILF42+waSCh0CI=
+
+Name: html/reference/preferences/code_coverage.html
+SHA-256-Digest: SnB676uXLWOBn+k7RlpiD5b7FeX9cZSOjFwiRpYY9CI=
+
+Name: html/tasks/debugging/images/breakpoint.png
+SHA-256-Digest: 4zm0C5oer5IPD32sbpNgH8RC3Xk4Tb5KsX/kgrApFaA=
+
+Name: html/getting_started/basic_tutorial/working_with_refactoring.htm
+ l
+SHA-256-Digest: fAfOeWMTiYGiZlAmhyXvujZKzz7v7yCsSLCLGD1KtNE=
+
+Name: html/tasks/using_javascript/images/javascript_outline.png
+SHA-256-Digest: IENg1CCDY+TaAdsWIIzAfTk3q0jLO94ci73Syw/Dx9Y=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ ndex.html
+SHA-256-Digest: 7WGB9wUuvWtWy/PKLVWm4BPwD5ET93i6sHxBDcmqJjo=
+
+Name: html/reference/preferences/php_executables/images/php_executable
+ _add_pdt.png
+SHA-256-Digest: oBpn33A59mpILgKiPWkpApqgflBttKke0x50Nz0xvyo=
+
+Name: html/reference/images/toolbar_open_web_browser.png
+SHA-256-Digest: j64Ugav5+sL8hFGmVlPXErb0/fF7Nsh1OzjVojYXyzI=
+
+Name: html/images/license_key_wiz.gif
+SHA-256-Digest: sVb1zH42OdSkYZ8RSojX+CdJD7XistlABlgM+13mARI=
+
+Name: html/getting_started/basic_tutorial/images/traits_icon.png
+SHA-256-Digest: RylwCwnZx4tsGAo/nHfXHEDpXPXoClBGrf8omzO1TCI=
+
+Name: html/reference/preferences/debug/images/step_filtering_preferenc
+ es.png
+SHA-256-Digest: IfXhoVY4/h+jTMZ7ei8wInxanI3I2vx/NJfq2GTEpys=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/view_filters_icon.png
+SHA-256-Digest: HAeAGkJvE4DfLrtx6AjjaEJJsui8pRPcAUJgchrrDE4=
+
+Name: html/reference/preferences/editor/images/template_preferences_pd
+ t.png
+SHA-256-Digest: 6iIflQrx+oYBWlY5JBq4DCzKqJFIJMLvVsXLVR4q2cY=
+
+Name: html/tasks/using_javascript/using_javascript_syntax_coloring.htm
+ l
+SHA-256-Digest: OzwfNlj7GObLtuMqexoCV2rcgwo40l+RMalJDiMnggU=
+
+Name: html/concepts/commenting_code/images/txt_file_icon.png
+SHA-256-Digest: 0Vvj23D37vIlYk/Cq3LcC1QiLdJHUJISUvUtJj8FB3A=
+
+Name: html/tasks/using_refactoring/extracting_variables.html
+SHA-256-Digest: TwWtdq5fsAapgUta+xlo2DtyqWYpq3jjPz8GTkeKwhk=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_statistics_view_group_function.png
+SHA-256-Digest: NeUvzf0f+KjUUkuCmUaKTRqECvlxZY+io4B7hh9QOFY=
+
+Name: html/tasks/using_refactoring/index.html
+SHA-256-Digest: zQJ5Z/TGNQ57J9EtD3p5kpVJJOK2xipKon/5pMUpiGI=
+
+Name: html/tasks/images/code_folding_folded.png
+SHA-256-Digest: 0hWYWeBCQup39GabtAKmEL9cH++bgvTEX3WemyD8yEM=
+
+Name: html/concepts/index.html
+SHA-256-Digest: +J3KiSbrsrUUqu9dAm/HYAT4PwzabviEivOE9C4ac7U=
+
+Name: html/index.html
+SHA-256-Digest: XZlZgvejwbQwOV+rtMMDnOA3z6WHx0lK8YRLIws60bE=
+
+Name: html/concepts/commenting_code/images/bookmark_view.png
+SHA-256-Digest: HaZblNQwlaFparwX/eZ6vbTDn03B4ITf7GHX0sw6FLs=
+
+Name: plugin.xml
+SHA-256-Digest: X5Orv76ESyEJG1yJyzXrT9z+Q1emgPJOpyPsfs15MM4=
+
+Name: html/concepts/images/constants.png
+SHA-256-Digest: cODhBa+g+jtguVIHclzPof/eZNb8gM3JMEQEraFpB1A=
+
+Name: html/concepts/images/superglobal_variables.png
+SHA-256-Digest: PwQYxGbgAHtRoNT//BDROnSbXTsMC2cGSG/VUjniCd0=
+
+Name: html/tasks/using_refactoring/images/refactor_rename_element_prev
+ iew.png
+SHA-256-Digest: wp8+rpmBkS4Al8Xn07vdKAaxSCPbDVSX8gwwEhE5SFo=
+
+Name: html/getting_started/basic_tutorial/images/classes_icon.png
+SHA-256-Digest: YmmY/eNj8Fh3w37loU7MgO1k2efoennW5YSUlcMeFCU=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ mages/link_with_editor_icon.png
+SHA-256-Digest: bTHhzOu/mzwOeQehRLleUa7GMBMr3OZq5ZKlbFWC/VU=
+
+Name: html/reference/menus/help.html
+SHA-256-Digest: 4xpegcL4XncpAUtZj6rKkdzu9PqnMPkBpDLIwHzpU7k=
+
+Name: html/tasks/images/template_icon.png
+SHA-256-Digest: ikCuR0dXAUpWn52NetxKhUwqwuaWp9nCyb4fm42Ht7U=
+
+Name: html/reference/preferences/editor/images/code_assist_content_ass
+ ist.png
+SHA-256-Digest: gjuw7Yl90+RWtsGzw0suPhEWUIiW3NgM088/bHKA3tg=
+
+Name: html/reference/images/phpuservar_pub.gif
+SHA-256-Digest: dqslOLpSw4UfsJOpd/4/2YNIng3rO/t6rsgWbgJfpuY=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/breakpoints_view_skip_all.png
+SHA-256-Digest: Fl+PUjAsyvmrwzr7p5th5GOFZXSDDSap9btWyruBWy8=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/php_explorer_pdt.png
+SHA-256-Digest: GaaDyrbAZtdu37lmSfOpYc98810eH0qh+XKpVKTcxAw=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ mages/view_php_functions.png
+SHA-256-Digest: +RNlAlq/a1mDei4J217mVSmouSUqIiaUzfKOdqBG1uc=
+
+Name: html/reference/php_project_properties/php_debug_properties.html
+SHA-256-Digest: QH7ck3BAReu+JfZJN1CZAi7lZwE4OT5l0NBpszA7f7A=
+
+Name: html/reference/images/phpuservar_pro.gif
+SHA-256-Digest: YbpIoQjrQf19YBJz67JtfoTS25C5QXBkwNQU3R834Lo=
+
+Name: html/concepts/images/internal_classes.png
+SHA-256-Digest: BWwiUPWJXqQESZeAYtKyETRLEkpIhl+4yM0tLKN5T2c=
+
+Name: html/tasks/using_javascript/using_javascript_mark_occurences.htm
+ l
+SHA-256-Digest: BkaFZPcG4UPn827iIf3RpDeaL0r+ZKkuVGJcvDPA/UE=
+
+Name: html/concepts/images/override_indicators.png
+SHA-256-Digest: 780Xen3sg3Vcrnkwv1JmB0TzFdX/82qMSnZXnFuKAVg=
+
+Name: html/tasks/debugging/images/add_exception_breakpoint_command.png
+SHA-256-Digest: jc7/s38a2gYdAeXe76YIySrT02qoaLmRpkvBQCoxpRc=
+
+Name: html/tasks/images/comment_block.png
+SHA-256-Digest: S8AJ9uwb7iSbD3xCX29FyboOC9EVMEHOqGpuNI/EBUw=
+
+Name: html/reference/preferences/appearance.html
+SHA-256-Digest: syVvLFkoeSLzCHuzn/2z5QXZ6t1Nq6kEZou0jWf4oSQ=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ mages/menu_icon.png
+SHA-256-Digest: u/zptmtib3z41QvEJ/oSqLyggFUp7vDwFiRryOQVI4E=
+
+Name: html/tasks/debugging/troubleshooting_remote_debugging/setting_yo
+ ur_zend_studio_for_eclipse_to_be_an_allowed_host.html
+SHA-256-Digest: VclCIm1Rffj8S+3LunmGszcpGwDhRZCwYnu6xfjfh9w=
+
+Name: intro/css/overview.css
+SHA-256-Digest: CT7NMkyrmNowuh5Ijq6Ols+dGN1XUb5YntHJKbyKdwc=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/variables_view_show_logical_structure.png
+SHA-256-Digest: QoYz4A+0YrVhPItt2R1FJ8ctpa1H8QE19c4z2ZyO9zY=
+
+Name: intro/overviewExtensionContent.xml
+SHA-256-Digest: P4ozyCziIN4JhIUPQNUdtUvTDPDKnuPJspkhXnT8IgQ=
+
+Name: html/concepts/images/php_function_add.png
+SHA-256-Digest: BkkoDMi74TwrkCOFpnWbzdbwZVrB7NcPSkIpkfvihWs=
+
+Name: html/getting_started/basic_tutorial/images/debug_configuration_w
+ ebpage_server.png
+SHA-256-Digest: 8mbT7sYhnKCc1ikSueVPwLZV81emYS06o9hNZxeSAGg=
+
+Name: html/reference/preferences/profile/index.html
+SHA-256-Digest: 2dAdIWV/Yw5qSFfQl+gFpYBhRbEY3806eBA+yxkoIs4=
+
+Name: html/getting_started/basic_tutorial/images/debug_icon.png
+SHA-256-Digest: zh7f2XRfmqlFTfWXlr1wdJ+OfBoz355IRCiIS+Oy8fc=
+
+Name: html/tasks/viewing_type_hierarchies.html
+SHA-256-Digest: 4HoOGFA5/UY+3LXpcmaE5DTEEUnLaxgm7gEfwxNiv9o=
+
+Name: html/concepts/images/code_assist_cc_example.png
+SHA-256-Digest: Cp4KAORtlO/dBJlEbnsczfoI72FbW9kikNZGlYjrllA=
+
+Name: html/concepts/matching_brackets.html
+SHA-256-Digest: ue6ag1ovtVFVb7plerw8dDj3p0Nx0FHkF53AHM6ySUw=
+
+Name: html/table_of_contents.html
+SHA-256-Digest: 7ynqPvjYNjQx65GvFYG/TXXMCq4lcJoWPb7eeIEgeqQ=
+
+Name: html/concepts/php_manual_integration.html
+SHA-256-Digest: KgWfOVdokyuCXee+hNt9rWHwVNQIhrbJ90lt1WLjS/A=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/p
+ roject_outline_view.html
+SHA-256-Digest: 6H3h5uRqejEl4s+uLBRLwH9aeUDlVuYuQh3zC7hNjI8=
+
+Name: html/tasks/profiling/importing_profile_sessions.html
+SHA-256-Digest: Jun4nl/anoVIgQwTFzXPS3iKuS83ItRBUXBVurBBvWE=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/execution_flow_view.html
+SHA-256-Digest: 9KcLFidolORnn19nJ72IMimFFgTVC9lf4cNDlEj6/0s=
+
+Name: html/concepts/automatic_insertion.html
+SHA-256-Digest: RKBnzl5X3Q+65aiyvOsPehikvs9m20ThftxfI+UaI+M=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/function_invocation_statistics_view.png
+SHA-256-Digest: U26PmiSeJUll4fph9lXuFK0XpwPCzUUh7u3cfYWtPG0=
+
+Name: html/concepts/images/debug_session_pdt.png
+SHA-256-Digest: UrTLZFeA3mb/EN5WXommrq9olmw5SDRXAbnCQ72fxqA=
+
+Name: html/tasks/debugging/images/add_exception_breakpoint_view.png
+SHA-256-Digest: JdagquGInaxwjtZ4JWeGPgBkyi1h/RNSMznC6Kvz56U=
+
+Name: html/tasks/using_refactoring/images/inline_refactor.jpg
+SHA-256-Digest: pH7w+zD9fTSIyWp0hyPFBS0DZDW4f8zD9Q0VoU7uehY=
+
+Name: html/css/link_icon.png
+SHA-256-Digest: bV4lzvd+Gbj108WycG+bzRnGjj21/eZ9eufxGPqEJBQ=
+
+Name: index/segments_1
+SHA-256-Digest: zQyvhv6FaGeS0MYqKKQFCzDM4/r2iXm8aeRcYwvbp3Q=
+
+Name: html/concepts/refactoring.html
+SHA-256-Digest: N7+37nqAvK1tcVhXIT/XYHMoEpKLr0KeUV53SaOpJMs=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/breakpoints_view_show.png
+SHA-256-Digest: rI7rbOYZ1lm5v6OFrkNI2FkW9eGOJvRX7/Bh9da3HUk=
+
+Name: html/concepts/images/fields.png
+SHA-256-Digest: BWwiUPWJXqQESZeAYtKyETRLEkpIhl+4yM0tLKN5T2c=
+
+Name: html/concepts/images/command_link.png
+SHA-256-Digest: NIDsCMjTpLETbGcs02IMInD7l03p0PlZNoZSoT6KRiY=
+
+Name: html/concepts/exception_breakpoints.html
+SHA-256-Digest: +nyQDgubd7aRPvfRQ75CTuENxa/WfbsVCi3j/IonE8o=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/debug_view.png
+SHA-256-Digest: iS3NLO78OiI5HnDbVgcQ68qCABzxxd0dQrHKJVi8HtA=
+
+Name: html/reference/preferences/images/code_refactor_preferences.png
+SHA-256-Digest: wmUWRdgh0IfEqyfWtMeIbfSWr0CtPW+OB9LcLVwLQVQ=
+
+Name: html/tasks/running_files_and_applications/running_php_scripts_lo
+ cally.html
+SHA-256-Digest: JZJCJJ4YzY8YqweLxmFWdIF7BZ+QXCLn5OqgUEaGut4=
+
+Name: html/reference/preferences/images/appearance_example_both.png
+SHA-256-Digest: 09ng4MPQFYl/ZWuPuFCOJ5BzPtT2AKWmPTK6XCRIjtc=
+
+Name: html/concepts/breakpoints.html
+SHA-256-Digest: 9xUiu9s1FjUp+kBGYNrXYC9ZtSZePbEthOpQTrfyDBc=
+
+Name: html/tasks/running_files_and_applications/images/run_configurati
+ on_webpage.png
+SHA-256-Digest: Ey5SP7GGR7GGjVTcpU3DxwxrVlVcRfdCj1tstB84ckw=
+
+Name: html/concepts/images/heredoc.png
+SHA-256-Digest: EXADKUpjNogTpME5zdxWQ4Z+0zpoANeWJRrw0CzEPng=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_statistics_view.png
+SHA-256-Digest: xyDF8vCfBKbLYFlKfztLFQVghZePVY95IhjzMRildfk=
+
+Name: html/reference/preferences/debug/images/installed_debugger_prefe
+ rences_pdt.png
+SHA-256-Digest: +2B8n1qwT7yv89q1G2PD8Jcok2FfHpFtkvgDuXjSKCQ=
+
+Name: html/concepts/images/phpmanual_integration.png
+SHA-256-Digest: M0slQ+x6RkNgEKOk+n8VU7uUYr1yfRPRR92mFEsNS+Y=
+
+Name: html/reference/preferences/editor/images/typing.png
+SHA-256-Digest: 9qzR+ZFVkKnxyheA2/WPIOHIO9pbXDs3UOvTuh292qE=
+
+Name: html/tasks/debugging/images/debug_configuration_webpage_server.p
+ ng
+SHA-256-Digest: 8mbT7sYhnKCc1ikSueVPwLZV81emYS06o9hNZxeSAGg=
+
+Name: html/reference/preferences/php_servers.html
+SHA-256-Digest: oiG14QepBDpndquIEvvraMyWyCtmg9NnqdmMKi209m4=
+
+Name: html/images/view_wiz.gif
+SHA-256-Digest: BVxUYZMsRtUpeobUTNN+KMWsq6b1fWiNMaaoDErXTnE=
+
+Name: html/concepts/path_mapping.html
+SHA-256-Digest: AvvQK3ru4qCvz5549bvwXbTWYaTKwyI3+rF+pHMznSU=
+
+Name: html/reference/preferences/editor/images/folding.png
+SHA-256-Digest: YmbvdjEQtQo0LIcBK50QEE6mFRPeqIEwo1i7T1p7nlQ=
+
+Name: html/concepts/images/constants_icon.png
+SHA-256-Digest: a9DhJEIZB8zZ+Z2Bcgw4Ffws6vdB3WyfrbjQXXeJIaY=
+
+Name: html/tasks/configuring_build_paths.html
+SHA-256-Digest: ODZ4mRwohUBUbDSYgA6qM5KzJP1ITkdHpaEozYYcVyM=
+
+Name: html/tasks/profiling/images/profile_icon.png
+SHA-256-Digest: 0tGVGuTWK6bgamMhIz30dAppvuePYdkULCX9bvsb+9A=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/profiling_monitor_view_delete.png
+SHA-256-Digest: JJfFgDDc0pwEWz6LOmf6hIp7QaT12Gq4JVtAcXg9yQY=
+
+Name: html/tasks/using_templates.html
+SHA-256-Digest: 04vJ4rbPAJqDqW1S/aoegomiQLMV1LiXMHbmU46KiQo=
+
+Name: html/tasks/using_javascript/images/javascript_syntax_coloring.pn
+ g
+SHA-256-Digest: At4B2qg/cJqiBaapHnwtfVAXx1SGPMpmLh6vk7FqKQQ=
+
+Name: html/tasks/using_javascript/images/javascript_new_user_library1.
+ png
+SHA-256-Digest: CvZIJ3bUO840LGQH3rB+t0gOiKhYTklQuKefj0NwGJ4=
+
+Name: html/tasks/php_libraries_preferences/adding_a_php_library.html
+SHA-256-Digest: oevje/9P57mLjeumkmq9Yyasyq1I2f/bHAWHyP7KlC4=
+
+Name: html/tasks/images/new_php_project_svn.png
+SHA-256-Digest: 9JP17FSuuSIZT4Pwe+kfB/P+HzKIBwG/d8EuLX8ns2Y=
+
+Name: html/reference/images/library_obj.gif
+SHA-256-Digest: ybbpLgjspNK9OIR/AZdvx/SHIzeWB7qrHElzTIqXkQM=
+
+Name: html/concepts/images/classes_icon.png
+SHA-256-Digest: YmmY/eNj8Fh3w37loU7MgO1k2efoennW5YSUlcMeFCU=
+
+Name: html/reference/menus/file/new.html
+SHA-256-Digest: owd/A0VY0k7WDqf9BDUNIohQWkQGyZze5bf9xAecFAE=
+
+Name: html/getting_started/basic_tutorial/images/debug_phpscript_confi
+ guration.png
+SHA-256-Digest: yBGx28EkCwAxVU4F9zA4ZXVujaJriWzhYxIqKZggUig=
+
+Name: html/reference/preferences/editor/images/mark_occurrences_annota
+ tions_preferences.png
+SHA-256-Digest: 5PUu5TZ9TQuKG+No+ht4sUEKA8GFkyHjjsMJOLe9OYM=
+
+Name: html/getting_started/basic_tutorial/images/debug_configuration_w
+ ebpage_debugger.png
+SHA-256-Digest: fiMtcOaeqizx2gza63BOu8JeFNOUyQOZuTZE6i1RlqE=
+
+Name: html/concepts/images/warning_icon.png
+SHA-256-Digest: xOxb7bIbQIYvAcFSGIShKbyBmYFtdzXGMsHy9Qtbpyk=
+
+Name: html/css/ref_icon.png
+SHA-256-Digest: cHuRfZdr/OsZ0qPQ1LoOAWjFNCRrz1wsEMd9ZmHDKz0=
+
+Name: html/reference/php_perspectives_and_views/index.html
+SHA-256-Digest: I5xDGxzTCq4T17N8VCBMw06Ixbb0wpMQ7l6H3vg/0hE=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view_button7.png
+SHA-256-Digest: NFroA5OrwXi6J/OEWS7TIeFasoZTGY2oJc5Sg6VsuBQ=
+
+Name: html/tasks/using_refactoring/renaming_files.html
+SHA-256-Digest: J+Jqb+w7T22vFeGMuwJk0wYHon0QkrASz6SZ8nOtArg=
+
+Name: html/legal.html
+SHA-256-Digest: H2kBp49UFOZ3vX90IiH7v7EVePbAnKrUnKgq0VT/5Q8=
+
+Name: html/reference/images/php_project_obj.gif
+SHA-256-Digest: zahVpw2Ffz/8jAYG5s8L+0M3t35RI5Wk8s/41WTMx/A=
+
+Name: html/concepts/images/keyword.png
+SHA-256-Digest: jIveZ1Xz3fkY3wzMBK5AHUTIzmq5M68mUtKepbsuuRk=
+
+Name: html/concepts/images/extract_variable_example1.jpg
+SHA-256-Digest: gw9gsMOztLBVEBZhxphwl5DGHGIBiAiBFHFafP6+GQU=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/profiling_monitor_view.html
+SHA-256-Digest: yl6mnYMax7SHqcbutRHgxVv5e8VT8DFxBKg8d8zthts=
+
+Name: html/tasks/debugging/images/resume_icon.png
+SHA-256-Digest: aQHn7fV8OBQtMJihfvgmx0p9lx/7A3kY496I/kC4aso=
+
+Name: html/tasks/debugging/debugging_a_php_web_page.html
+SHA-256-Digest: 4XIXBLcjZ69eutjSijFuSZXpyeLriQ8jxeUzNqJr7QQ=
+
+Name: html/tasks/opening_php_elements.html
+SHA-256-Digest: hZ7mRlLadZdxhbwAmBcOUfcJzWLp+zsmEEgMIpHbsxE=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/code_coverage_view_next.png
+SHA-256-Digest: s233+j1RWmrvk0/U/JmYSMtRq9krfTj0wW+8zQak5K8=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_flow_view_percentages.png
+SHA-256-Digest: I4XZPMCaUFrF2ED1VLM1lxFgBLZcBayI/UIkYQnUkW4=
+
+Name: html/concepts/mylyn_integration.html
+SHA-256-Digest: GpTyjXBSNni4OZviiz/mWKrtX9dQugmA2m3W8AMX47o=
+
+Name: html/tasks/using_javascript/images/javascript_projects_tab.jpg
+SHA-256-Digest: OjIWPYyQfJ0JjMsSECzTKO9dDbrImrpKGvsIzB0Kyic=
+
+Name: html/reference/menus/images/bookmark_icon.gif
+SHA-256-Digest: fZSAnSThvDlL5xHqj/2pcTK+18KVnQuQau8jWcE8Bw4=
+
+Name: helpContexts.xml
+SHA-256-Digest: /p7npbkthzFPBbtxR7IJ57etisRpUFICMk9vKD1Llhs=
+
+Name: html/reference/images/methdef_obj.gif
+SHA-256-Digest: 1LU68/iOPVjSaHSl9GwNZSQM4mqDtCtcvt6BOclCv+4=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/index.html
+SHA-256-Digest: WVOPqsNa/IXlGYw3tSIRRV86FJBqKaL0oYXHcSnxJVE=
+
+Name: html/reference/menus/navigation.html
+SHA-256-Digest: U+SeNXYisv23C14a9YUbIAreu78r4sYNkWBLwlVfAUs=
+
+Name: html/reference/images/phpfile.gif
+SHA-256-Digest: ZqfRQagD5j4lq1mD8GgXdYOitG5Cs7481moqtqxX6r8=
+
+Name: html/reference/php_project_properties/code_style_properties/inde
+ x.html
+SHA-256-Digest: 5Q1rcZwG5Y1n1pZM30ard17UXEZKuxDeYHmOKPVeMyo=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/template_icon.png
+SHA-256-Digest: ikCuR0dXAUpWn52NetxKhUwqwuaWp9nCyb4fm42Ht7U=
+
+Name: html/getting_started/images/new_php_file.png
+SHA-256-Digest: 107HKLLB2k1NGjmOb3BLIzzoYKeBwGwwCm2b/Ch7LeY=
+
+Name: html/reference/images/php_resource_obj.gif
+SHA-256-Digest: SKKAZyO0K1fB5lMxpcn+b7QfAzdbUvniFpNxY3N+sFc=
+
+Name: html/reference/preferences/images/new_project_project_layout.png
+SHA-256-Digest: gi/KQmFc8UXoV5F5PmlGMuqFSWURHZCf/32sR1JDa7w=
+
+Name: html/concepts/code_assist_concept.html
+SHA-256-Digest: j+bwwpE/K/jnQ4gV6o3ZLlomnjhOdgUOMGLgYBvYm9Q=
+
+Name: html/concepts/images/code_folding.png
+SHA-256-Digest: 37py/B69qS0sL0bMbsJyJkT/eIhZub/rdQv37bPNRoc=
+
+Name: html/tasks/images/open_method_dialog.png
+SHA-256-Digest: BNiKLtBuCV5tzNQcOuNLDJU1dTr9ywZX2YTHDszBEOU=
+
+Name: html/tasks/images/comment_lines.png
+SHA-256-Digest: vsk6QAvzszy+gei4pDHmP5F7f/D2WsH7GVlqXvyAVaY=
+
+Name: html/tasks/searching_for_php_elements.html
+SHA-256-Digest: ZZhn41ocTJuIO8grsNyv+DDOt9ixLR3oVVpwY+i2FL0=
+
+Name: html/tasks/profiling/images/import_profile_sessions_1.png
+SHA-256-Digest: p+f4blPEHKqhQHHffz8R2OQZHMRpBkQmgIe60XoVRQw=
+
+Name: html/reference/preferences/images/code_coverage_text_and_fonts.p
+ ng
+SHA-256-Digest: 613n0CtiTbnRIzaetUxOMIDhM+IJaanz9iPpmzwo4do=
+
+Name: html/reference/menus/search.html
+SHA-256-Digest: 6swjIVX2TE/LX5trBoM8Q1s/eMmk2qE+8zmNHdCWwOI=
+
+Name: html/reference/preferences/debug/installed_debuggers.html
+SHA-256-Digest: DoRwc3ovlNLubLwag0ZSlP8g1RpTcYCv6Gvd3aXqQLQ=
+
+Name: html/concepts/mark_occurrences.html
+SHA-256-Digest: BIqQWfCSzDTNxHnfCgg+llRfA5Hq7jp6b50HsldTez4=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/code_assist_circle.png
+SHA-256-Digest: SGMPincp3jCAnJrsq9BsKQefH4+jgu48zmfKuyDhVzA=
+
+Name: html/reference/preferences/images/php_interpreter.png
+SHA-256-Digest: ZrK/xp4DdmZSaD9JTsqsbo3HxIcWx0p51SEXWECh1lo=
+
+Name: index/_1.fnm
+SHA-256-Digest: ppyVkLhumfHJwQcQR6f52/jpDSeCAWfF4bL7I9N/3KQ=
+
+Name: html/getting_started/basic_tutorial/images/interfaces_icon.png
+SHA-256-Digest: NOPYk5kt1fRYrBcY9kJXWSsripYUzbd5PDwVWR9z1wY=
+
+Name: html/tasks/using_refactoring/extracting_methods.html
+SHA-256-Digest: A38lMFLn3i8egZLU8qd28+NCLPnoOL8kTLP3lPoeXuI=
+
+Name: html/tasks/debugging/images/remove_terminated_launches_icon.png
+SHA-256-Digest: uUeTf5Sik17lafqifssVUHdZDjarW85H6/zJQdoekwk=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/code_coverage_view.png
+SHA-256-Digest: BcEDn4O4dymMwPuqRtLnEGwsgYi4tAKJjNj/ayCMgWI=
+
+Name: html/concepts/commenting_code/images/bookmark_icon.gif
+SHA-256-Digest: fZSAnSThvDlL5xHqj/2pcTK+18KVnQuQau8jWcE8Bw4=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/code_coverage_summary_view.html
+SHA-256-Digest: bAwkwqvgThv7/HyTad/f96+a4XKeO4at/oqyOKheVxY=
+
+Name: html/images/contents_view.gif
+SHA-256-Digest: 40h4o5eTf+SuCjCdCBOKHcIR8h0cCTFpBDLsZ1HqKS8=
+
+Name: html/tasks/using_javascript/using_javascript_content_assist.html
+SHA-256-Digest: aclqK0LOMc2/4C2vit7/9YK5nv3yFftu6pv/u1/WA0o=
+
+Name: html/tasks/debugging/images/step_return.png
+SHA-256-Digest: 9jxUC0qj7+hJYjZ7ns24cI93dQ8vf6Ko1iOf8lRxeic=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/menu_icon.png
+SHA-256-Digest: u/zptmtib3z41QvEJ/oSqLyggFUp7vDwFiRryOQVI4E=
+
+Name: html/reference/menus/navigate.html
+SHA-256-Digest: kqF2TDhxf6WdH3pw90UQkHKTt9IPQNVljXqWbTD1xWs=
+
+Name: html/concepts/debugging_concept.html
+SHA-256-Digest: HKYyLIB0EfZUZEwRV9YutK19J3VIz83TXsDUQQcXvtE=
+
+Name: html/tasks/images/build_path_add_source_folder.png
+SHA-256-Digest: 1KnL8j8HdUNWfh4q2XeG4LT3a9V8Vf3/UV7B5W6eVOs=
+
+Name: html/tasks/images/code_folding_unfolded.png
+SHA-256-Digest: GG+epHxRXyijmoDCNdhVoL2DGG4fAKj/pHkxgfTLLQE=
+
+Name: html/concepts/images/extract_variable_example2.jpg
+SHA-256-Digest: A0ZS8HxPpZg/MJHacMHe7e1XvfbuLgIfyaINqOZ1w3k=
+
+Name: html/reference/preferences/editor/images/mark_occurrences_prefer
+ ences.png
+SHA-256-Digest: FJwHUSbvxibdsl7a6zolPIUM0U8PttqrS/sjNXLwBXg=
+
+Name: html/tasks/using_javascript/images/javascript_libraries.png
+SHA-256-Digest: M3eJ9nk8TAmJ4kKOAZQrd2cuq5kk7SWE3YH/bM3e1MY=
+
+Name: html/concepts/javascript.html
+SHA-256-Digest: Ok6s5e/XC08UoSavBZahhZ/qldqoCJZiuASLzmuqVCM=
+
+Name: html/reference/php_project_properties/code_style_properties/form
+ atter_properties.html
+SHA-256-Digest: EMbLKy8+SLWOKoKUiRiVmufke7Y9cIy0g95FcHSjD7k=
+
+Name: html/tasks/file_creation/creating_a_php_file_within_a_project.ht
+ ml
+SHA-256-Digest: OplJkMDNfQfn69r/hJ5e9DqnAt+GA3y7IlWa/ETsmFw=
+
+Name: html/concepts/syntax_highlighting.html
+SHA-256-Digest: VMUoLKBNPOp+FlkaL+Jy0ZFq3gr/aieU/3zgK7WWjyk=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/code_assist_triangle.png
+SHA-256-Digest: 8ZwAguW5p3iuu4/SFHc+3sANsriCq2nbAIk1goRXIqw=
+
+Name: html/reference/preferences/code_style_preferences/images/formatt
+ er_preferences_pdt.png
+SHA-256-Digest: 6IR6XwEXkWdG1/Ymr5CM3IgO1PP9CQMU8YFNQBIHGpQ=
+
+Name: html/reference/images/toolbar.png
+SHA-256-Digest: xl1jFLujQ9+3LCEWxQN+nRnMLMaEMNlZ6a9g3ExVfbo=
+
+Name: index/indexed_contributions
+SHA-256-Digest: /mhZNXgORxbCzK5r2HpKdAtye9HYP0I7+lyLv3SGNIk=
+
+Name: html/tasks/debugging/images/add_exception_breakpoint_dialog.png
+SHA-256-Digest: 5zKgMoXrpZJWIyEtSELrtWswTlvIjY8Bd0Y792800qk=
+
+Name: html/concepts/images/namespace_icon.png
+SHA-256-Digest: KcwTSSqPQbG5a2rEYrAn+7JRj3aGjyApK0Ev31H6Hak=
+
+Name: html/tasks/images/search_results.png
+SHA-256-Digest: weF18DFZ0Fk8zRBbisrb1IJTEXJbCTJcU/WjihIQnlA=
+
+Name: html/concepts/images/conditional_breakpoint_properties_pdt.png
+SHA-256-Digest: l9qhsuG4g8mwd2Zi6ooChTe2hufQHh1RrIK9+bsxlJo=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view_button6.png
+SHA-256-Digest: iZ6jqgyd/Mj7YIjzZtcUXUUmhoLIU0QsHePr+PyNBMk=
+
+Name: html/concepts/hover_support.html
+SHA-256-Digest: lJMnRdbepEDWH1KU57Eq+RLxMV2ITZsUeqWPcrsu9OU=
+
+Name: html/tasks/images/include_path_properties.png
+SHA-256-Digest: YbOY/yk98gteWjDnb+Mt348BmoUpZhwpAaR53qfax0g=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/code_coverage_view_prev.png
+SHA-256-Digest: BiG83POjfUHMPG+GWOjZ8yAPkEne0CJvSOnE9rFYUTE=
+
+Name: html/reference/preferences/validation/images/task_tags.png
+SHA-256-Digest: 9oyA8Dstd+keBeeC4Ouy7zax5Vqn+7ScH24+9gV1OPY=
+
+Name: html/concepts/images/breakpoint.png
+SHA-256-Digest: 4zm0C5oer5IPD32sbpNgH8RC3Xk4Tb5KsX/kgrApFaA=
+
+Name: html/reference/preferences/images/appearance.jpg
+SHA-256-Digest: qXRs8lBbFvW273LdbH6WxMKdsYa6JcqmhqQWDex/aPs=
+
+Name: html/reference/menus/images/open_perspective.png
+SHA-256-Digest: jpKNyry9pK5KyDTZ28/1VT8iuyHLOB94h4meRjlYnQs=
+
+Name: html/tasks/php_libraries_preferences/adding_external_folders_to_
+ php_libraries.html
+SHA-256-Digest: 843yAg0YORfGYTLdMC523Zu56kM1XAb7KYipWgrXwW4=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/outline_view_menu.png
+SHA-256-Digest: 97/4NKyyTZabeYBjXX4LtoExl5E5P2POJ1YJhRDy9N0=
+
+Name: html/tasks/php_libraries_preferences/exporting_php_user_librarie
+ s.html
+SHA-256-Digest: 7E2Z7SYO7ZQxbHYcBW5tMNY/0G2JgKCDWuB7DT+x7fk=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ debug_output_view.html
+SHA-256-Digest: udoihhTY7Pc7PUYoaJ9lwqMgmjiHqG/NTEx7N8LEfOE=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/show_attributes_icon.png
+SHA-256-Digest: ms7DksnTRaHQ9A9TEtYv12v8wioJzOmZdJgcBm+D7Xo=
+
+Name: html/reference/php_project_properties/images/properties_builders
+ .png
+SHA-256-Digest: 0g0cnKEypu7AWiVmaI9kFxZBqaKsF0M8yJX+c/jaDn8=
+
+Name: html/concepts/images/syntax_coloring_example.png
+SHA-256-Digest: +F4Iaa4DMTDoAYievQa3n/xwgPtEWC5Dd5y5IPXzXIY=
+
+Name: html/reference/preferences/code_style_preferences/formatter.html
+SHA-256-Digest: MhnxPRlXzLemJYmnrp1efAxNOqw7CYWlU6RfgALs40k=
+
+Name: html/getting_started/basic_tutorial/images/code_assist_cont_info
+ .png
+SHA-256-Digest: c8mIz6lw4kRcrKvj9wzzjNkYjEz7kVQCj1X1A5XVJog=
+
+Name: html/concepts/images/parameter_variables.png
+SHA-256-Digest: 2NSL3n94wDa4obftXDtSxtB2XoemltaAbELGOdJBXoU=
+
+Name: html/tasks/profiling/exporting_profile_sessions.html
+SHA-256-Digest: 0Rs/9oP3rjnG+PFlxL+7cYb/0EK13pKEvAXVtzZsc+k=
+
+Name: html/concepts/images/type_hierarchy_view2.png
+SHA-256-Digest: MhJT1r3oSfp9nFEcofiZTZEe9T+/EZu3Z1pyMHKt1nE=
+
+Name: html/reference/preferences/debug/images/debug__launching.png
+SHA-256-Digest: whTnFIQSzC9COn5hJl3aRSv2/PscE7M/mtWmM+/nOSs=
+
+Name: html/tasks/using_refactoring/images/refactor_rename_dialog.png
+SHA-256-Digest: 2tMWp8J+UpjfoyDh5UlN26dPhDpcIT0bsvQIq9BgDOE=
+
+Name: html/tasks/images/build_path_link_source.png
+SHA-256-Digest: 2i8f77WKA4QqGVbwlsXtjMxpIC/CJHerl2GGX29aL2Q=
+
+Name: html/getting_started/basic_tutorial/working_with_the_debugger.ht
+ ml
+SHA-256-Digest: fvw2WxLDFSr73d45NB1/nhkFJsatowX9s88DPHa4yhw=
+
+Name: html/tasks/using_refactoring/images/scroll_changes_arrows.png
+SHA-256-Digest: b/OFMT7eI5w1HfPcY5U53kvdIgMBSSLgYyE8q2t+6QQ=
+
+Name: html/getting_started/basic_tutorial/images/debug_browser_output.
+ png
+SHA-256-Digest: IGW0XxtvCX4F6EFQuEo0U6rIWetbxGpb0OOxC4XRBhg=
+
+Name: html/tasks/opening_types_methods.html
+SHA-256-Digest: tXlj9ut6vlL2/kupJMG7u2zNNJZWfR9c7I58jE/rdZw=
+
+Name: html/getting_started/basic_tutorial/images/debug_webpage_browser
+ _output.png
+SHA-256-Digest: jzEPXPVQNT9kuONKjWxnDIh1lRawjU7UYGkvw0UWyyE=
+
+Name: html/tasks/running_files_and_applications/index.html
+SHA-256-Digest: vz8YfY5FCjqXguX2DRVV7otnPwEzhmf9XOw2EWetKqI=
+
+Name: html/tasks/accessing_an_existing_cvs_checkout.html
+SHA-256-Digest: 1jwtzlNLGIGZpsEjnr8Jpx5uqbsZCozokfVXSCtouoM=
+
+Name: html/concepts/images/single_line_comment.png
+SHA-256-Digest: 4Cw5XCshDdviFuWspKnkUNo2rMoKMQ/1vV3M7bC0NXs=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view_button1.png
+SHA-256-Digest: BMig+DC8j5lr7zFnK52/GwAGqtKcnUEBR9H/m0W5ubw=
+
+Name: html/reference/images/folderroot_obj.gif
+SHA-256-Digest: ImVvouaD+OX3ra4x8JHOBF/JHwQqj+2C7noF/EAp4MI=
+
+Name: html/tasks/debugging/setting_exception_breakpoints.html
+SHA-256-Digest: Z08sCyFUk+PHupASwf3+OvTViqJtLu0tMQNioHVZjWE=
+
+Name: html/concepts/show_type_hierarchy.html
+SHA-256-Digest: ghmqsvP9F8swkW4bYACMTS5osWBy2py6kXTkAUC+5qE=
+
+Name: html/tasks/using_refactoring/images/extract_method_dialog.png
+SHA-256-Digest: v1yQx6Ee5rtWrstFaeH9ba0JzQ+m8ngjB6eMGALvZjs=
+
+Name: html/reference/preferences/php_executables/images/php_executable
+ s.png
+SHA-256-Digest: xIfL7DrTjk3+GDdi5ZLd9fBzACas6lgalXkydYQA/DY=
+
+Name: html/tasks/profiling/images/import_profile_sessions_2.png
+SHA-256-Digest: 6T5GFgSSjJtG+nEe8WS9b01Cv0+2KeUvaxL3uXjSyF0=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ index.html
+SHA-256-Digest: lSD2Eji09HSGsMcaKzd9s4dXbo16RiyvsTw2o9lX4P0=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/sort_icon.png
+SHA-256-Digest: NBHqkFzZpcmRfLB00bte2xDG2IIAhweEg6PvZYnz0zY=
+
+Name: html/getting_started/basic_tutorial/images/debug_step_return_ico
+ n.png
+SHA-256-Digest: 0dAJaIl8/huo0QblUyURgoYvfLEFSPQgoh9IJLpEWZc=
+
+Name: html/tasks/using_refactoring/images/extract_variable_dialog.png
+SHA-256-Digest: Mma94tp2qZ3hs6MvBEzeNFBd3wfhWou83YOYioAYYFc=
+
+Name: html/concepts/images/problems_view.png
+SHA-256-Digest: m1wg1vAGNUtR83CoqKHS6Hy7aVAD/x4NdSar2qCt46E=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ variables_view.html
+SHA-256-Digest: QjW+pmLHur/VXWdT1F0+h1gq6hdtbo4LPNFjlBj7zes=
+
+Name: customBuildCallbacks.xml
+SHA-256-Digest: +MpUwkseEjJYl5uOvr9nyAlK9GCBrfdA1ahIeJhrYbg=
+
+Name: html/tasks/profiling/images/profile_web_configuration_2.png
+SHA-256-Digest: FwXnOYU/ms4aQAxB0k5VozwBqUnye8ya61LW7IBKVO0=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/view_php_outline.png
+SHA-256-Digest: +s+VD8sYrzcqLtEpzvIq6dOL0pVbqh75P0puYDsNT5w=
+
+Name: index/indexed_docs
+SHA-256-Digest: B0S8GBhMyklpUqIRRf4/S+A22AKsmVNqB2TCL35rRQo=
+
+Name: html/reference/preferences/images/code_coverage_preference_page.
+ png
+SHA-256-Digest: C80dOPKFFhAQJCIeaXDYFxT2ER+PxQRZLP+56tWrXzI=
+
+Name: html/concepts/images/path_map_example.png
+SHA-256-Digest: 7VBRGxKhQVEg5o9eD+h7t4eoclw8mgFzEe0ITfQqSrc=
+
+Name: html/tasks/debugging/images/debug_phpscript_configuration.png
+SHA-256-Digest: yBGx28EkCwAxVU4F9zA4ZXVujaJriWzhYxIqKZggUig=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/expand_icon.png
+SHA-256-Digest: /K1IKLuCVKG7Iw0f5tpNg6Og220DGi97VsDoc0ZTgh8=
+
+Name: html/tasks/php_libraries_preferences/editing_php_user_libraries.
+ html
+SHA-256-Digest: aDO2m3Gs9jXl708ooy/B9bNhIVUObrEqKhDRuGqCdwA=
+
+Name: html/tasks/using_javascript/index.html
+SHA-256-Digest: 3MVuu7NK0ZIoeklYBxH1ypUUae5LJOLpzjgZy2YriZU=
+
+Name: intro/css/overview.properties
+SHA-256-Digest: rnawZt5jJ50dlPOPq2aKNkmY4E95rmX57tqZy0XnixA=
+
+Name: html/reference/preferences/images/php_servers_pdt.png
+SHA-256-Digest: 1Q/w8ZleiUUaQdfgQffVcqDOOB4dbjNdvDWjz5JpFf0=
+
+Name: html/concepts/images/variable.png
+SHA-256-Digest: 2NSL3n94wDa4obftXDtSxtB2XoemltaAbELGOdJBXoU=
+
+Name: html/tasks/profiling/profiling_local_php_script.html
+SHA-256-Digest: ut7Lr5e8bKh6WKxv+zQL22OvY5w2nTqW/F2IQZjZoeE=
+
+Name: html/concepts/php_support.html
+SHA-256-Digest: AYUmoG+4WFdfcv/B2wVfKE1zbNbc9s0U2OVw59VYLcE=
+
+Name: html/getting_started/basic_tutorial/images/code_assist_function_
+ parameter.png
+SHA-256-Digest: 5Sst/R3KwB9TbIuOoWhdEMpAZ2HSLQD85nwsaNmGz1k=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/constants_icon.png
+SHA-256-Digest: a9DhJEIZB8zZ+Z2Bcgw4Ffws6vdB3WyfrbjQXXeJIaY=
+
+Name: html/reference/preferences/debug/images/zend_debugger_settings_p
+ dt.png
+SHA-256-Digest: gqkhzHakOUG5njqD8wI6E7ibZVhtY7tUkVnHqASRohw=
+
+Name: html/tasks/file_creation/images/file_association_preferences_pdt
+ .png
+SHA-256-Digest: 2p4p32fm/mHXoQCqh8geSv2vwJaXR+vZZv+1zue4tsk=
+
+Name: html/reference/preferences/debug/step_filtering_preferences.html
+SHA-256-Digest: 3HyB8RWkjQ0MobLzbkN9Z+pFNjS6Mr4oN67Rxbl/b8U=
+
+Name: html/reference/php_project_properties/project_references_propert
+ ies.html
+SHA-256-Digest: PbwqjSyEfe42zwdzGferRW4zsuf8Q7ziE2kiET/GF+o=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/step_return.png
+SHA-256-Digest: 9jxUC0qj7+hJYjZ7ns24cI93dQ8vf6Ko1iOf8lRxeic=
+
+Name: html/concepts/images/php_file_icon.png
+SHA-256-Digest: kraimZdyXElmkNynAn4DiPjAFrOXZTp+tYRXhe7i+H0=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/function_invocation_statistics_view.html
+SHA-256-Digest: Lu1OQ5unRxIwSNCoiUsl38ZJ+3vOvBEKTDTFeOxIcMk=
+
+Name: html/reference/preferences/images/configuring_tunneling_debug_pr
+ eferences.png
+SHA-256-Digest: ZRXVyK6Gk+c/YFluOW2iyjlEBht/DC7GnztJN6l7Rss=
+
+Name: html/getting_started/basic_tutorial/images/template_icon.png
+SHA-256-Digest: ikCuR0dXAUpWn52NetxKhUwqwuaWp9nCyb4fm42Ht7U=
+
+Name: html/tasks/using_refactoring/images/refactor_rename_file_preview
+ .png
+SHA-256-Digest: hGsFTCYDNz6DQdNyVo77LAIHg4NUYycGT82C7QK8c+g=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ php_explorer_view.html
+SHA-256-Digest: VtQQRtLVKxe6ke/ImJatEp0jg3CNpyWjmnS5sF6XH3E=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/variables_view.png
+SHA-256-Digest: nSIwdbZZKPebmny99ePs7/emaWEvg3jAM9opzZ69FFc=
+
+Name: html/reference/preferences/images/php_interpreter_project_pdt.pn
+ g
+SHA-256-Digest: vPRuWcxw3j5z8g9WQwxQ6HI+xvjq7LsuPvrKPsfh3gQ=
+
+Name: html/concepts/images/har.png
+SHA-256-Digest: hKlsTRMke3BYAzTKIZhm2qeT27mUN1+t65UDcc8hMzI=
+
+Name: html/tasks/debugging/images/terminate_debug_icojn.png
+SHA-256-Digest: N/AuhoqBHSmOPm9fuLhUixmjdaAHf7lM/vadoioJIyc=
+
+Name: html/concepts/images/content_assist_in_phpdoc_block.png
+SHA-256-Digest: RaqYEoQp2ltHab1OfYzhvxJFFcirNy5wAIzAX4Va6Lo=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_flow_view.png
+SHA-256-Digest: z+cOAKr65enJ66bFShLPyk/kTM/1m07706WDCtNIPYg=
+
+Name: html/reference/preferences/editor/images/save_actions_preference
+ s.png
+SHA-256-Digest: gM1Raj+aMSWT/vbPfSj9HgcYSOZymb+5Xk/iDgvV2UM=
+
+Name: html/getting_started/basic_tutorial/images/code_assist_triangle.
+ png
+SHA-256-Digest: 8ZwAguW5p3iuu4/SFHc+3sANsriCq2nbAIk1goRXIqw=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/breakpoints_view.png
+SHA-256-Digest: kQw1kN8mBN+pCRYMBUzgAMLYqoxm+NTFN71Bi2Lto5A=
+
+Name: html/concepts/images/matching_bracket.png
+SHA-256-Digest: EQk4/6InLcfSQ356Hk8SzV5/WKAXQRN0G0+gIRMlAkk=
+
+Name: html/tasks/using_javascript/viewing_javascript_elements_in_the_o
+ utline_view.html
+SHA-256-Digest: Begv/3leqPA+GqByfRbt6Qk9DZmYW9+33Ds9mNNNWaM=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/use_step_filters_icon.png
+SHA-256-Digest: /qgiZHt1sCSHXWw4Gn5oq/YWQ3incXKYPbJHhgaWRWA=
+
+Name: html/tasks/debugging/index.html
+SHA-256-Digest: hmtFhAnb/kk1d4LJgEpBPeL4HdHYuO/1EOeDdT2Ll1k=
+
+Name: html/tasks/images/comment_line.png
+SHA-256-Digest: RWK+7FIYiioYA5+ZDtC3Ze71wkewOyWA3rdQBGztizA=
+
+Name: html/tasks/profiling/images/export_profile_sessions_2.png
+SHA-256-Digest: xTAZW7FJJ/U0YAEyX51m/taAv4vkJMLWB21w+5Hr5Tw=
+
+Name: html/tasks/profiling/images/export_html_report_1.png
+SHA-256-Digest: jUD+I+weWr/EeG75zL27IcNpthYi7ISLygtL+5VKi2c=
+
+Name: html/reference/php_project_properties/editor/save_actions_proper
+ ties.html
+SHA-256-Digest: 8rSXTrd3P8Kb9Wx21C8mJeO58uFnZXoj+nV1GqmFfhM=
+
+Name: html/tasks/debugging/analyzing_debugger_results.html
+SHA-256-Digest: E8mHchKfZ42FEucm1fLwzsinSkN4P3fBusArNJaDmmo=
+
+Name: html/concepts/images/quick_type_hierarchy.png
+SHA-256-Digest: 2ZT4D8Fyg9kb7qXIwEv5aVzRd1Ric8DZ2jU5JO0ozb8=
+
+Name: html/tasks/using_javascript/images/javascript_mark_occurences_ic
+ on.png
+SHA-256-Digest: y3El9IjXrGjlmd2hqHVJyjNwxbYMPoWfV6pxtfozhp0=
+
+Name: html/reference/php_project_properties/run_debug_settings_propert
+ ies.html
+SHA-256-Digest: ktkKxx2zxZRcpsnMa2U0+Lyn5RvzDvFBgKzZtNwCFRM=
+
+Name: html/reference/php_project_properties/images/properties_project_
+ references.gif
+SHA-256-Digest: P4Uh8XzqvUJOdK8Qy+0/P9xmNUNmI2POK8/ClTbhoJQ=
+
+Name: html/tasks/images/code_assist_example.png
+SHA-256-Digest: hBzn832t1kngZoZj2labOHnUgI9dZOOvYiotDrNt1Hk=
+
+Name: html/reference/images/phpfunctiondata_pub.gif
+SHA-256-Digest: YwjqX7p/XpifZ+PpuzNm8MtMkKty6Divf/gTrKWqxIc=
+
+Name: html/concepts/images/internal_constants.png
+SHA-256-Digest: BWwiUPWJXqQESZeAYtKyETRLEkpIhl+4yM0tLKN5T2c=
+
+Name: html/concepts/images/number.png
+SHA-256-Digest: 2NSL3n94wDa4obftXDtSxtB2XoemltaAbELGOdJBXoU=
+
+Name: html/reference/php_project_properties/builders_properties.html
+SHA-256-Digest: b1ARr68ZB9mR86xQxQMQA8ktCDFH5L+Lxe49F8EyWFc=
+
+Name: html/reference/preferences/php_interpreter.html
+SHA-256-Digest: aAGoPVIG2gMePA4rpavifqL0GtWLz6B1BvXDEBwWkHM=
+
+Name: html/tasks/using_javascript/images/javascript_sc_example.png
+SHA-256-Digest: 8z9ZHGLlwJNvLK673mU2ffdb/C58RBtqEH4KhrgwdF8=
+
+Name: html/concepts/images/error_icon.png
+SHA-256-Digest: hiB35gJPA73EL7L7ygHlAK744NAvbQLvxaajE29xt/4=
+
+Name: html/reference/images/phpuservar_pri.gif
+SHA-256-Digest: MJkMUWlLVOY2o3AoYFLBQuryLohKAx9W9RQjgAWLktQ=
+
+Name: html/concepts/images/file_error.png
+SHA-256-Digest: rStGdUZ2cHvTAXM/ypx58Yudiir9V4q8sKQdo+gpdeQ=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/type_hierarchy_view_button9.png
+SHA-256-Digest: 0AawYlNF8FN9T8Cd5JlqjmPw6kBWSzAB89VXHtOeUKw=
+
+Name: html/reference/images/abstract_co.gif
+SHA-256-Digest: h7b/y+KGlMMesXv7V28xUsswF519q3gaqsAYQwgUh08=
+
+Name: html/reference/preferences/editor/syntax_coloring.html
+SHA-256-Digest: 7LVNBslNCf8NBNEczB/yJE7HT7JhBrEKek0X4veJky8=
+
+Name: html/concepts/images/phpdoc_comment.png
+SHA-256-Digest: P4YQCZDwv0zKfjpWC3liTPO5o00PBorlZ7UOO6g3TCY=
+
+Name: html/tasks/php_libraries_preferences/images/php_libraries_add_ac
+ cess_rule.png
+SHA-256-Digest: QQZGWY+bPfMHZwRUFDa40APX6oCzSKUIeSbluxpPGJ0=
+
+Name: html/reference/menus/file/images/command_link.png
+SHA-256-Digest: NIDsCMjTpLETbGcs02IMInD7l03p0PlZNoZSoT6KRiY=
+
+Name: html/concepts/images/php_tags.png
+SHA-256-Digest: +qiYriQuH3K6DatiBUTC05DLPX4FP/dLU3OP1GgRcJ4=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/terminate_debug_icojn.png
+SHA-256-Digest: N/AuhoqBHSmOPm9fuLhUixmjdaAHf7lM/vadoioJIyc=
+
+Name: html/reference/preferences/php_manual.html
+SHA-256-Digest: ZgzKbNUZAxw6/rFRQLWv3eOr/2JG3OjusADKJBB71y8=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ images/breakpoints_view_goto_file.png
+SHA-256-Digest: 2MCkQMLMyy3iNQ1IrOE482ron7u2WVmAf+3/b9aCsn8=
+
+Name: html/reference/menus/refactor.html
+SHA-256-Digest: BD2AzTRP6z7j4uFRz6xZ9/9KwcL01DugDrNMItzflco=
+
+Name: html/tasks/mylyn_integration1.html
+SHA-256-Digest: MJan11B8ebTIKF7TCwycPxDwmCg9UxmHt5M6tBCPRVQ=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/execution_flow_view_sort.png
+SHA-256-Digest: +rweyIuDL1Wuy8eXNBHAM9CkOVr6/sFPL5eo16E3a0w=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/p
+ hp_functions_view.html
+SHA-256-Digest: oZMDiACIEGJ1BY4lfiWcvRnXLZ9TW3Myu1jqblhKerI=
+
+Name: html/reference/php_perspectives_and_views/php_debug_perspective/
+ index.html
+SHA-256-Digest: MkJRQafK4K7UVNWD5DkABNQl8Rg76u99IqzreLr+YfY=
+
+Name: html/images/e_show_all.gif
+SHA-256-Digest: YvYgbRZdhi4iYoRDr6ZYcYBHBlVjEVKECkgB7ZlYA+A=
+
+Name: html/tasks/file_creation/opening_an_external_file_in_neon.html
+SHA-256-Digest: Kj7jSb/Kd2DSWN5TkwqWx67a0VHT5/6kn9KzxOL72UQ=
+
+Name: index/_1.si
+SHA-256-Digest: qdhryMxWAQwNIUJxIyNU38FdUg+iSgqjWapGwq5fwjU=
+
+Name: html/reference/images/toolbar_last_edit.png
+SHA-256-Digest: nM+Z2+mrz4f8F/OxMpTnbQdTdX4cdbWwjx4s9riAGTE=
+
+Name: intro/whatsnewExtensionContent.xml
+SHA-256-Digest: ft6ltkGAo9uwcUsTnuRB7rj6d3tL00MmGbr1uyp72ng=
+
+Name: html/tasks/debugging/images/debug_icon.png
+SHA-256-Digest: zh7f2XRfmqlFTfWXlr1wdJ+OfBoz355IRCiIS+Oy8fc=
+
+Name: html/tasks/images/new_php_project_wizard.png
+SHA-256-Digest: nLzWW/7IsHe9PTrg0KUf2NrL8TfcDvfHgdgd/q3mBfU=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ mages/filter_text_box.png
+SHA-256-Digest: XHJ5D1TBSho8x5I93JKe5e+1sptjzRfPA7632AT3zCY=
+
+Name: html/reference/preferences/editor/code_assist.html
+SHA-256-Digest: AmZKF35JQ8P4gdgmxlgYUQtCv+Lp7zCmLQstlLNPGLg=
+
+Name: html/reference/preferences/code_style_preferences/images/code_te
+ mplates_preferences.jpg
+SHA-256-Digest: xYm59GqEyb6bi1+FKLNrD1W9j9Ec2cgkBcutknX50IQ=
+
+Name: html/reference/images/command_link.png
+SHA-256-Digest: NIDsCMjTpLETbGcs02IMInD7l03p0PlZNoZSoT6KRiY=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/profiling_monitor_view.png
+SHA-256-Digest: pKD2roX9eAWTjiLxuqKbBg0qC8jReCcnYSDC3MIH2CA=
+
+Name: html/tasks/adding_a_server_path_map.html
+SHA-256-Digest: i9jwTMxfXGol/0pL6SXasKCKW54KymZyD+O2kDH+yzE=
+
+Name: html/tasks/debugging/images/inspect_action.png
+SHA-256-Digest: zCBZksRrJ4WJzIVuMDTNwye42Tq4Hyj2ZAbeHKj/Z5g=
+
+Name: html/reference/preferences/configuring_tunneling_debug_preferenc
+ es.html
+SHA-256-Digest: cfnMB7sbHIidZYCmI+wNQw8+YzA+IbyJaAyZoMhVopk=
+
+Name: about.html
+SHA-256-Digest: sXAIHKh9iOWOX7nIFcn0yKyNrJcwLrvnStOD2ThhG/0=
+
+Name: html/reference/php_project_properties/code_style_properties/code
+ _templates_properties.html
+SHA-256-Digest: o38L54aX9VI6XOzMDThDRLo59qDPk6+BnEBgtW5JUz8=
+
+Name: html/reference/php_perspectives_and_views/php_additional_views/i
+ mages/view_project_outline.png
+SHA-256-Digest: lVjky2Ui1/jAvzloOeOGgVqN/WgSdEiU5Rhf47ocia4=
+
+Name: html/tasks/images/mark_occurrences_icon.png
+SHA-256-Digest: y3El9IjXrGjlmd2hqHVJyjNwxbYMPoWfV6pxtfozhp0=
+
+Name: html/tasks/images/mark_occurrences.png
+SHA-256-Digest: idJkAWtB2xJDBxybsXXmQkhvlHhfOMgMvKm0S8H2IzA=
+
+Name: html/reference/php_perspectives_and_views/php_profile_perspectiv
+ e/images/profiler_information_view.png
+SHA-256-Digest: F9MDVIgfmu7Tmh9sRInV5bb7A4QiAnewyT7ll+r5FK4=
+
+Name: html/reference/images/phpclassdata.gif
+SHA-256-Digest: aQnK1jKBLo5bBX8onk0DnL20EP1C5KetaTKk7U7pdZU=
+
+Name: html/tasks/profiling/images/export_profile_sessions_1.png
+SHA-256-Digest: Cyuz5WyOTM2fqqu0t3HG5jwIOIHDyrdgGYPJxkoUrV8=
+
+Name: html/tasks/profiling/images/export_html_report_2.png
+SHA-256-Digest: 4iOakTvepA67NgUByFzfBPiKbLwpsijifFhbCcR7lVQ=
+
+Name: html/reference/images/unknown_obj.gif
+SHA-256-Digest: b1Oflg7Lbw5RGLJ5jq9BYFvvvMbAXC4xcaOv0cXFJAc=
+
+Name: html/images/newpfile_wiz.gif
+SHA-256-Digest: lvyf06JMiw1RbrWo/UUJNOn/TVG/9gAYy4BJygi3HYY=
+
+Name: html/concepts/images/code_assist_class_type_hint_example.png
+SHA-256-Digest: NM3d16ufnvkygdGf4qijT++EZ0mJ5q/cDOgQvncIwvc=
+
+Name: html/reference/preferences/index.html
+SHA-256-Digest: LKcngGR2L5zTsSU6G7x64Q69qgxiqKsqKV9xF+qBuS0=
+
+Name: html/tasks/formatting_code.html
+SHA-256-Digest: kK07CzrMx7QpsWY0L2ybV0OReO6BKcoG4Zz6kn+OIfY=
+
+Name: html/reference/php_perspectives_and_views/php_perspective_views/
+ images/namespace_icon.png
+SHA-256-Digest: KcwTSSqPQbG5a2rEYrAn+7JRj3aGjyApK0Ev31H6Hak=
+
+Name: html/reference/php_project_properties/editor/index.html
+SHA-256-Digest: 9252kbx1iSkaHVsdfXKt8PALuUv23mTvsr/sKbxo2eA=
+
+Name: html/concepts/images/hover_ctrl_multiply.png
+SHA-256-Digest: 4KvevlVY0epLwfRoZjMEd669/my+tTwQHM94z3fV2H4=
+
+Name: html/tasks/using_javascript/images/javascript_user_libraries_pre
+ ferences.png
+SHA-256-Digest: yTe3LT0aFVG1S7EqmUFJX1v4WxIodtda7XWCBp+5gdY=
+
+Name: html/reference/menus/file/import.html
+SHA-256-Digest: OFHP8T4WD04dtuiRcYh3pa42y9F7jg6U30NYaq2MmSY=
+

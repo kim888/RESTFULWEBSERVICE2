@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1542101461572" transient="false" shared_ur="file:configuration/org.eclipse.update/platform.xml" version="3.0">
+	<site updateable="true" url="file:/home/vmuser/.eclipse/360744347_linux_gtk_x86_64/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.jst.server_ui.feature" version="3.4.300.v201802152148" url="features/org.eclipse.jst.server_ui.feature_3.4.300.v201802152148/">
+		</feature>
+		<feature id="org.eclipse.jst.server_userdoc.feature" version="3.3.300.v201802152148" url="features/org.eclipse.jst.server_userdoc.feature_3.3.300.v201802152148/">
+		</feature>
+		<feature id="org.eclipse.libra.framework.editor.feature.source" version="0.2.0.201206060754" url="features/org.eclipse.libra.framework.editor.feature.source_0.2.0.201206060754/">
+		</feature>
+		<feature id="org.eclipse.libra.warproducts.feature.source" version="0.2.0.201206060754" url="features/org.eclipse.libra.warproducts.feature.source_0.2.0.201206060754/">
+		</feature>
+		<feature id="org.eclipse.jst.server_core.feature" version="3.4.300.v201802202048" url="features/org.eclipse.jst.server_core.feature_3.4.300.v201802202048/">
+		</feature>
+		<feature id="org.eclipse.wst.xml.search.jetty-feature" version="1.0.0.201410302229" url="features/org.eclipse.wst.xml.search.jetty-feature_1.0.0.201410302229/">
+		</feature>
+		<feature id="org.eclipse.libra.framework.editor.feature" version="0.2.0.201206060754" url="features/org.eclipse.libra.framework.editor.feature_0.2.0.201206060754/">
+		</feature>
+		<feature id="org.eclipse.jst.server_adapters.ext.feature" version="3.3.602.v201805281856" url="features/org.eclipse.jst.server_adapters.ext.feature_3.3.602.v201805281856/">
+		</feature>
+		<feature id="org.eclipse.libra.facet.feature" version="0.2.0.201206060754" url="features/org.eclipse.libra.facet.feature_0.2.0.201206060754/">
+		</feature>
+		<feature id="org.eclipse.libra.framework.feature.source" version="0.2.0.201206060754" url="features/org.eclipse.libra.framework.feature.source_0.2.0.201206060754/">
+		</feature>
+		<feature id="org.eclipse.libra.warproducts.feature" version="0.2.0.201206060754" url="features/org.eclipse.libra.warproducts.feature_0.2.0.201206060754/">
+		</feature>
+		<feature id="org.eclipse.jst.server_adapters.feature" version="3.2.500.v201806111634" url="features/org.eclipse.jst.server_adapters.feature_3.2.500.v201806111634/">
+		</feature>
+		<feature id="org.eclipse.wst.xml.search.struts2-feature" version="1.0.0.201410302229" url="features/org.eclipse.wst.xml.search.struts2-feature_1.0.0.201410302229/">
+		</feature>
+		<feature id="org.eclipse.libra.facet.feature.source" version="0.2.0.201206060754" url="features/org.eclipse.libra.facet.feature.source_0.2.0.201206060754/">
+		</feature>
+		<feature id="org.eclipse.libra.framework.feature" version="0.2.0.201206060754" url="features/org.eclipse.libra.framework.feature_0.2.0.201206060754/">
+		</feature>
+		<feature id="org.eclipse.wst.xml.search.core-feature" version="1.0.0.201410302229" url="features/org.eclipse.wst.xml.search.core-feature_1.0.0.201410302229/">
+		</feature>
+		<feature id="org.eclipse.wst.xml.search.web-feature" version="1.0.0.201410302229" url="features/org.eclipse.wst.xml.search.web-feature_1.0.0.201410302229/">
+		</feature>
+	</site>
+</config>

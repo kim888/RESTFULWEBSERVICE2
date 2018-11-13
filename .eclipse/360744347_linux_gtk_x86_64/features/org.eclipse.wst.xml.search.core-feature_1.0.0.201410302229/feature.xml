@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.xml.search.core-feature"
+      label="%featureName"
+      version="1.0.0.201410302229"
+      provider-name="%providerName">
+      
+   <description url="https://github.com/angelozerr/eclipse-wtp-xml-search">
+      %description
+   </description>
+
+   <copyright url="https://github.com/angelozerr/eclipse-wtp-xml-search">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.wst.xml.search.core"
+         download-size="282"
+         install-size="550"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.search.editor"
+         download-size="634"
+         install-size="1365"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.search.ui"
+         download-size="183"
+         install-size="353"
+         version="1.0.0.201410302229"
+         unpack="false"/>
+
+</feature>

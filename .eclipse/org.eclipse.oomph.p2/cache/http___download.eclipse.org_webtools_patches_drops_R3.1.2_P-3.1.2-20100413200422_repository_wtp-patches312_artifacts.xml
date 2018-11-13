@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:/shared/webtools/projects/patches-R3.1.2-P/workdir/P-3.1.2-20100413200422/repository/wtp-patches312 - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='publishPackFilesAsSiblings' value='true'/>
+    <property name='p2.timestamp' value='1271189830060'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='5'>
+    <rule filter='(&amp; (classifier=osgi.bundle) (format=packed))' output='${repoUrl}/plugins/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature) (format=packed))' output='${repoUrl}/features/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='8'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jst.j2ee' version='1.1.302.v201004131604'>
+      <processing size='1'>
+        <step id='org.eclipse.equinox.p2.processing.Pack200Unpacker' required='true'/>
+      </processing>
+      <properties size='3'>
+        <property name='artifact.size' value='1744828'/>
+        <property name='download.size' value='822029'/>
+        <property name='format' value='packed'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.web_core.feature.patch' version='3.1.2.v201003181725-20Bi7w312114292836'>
+      <properties size='4'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='27978'/>
+        <property name='artifact.size' value='27978'/>
+        <property name='download.md5' value='fc336dfaf94d0647be938f6db00e32bd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.web' version='1.1.302.v201003181725'>
+      <processing size='1'>
+        <step id='org.eclipse.equinox.p2.processing.Pack200Unpacker' required='true'/>
+      </processing>
+      <properties size='3'>
+        <property name='artifact.size' value='58448'/>
+        <property name='download.size' value='28088'/>
+        <property name='format' value='packed'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jst.web_core.feature.patch' version='3.1.2.v201003170515-20Bi7w312115242715'>
+      <processing size='1'>
+        <step id='org.eclipse.equinox.p2.processing.Pack200Unpacker' required='true'/>
+      </processing>
+      <properties size='3'>
+        <property name='artifact.size' value='27992'/>
+        <property name='download.size' value='25156'/>
+        <property name='format' value='packed'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jst.web_core.feature.patch' version='3.1.2.v201003170515-20Bi7w312115242715'>
+      <properties size='4'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='27992'/>
+        <property name='artifact.size' value='27992'/>
+        <property name='download.md5' value='4e286d5c80aa93cf2d8558dce7af2b60'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jst.j2ee' version='1.1.302.v201004131604'>
+      <properties size='3'>
+        <property name='artifact.size' value='1744828'/>
+        <property name='download.size' value='1744828'/>
+        <property name='download.md5' value='9b4ad939e079855dcdf358c0d2e64c41'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.web' version='1.1.302.v201003181725'>
+      <properties size='3'>
+        <property name='artifact.size' value='58448'/>
+        <property name='download.size' value='58448'/>
+        <property name='download.md5' value='79a52c31a1451e6ac74de17b21e194c6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.web_core.feature.patch' version='3.1.2.v201003181725-20Bi7w312114292836'>
+      <processing size='1'>
+        <step id='org.eclipse.equinox.p2.processing.Pack200Unpacker' required='true'/>
+      </processing>
+      <properties size='3'>
+        <property name='artifact.size' value='27978'/>
+        <property name='download.size' value='25139'/>
+        <property name='format' value='packed'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

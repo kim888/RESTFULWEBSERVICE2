@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.libra.warproducts.feature.source"
+      label="%featureName"
+      version="0.2.0.201206060754"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.libra.warproducts.feature"
+         version="0.2.0.201206060754"/>
+
+   <plugin
+         id="org.eclipse.libra.warproducts.core.source"
+         download-size="32"
+         install-size="64"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.libra.warproducts.ui.source"
+         download-size="90"
+         install-size="182"
+         version="0.2.0.201206060754"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,594 @@
+** Message: 09:47:36.629: environement.vala:58: Exporting primary_variable
+** Message: 09:47:36.629: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 09:47:36.629: environement.vala:177: custom_config :
+** Message: 09:47:36.629: environement.vala:178: config_dirs :/etc/xdg/xdg-LXDE:/etc/xdg
+** Message: 09:47:36.629: environement.vala:179: confir_dirs not null, export : /etc/xdg/xdg-LXDE:/etc/xdg
+** Message: 09:47:36.629: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 09:47:36.629: environement.vala:218: custom_data :/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:
+** Message: 09:47:36.629: environement.vala:219: data_dirs :/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 09:47:36.629: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 09:47:36.629: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 09:47:36.630: utils.vala:68: User config used : /home/vmuser/.config/lxsession/LXDE/desktop.conf
+** Message: 09:47:36.630: utils.vala:89: Final file used : /home/vmuser/.config/lxsession/LXDE/desktop.conf
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “iGtk/ColorScheme” in group “GTK”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “windows_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “panel/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “dock/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “file_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “desktop_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “launcher_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “composite_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “im1/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “im2/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “widget1/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “notification/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “keybindings/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “im_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “screensaver/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “power_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “audio_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “workspace_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “screenshot_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “message_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “upgrade_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “updates_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “updates_manager/timeout” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “crash_manager/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “crash_manager/dev_mode” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “crash_manager/timeout” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “upstart_user_session” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “proxy_manager/http” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “a11y/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “xrandr/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “network_gui/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “webbrowser/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “email/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “pdf_reader/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “video_player/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “audio_player/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “images_display/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “text_editor/command” in group “Session”
+** Message: 09:47:36.631: settings.vala:540: Key file does not have key “archive/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “charmap/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “calculator/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “spreadsheet/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “bittorent/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “document/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “webcam/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “burn/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “notes/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “disk_utility/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “tasks/command” in group “Session”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have group “Keymap”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “laptop_mode” in group “State”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “gnome” in group “Dbus”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “type” in group “Environment”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “ubuntu_menuproxy” in group “Environment”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “toolkit_integration” in group “Environment”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “gtk/overlay_scrollbar_disable” in group “Environment”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “qt/force_theme” in group “Environment”
+** Message: 09:47:36.632: settings.vala:540: Key file does not have key “qt/platform” in group “Environment”
+** Message: 09:47:36.632: settings.vala:462: Monitoring: /home/vmuser/.config/lxsession/LXDE/desktop.conf
+** Message: 09:47:36.632: settings.vala:466: Desktop file is already in config home, do nothing
+** Message: 09:47:36.632: settings.vala:373: Settings default for Session, windows_manager, command : openbox
+** Message: 09:47:36.632: settings.vala:373: Settings default for Session, windows_manager, session : LXDE
+** Message: 09:47:36.632: settings.vala:373: Settings default for Session, launcher_manager, command : lxpanelctl
+** Message: 09:47:36.632: environement.vala:79: Exporting variable
+** Message: 09:47:36.632: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 09:47:36.632: environement.vala:177: custom_config :
+** Message: 09:47:36.632: environement.vala:178: config_dirs :/etc/xdg/xdg-LXDE:/etc/xdg
+** Message: 09:47:36.632: environement.vala:179: confir_dirs not null, export : /etc/xdg/xdg-LXDE:/etc/xdg
+** Message: 09:47:36.632: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 09:47:36.632: environement.vala:218: custom_data :
+** Message: 09:47:36.632: environement.vala:219: data_dirs :/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 09:47:36.632: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 09:47:36.632: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 09:47:36.632: utils.vala:68: User config used : /home/vmuser/.config/lxsession/LXDE/desktop.conf
+** Message: 09:47:36.632: utils.vala:89: Final file used : /home/vmuser/.config/lxsession/LXDE/desktop.conf
+** Message: 09:47:36.633: environement.vala:254: No entry in [Environment_variable]. Key file does not have group “Environment_variable”
+** Message: 09:47:36.636: utils.vala:79: Config system location : /etc/xdg/xdg-LXDE/lxsession/LXDE
+** Message: 09:47:36.636: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 09:47:36.637: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE/conffiles.conf
+** Message: 09:47:36.637: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE/conffiles.conf
+** Message: 09:47:36.637: options.vala:164: Activate xsettings_manager build-in
+** Message: 09:47:36.637: utils.vala:68: User config used : /home/vmuser/.config/lxsession/LXDE/desktop.conf
+** Message: 09:47:36.637: utils.vala:89: Final file used : /home/vmuser/.config/lxsession/LXDE/desktop.conf
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: 09:47:36.656: app.vala:721: polkit separate
+** Message: 09:47:36.656: app.vala:721: polkit separate
+** Message: 09:47:36.672: app.vala:76: Launching lxpolkit 
+** Message: 09:47:36.672: utils.vala:68: User config used : /home/vmuser/.config/lxsession/LXDE/autostart
+** Message: 09:47:36.673: utils.vala:89: Final file used : /home/vmuser/.config/lxsession/LXDE/autostart
+** Message: 09:47:36.673: autostart.vala:42: Autostart path : /home/vmuser/.config/lxsession/LXDE/autostart
+** Message: 09:47:36.825: app.vala:76: Launching lxpanel 
+** Message: 09:47:36.827: app.vala:76: Launching pcmanfm 
+** Message: 09:47:36.845: app.vala:76: Launching xscreensaver 
+** Message: 09:47:36.870: options.vala:107: Create build-in Clipboard
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: 09:47:36.878: main.vala:442: Check keymap_mode (null)
+** Message: 09:47:36.898: app.vala:76: Launching /usr/bin/ssh-agent 
+** Message: 09:47:36.907: x-terminal-emulator has very limited support, consider choose another terminal
+SSH_AUTH_SOCK=/tmp/ssh-qsNiVEDsWpNw/agent.1485; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=1491; export SSH_AGENT_PID;
+echo Agent pid 1491;
+** Message: 09:47:36.915: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+** Message: 09:47:37.008: x-terminal-emulator has very limited support, consider choose another terminal
+dbus-daemon[1509]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1494 comm="/usr/bin/vmtoolsd -n vmusr --blockFd 3 " label="unconfined")
+
+(vmware-user:1494): Gtk-WARNING **: 09:47:37.454: gtk_disable_setlocale() must be called before gtk_init()
+dbus-daemon[1509]: Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+
+(nm-applet:1519): Gtk-WARNING **: 09:47:37.769: Can't set a parent on widget which has a parent
+
+(nm-applet:1519): Gdk-CRITICAL **: 09:47:37.953: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+eclipse
+WARNING: Using incubator modules: jdk.incubator.httpclient
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/vmuser/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.0.20180606-2036.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://509.fwk271944754:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://509.fwk271944754:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+
+(lxpanel:1469): Wnck-WARNING **: 09:48:31.811: Unhandled action type _OB_WM_ACTION_UNDECORATE
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.lucene.store.MMapDirectory (file:/snap/eclipse/29/plugins/org.apache.lucene.core_6.1.0.v20170814-1820.jar) to method java.nio.DirectByteBuffer.cleaner()
+WARNING: Please consider reporting this to the maintainers of org.apache.lucene.store.MMapDirectory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+(lxpanel:1469): Wnck-WARNING **: 09:48:33.314: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:1678): Gtk-CRITICAL **: 09:48:51.710: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 09:48:51.780: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 09:49:04.248: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 09:49:11.984: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 09:49:20.367: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Error sending IPC message: Broken pipe
+Error sending IPC message: Broken pipe
+Error sending IPC message: Broken pipe
+firefox 
+
+(firefox:1856): Gtk-WARNING **: 09:53:00.881: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:1856): Gtk-WARNING **: 09:53:00.881: Theme parsing error: <data>:1:77: Expected ')' in color definition
+firefox 
+
+(lxpanel:1469): Wnck-WARNING **: 09:53:02.531: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 09:53:06.112: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 09:55:22.344: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Memory pressure relief: Total: res = 10899456/10874880/-24576, res+swap = 6897664/6897664/0
+Memory pressure relief: Total: res = 10895360/10932224/36864, res+swap = 6868992/6868992/0
+Memory pressure relief: Total: res = 10932224/10932224/0, res+swap = 6868992/6868992/0
+
+(lxpanel:1469): Wnck-WARNING **: 09:58:27.015: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 09:58:38.020: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:1678): Gtk-CRITICAL **: 09:59:08.689: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 09:59:08.747: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 09:59:38.365: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 09:59:46.927: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:1678): Gtk-CRITICAL **: 09:59:47.147: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 09:59:47.150: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 10:00:50.587: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:00:51.018: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:00:51.021: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 10:02:26.595: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 10:02:42.415: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 10:03:18.132: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Memory pressure relief: Total: res = 10874880/10866688/-8192, res+swap = 6922240/6922240/0
+
+(lxpanel:1469): Wnck-WARNING **: 10:06:12.718: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.374: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 10:06:49.412: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.499: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.513: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.537: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.552: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.566: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.582: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.601: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.616: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.633: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.649: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:1678): Gtk-CRITICAL **: 10:06:49.667: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 10:07:14.911: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 10:07:19.724: Unhandled action type _OB_WM_ACTION_UNDECORATE
+WARNING: Using incubator modules: jdk.incubator.httpclient
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/vmuser/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.0.20180606-2036.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://509.fwk1994085390:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://509.fwk1994085390:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+
+(lxpanel:1469): Wnck-WARNING **: 10:07:58.780: Unhandled action type _OB_WM_ACTION_UNDECORATE
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.lucene.store.MMapDirectory (file:/snap/eclipse/29/plugins/org.apache.lucene.core_6.1.0.v20170814-1820.jar) to method java.nio.DirectByteBuffer.cleaner()
+WARNING: Please consider reporting this to the maintainers of org.apache.lucene.store.MMapDirectory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+(lxpanel:1469): Wnck-WARNING **: 10:08:00.595: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 10:08:17.965: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 10:08:18.054: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 10:09:34.572: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 10:09:34.843: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 10:09:38.004: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 10:09:38.927: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 10:09:54.877: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 10:09:54.943: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 15:31:07.289: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 15:31:07.312: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 15:34:04.001: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 15:34:18.403: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Memory pressure relief: Total: res = 11689984/11694080/4096, res+swap = 7671808/7671808/0
+Memory pressure relief: Total: res = 11689984/11689984/0, res+swap = 7630848/7630848/0
+Memory pressure relief: Total: res = 12148736/12152832/4096, res+swap = 8101888/8101888/0
+Memory pressure relief: Total: res = 11563008/11563008/0, res+swap = 7512064/7512064/0
+Memory pressure relief: Total: res = 11558912/11558912/0, res+swap = 7507968/7507968/0
+Memory pressure relief: Total: res = 11538432/11538432/0, res+swap = 7495680/7495680/0
+
+(lxpanel:1469): Wnck-WARNING **: 15:37:09.463: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 15:37:14.369: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 15:37:14.410: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 15:38:44.554: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 15:39:23.887: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 15:39:24.148: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 15:39:24.150: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 15:40:14.422: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Memory pressure relief: Total: res = 10801152/10772480/-28672, res+swap = 6909952/6909952/0
+Memory pressure relief: Total: res = 10792960/10797056/4096, res+swap = 6864896/6864896/0
+Memory pressure relief: Total: res = 10788864/10784768/-4096, res+swap = 6836224/6836224/0
+Memory pressure relief: Total: res = 10784768/10788864/4096, res+swap = 6836224/6836224/0
+Memory pressure relief: Total: res = 10784768/10788864/4096, res+swap = 6836224/6836224/0
+Memory pressure relief: Total: res = 10784768/10788864/4096, res+swap = 6840320/6840320/0
+Memory pressure relief: Total: res = 10784768/10792960/8192, res+swap = 6840320/6840320/0
+Memory pressure relief: Total: res = 10784768/10784768/0, res+swap = 6840320/6840320/0
+Memory pressure relief: Total: res = 10780672/10788864/8192, res+swap = 6840320/6840320/0
+Memory pressure relief: Total: res = 10780672/10784768/4096, res+swap = 6840320/6840320/0
+Memory pressure relief: Total: res = 10780672/10784768/4096, res+swap = 6840320/6840320/0
+Memory pressure relief: Total: res = 10776576/10780672/4096, res+swap = 6840320/6840320/0
+Memory pressure relief: Total: res = 10776576/10792960/16384, res+swap = 6840320/6840320/0
+Memory pressure relief: Total: res = 10788864/10784768/-4096, res+swap = 6852608/6852608/0
+Memory pressure relief: Total: res = 10780672/10780672/0, res+swap = 6848512/6848512/0
+Memory pressure relief: Total: res = 10776576/10788864/12288, res+swap = 6844416/6844416/0
+Memory pressure relief: Total: res = 10784768/10784768/0, res+swap = 6852608/6852608/0
+
+(lxpanel:1469): Wnck-WARNING **: 15:48:40.662: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 15:50:03.430: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 15:50:22.806: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 15:50:29.062: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 15:53:13.861: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:08:42.835: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:08:52.011: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 16:08:52.070: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:09:07.966: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:09:49.912: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:10:19.713: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 16:10:19.752: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:11:09.098: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 16:11:09.120: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:13:46.227: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Artifact repository out of sync. Overwriting /home/vmuser/.eclipse/360744347_linux_gtk_x86_64/plugins/org.eclipse.datatools.sqltools.sql.ui_1.2.100.201801242337.jar
+Artifact repository out of sync. Overwriting /home/vmuser/.eclipse/360744347_linux_gtk_x86_64/plugins/org.eclipse.emf.mapping.ecore2xml.ui_2.9.0.v20180125-1130.jar
+Artifact repository out of sync. Overwriting /home/vmuser/.eclipse/360744347_linux_gtk_x86_64/features/org.eclipse.emf.mapping.ui_2.10.0.v20180125-1130
+Artifact repository out of sync. Overwriting /home/vmuser/.eclipse/360744347_linux_gtk_x86_64/plugins/org.eclipse.jem.proxy_2.0.500.v201710201209.jar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.553: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 16:43:58.614: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.629: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.702: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.718: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.734: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.750: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.767: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.784: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.799: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.818: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.833: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(Eclipse:2527): Gtk-CRITICAL **: 16:43:58.851: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 16:44:27.961: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:44:38.989: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater$2
+WARNING: Using incubator modules: jdk.incubator.httpclient
+eclipse
+WARNING: Using incubator modules: jdk.incubator.httpclient
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/vmuser/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.0.20180606-2036.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://509.fwk1503546689:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://509.fwk1503546689:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+
+(lxpanel:1469): Wnck-WARNING **: 16:45:25.056: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:45:37.073: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Memory pressure relief: Total: res = 11001856/10883072/-118784, res+swap = 7008256/7008256/0
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.lucene.store.MMapDirectory (file:/snap/eclipse/29/plugins/org.apache.lucene.core_6.1.0.v20170814-1820.jar) to method java.nio.DirectByteBuffer.cleaner()
+WARNING: Please consider reporting this to the maintainers of org.apache.lucene.store.MMapDirectory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+(lxpanel:1469): Wnck-WARNING **: 16:45:41.806: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:45:46.933: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:3807): Gtk-CRITICAL **: 16:45:50.153: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 16:45:50.293: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:47:31.601: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:48:29.916: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:48:48.798: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:48:49.253: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(/usr/lib/firefox/firefox:3224): dconf-WARNING **: 16:51:00.676: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+
+(lxpanel:1469): Wnck-WARNING **: 16:51:19.022: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:51:19.087: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:51:23.250: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:51:23.321: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 16:51:23.356: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:08:05.505: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:08:05.556: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:09:55.539: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:10:15.578: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:10:22.905: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:10:23.034: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:11:00.438: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:11:12.016: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:11:14.516: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:11:58.569: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:11:58.638: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:14:48.943: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:14:49.010: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:14:55.153: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:14:59.209: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:15:03.507: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:17:24.523: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:3807): Gtk-CRITICAL **: 17:17:30.627: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 17:17:35.564: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:17:59.716: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:18:30.333: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:18:43.473: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:18:48.258: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:07.095: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:07.289: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:10.915: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:11.001: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:17.509: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:20.140: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:3807): Gtk-CRITICAL **: 17:19:23.737: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:23.817: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:36.033: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:19:47.398: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:20:12.461: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:20:33.915: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:3807): Gtk-CRITICAL **: 17:20:39.273: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 17:20:39.342: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:20:45.498: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:00.384: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:03.905: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:04.203: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:06.000: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:06.068: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:07.976: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:08.083: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:17.278: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:21:17.321: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Memory pressure relief: Total: res = 11575296/11804672/229376, res+swap = 7610368/7610368/0
+
+(lxpanel:1469): Wnck-WARNING **: 17:22:39.560: Unhandled action type _OB_WM_ACTION_UNDECORATE
+Memory pressure relief: Total: res = 11968512/11956224/-12288, res+swap = 7905280/7905280/0
+Memory pressure relief: Total: res = 11677696/11341824/-335872, res+swap = 7663616/7663616/0
+lxterminal
+
+(lxterminal:4875): Vte-WARNING **: 17:23:55.721: (../../src/vtegtk.cc:1906):int vte_terminal_match_add_gregex(VteTerminal*, GRegex*, GRegexMatchFlags): runtime check failed: (g_regex_get_compile_flags(gregex) & G_REGEX_MULTILINE)
+
+(lxterminal:4875): Vte-WARNING **: 17:23:55.729: (../../src/vtegtk.cc:1906):int vte_terminal_match_add_gregex(VteTerminal*, GRegex*, GRegexMatchFlags): runtime check failed: (g_regex_get_compile_flags(gregex) & G_REGEX_MULTILINE)
+
+(lxpanel:1469): Wnck-WARNING **: 17:23:55.953: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:24:13.881: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:3807): Gtk-CRITICAL **: 17:25:27.584: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 17:25:51.871: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:26:10.937: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:26:16.325: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:26:49.111: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:11.375: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:11.510: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:14.465: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:14.923: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:17.149: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:18.918: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:3807): Gtk-CRITICAL **: 17:27:21.391: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:21.446: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:30.667: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:41.934: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:45.146: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:27:45.613: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:28:55.027: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:28:55.086: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(Eclipse:3807): Gtk-CRITICAL **: 17:32:51.317: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(lxpanel:1469): Wnck-WARNING **: 17:32:51.366: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:32:56.463: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:32:56.790: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:33:54.938: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1469): Wnck-WARNING **: 17:33:55.044: Unhandled action type _OB_WM_ACTION_UNDECORATE
+lxterminal
+
+(lxterminal:5084): Vte-WARNING **: 17:36:55.666: (../../src/vtegtk.cc:1906):int vte_terminal_match_add_gregex(VteTerminal*, GRegex*, GRegexMatchFlags): runtime check failed: (g_regex_get_compile_flags(gregex) & G_REGEX_MULTILINE)
+
+(lxterminal:5084): Vte-WARNING **: 17:36:55.667: (../../src/vtegtk.cc:1906):int vte_terminal_match_add_gregex(VteTerminal*, GRegex*, GRegexMatchFlags): runtime check failed: (g_regex_get_compile_flags(gregex) & G_REGEX_MULTILINE)
+
+(lxpanel:1469): Wnck-WARNING **: 17:36:55.836: Unhandled action type _OB_WM_ACTION_UNDECORATE
